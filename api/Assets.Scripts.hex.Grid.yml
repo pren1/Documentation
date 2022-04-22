@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.Grid
+  commentId: T:Assets.Scripts.hex.Grid
+  id: Grid
+  parent: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.Grid.#ctor(System.Int32,System.Int32)
+  - Assets.Scripts.hex.Grid.Get_target_node(System.Int32,System.Int32)
+  - Assets.Scripts.hex.Grid.Get_walkable_node_or_not(System.Int32,System.Int32)
+  - Assets.Scripts.hex.Grid.my_grid_table
+  - Assets.Scripts.hex.Grid.Set_walkable_value(System.Int32,System.Int32,System.Boolean)
+  - Assets.Scripts.hex.Grid.walkable_grid_table
+  - Assets.Scripts.hex.Grid.x
+  - Assets.Scripts.hex.Grid.y
+  langs:
+  - csharp
+  - vb
+  name: Grid
+  nameWithType: Grid
+  fullName: Assets.Scripts.hex.Grid
+  type: Class
+  source:
+    id: Grid
+    path: ''
+    startLine: 157925
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public class Grid
+    content.vb: Public Class Grid
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.hex.Grid.x
+  commentId: F:Assets.Scripts.hex.Grid.x
+  id: x
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: x
+  nameWithType: Grid.x
+  fullName: Assets.Scripts.hex.Grid.x
+  type: Field
+  source:
+    id: x
+    path: ''
+    startLine: 157927
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int x
+    return:
+      type: System.Int32
+    content.vb: Public x As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.y
+  commentId: F:Assets.Scripts.hex.Grid.y
+  id: y
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: y
+  nameWithType: Grid.y
+  fullName: Assets.Scripts.hex.Grid.y
+  type: Field
+  source:
+    id: y
+    path: ''
+    startLine: 157928
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int y
+    return:
+      type: System.Int32
+    content.vb: Public y As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.my_grid_table
+  commentId: F:Assets.Scripts.hex.Grid.my_grid_table
+  id: my_grid_table
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: my_grid_table
+  nameWithType: Grid.my_grid_table
+  fullName: Assets.Scripts.hex.Grid.my_grid_table
+  type: Field
+  source:
+    id: my_grid_table
+    path: ''
+    startLine: 157929
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public PathNode[, ] my_grid_table
+    return:
+      type: Assets.Scripts.hex.PathNode[,]
+    content.vb: Public my_grid_table As PathNode(,)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.walkable_grid_table
+  commentId: F:Assets.Scripts.hex.Grid.walkable_grid_table
+  id: walkable_grid_table
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: walkable_grid_table
+  nameWithType: Grid.walkable_grid_table
+  fullName: Assets.Scripts.hex.Grid.walkable_grid_table
+  type: Field
+  source:
+    id: walkable_grid_table
+    path: ''
+    startLine: 157930
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public bool[, ] walkable_grid_table
+    return:
+      type: System.Boolean[,]
+    content.vb: Public walkable_grid_table As Boolean(,)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.#ctor(System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.hex.Grid.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: Grid(Int32, Int32)
+  nameWithType: Grid.Grid(Int32, Int32)
+  fullName: Assets.Scripts.hex.Grid.Grid(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 157932
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Grid(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    content.vb: Public Sub New(x As Integer, y As Integer)
+  overload: Assets.Scripts.hex.Grid.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.Get_target_node(System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.hex.Grid.Get_target_node(System.Int32,System.Int32)
+  id: Get_target_node(System.Int32,System.Int32)
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: Get_target_node(Int32, Int32)
+  nameWithType: Grid.Get_target_node(Int32, Int32)
+  fullName: Assets.Scripts.hex.Grid.Get_target_node(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Get_target_node
+    path: ''
+    startLine: 157945
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public PathNode Get_target_node(int input_x, int input_y)
+    parameters:
+    - id: input_x
+      type: System.Int32
+    - id: input_y
+      type: System.Int32
+    return:
+      type: Assets.Scripts.hex.PathNode
+    content.vb: Public Function Get_target_node(input_x As Integer, input_y As Integer) As PathNode
+  overload: Assets.Scripts.hex.Grid.Get_target_node*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.Get_walkable_node_or_not(System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.hex.Grid.Get_walkable_node_or_not(System.Int32,System.Int32)
+  id: Get_walkable_node_or_not(System.Int32,System.Int32)
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: Get_walkable_node_or_not(Int32, Int32)
+  nameWithType: Grid.Get_walkable_node_or_not(Int32, Int32)
+  fullName: Assets.Scripts.hex.Grid.Get_walkable_node_or_not(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Get_walkable_node_or_not
+    path: ''
+    startLine: 157949
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public bool Get_walkable_node_or_not(int input_x, int input_y)
+    parameters:
+    - id: input_x
+      type: System.Int32
+    - id: input_y
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function Get_walkable_node_or_not(input_x As Integer, input_y As Integer) As Boolean
+  overload: Assets.Scripts.hex.Grid.Get_walkable_node_or_not*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Grid.Set_walkable_value(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Assets.Scripts.hex.Grid.Set_walkable_value(System.Int32,System.Int32,System.Boolean)
+  id: Set_walkable_value(System.Int32,System.Int32,System.Boolean)
+  parent: Assets.Scripts.hex.Grid
+  langs:
+  - csharp
+  - vb
+  name: Set_walkable_value(Int32, Int32, Boolean)
+  nameWithType: Grid.Set_walkable_value(Int32, Int32, Boolean)
+  fullName: Assets.Scripts.hex.Grid.Set_walkable_value(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: Set_walkable_value
+    path: ''
+    startLine: 157953
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public void Set_walkable_value(int input_x, int input_y, bool walkable)
+    parameters:
+    - id: input_x
+      type: System.Int32
+    - id: input_y
+      type: System.Int32
+    - id: walkable
+      type: System.Boolean
+    content.vb: Public Sub Set_walkable_value(input_x As Integer, input_y As Integer, walkable As Boolean)
+  overload: Assets.Scripts.hex.Grid.Set_walkable_value*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.hex.PathNode[,]
+  isExternal: true
+  name: PathNode[,]
+  nameWithType: PathNode[,]
+  fullName: Assets.Scripts.hex.PathNode[,]
+  nameWithType.vb: PathNode(,)
+  fullName.vb: Assets.Scripts.hex.PathNode(,)
+  name.vb: PathNode(,)
+  spec.csharp:
+  - uid: Assets.Scripts.hex.PathNode
+    name: PathNode
+    nameWithType: PathNode
+    fullName: Assets.Scripts.hex.PathNode
+  - name: '[,]'
+    nameWithType: '[,]'
+    fullName: '[,]'
+  spec.vb:
+  - uid: Assets.Scripts.hex.PathNode
+    name: PathNode
+    nameWithType: PathNode
+    fullName: Assets.Scripts.hex.PathNode
+  - name: (,)
+    nameWithType: (,)
+    fullName: (,)
+- uid: System.Boolean[,]
+  isExternal: true
+  name: Boolean[,]
+  nameWithType: Boolean[,]
+  fullName: System.Boolean[,]
+  nameWithType.vb: Boolean(,)
+  fullName.vb: System.Boolean(,)
+  name.vb: Boolean(,)
+  spec.csharp:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '[,]'
+    nameWithType: '[,]'
+    fullName: '[,]'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: (,)
+    nameWithType: (,)
+    fullName: (,)
+- uid: Assets.Scripts.hex.Grid.#ctor*
+  commentId: Overload:Assets.Scripts.hex.Grid.#ctor
+  name: Grid
+  nameWithType: Grid.Grid
+  fullName: Assets.Scripts.hex.Grid.Grid
+- uid: Assets.Scripts.hex.Grid.Get_target_node*
+  commentId: Overload:Assets.Scripts.hex.Grid.Get_target_node
+  name: Get_target_node
+  nameWithType: Grid.Get_target_node
+  fullName: Assets.Scripts.hex.Grid.Get_target_node
+- uid: Assets.Scripts.hex.PathNode
+  commentId: T:Assets.Scripts.hex.PathNode
+  parent: Assets.Scripts.hex
+  name: PathNode
+  nameWithType: PathNode
+  fullName: Assets.Scripts.hex.PathNode
+- uid: Assets.Scripts.hex.Grid.Get_walkable_node_or_not*
+  commentId: Overload:Assets.Scripts.hex.Grid.Get_walkable_node_or_not
+  name: Get_walkable_node_or_not
+  nameWithType: Grid.Get_walkable_node_or_not
+  fullName: Assets.Scripts.hex.Grid.Get_walkable_node_or_not
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.hex.Grid.Set_walkable_value*
+  commentId: Overload:Assets.Scripts.hex.Grid.Set_walkable_value
+  name: Set_walkable_value
+  nameWithType: Grid.Set_walkable_value
+  fullName: Assets.Scripts.hex.Grid.Set_walkable_value

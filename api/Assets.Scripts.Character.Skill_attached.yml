@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Skill_attached
+  commentId: T:Assets.Scripts.Character.Skill_attached
+  id: Skill_attached
+  parent: Assets.Scripts.Character
+  children:
+  - Assets.Scripts.Character.Skill_attached.cooldown_round
+  - Assets.Scripts.Character.Skill_attached.cur_round
+  - Assets.Scripts.Character.Skill_attached.OnMouseEnter
+  - Assets.Scripts.Character.Skill_attached.OnMouseExit
+  - Assets.Scripts.Character.Skill_attached.round_step_processor
+  - Assets.Scripts.Character.Skill_attached.set_info(System.Int32,System.Boolean,System.Collections.Generic.List{System.String})
+  langs:
+  - csharp
+  - vb
+  name: Skill_attached
+  nameWithType: Skill_attached
+  fullName: Assets.Scripts.Character.Skill_attached
+  type: Class
+  source:
+    id: Skill_attached
+    path: ''
+    startLine: 153935
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: 'public class Skill_attached : MonoBehaviour'
+    content.vb: >-
+      Public Class Skill_attached
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Character.Skill_attached.cooldown_round
+  commentId: F:Assets.Scripts.Character.Skill_attached.cooldown_round
+  id: cooldown_round
+  parent: Assets.Scripts.Character.Skill_attached
+  langs:
+  - csharp
+  - vb
+  name: cooldown_round
+  nameWithType: Skill_attached.cooldown_round
+  fullName: Assets.Scripts.Character.Skill_attached.cooldown_round
+  type: Field
+  source:
+    id: cooldown_round
+    path: ''
+    startLine: 153937
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int cooldown_round
+    return:
+      type: System.Int32
+    content.vb: Public cooldown_round As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Skill_attached.cur_round
+  commentId: F:Assets.Scripts.Character.Skill_attached.cur_round
+  id: cur_round
+  parent: Assets.Scripts.Character.Skill_attached
+  langs:
+  - csharp
+  - vb
+  name: cur_round
+  nameWithType: Skill_attached.cur_round
+  fullName: Assets.Scripts.Character.Skill_attached.cur_round
+  type: Field
+  source:
+    id: cur_round
+    path: ''
+    startLine: 153938
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int cur_round
+    return:
+      type: System.Int32
+    content.vb: Public cur_round As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Skill_attached.set_info(System.Int32,System.Boolean,System.Collections.Generic.List{System.String})
+  commentId: M:Assets.Scripts.Character.Skill_attached.set_info(System.Int32,System.Boolean,System.Collections.Generic.List{System.String})
+  id: set_info(System.Int32,System.Boolean,System.Collections.Generic.List{System.String})
+  parent: Assets.Scripts.Character.Skill_attached
+  langs:
+  - csharp
+  - vb
+  name: set_info(Int32, Boolean, List<String>)
+  nameWithType: Skill_attached.set_info(Int32, Boolean, List<String>)
+  fullName: Assets.Scripts.Character.Skill_attached.set_info(System.Int32, System.Boolean, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    id: set_info
+    path: ''
+    startLine: 153951
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void set_info(int cooldown_round, bool is_passive, List<string> effect_text_list)
+    parameters:
+    - id: cooldown_round
+      type: System.Int32
+    - id: is_passive
+      type: System.Boolean
+    - id: effect_text_list
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Sub set_info(cooldown_round As Integer, is_passive As Boolean, effect_text_list As List(Of String))
+  overload: Assets.Scripts.Character.Skill_attached.set_info*
+  nameWithType.vb: Skill_attached.set_info(Int32, Boolean, List(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Character.Skill_attached.set_info(System.Int32, System.Boolean, System.Collections.Generic.List(Of System.String))
+  name.vb: set_info(Int32, Boolean, List(Of String))
+- uid: Assets.Scripts.Character.Skill_attached.round_step_processor
+  commentId: M:Assets.Scripts.Character.Skill_attached.round_step_processor
+  id: round_step_processor
+  parent: Assets.Scripts.Character.Skill_attached
+  langs:
+  - csharp
+  - vb
+  name: round_step_processor()
+  nameWithType: Skill_attached.round_step_processor()
+  fullName: Assets.Scripts.Character.Skill_attached.round_step_processor()
+  type: Method
+  source:
+    id: round_step_processor
+    path: ''
+    startLine: 153961
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void round_step_processor()
+    content.vb: Public Sub round_step_processor
+  overload: Assets.Scripts.Character.Skill_attached.round_step_processor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Skill_attached.OnMouseEnter
+  commentId: M:Assets.Scripts.Character.Skill_attached.OnMouseEnter
+  id: OnMouseEnter
+  parent: Assets.Scripts.Character.Skill_attached
+  langs:
+  - csharp
+  - vb
+  name: OnMouseEnter()
+  nameWithType: Skill_attached.OnMouseEnter()
+  fullName: Assets.Scripts.Character.Skill_attached.OnMouseEnter()
+  type: Method
+  source:
+    id: OnMouseEnter
+    path: ''
+    startLine: 153977
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void OnMouseEnter()
+    content.vb: Public Sub OnMouseEnter
+  overload: Assets.Scripts.Character.Skill_attached.OnMouseEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Skill_attached.OnMouseExit
+  commentId: M:Assets.Scripts.Character.Skill_attached.OnMouseExit
+  id: OnMouseExit
+  parent: Assets.Scripts.Character.Skill_attached
+  langs:
+  - csharp
+  - vb
+  name: OnMouseExit()
+  nameWithType: Skill_attached.OnMouseExit()
+  fullName: Assets.Scripts.Character.Skill_attached.OnMouseExit()
+  type: Method
+  source:
+    id: OnMouseExit
+    path: ''
+    startLine: 153982
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void OnMouseExit()
+    content.vb: Public Sub OnMouseExit
+  overload: Assets.Scripts.Character.Skill_attached.OnMouseExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Character.Skill_attached.set_info*
+  commentId: Overload:Assets.Scripts.Character.Skill_attached.set_info
+  name: set_info
+  nameWithType: Skill_attached.set_info
+  fullName: Assets.Scripts.Character.Skill_attached.set_info
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Character.Skill_attached.round_step_processor*
+  commentId: Overload:Assets.Scripts.Character.Skill_attached.round_step_processor
+  name: round_step_processor
+  nameWithType: Skill_attached.round_step_processor
+  fullName: Assets.Scripts.Character.Skill_attached.round_step_processor
+- uid: Assets.Scripts.Character.Skill_attached.OnMouseEnter*
+  commentId: Overload:Assets.Scripts.Character.Skill_attached.OnMouseEnter
+  name: OnMouseEnter
+  nameWithType: Skill_attached.OnMouseEnter
+  fullName: Assets.Scripts.Character.Skill_attached.OnMouseEnter
+- uid: Assets.Scripts.Character.Skill_attached.OnMouseExit*
+  commentId: Overload:Assets.Scripts.Character.Skill_attached.OnMouseExit
+  name: OnMouseExit
+  nameWithType: Skill_attached.OnMouseExit
+  fullName: Assets.Scripts.Character.Skill_attached.OnMouseExit

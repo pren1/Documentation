@@ -1,0 +1,1963 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Util
+  commentId: T:Assets.Scripts.Utility.Util
+  id: Util
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Util.animation_effect_bundle(Member,System.Collections.Generic.List{System.String},show_animation,Show_effect)
+  - Assets.Scripts.Utility.Util.card_belong_parser(System.String)
+  - Assets.Scripts.Utility.Util.Card_effect_decoder_list(System.Collections.Generic.List{System.String})
+  - Assets.Scripts.Utility.Util.Card_type_decoder(System.String)
+  - Assets.Scripts.Utility.Util.Card_type_list_decoder(System.String)
+  - Assets.Scripts.Utility.Util.change_background(System.String,GameObject)
+  - Assets.Scripts.Utility.Util.change_music(System.String,GameObject)
+  - Assets.Scripts.Utility.Util.copy_card(GameObject)
+  - Assets.Scripts.Utility.Util.enable_target_card(GameObject,System.Boolean)
+  - Assets.Scripts.Utility.Util.Expand_array_for_print``1(System.Collections.Generic.List{``0})
+  - Assets.Scripts.Utility.Util.get_card_rarity(System.String)
+  - Assets.Scripts.Utility.Util.get_hand_pile
+  - Assets.Scripts.Utility.Util.get_live_hand_pile
+  - Assets.Scripts.Utility.Util.handle_card_click_results(System.String)
+  - Assets.Scripts.Utility.Util.load_all_member_dict
+  - Assets.Scripts.Utility.Util.load_live_card(GameObject,basic_card,System.Boolean)
+  - Assets.Scripts.Utility.Util.load_member_list
+  - Assets.Scripts.Utility.Util.load_monster_list
+  - Assets.Scripts.Utility.Util.load_single_card(GameObject,basic_card,System.Boolean,System.Boolean)
+  - Assets.Scripts.Utility.Util.magic_card_decoder(System.String)
+  - Assets.Scripts.Utility.Util.Monster_level_decoder(System.String)
+  - Assets.Scripts.Utility.Util.PlayCardPutSound(GameObject)
+  - Assets.Scripts.Utility.Util.PlaySound(GameObject,System.String,System.Single)
+  - Assets.Scripts.Utility.Util.preload_sprites
+  - Assets.Scripts.Utility.Util.random_color
+  - Assets.Scripts.Utility.Util.Random_string
+  - Assets.Scripts.Utility.Util.RandomGaussian(System.Single,System.Single)
+  - Assets.Scripts.Utility.Util.save_saveObject(SaveObject,System.String)
+  - Assets.Scripts.Utility.Util.shuffle(System.Collections.Generic.List{basic_card})
+  - Assets.Scripts.Utility.Util.Skill_effect_decoder_list(System.String)
+  - Assets.Scripts.Utility.Util.string_bool_transfer(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Util
+  nameWithType: Util
+  fullName: Assets.Scripts.Utility.Util
+  type: Class
+  source:
+    id: Util
+    path: ''
+    startLine: 163697
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n应用类\n"
+  example: []
+  syntax:
+    content: public static class Util
+    content.vb: Public Module Util
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Utility.Util.shuffle(System.Collections.Generic.List{basic_card})
+  commentId: M:Assets.Scripts.Utility.Util.shuffle(System.Collections.Generic.List{basic_card})
+  id: shuffle(System.Collections.Generic.List{basic_card})
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: shuffle(List<basic_card>)
+  nameWithType: Util.shuffle(List<basic_card>)
+  fullName: Assets.Scripts.Utility.Util.shuffle(System.Collections.Generic.List<basic_card>)
+  type: Method
+  source:
+    id: shuffle
+    path: ''
+    startLine: 163711
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n洗牌堆\n<param name=\"cards\">list to be shuffled</param>\n"
+  example: []
+  syntax:
+    content: public static List<basic_card> shuffle(List<basic_card> cards)
+    parameters:
+    - id: cards
+      type: System.Collections.Generic.List{basic_card}
+    return:
+      type: System.Collections.Generic.List{basic_card}
+    content.vb: Public Shared Function shuffle(cards As List(Of basic_card)) As List(Of basic_card)
+  overload: Assets.Scripts.Utility.Util.shuffle*
+  nameWithType.vb: Util.shuffle(List(Of basic_card))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Utility.Util.shuffle(System.Collections.Generic.List(Of basic_card))
+  name.vb: shuffle(List(Of basic_card))
+- uid: Assets.Scripts.Utility.Util.handle_card_click_results(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.handle_card_click_results(System.String)
+  id: handle_card_click_results(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: handle_card_click_results(String)
+  nameWithType: Util.handle_card_click_results(String)
+  fullName: Assets.Scripts.Utility.Util.handle_card_click_results(System.String)
+  type: Method
+  source:
+    id: handle_card_click_results
+    path: ''
+    startLine: 163726
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n点击卡牌后产生效果\n"
+  example: []
+  syntax:
+    content: public static void handle_card_click_results(string object_name)
+    parameters:
+    - id: object_name
+      type: System.String
+      description: 卡牌效果目标
+    content.vb: Public Shared Sub handle_card_click_results(object_name As String)
+  overload: Assets.Scripts.Utility.Util.handle_card_click_results*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.PlayCardPutSound(GameObject)
+  commentId: M:Assets.Scripts.Utility.Util.PlayCardPutSound(GameObject)
+  id: PlayCardPutSound(GameObject)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: PlayCardPutSound(GameObject)
+  nameWithType: Util.PlayCardPutSound(GameObject)
+  fullName: Assets.Scripts.Utility.Util.PlayCardPutSound(GameObject)
+  type: Method
+  source:
+    id: PlayCardPutSound
+    path: ''
+    startLine: 163733
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static void PlayCardPutSound(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+    content.vb: Public Shared Sub PlayCardPutSound(gameObject As GameObject)
+  overload: Assets.Scripts.Utility.Util.PlayCardPutSound*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.PlaySound(GameObject,System.String,System.Single)
+  commentId: M:Assets.Scripts.Utility.Util.PlaySound(GameObject,System.String,System.Single)
+  id: PlaySound(GameObject,System.String,System.Single)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: PlaySound(GameObject, String, Single)
+  nameWithType: Util.PlaySound(GameObject, String, Single)
+  fullName: Assets.Scripts.Utility.Util.PlaySound(GameObject, System.String, System.Single)
+  type: Method
+  source:
+    id: PlaySound
+    path: ''
+    startLine: 163745
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n播放声音\n<param name=\"gameObject\">audiosouce will attach to this gameObject</param>\n<param name=\"sound_name_path\">path to target audio clip</param>\n<param name=\"delay\">if you want some delay...</param>\n"
+  example: []
+  syntax:
+    content: public static void PlaySound(GameObject gameObject, string sound_name_path, float delay = 0F)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+    - id: sound_name_path
+      type: System.String
+    - id: delay
+      type: System.Single
+    content.vb: Public Shared Sub PlaySound(gameObject As GameObject, sound_name_path As String, delay As Single = 0F)
+  overload: Assets.Scripts.Utility.Util.PlaySound*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.random_color
+  commentId: M:Assets.Scripts.Utility.Util.random_color
+  id: random_color
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: random_color()
+  nameWithType: Util.random_color()
+  fullName: Assets.Scripts.Utility.Util.random_color()
+  type: Method
+  source:
+    id: random_color
+    path: ''
+    startLine: 163773
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n产生随机颜色\n"
+  example: []
+  syntax:
+    content: public static Color random_color()
+    return:
+      type: Global.Color
+    content.vb: Public Shared Function random_color As Color
+  overload: Assets.Scripts.Utility.Util.random_color*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.get_card_rarity(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.get_card_rarity(System.String)
+  id: get_card_rarity(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: get_card_rarity(String)
+  nameWithType: Util.get_card_rarity(String)
+  fullName: Assets.Scripts.Utility.Util.get_card_rarity(System.String)
+  type: Method
+  source:
+    id: get_card_rarity
+    path: ''
+    startLine: 163786
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n从描述解析卡牌稀有度\n"
+  example: []
+  syntax:
+    content: public static Card_rarity get_card_rarity(string card_rarity)
+    parameters:
+    - id: card_rarity
+      type: System.String
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+    content.vb: Public Shared Function get_card_rarity(card_rarity As String) As Card_rarity
+  overload: Assets.Scripts.Utility.Util.get_card_rarity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.Card_effect_decoder_list(System.Collections.Generic.List{System.String})
+  commentId: M:Assets.Scripts.Utility.Util.Card_effect_decoder_list(System.Collections.Generic.List{System.String})
+  id: Card_effect_decoder_list(System.Collections.Generic.List{System.String})
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Card_effect_decoder_list(List<String>)
+  nameWithType: Util.Card_effect_decoder_list(List<String>)
+  fullName: Assets.Scripts.Utility.Util.Card_effect_decoder_list(System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    id: Card_effect_decoder_list
+    path: ''
+    startLine: 164113
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n处理效果列表\n"
+  example: []
+  syntax:
+    content: public static List<Effect_tuple> Card_effect_decoder_list(List<string> input_card_effect_list)
+    parameters:
+    - id: input_card_effect_list
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Utility.Effect_tuple}
+    content.vb: Public Shared Function Card_effect_decoder_list(input_card_effect_list As List(Of String)) As List(Of Effect_tuple)
+  overload: Assets.Scripts.Utility.Util.Card_effect_decoder_list*
+  nameWithType.vb: Util.Card_effect_decoder_list(List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Utility.Util.Card_effect_decoder_list(System.Collections.Generic.List(Of System.String))
+  name.vb: Card_effect_decoder_list(List(Of String))
+- uid: Assets.Scripts.Utility.Util.Skill_effect_decoder_list(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.Skill_effect_decoder_list(System.String)
+  id: Skill_effect_decoder_list(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Skill_effect_decoder_list(String)
+  nameWithType: Util.Skill_effect_decoder_list(String)
+  fullName: Assets.Scripts.Utility.Util.Skill_effect_decoder_list(System.String)
+  type: Method
+  source:
+    id: Skill_effect_decoder_list
+    path: ''
+    startLine: 164127
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\nTODO：解析技能,需要更新到新的关键词\n"
+  example: []
+  syntax:
+    content: public static List<Skill_tuple> Skill_effect_decoder_list(string input_skill_string)
+    parameters:
+    - id: input_skill_string
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Utility.Skill_tuple}
+      description: ''
+    content.vb: Public Shared Function Skill_effect_decoder_list(input_skill_string As String) As List(Of Skill_tuple)
+  overload: Assets.Scripts.Utility.Util.Skill_effect_decoder_list*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.Monster_level_decoder(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.Monster_level_decoder(System.String)
+  id: Monster_level_decoder(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Monster_level_decoder(String)
+  nameWithType: Util.Monster_level_decoder(String)
+  fullName: Assets.Scripts.Utility.Util.Monster_level_decoder(System.String)
+  type: Method
+  source:
+    id: Monster_level_decoder
+    path: ''
+    startLine: 164168
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n怪物等级解析\n"
+  example: []
+  syntax:
+    content: public static Monster_level Monster_level_decoder(string monster_level_type)
+    parameters:
+    - id: monster_level_type
+      type: System.String
+      description: ''
+    return:
+      type: Assets.Scripts.Utility.Monster_level
+      description: ''
+    content.vb: Public Shared Function Monster_level_decoder(monster_level_type As String) As Monster_level
+  overload: Assets.Scripts.Utility.Util.Monster_level_decoder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.Card_type_list_decoder(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.Card_type_list_decoder(System.String)
+  id: Card_type_list_decoder(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Card_type_list_decoder(String)
+  nameWithType: Util.Card_type_list_decoder(String)
+  fullName: Assets.Scripts.Utility.Util.Card_type_list_decoder(System.String)
+  type: Method
+  source:
+    id: Card_type_list_decoder
+    path: ''
+    startLine: 164182
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static List<card_type> Card_type_list_decoder(string input_card_list_string)
+    parameters:
+    - id: input_card_list_string
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Utility.card_type}
+    content.vb: Public Shared Function Card_type_list_decoder(input_card_list_string As String) As List(Of card_type)
+  overload: Assets.Scripts.Utility.Util.Card_type_list_decoder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.Card_type_decoder(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.Card_type_decoder(System.String)
+  id: Card_type_decoder(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Card_type_decoder(String)
+  nameWithType: Util.Card_type_decoder(String)
+  fullName: Assets.Scripts.Utility.Util.Card_type_decoder(System.String)
+  type: Method
+  source:
+    id: Card_type_decoder
+    path: ''
+    startLine: 164196
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n解析卡片类型\n"
+  example: []
+  syntax:
+    content: public static card_type Card_type_decoder(string input_card_type)
+    parameters:
+    - id: input_card_type
+      type: System.String
+    return:
+      type: Assets.Scripts.Utility.card_type
+    content.vb: Public Shared Function Card_type_decoder(input_card_type As String) As card_type
+  overload: Assets.Scripts.Utility.Util.Card_type_decoder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.Expand_array_for_print``1(System.Collections.Generic.List{``0})
+  commentId: M:Assets.Scripts.Utility.Util.Expand_array_for_print``1(System.Collections.Generic.List{``0})
+  id: Expand_array_for_print``1(System.Collections.Generic.List{``0})
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Expand_array_for_print<T>(List<T>)
+  nameWithType: Util.Expand_array_for_print<T>(List<T>)
+  fullName: Assets.Scripts.Utility.Util.Expand_array_for_print<T>(System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    id: Expand_array_for_print
+    path: ''
+    startLine: 164220
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n方便打印数组\n"
+  example: []
+  syntax:
+    content: public static string Expand_array_for_print<T>(List<T> input_list)
+    parameters:
+    - id: input_list
+      type: System.Collections.Generic.List{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Shared Function Expand_array_for_print(Of T)(input_list As List(Of T)) As String
+  overload: Assets.Scripts.Utility.Util.Expand_array_for_print*
+  nameWithType.vb: Util.Expand_array_for_print(Of T)(List(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Utility.Util.Expand_array_for_print(Of T)(System.Collections.Generic.List(Of T))
+  name.vb: Expand_array_for_print(Of T)(List(Of T))
+- uid: Assets.Scripts.Utility.Util.get_hand_pile
+  commentId: M:Assets.Scripts.Utility.Util.get_hand_pile
+  id: get_hand_pile
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: get_hand_pile()
+  nameWithType: Util.get_hand_pile()
+  fullName: Assets.Scripts.Utility.Util.get_hand_pile()
+  type: Method
+  source:
+    id: get_hand_pile
+    path: ''
+    startLine: 164227
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n获得当前手牌\n"
+  example: []
+  syntax:
+    content: public static CardsPile get_hand_pile()
+    return:
+      type: Global.CardsPile
+    content.vb: Public Shared Function get_hand_pile As CardsPile
+  overload: Assets.Scripts.Utility.Util.get_hand_pile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.get_live_hand_pile
+  commentId: M:Assets.Scripts.Utility.Util.get_live_hand_pile
+  id: get_live_hand_pile
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: get_live_hand_pile()
+  nameWithType: Util.get_live_hand_pile()
+  fullName: Assets.Scripts.Utility.Util.get_live_hand_pile()
+  type: Method
+  source:
+    id: get_live_hand_pile
+    path: ''
+    startLine: 164234
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static live_card_pile get_live_hand_pile()
+    return:
+      type: Global.live_card_pile
+    content.vb: Public Shared Function get_live_hand_pile As live_card_pile
+  overload: Assets.Scripts.Utility.Util.get_live_hand_pile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.load_live_card(GameObject,basic_card,System.Boolean)
+  commentId: M:Assets.Scripts.Utility.Util.load_live_card(GameObject,basic_card,System.Boolean)
+  id: load_live_card(GameObject,basic_card,System.Boolean)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: load_live_card(GameObject, basic_card, Boolean)
+  nameWithType: Util.load_live_card(GameObject, basic_card, Boolean)
+  fullName: Assets.Scripts.Utility.Util.load_live_card(GameObject, basic_card, System.Boolean)
+  type: Method
+  source:
+    id: load_live_card
+    path: ''
+    startLine: 164291
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static GameObject load_live_card(GameObject small_card, basic_card current_card, bool is_no_target_card = false)
+    parameters:
+    - id: small_card
+      type: Global.GameObject
+    - id: current_card
+      type: Global.basic_card
+    - id: is_no_target_card
+      type: System.Boolean
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared Function load_live_card(small_card As GameObject, current_card As basic_card, is_no_target_card As Boolean = False) As GameObject
+  overload: Assets.Scripts.Utility.Util.load_live_card*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.load_single_card(GameObject,basic_card,System.Boolean,System.Boolean)
+  commentId: M:Assets.Scripts.Utility.Util.load_single_card(GameObject,basic_card,System.Boolean,System.Boolean)
+  id: load_single_card(GameObject,basic_card,System.Boolean,System.Boolean)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: load_single_card(GameObject, basic_card, Boolean, Boolean)
+  nameWithType: Util.load_single_card(GameObject, basic_card, Boolean, Boolean)
+  fullName: Assets.Scripts.Utility.Util.load_single_card(GameObject, basic_card, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: load_single_card
+    path: ''
+    startLine: 164305
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n加载单张卡牌\n<param name=\"small_card\">a card game object</param>\n<param name=\"current_card\">contains information about current card</param>\n<param name=\"Use_card_count\">whether you wanna show card count</param>\n"
+  example: []
+  syntax:
+    content: public static GameObject load_single_card(GameObject small_card, basic_card current_card, bool Use_card_count = false, bool is_no_target_card = false)
+    parameters:
+    - id: small_card
+      type: Global.GameObject
+    - id: current_card
+      type: Global.basic_card
+    - id: Use_card_count
+      type: System.Boolean
+    - id: is_no_target_card
+      type: System.Boolean
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared Function load_single_card(small_card As GameObject, current_card As basic_card, Use_card_count As Boolean = False, is_no_target_card As Boolean = False) As GameObject
+  overload: Assets.Scripts.Utility.Util.load_single_card*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.RandomGaussian(System.Single,System.Single)
+  commentId: M:Assets.Scripts.Utility.Util.RandomGaussian(System.Single,System.Single)
+  id: RandomGaussian(System.Single,System.Single)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: RandomGaussian(Single, Single)
+  nameWithType: Util.RandomGaussian(Single, Single)
+  fullName: Assets.Scripts.Utility.Util.RandomGaussian(System.Single, System.Single)
+  type: Method
+  source:
+    id: RandomGaussian
+    path: ''
+    startLine: 164344
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n高斯分布函数，用于展示弹幕\n"
+  example: []
+  syntax:
+    content: public static float RandomGaussian(float minValue = 0F, float maxValue = 1F)
+    parameters:
+    - id: minValue
+      type: System.Single
+    - id: maxValue
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function RandomGaussian(minValue As Single = 0F, maxValue As Single = 1F) As Single
+  overload: Assets.Scripts.Utility.Util.RandomGaussian*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.Random_string
+  commentId: M:Assets.Scripts.Utility.Util.Random_string
+  id: Random_string
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Random_string()
+  nameWithType: Util.Random_string()
+  fullName: Assets.Scripts.Utility.Util.Random_string()
+  type: Method
+  source:
+    id: Random_string
+    path: ''
+    startLine: 164368
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\nRandom_string\n"
+  example: []
+  syntax:
+    content: public static string Random_string()
+    return:
+      type: System.String
+    content.vb: Public Shared Function Random_string As String
+  overload: Assets.Scripts.Utility.Util.Random_string*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.change_background(System.String,GameObject)
+  commentId: M:Assets.Scripts.Utility.Util.change_background(System.String,GameObject)
+  id: change_background(System.String,GameObject)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: change_background(String, GameObject)
+  nameWithType: Util.change_background(String, GameObject)
+  fullName: Assets.Scripts.Utility.Util.change_background(System.String, GameObject)
+  type: Method
+  source:
+    id: change_background
+    path: ''
+    startLine: 164385
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n改变场景的背景\n<param name=\"background_img\">name of background</param>\n<param name=\"background\">background game obj</param>\n"
+  example: []
+  syntax:
+    content: public static void change_background(string background_img, GameObject background)
+    parameters:
+    - id: background_img
+      type: System.String
+    - id: background
+      type: Global.GameObject
+    content.vb: Public Shared Sub change_background(background_img As String, background As GameObject)
+  overload: Assets.Scripts.Utility.Util.change_background*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.change_music(System.String,GameObject)
+  commentId: M:Assets.Scripts.Utility.Util.change_music(System.String,GameObject)
+  id: change_music(System.String,GameObject)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: change_music(String, GameObject)
+  nameWithType: Util.change_music(String, GameObject)
+  fullName: Assets.Scripts.Utility.Util.change_music(System.String, GameObject)
+  type: Method
+  source:
+    id: change_music
+    path: ''
+    startLine: 164394
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n改变场景的声音\n<param name=\"BGM\">name of BGM</param>\n<param name=\"Music_player\">Music_player game obj</param>\n"
+  example: []
+  syntax:
+    content: public static void change_music(string BGM, GameObject Music_player)
+    parameters:
+    - id: BGM
+      type: System.String
+    - id: Music_player
+      type: Global.GameObject
+    content.vb: Public Shared Sub change_music(BGM As String, Music_player As GameObject)
+  overload: Assets.Scripts.Utility.Util.change_music*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.string_bool_transfer(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.string_bool_transfer(System.String)
+  id: string_bool_transfer(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: string_bool_transfer(String)
+  nameWithType: Util.string_bool_transfer(String)
+  fullName: Assets.Scripts.Utility.Util.string_bool_transfer(System.String)
+  type: Method
+  source:
+    id: string_bool_transfer
+    path: ''
+    startLine: 164401
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static bool string_bool_transfer(string input_val)
+    parameters:
+    - id: input_val
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function string_bool_transfer(input_val As String) As Boolean
+  overload: Assets.Scripts.Utility.Util.string_bool_transfer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.magic_card_decoder(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.magic_card_decoder(System.String)
+  id: magic_card_decoder(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: magic_card_decoder(String)
+  nameWithType: Util.magic_card_decoder(String)
+  fullName: Assets.Scripts.Utility.Util.magic_card_decoder(System.String)
+  type: Method
+  source:
+    id: magic_card_decoder
+    path: ''
+    startLine: 164410
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static bool magic_card_decoder(string input_val)
+    parameters:
+    - id: input_val
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function magic_card_decoder(input_val As String) As Boolean
+  overload: Assets.Scripts.Utility.Util.magic_card_decoder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.load_monster_list
+  commentId: M:Assets.Scripts.Utility.Util.load_monster_list
+  id: load_monster_list
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: load_monster_list()
+  nameWithType: Util.load_monster_list()
+  fullName: Assets.Scripts.Utility.Util.load_monster_list()
+  type: Method
+  source:
+    id: load_monster_list
+    path: ''
+    startLine: 164419
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static List<monster> load_monster_list()
+    return:
+      type: System.Collections.Generic.List{monster}
+    content.vb: Public Shared Function load_monster_list As List(Of monster)
+  overload: Assets.Scripts.Utility.Util.load_monster_list*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.load_member_list
+  commentId: M:Assets.Scripts.Utility.Util.load_member_list
+  id: load_member_list
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: load_member_list()
+  nameWithType: Util.load_member_list()
+  fullName: Assets.Scripts.Utility.Util.load_member_list()
+  type: Method
+  source:
+    id: load_member_list
+    path: ''
+    startLine: 164432
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static List<member> load_member_list()
+    return:
+      type: System.Collections.Generic.List{member}
+    content.vb: Public Shared Function load_member_list As List(Of member)
+  overload: Assets.Scripts.Utility.Util.load_member_list*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.load_all_member_dict
+  commentId: M:Assets.Scripts.Utility.Util.load_all_member_dict
+  id: load_all_member_dict
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: load_all_member_dict()
+  nameWithType: Util.load_all_member_dict()
+  fullName: Assets.Scripts.Utility.Util.load_all_member_dict()
+  type: Method
+  source:
+    id: load_all_member_dict
+    path: ''
+    startLine: 164445
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static Dictionary<string, member> load_all_member_dict()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,member}
+    content.vb: Public Shared Function load_all_member_dict As Dictionary(Of String, member)
+  overload: Assets.Scripts.Utility.Util.load_all_member_dict*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.animation_effect_bundle(Member,System.Collections.Generic.List{System.String},show_animation,Show_effect)
+  commentId: M:Assets.Scripts.Utility.Util.animation_effect_bundle(Member,System.Collections.Generic.List{System.String},show_animation,Show_effect)
+  id: animation_effect_bundle(Member,System.Collections.Generic.List{System.String},show_animation,Show_effect)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: animation_effect_bundle(Member, List<String>, show_animation, Show_effect)
+  nameWithType: Util.animation_effect_bundle(Member, List<String>, show_animation, Show_effect)
+  fullName: Assets.Scripts.Utility.Util.animation_effect_bundle(Member, System.Collections.Generic.List<System.String>, show_animation, Show_effect)
+  type: Method
+  source:
+    id: animation_effect_bundle
+    path: ''
+    startLine: 164452
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static void animation_effect_bundle(Member input_member, List<string> effect_text_list, show_animation Show_Animation, Show_effect show_Effect)
+    parameters:
+    - id: input_member
+      type: Global.Member
+    - id: effect_text_list
+      type: System.Collections.Generic.List{System.String}
+    - id: Show_Animation
+      type: Global.show_animation
+    - id: show_Effect
+      type: Global.Show_effect
+    content.vb: Public Shared Sub animation_effect_bundle(input_member As Member, effect_text_list As List(Of String), Show_Animation As show_animation, show_Effect As Show_effect)
+  overload: Assets.Scripts.Utility.Util.animation_effect_bundle*
+  nameWithType.vb: Util.animation_effect_bundle(Member, List(Of String), show_animation, Show_effect)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Utility.Util.animation_effect_bundle(Member, System.Collections.Generic.List(Of System.String), show_animation, Show_effect)
+  name.vb: animation_effect_bundle(Member, List(Of String), show_animation, Show_effect)
+- uid: Assets.Scripts.Utility.Util.preload_sprites
+  commentId: M:Assets.Scripts.Utility.Util.preload_sprites
+  id: preload_sprites
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: preload_sprites()
+  nameWithType: Util.preload_sprites()
+  fullName: Assets.Scripts.Utility.Util.preload_sprites()
+  type: Method
+  source:
+    id: preload_sprites
+    path: ''
+    startLine: 164481
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n角色立绘预加载\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, Sprite> preload_sprites()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Sprite}
+      description: ''
+    content.vb: Public Shared Function preload_sprites As Dictionary(Of String, Sprite)
+  overload: Assets.Scripts.Utility.Util.preload_sprites*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.save_saveObject(SaveObject,System.String)
+  commentId: M:Assets.Scripts.Utility.Util.save_saveObject(SaveObject,System.String)
+  id: save_saveObject(SaveObject,System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: save_saveObject(SaveObject, String)
+  nameWithType: Util.save_saveObject(SaveObject, String)
+  fullName: Assets.Scripts.Utility.Util.save_saveObject(SaveObject, System.String)
+  type: Method
+  source:
+    id: save_saveObject
+    path: ''
+    startLine: 164496
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\nsave data to &quot;selected_characters&quot;\n"
+  example: []
+  syntax:
+    content: public static void save_saveObject(SaveObject input_saveObject, string save_name)
+    parameters:
+    - id: input_saveObject
+      type: Global.SaveObject
+      description: ''
+    - id: save_name
+      type: System.String
+    content.vb: Public Shared Sub save_saveObject(input_saveObject As SaveObject, save_name As String)
+  overload: Assets.Scripts.Utility.Util.save_saveObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.card_belong_parser(System.String)
+  commentId: M:Assets.Scripts.Utility.Util.card_belong_parser(System.String)
+  id: card_belong_parser(System.String)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: card_belong_parser(String)
+  nameWithType: Util.card_belong_parser(String)
+  fullName: Assets.Scripts.Utility.Util.card_belong_parser(System.String)
+  type: Method
+  source:
+    id: card_belong_parser
+    path: ''
+    startLine: 164509
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n直接从中文名获取角色英文名，很方便\n"
+  example: []
+  syntax:
+    content: public static string card_belong_parser(string character_name)
+    parameters:
+    - id: character_name
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function card_belong_parser(character_name As String) As String
+  overload: Assets.Scripts.Utility.Util.card_belong_parser*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.copy_card(GameObject)
+  commentId: M:Assets.Scripts.Utility.Util.copy_card(GameObject)
+  id: copy_card(GameObject)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: copy_card(GameObject)
+  nameWithType: Util.copy_card(GameObject)
+  fullName: Assets.Scripts.Utility.Util.copy_card(GameObject)
+  type: Method
+  source:
+    id: copy_card
+    path: ''
+    startLine: 164535
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n用于从Extra牌堆复制某张牌\n"
+  example: []
+  syntax:
+    content: public static GameObject copy_card(GameObject target_card)
+    parameters:
+    - id: target_card
+      type: Global.GameObject
+      description: ''
+    return:
+      type: Global.GameObject
+      description: ''
+    content.vb: Public Shared Function copy_card(target_card As GameObject) As GameObject
+  overload: Assets.Scripts.Utility.Util.copy_card*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Utility.Util.enable_target_card(GameObject,System.Boolean)
+  commentId: M:Assets.Scripts.Utility.Util.enable_target_card(GameObject,System.Boolean)
+  id: enable_target_card(GameObject,System.Boolean)
+  parent: Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: enable_target_card(GameObject, Boolean)
+  nameWithType: Util.enable_target_card(GameObject, Boolean)
+  fullName: Assets.Scripts.Utility.Util.enable_target_card(GameObject, System.Boolean)
+  type: Method
+  source:
+    id: enable_target_card
+    path: ''
+    startLine: 164546
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public static void enable_target_card(GameObject card, bool is_enable)
+    parameters:
+    - id: card
+      type: Global.GameObject
+    - id: is_enable
+      type: System.Boolean
+    content.vb: Public Shared Sub enable_target_card(card As GameObject, is_enable As Boolean)
+  overload: Assets.Scripts.Utility.Util.enable_target_card*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Utility.Util.shuffle*
+  commentId: Overload:Assets.Scripts.Utility.Util.shuffle
+  name: shuffle
+  nameWithType: Util.shuffle
+  fullName: Assets.Scripts.Utility.Util.shuffle
+- uid: System.Collections.Generic.List{basic_card}
+  commentId: T:System.Collections.Generic.List{basic_card}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<basic_card>
+  nameWithType: List<basic_card>
+  fullName: System.Collections.Generic.List<basic_card>
+  nameWithType.vb: List(Of basic_card)
+  fullName.vb: System.Collections.Generic.List(Of basic_card)
+  name.vb: List(Of basic_card)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.basic_card
+    name: basic_card
+    nameWithType: basic_card
+    fullName: basic_card
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.basic_card
+    name: basic_card
+    nameWithType: basic_card
+    fullName: basic_card
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Utility.Util.handle_card_click_results*
+  commentId: Overload:Assets.Scripts.Utility.Util.handle_card_click_results
+  name: handle_card_click_results
+  nameWithType: Util.handle_card_click_results
+  fullName: Assets.Scripts.Utility.Util.handle_card_click_results
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Utility.Util.PlayCardPutSound*
+  commentId: Overload:Assets.Scripts.Utility.Util.PlayCardPutSound
+  name: PlayCardPutSound
+  nameWithType: Util.PlayCardPutSound
+  fullName: Assets.Scripts.Utility.Util.PlayCardPutSound
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.Utility.Util.PlaySound*
+  commentId: Overload:Assets.Scripts.Utility.Util.PlaySound
+  name: PlaySound
+  nameWithType: Util.PlaySound
+  fullName: Assets.Scripts.Utility.Util.PlaySound
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Utility.Util.random_color*
+  commentId: Overload:Assets.Scripts.Utility.Util.random_color
+  name: random_color
+  nameWithType: Util.random_color
+  fullName: Assets.Scripts.Utility.Util.random_color
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Assets.Scripts.Utility.Util.get_card_rarity*
+  commentId: Overload:Assets.Scripts.Utility.Util.get_card_rarity
+  name: get_card_rarity
+  nameWithType: Util.get_card_rarity
+  fullName: Assets.Scripts.Utility.Util.get_card_rarity
+- uid: Assets.Scripts.Utility.Card_rarity
+  commentId: T:Assets.Scripts.Utility.Card_rarity
+  parent: Assets.Scripts.Utility
+  name: Card_rarity
+  nameWithType: Card_rarity
+  fullName: Assets.Scripts.Utility.Card_rarity
+- uid: Assets.Scripts.Utility.Util.Card_effect_decoder_list*
+  commentId: Overload:Assets.Scripts.Utility.Util.Card_effect_decoder_list
+  name: Card_effect_decoder_list
+  nameWithType: Util.Card_effect_decoder_list
+  fullName: Assets.Scripts.Utility.Util.Card_effect_decoder_list
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Assets.Scripts.Utility.Effect_tuple}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Utility.Effect_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Effect_tuple>
+  nameWithType: List<Effect_tuple>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Utility.Effect_tuple>
+  nameWithType.vb: List(Of Effect_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Utility.Effect_tuple)
+  name.vb: List(Of Effect_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Utility.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Assets.Scripts.Utility.Effect_tuple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Utility.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Assets.Scripts.Utility.Effect_tuple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.Skill_effect_decoder_list*
+  commentId: Overload:Assets.Scripts.Utility.Util.Skill_effect_decoder_list
+  name: Skill_effect_decoder_list
+  nameWithType: Util.Skill_effect_decoder_list
+  fullName: Assets.Scripts.Utility.Util.Skill_effect_decoder_list
+- uid: System.Collections.Generic.List{Assets.Scripts.Utility.Skill_tuple}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Utility.Skill_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Skill_tuple>
+  nameWithType: List<Skill_tuple>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Utility.Skill_tuple>
+  nameWithType.vb: List(Of Skill_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Utility.Skill_tuple)
+  name.vb: List(Of Skill_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Utility.Skill_tuple
+    name: Skill_tuple
+    nameWithType: Skill_tuple
+    fullName: Assets.Scripts.Utility.Skill_tuple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Utility.Skill_tuple
+    name: Skill_tuple
+    nameWithType: Skill_tuple
+    fullName: Assets.Scripts.Utility.Skill_tuple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.Monster_level_decoder*
+  commentId: Overload:Assets.Scripts.Utility.Util.Monster_level_decoder
+  name: Monster_level_decoder
+  nameWithType: Util.Monster_level_decoder
+  fullName: Assets.Scripts.Utility.Util.Monster_level_decoder
+- uid: Assets.Scripts.Utility.Monster_level
+  commentId: T:Assets.Scripts.Utility.Monster_level
+  parent: Assets.Scripts.Utility
+  name: Monster_level
+  nameWithType: Monster_level
+  fullName: Assets.Scripts.Utility.Monster_level
+- uid: Assets.Scripts.Utility.Util.Card_type_list_decoder*
+  commentId: Overload:Assets.Scripts.Utility.Util.Card_type_list_decoder
+  name: Card_type_list_decoder
+  nameWithType: Util.Card_type_list_decoder
+  fullName: Assets.Scripts.Utility.Util.Card_type_list_decoder
+- uid: System.Collections.Generic.List{Assets.Scripts.Utility.card_type}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Utility.card_type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<card_type>
+  nameWithType: List<card_type>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Utility.card_type>
+  nameWithType.vb: List(Of card_type)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Utility.card_type)
+  name.vb: List(Of card_type)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Utility.card_type
+    name: card_type
+    nameWithType: card_type
+    fullName: Assets.Scripts.Utility.card_type
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Utility.card_type
+    name: card_type
+    nameWithType: card_type
+    fullName: Assets.Scripts.Utility.card_type
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.Card_type_decoder*
+  commentId: Overload:Assets.Scripts.Utility.Util.Card_type_decoder
+  name: Card_type_decoder
+  nameWithType: Util.Card_type_decoder
+  fullName: Assets.Scripts.Utility.Util.Card_type_decoder
+- uid: Assets.Scripts.Utility.card_type
+  commentId: T:Assets.Scripts.Utility.card_type
+  parent: Assets.Scripts.Utility
+  name: card_type
+  nameWithType: card_type
+  fullName: Assets.Scripts.Utility.card_type
+- uid: Assets.Scripts.Utility.Util.Expand_array_for_print*
+  commentId: Overload:Assets.Scripts.Utility.Util.Expand_array_for_print
+  name: Expand_array_for_print
+  nameWithType: Util.Expand_array_for_print
+  fullName: Assets.Scripts.Utility.Util.Expand_array_for_print
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.get_hand_pile*
+  commentId: Overload:Assets.Scripts.Utility.Util.get_hand_pile
+  name: get_hand_pile
+  nameWithType: Util.get_hand_pile
+  fullName: Assets.Scripts.Utility.Util.get_hand_pile
+- uid: Global.CardsPile
+  isExternal: true
+  name: CardsPile
+  nameWithType: CardsPile
+  fullName: CardsPile
+- uid: Assets.Scripts.Utility.Util.get_live_hand_pile*
+  commentId: Overload:Assets.Scripts.Utility.Util.get_live_hand_pile
+  name: get_live_hand_pile
+  nameWithType: Util.get_live_hand_pile
+  fullName: Assets.Scripts.Utility.Util.get_live_hand_pile
+- uid: Global.live_card_pile
+  commentId: '!:Global.live_card_pile'
+  isExternal: true
+  name: live_card_pile
+  nameWithType: live_card_pile
+  fullName: live_card_pile
+- uid: Assets.Scripts.Utility.Util.load_live_card*
+  commentId: Overload:Assets.Scripts.Utility.Util.load_live_card
+  name: load_live_card
+  nameWithType: Util.load_live_card
+  fullName: Assets.Scripts.Utility.Util.load_live_card
+- uid: Global.basic_card
+  isExternal: true
+  name: basic_card
+  nameWithType: basic_card
+  fullName: basic_card
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.Utility.Util.load_single_card*
+  commentId: Overload:Assets.Scripts.Utility.Util.load_single_card
+  name: load_single_card
+  nameWithType: Util.load_single_card
+  fullName: Assets.Scripts.Utility.Util.load_single_card
+- uid: Assets.Scripts.Utility.Util.RandomGaussian*
+  commentId: Overload:Assets.Scripts.Utility.Util.RandomGaussian
+  name: RandomGaussian
+  nameWithType: Util.RandomGaussian
+  fullName: Assets.Scripts.Utility.Util.RandomGaussian
+- uid: Assets.Scripts.Utility.Util.Random_string*
+  commentId: Overload:Assets.Scripts.Utility.Util.Random_string
+  name: Random_string
+  nameWithType: Util.Random_string
+  fullName: Assets.Scripts.Utility.Util.Random_string
+- uid: Assets.Scripts.Utility.Util.change_background*
+  commentId: Overload:Assets.Scripts.Utility.Util.change_background
+  name: change_background
+  nameWithType: Util.change_background
+  fullName: Assets.Scripts.Utility.Util.change_background
+- uid: Assets.Scripts.Utility.Util.change_music*
+  commentId: Overload:Assets.Scripts.Utility.Util.change_music
+  name: change_music
+  nameWithType: Util.change_music
+  fullName: Assets.Scripts.Utility.Util.change_music
+- uid: Assets.Scripts.Utility.Util.string_bool_transfer*
+  commentId: Overload:Assets.Scripts.Utility.Util.string_bool_transfer
+  name: string_bool_transfer
+  nameWithType: Util.string_bool_transfer
+  fullName: Assets.Scripts.Utility.Util.string_bool_transfer
+- uid: Assets.Scripts.Utility.Util.magic_card_decoder*
+  commentId: Overload:Assets.Scripts.Utility.Util.magic_card_decoder
+  name: magic_card_decoder
+  nameWithType: Util.magic_card_decoder
+  fullName: Assets.Scripts.Utility.Util.magic_card_decoder
+- uid: Assets.Scripts.Utility.Util.load_monster_list*
+  commentId: Overload:Assets.Scripts.Utility.Util.load_monster_list
+  name: load_monster_list
+  nameWithType: Util.load_monster_list
+  fullName: Assets.Scripts.Utility.Util.load_monster_list
+- uid: System.Collections.Generic.List{monster}
+  commentId: T:System.Collections.Generic.List{monster}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<monster>
+  nameWithType: List<monster>
+  fullName: System.Collections.Generic.List<monster>
+  nameWithType.vb: List(Of monster)
+  fullName.vb: System.Collections.Generic.List(Of monster)
+  name.vb: List(Of monster)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.monster
+    name: monster
+    nameWithType: monster
+    fullName: monster
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.monster
+    name: monster
+    nameWithType: monster
+    fullName: monster
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.load_member_list*
+  commentId: Overload:Assets.Scripts.Utility.Util.load_member_list
+  name: load_member_list
+  nameWithType: Util.load_member_list
+  fullName: Assets.Scripts.Utility.Util.load_member_list
+- uid: System.Collections.Generic.List{member}
+  commentId: T:System.Collections.Generic.List{member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<member>
+  nameWithType: List<member>
+  fullName: System.Collections.Generic.List<member>
+  nameWithType.vb: List(Of member)
+  fullName.vb: System.Collections.Generic.List(Of member)
+  name.vb: List(Of member)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.member
+    name: member
+    nameWithType: member
+    fullName: member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.member
+    name: member
+    nameWithType: member
+    fullName: member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.load_all_member_dict*
+  commentId: Overload:Assets.Scripts.Utility.Util.load_all_member_dict
+  name: load_all_member_dict
+  nameWithType: Util.load_all_member_dict
+  fullName: Assets.Scripts.Utility.Util.load_all_member_dict
+- uid: System.Collections.Generic.Dictionary{System.String,member}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, member>
+  nameWithType: Dictionary<String, member>
+  fullName: System.Collections.Generic.Dictionary<System.String, member>
+  nameWithType.vb: Dictionary(Of String, member)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, member)
+  name.vb: Dictionary(Of String, member)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.member
+    name: member
+    nameWithType: member
+    fullName: member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.member
+    name: member
+    nameWithType: member
+    fullName: member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.animation_effect_bundle*
+  commentId: Overload:Assets.Scripts.Utility.Util.animation_effect_bundle
+  name: animation_effect_bundle
+  nameWithType: Util.animation_effect_bundle
+  fullName: Assets.Scripts.Utility.Util.animation_effect_bundle
+- uid: Global.Member
+  isExternal: true
+  name: Member
+  nameWithType: Member
+  fullName: Member
+- uid: Global.show_animation
+  isExternal: true
+  name: show_animation
+  nameWithType: show_animation
+  fullName: show_animation
+- uid: Global.Show_effect
+  commentId: '!:Global.Show_effect'
+  isExternal: true
+  name: Show_effect
+  nameWithType: Show_effect
+  fullName: Show_effect
+- uid: Assets.Scripts.Utility.Util.preload_sprites*
+  commentId: Overload:Assets.Scripts.Utility.Util.preload_sprites
+  name: preload_sprites
+  nameWithType: Util.preload_sprites
+  fullName: Assets.Scripts.Utility.Util.preload_sprites
+- uid: System.Collections.Generic.Dictionary{System.String,Sprite}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Sprite}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Sprite>
+  nameWithType: Dictionary<String, Sprite>
+  fullName: System.Collections.Generic.Dictionary<System.String, Sprite>
+  nameWithType.vb: Dictionary(Of String, Sprite)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Sprite)
+  name.vb: Dictionary(Of String, Sprite)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Util.save_saveObject*
+  commentId: Overload:Assets.Scripts.Utility.Util.save_saveObject
+  name: save_saveObject
+  nameWithType: Util.save_saveObject
+  fullName: Assets.Scripts.Utility.Util.save_saveObject
+- uid: Global.SaveObject
+  commentId: '!:Global.SaveObject'
+  isExternal: true
+  name: SaveObject
+  nameWithType: SaveObject
+  fullName: SaveObject
+- uid: Assets.Scripts.Utility.Util.card_belong_parser*
+  commentId: Overload:Assets.Scripts.Utility.Util.card_belong_parser
+  name: card_belong_parser
+  nameWithType: Util.card_belong_parser
+  fullName: Assets.Scripts.Utility.Util.card_belong_parser
+- uid: Assets.Scripts.Utility.Util.copy_card*
+  commentId: Overload:Assets.Scripts.Utility.Util.copy_card
+  name: copy_card
+  nameWithType: Util.copy_card
+  fullName: Assets.Scripts.Utility.Util.copy_card
+- uid: Assets.Scripts.Utility.Util.enable_target_card*
+  commentId: Overload:Assets.Scripts.Utility.Util.enable_target_card
+  name: enable_target_card
+  nameWithType: Util.enable_target_card
+  fullName: Assets.Scripts.Utility.Util.enable_target_card

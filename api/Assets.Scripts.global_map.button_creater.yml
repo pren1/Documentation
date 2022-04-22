@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map.button_creater
+  commentId: T:Assets.Scripts.global_map.button_creater
+  id: button_creater
+  parent: Assets.Scripts.global_map
+  children:
+  - Assets.Scripts.global_map.button_creater.background
+  - Assets.Scripts.global_map.button_creater.Music_player
+  langs:
+  - csharp
+  - vb
+  name: button_creater
+  nameWithType: button_creater
+  fullName: Assets.Scripts.global_map.button_creater
+  type: Class
+  source:
+    id: button_creater
+    path: ''
+    startLine: 157201
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n怪物选择界面。不一定会在后续游戏中保留\n"
+  example: []
+  syntax:
+    content: 'public class button_creater : MonoBehaviour'
+    content.vb: >-
+      Public Class button_creater
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.global_map.button_creater.background
+  commentId: F:Assets.Scripts.global_map.button_creater.background
+  id: background
+  parent: Assets.Scripts.global_map.button_creater
+  langs:
+  - csharp
+  - vb
+  name: background
+  nameWithType: button_creater.background
+  fullName: Assets.Scripts.global_map.button_creater.background
+  type: Field
+  source:
+    id: background
+    path: ''
+    startLine: 157205
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public GameObject background
+    return:
+      type: Global.GameObject
+    content.vb: Public background As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.global_map.button_creater.Music_player
+  commentId: F:Assets.Scripts.global_map.button_creater.Music_player
+  id: Music_player
+  parent: Assets.Scripts.global_map.button_creater
+  langs:
+  - csharp
+  - vb
+  name: Music_player
+  nameWithType: button_creater.Music_player
+  fullName: Assets.Scripts.global_map.button_creater.Music_player
+  type: Field
+  source:
+    id: Music_player
+    path: ''
+    startLine: 157206
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public GameObject Music_player
+    return:
+      type: Global.GameObject
+    content.vb: Public Music_player As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

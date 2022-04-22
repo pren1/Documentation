@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.Enlarge_card
+  commentId: T:Assets.Scripts.Card_factory.Enlarge_card
+  id: Enlarge_card
+  parent: Assets.Scripts.Card_factory
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Enlarge_card
+  nameWithType: Enlarge_card
+  fullName: Assets.Scripts.Card_factory.Enlarge_card
+  type: Class
+  source:
+    id: Enlarge_card
+    path: ''
+    startLine: 152486
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n选卡界面，向卡组添加卡牌\n"
+  example: []
+  syntax:
+    content: 'public class Enlarge_card : MonoBehaviour'
+    content.vb: >-
+      Public Class Enlarge_card
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

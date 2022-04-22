@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Dialog.basic_dialog
+  commentId: T:Assets.Scripts.Dialog.basic_dialog
+  id: basic_dialog
+  parent: Assets.Scripts.Dialog
+  children:
+  - Assets.Scripts.Dialog.basic_dialog.drama_name
+  - Assets.Scripts.Dialog.basic_dialog.single_Dialogs
+  langs:
+  - csharp
+  - vb
+  name: basic_dialog
+  nameWithType: basic_dialog
+  fullName: Assets.Scripts.Dialog.basic_dialog
+  type: Class
+  source:
+    id: basic_dialog
+    path: ''
+    startLine: 155163
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class basic_dialog
+    content.vb: >-
+      <Serializable>
+
+      Public Class basic_dialog
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Dialog.basic_dialog.drama_name
+  commentId: F:Assets.Scripts.Dialog.basic_dialog.drama_name
+  id: drama_name
+  parent: Assets.Scripts.Dialog.basic_dialog
+  langs:
+  - csharp
+  - vb
+  name: drama_name
+  nameWithType: basic_dialog.drama_name
+  fullName: Assets.Scripts.Dialog.basic_dialog.drama_name
+  type: Field
+  source:
+    id: drama_name
+    path: ''
+    startLine: 155166
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public string drama_name
+    return:
+      type: System.String
+    content.vb: Public drama_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.basic_dialog.single_Dialogs
+  commentId: F:Assets.Scripts.Dialog.basic_dialog.single_Dialogs
+  id: single_Dialogs
+  parent: Assets.Scripts.Dialog.basic_dialog
+  langs:
+  - csharp
+  - vb
+  name: single_Dialogs
+  nameWithType: basic_dialog.single_Dialogs
+  fullName: Assets.Scripts.Dialog.basic_dialog.single_Dialogs
+  type: Field
+  source:
+    id: single_Dialogs
+    path: ''
+    startLine: 155167
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public List<single_dialog> single_Dialogs
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Dialog.single_dialog}
+    content.vb: Public single_Dialogs As List(Of single_dialog)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{Assets.Scripts.Dialog.single_dialog}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Dialog.single_dialog}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<single_dialog>
+  nameWithType: List<single_dialog>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Dialog.single_dialog>
+  nameWithType.vb: List(Of single_dialog)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Dialog.single_dialog)
+  name.vb: List(Of single_dialog)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Dialog.single_dialog
+    name: single_dialog
+    nameWithType: single_dialog
+    fullName: Assets.Scripts.Dialog.single_dialog
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Dialog.single_dialog
+    name: single_dialog
+    nameWithType: single_dialog
+    fullName: Assets.Scripts.Dialog.single_dialog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

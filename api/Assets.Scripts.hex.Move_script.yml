@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.Move_script
+  commentId: T:Assets.Scripts.hex.Move_script
+  id: Move_script
+  parent: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.Move_script.#ctor(Tilemap,System.Single,Transform)
+  - Assets.Scripts.hex.Move_script.fillin_xy_list(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32})
+  - Assets.Scripts.hex.Move_script.lerp_function
+  - Assets.Scripts.hex.Move_script.return_currentIndex
+  - Assets.Scripts.hex.Move_script.return_CurrentPositionHolder
+  langs:
+  - csharp
+  - vb
+  name: Move_script
+  nameWithType: Move_script
+  fullName: Assets.Scripts.hex.Move_script
+  type: Class
+  source:
+    id: Move_script
+    path: ''
+    startLine: 157965
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public class Move_script
+    content.vb: Public Class Move_script
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.hex.Move_script.#ctor(Tilemap,System.Single,Transform)
+  commentId: M:Assets.Scripts.hex.Move_script.#ctor(Tilemap,System.Single,Transform)
+  id: '#ctor(Tilemap,System.Single,Transform)'
+  parent: Assets.Scripts.hex.Move_script
+  langs:
+  - csharp
+  - vb
+  name: Move_script(Tilemap, Single, Transform)
+  nameWithType: Move_script.Move_script(Tilemap, Single, Transform)
+  fullName: Assets.Scripts.hex.Move_script.Move_script(Tilemap, System.Single, Transform)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 157984
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Move_script(Tilemap tilemap, float MoveSpeed, Transform my_transform)
+    parameters:
+    - id: tilemap
+      type: Global.Tilemap
+    - id: MoveSpeed
+      type: System.Single
+    - id: my_transform
+      type: Global.Transform
+    content.vb: Public Sub New(tilemap As Tilemap, MoveSpeed As Single, my_transform As Transform)
+  overload: Assets.Scripts.hex.Move_script.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Move_script.return_currentIndex
+  commentId: M:Assets.Scripts.hex.Move_script.return_currentIndex
+  id: return_currentIndex
+  parent: Assets.Scripts.hex.Move_script
+  langs:
+  - csharp
+  - vb
+  name: return_currentIndex()
+  nameWithType: Move_script.return_currentIndex()
+  fullName: Assets.Scripts.hex.Move_script.return_currentIndex()
+  type: Method
+  source:
+    id: return_currentIndex
+    path: ''
+    startLine: 157996
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int return_currentIndex()
+    return:
+      type: System.Int32
+    content.vb: Public Function return_currentIndex As Integer
+  overload: Assets.Scripts.hex.Move_script.return_currentIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Move_script.return_CurrentPositionHolder
+  commentId: M:Assets.Scripts.hex.Move_script.return_CurrentPositionHolder
+  id: return_CurrentPositionHolder
+  parent: Assets.Scripts.hex.Move_script
+  langs:
+  - csharp
+  - vb
+  name: return_CurrentPositionHolder()
+  nameWithType: Move_script.return_CurrentPositionHolder()
+  fullName: Assets.Scripts.hex.Move_script.return_CurrentPositionHolder()
+  type: Method
+  source:
+    id: return_CurrentPositionHolder
+    path: ''
+    startLine: 158000
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Vector3 return_CurrentPositionHolder()
+    return:
+      type: Global.Vector3
+    content.vb: Public Function return_CurrentPositionHolder As Vector3
+  overload: Assets.Scripts.hex.Move_script.return_CurrentPositionHolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Move_script.fillin_xy_list(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32})
+  commentId: M:Assets.Scripts.hex.Move_script.fillin_xy_list(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32})
+  id: fillin_xy_list(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32})
+  parent: Assets.Scripts.hex.Move_script
+  langs:
+  - csharp
+  - vb
+  name: fillin_xy_list(List<Int32>, List<Int32>)
+  nameWithType: Move_script.fillin_xy_list(List<Int32>, List<Int32>)
+  fullName: Assets.Scripts.hex.Move_script.fillin_xy_list(System.Collections.Generic.List<System.Int32>, System.Collections.Generic.List<System.Int32>)
+  type: Method
+  source:
+    id: fillin_xy_list
+    path: ''
+    startLine: 158004
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public void fillin_xy_list(List<int> x_values, List<int> y_values)
+    parameters:
+    - id: x_values
+      type: System.Collections.Generic.List{System.Int32}
+    - id: y_values
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Sub fillin_xy_list(x_values As List(Of Integer), y_values As List(Of Integer))
+  overload: Assets.Scripts.hex.Move_script.fillin_xy_list*
+  nameWithType.vb: Move_script.fillin_xy_list(List(Of Int32), List(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.hex.Move_script.fillin_xy_list(System.Collections.Generic.List(Of System.Int32), System.Collections.Generic.List(Of System.Int32))
+  name.vb: fillin_xy_list(List(Of Int32), List(Of Int32))
+- uid: Assets.Scripts.hex.Move_script.lerp_function
+  commentId: M:Assets.Scripts.hex.Move_script.lerp_function
+  id: lerp_function
+  parent: Assets.Scripts.hex.Move_script
+  langs:
+  - csharp
+  - vb
+  name: lerp_function()
+  nameWithType: Move_script.lerp_function()
+  fullName: Assets.Scripts.hex.Move_script.lerp_function()
+  type: Method
+  source:
+    id: lerp_function
+    path: ''
+    startLine: 158010
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Move_script.walking_state lerp_function()
+    return:
+      type: Assets.Scripts.hex.Move_script.walking_state
+    content.vb: Public Function lerp_function As Move_script.walking_state
+  overload: Assets.Scripts.hex.Move_script.lerp_function*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.hex.Move_script.#ctor*
+  commentId: Overload:Assets.Scripts.hex.Move_script.#ctor
+  name: Move_script
+  nameWithType: Move_script.Move_script
+  fullName: Assets.Scripts.hex.Move_script.Move_script
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Assets.Scripts.hex.Move_script.return_currentIndex*
+  commentId: Overload:Assets.Scripts.hex.Move_script.return_currentIndex
+  name: return_currentIndex
+  nameWithType: Move_script.return_currentIndex
+  fullName: Assets.Scripts.hex.Move_script.return_currentIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.hex.Move_script.return_CurrentPositionHolder*
+  commentId: Overload:Assets.Scripts.hex.Move_script.return_CurrentPositionHolder
+  name: return_CurrentPositionHolder
+  nameWithType: Move_script.return_CurrentPositionHolder
+  fullName: Assets.Scripts.hex.Move_script.return_CurrentPositionHolder
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Assets.Scripts.hex.Move_script.fillin_xy_list*
+  commentId: Overload:Assets.Scripts.hex.Move_script.fillin_xy_list
+  name: fillin_xy_list
+  nameWithType: Move_script.fillin_xy_list
+  fullName: Assets.Scripts.hex.Move_script.fillin_xy_list
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: System.Collections.Generic.List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: System.Collections.Generic.List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.hex.Move_script.lerp_function*
+  commentId: Overload:Assets.Scripts.hex.Move_script.lerp_function
+  name: lerp_function
+  nameWithType: Move_script.lerp_function
+  fullName: Assets.Scripts.hex.Move_script.lerp_function
+- uid: Assets.Scripts.hex.Move_script.walking_state
+  commentId: T:Assets.Scripts.hex.Move_script.walking_state
+  parent: Assets.Scripts.hex
+  name: Move_script.walking_state
+  nameWithType: Move_script.walking_state
+  fullName: Assets.Scripts.hex.Move_script.walking_state

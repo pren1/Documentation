@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Dialog.single_dialog
+  commentId: T:Assets.Scripts.Dialog.single_dialog
+  id: single_dialog
+  parent: Assets.Scripts.Dialog
+  children:
+  - Assets.Scripts.Dialog.single_dialog.character
+  - Assets.Scripts.Dialog.single_dialog.dialog
+  - Assets.Scripts.Dialog.single_dialog.emotion
+  langs:
+  - csharp
+  - vb
+  name: single_dialog
+  nameWithType: single_dialog
+  fullName: Assets.Scripts.Dialog.single_dialog
+  type: Class
+  source:
+    id: single_dialog
+    path: ''
+    startLine: 155155
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class single_dialog
+    content.vb: >-
+      <Serializable>
+
+      Public Class single_dialog
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Dialog.single_dialog.dialog
+  commentId: F:Assets.Scripts.Dialog.single_dialog.dialog
+  id: dialog
+  parent: Assets.Scripts.Dialog.single_dialog
+  langs:
+  - csharp
+  - vb
+  name: dialog
+  nameWithType: single_dialog.dialog
+  fullName: Assets.Scripts.Dialog.single_dialog.dialog
+  type: Field
+  source:
+    id: dialog
+    path: ''
+    startLine: 155158
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public string dialog
+    return:
+      type: System.String
+    content.vb: Public dialog As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.single_dialog.character
+  commentId: F:Assets.Scripts.Dialog.single_dialog.character
+  id: character
+  parent: Assets.Scripts.Dialog.single_dialog
+  langs:
+  - csharp
+  - vb
+  name: character
+  nameWithType: single_dialog.character
+  fullName: Assets.Scripts.Dialog.single_dialog.character
+  type: Field
+  source:
+    id: character
+    path: ''
+    startLine: 155159
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public string character
+    return:
+      type: System.String
+    content.vb: Public character As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.single_dialog.emotion
+  commentId: F:Assets.Scripts.Dialog.single_dialog.emotion
+  id: emotion
+  parent: Assets.Scripts.Dialog.single_dialog
+  langs:
+  - csharp
+  - vb
+  name: emotion
+  nameWithType: single_dialog.emotion
+  fullName: Assets.Scripts.Dialog.single_dialog.emotion
+  type: Field
+  source:
+    id: emotion
+    path: ''
+    startLine: 155160
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public string emotion
+    return:
+      type: System.String
+    content.vb: Public emotion As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

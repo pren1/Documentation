@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript
+  commentId: T:Assets.Scripts.ScreenTransition.LevelLoaderScript
+  id: LevelLoaderScript
+  parent: Assets.Scripts.ScreenTransition
+  children:
+  - Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel
+  - Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel(System.String)
+  - Assets.Scripts.ScreenTransition.LevelLoaderScript.transition
+  langs:
+  - csharp
+  - vb
+  name: LevelLoaderScript
+  nameWithType: LevelLoaderScript
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript
+  type: Class
+  source:
+    id: LevelLoaderScript
+    path: ''
+    startLine: 160340
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.ScreenTransition
+  summary: "\n场景转换函数\n"
+  example: []
+  syntax:
+    content: 'public class LevelLoaderScript : MonoBehaviour'
+    content.vb: >-
+      Public Class LevelLoaderScript
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript.transition
+  commentId: F:Assets.Scripts.ScreenTransition.LevelLoaderScript.transition
+  id: transition
+  parent: Assets.Scripts.ScreenTransition.LevelLoaderScript
+  langs:
+  - csharp
+  - vb
+  name: transition
+  nameWithType: LevelLoaderScript.transition
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript.transition
+  type: Field
+  source:
+    id: transition
+    path: ''
+    startLine: 160342
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.ScreenTransition
+  syntax:
+    content: public Animator transition
+    return:
+      type: Global.Animator
+    content.vb: Public transition As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel
+  commentId: M:Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel
+  id: LoadNextLevel
+  parent: Assets.Scripts.ScreenTransition.LevelLoaderScript
+  langs:
+  - csharp
+  - vb
+  name: LoadNextLevel()
+  nameWithType: LevelLoaderScript.LoadNextLevel()
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel()
+  type: Method
+  source:
+    id: LoadNextLevel
+    path: ''
+    startLine: 160343
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.ScreenTransition
+  syntax:
+    content: public void LoadNextLevel()
+    content.vb: Public Sub LoadNextLevel
+  overload: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel(System.String)
+  commentId: M:Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel(System.String)
+  id: LoadTargetLevel(System.String)
+  parent: Assets.Scripts.ScreenTransition.LevelLoaderScript
+  langs:
+  - csharp
+  - vb
+  name: LoadTargetLevel(String)
+  nameWithType: LevelLoaderScript.LoadTargetLevel(String)
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel(System.String)
+  type: Method
+  source:
+    id: LoadTargetLevel
+    path: ''
+    startLine: 160350
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.ScreenTransition
+  summary: "\n切入目标场景\n"
+  example: []
+  syntax:
+    content: public void LoadTargetLevel(string map_name)
+    parameters:
+    - id: map_name
+      type: System.String
+      description: 目标场景名称
+    content.vb: Public Sub LoadTargetLevel(map_name As String)
+  overload: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.ScreenTransition
+  commentId: N:Assets.Scripts.ScreenTransition
+  name: Assets.Scripts.ScreenTransition
+  nameWithType: Assets.Scripts.ScreenTransition
+  fullName: Assets.Scripts.ScreenTransition
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel*
+  commentId: Overload:Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel
+  name: LoadNextLevel
+  nameWithType: LevelLoaderScript.LoadNextLevel
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadNextLevel
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel*
+  commentId: Overload:Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel
+  name: LoadTargetLevel
+  nameWithType: LevelLoaderScript.LoadTargetLevel
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript.LoadTargetLevel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

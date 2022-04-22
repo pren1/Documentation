@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Dialog.Dialog_loader
+  commentId: T:Assets.Scripts.Dialog.Dialog_loader
+  id: Dialog_loader
+  parent: Assets.Scripts.Dialog
+  children:
+  - Assets.Scripts.Dialog.Dialog_loader.#ctor(System.String)
+  - Assets.Scripts.Dialog.Dialog_loader.dialog_json_file
+  - Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Dialog_loader
+  nameWithType: Dialog_loader
+  fullName: Assets.Scripts.Dialog.Dialog_loader
+  type: Class
+  source:
+    id: Dialog_loader
+    path: ''
+    startLine: 155136
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  summary: "\n加载对话剧本\n"
+  example: []
+  syntax:
+    content: public class Dialog_loader
+    content.vb: Public Class Dialog_loader
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Dialog.Dialog_loader.dialog_json_file
+  commentId: F:Assets.Scripts.Dialog.Dialog_loader.dialog_json_file
+  id: dialog_json_file
+  parent: Assets.Scripts.Dialog.Dialog_loader
+  langs:
+  - csharp
+  - vb
+  name: dialog_json_file
+  nameWithType: Dialog_loader.dialog_json_file
+  fullName: Assets.Scripts.Dialog.Dialog_loader.dialog_json_file
+  type: Field
+  source:
+    id: dialog_json_file
+    path: ''
+    startLine: 155138
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public dialog_json dialog_json_file
+    return:
+      type: Assets.Scripts.Dialog.dialog_json
+    content.vb: Public dialog_json_file As dialog_json
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_loader.#ctor(System.String)
+  commentId: M:Assets.Scripts.Dialog.Dialog_loader.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Assets.Scripts.Dialog.Dialog_loader
+  langs:
+  - csharp
+  - vb
+  name: Dialog_loader(String)
+  nameWithType: Dialog_loader.Dialog_loader(String)
+  fullName: Assets.Scripts.Dialog.Dialog_loader.Dialog_loader(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 155139
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public Dialog_loader(string json_file_name)
+    parameters:
+    - id: json_file_name
+      type: System.String
+    content.vb: Public Sub New(json_file_name As String)
+  overload: Assets.Scripts.Dialog.Dialog_loader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch(System.Int32)
+  commentId: M:Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch(System.Int32)
+  id: return_target_dialog_batch(System.Int32)
+  parent: Assets.Scripts.Dialog.Dialog_loader
+  langs:
+  - csharp
+  - vb
+  name: return_target_dialog_batch(Int32)
+  nameWithType: Dialog_loader.return_target_dialog_batch(Int32)
+  fullName: Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch(System.Int32)
+  type: Method
+  source:
+    id: return_target_dialog_batch
+    path: ''
+    startLine: 155149
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  summary: "\n返回目标剧本\n"
+  example: []
+  syntax:
+    content: public basic_dialog return_target_dialog_batch(int dialog_index)
+    parameters:
+    - id: dialog_index
+      type: System.Int32
+      description: 剧本编号
+    return:
+      type: Assets.Scripts.Dialog.basic_dialog
+      description: ''
+    content.vb: Public Function return_target_dialog_batch(dialog_index As Integer) As basic_dialog
+  overload: Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Dialog.dialog_json
+  commentId: T:Assets.Scripts.Dialog.dialog_json
+  parent: Assets.Scripts.Dialog
+  name: dialog_json
+  nameWithType: dialog_json
+  fullName: Assets.Scripts.Dialog.dialog_json
+- uid: Assets.Scripts.Dialog.Dialog_loader.#ctor*
+  commentId: Overload:Assets.Scripts.Dialog.Dialog_loader.#ctor
+  name: Dialog_loader
+  nameWithType: Dialog_loader.Dialog_loader
+  fullName: Assets.Scripts.Dialog.Dialog_loader.Dialog_loader
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch*
+  commentId: Overload:Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch
+  name: return_target_dialog_batch
+  nameWithType: Dialog_loader.return_target_dialog_batch
+  fullName: Assets.Scripts.Dialog.Dialog_loader.return_target_dialog_batch
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Dialog.basic_dialog
+  commentId: T:Assets.Scripts.Dialog.basic_dialog
+  parent: Assets.Scripts.Dialog
+  name: basic_dialog
+  nameWithType: basic_dialog
+  fullName: Assets.Scripts.Dialog.basic_dialog

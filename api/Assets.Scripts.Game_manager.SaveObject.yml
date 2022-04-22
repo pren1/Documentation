@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.SaveObject
+  commentId: T:Assets.Scripts.Game_manager.SaveObject
+  id: SaveObject
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.SaveObject.string_test
+  langs:
+  - csharp
+  - vb
+  name: SaveObject
+  nameWithType: SaveObject
+  fullName: Assets.Scripts.Game_manager.SaveObject
+  type: Class
+  source:
+    id: SaveObject
+    path: ''
+    startLine: 156611
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public class SaveObject
+    content.vb: Public Class SaveObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.SaveObject.string_test
+  commentId: F:Assets.Scripts.Game_manager.SaveObject.string_test
+  id: string_test
+  parent: Assets.Scripts.Game_manager.SaveObject
+  langs:
+  - csharp
+  - vb
+  name: string_test
+  nameWithType: SaveObject.string_test
+  fullName: Assets.Scripts.Game_manager.SaveObject.string_test
+  type: Field
+  source:
+    id: string_test
+    path: ''
+    startLine: 156613
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public List<Character_Object> string_test
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Game_manager.Character_Object}
+    content.vb: Public string_test As List(Of Character_Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Assets.Scripts.Game_manager.Character_Object}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Game_manager.Character_Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Character_Object>
+  nameWithType: List<Character_Object>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Game_manager.Character_Object>
+  nameWithType.vb: List(Of Character_Object)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Game_manager.Character_Object)
+  name.vb: List(Of Character_Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Game_manager.Character_Object
+    name: Character_Object
+    nameWithType: Character_Object
+    fullName: Assets.Scripts.Game_manager.Character_Object
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Game_manager.Character_Object
+    name: Character_Object
+    nameWithType: Character_Object
+    fullName: Assets.Scripts.Game_manager.Character_Object
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

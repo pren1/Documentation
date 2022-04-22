@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.card_type
+  commentId: T:Assets.Scripts.Utility.card_type
+  id: card_type
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.card_type.dark
+  - Assets.Scripts.Utility.card_type.Error_type
+  - Assets.Scripts.Utility.card_type.fire
+  - Assets.Scripts.Utility.card_type.light
+  - Assets.Scripts.Utility.card_type.money
+  - Assets.Scripts.Utility.card_type.physical
+  - Assets.Scripts.Utility.card_type.water
+  - Assets.Scripts.Utility.card_type.wood
+  langs:
+  - csharp
+  - vb
+  name: card_type
+  nameWithType: card_type
+  fullName: Assets.Scripts.Utility.card_type
+  type: Enum
+  source:
+    id: card_type
+    path: ''
+    startLine: 163059
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n卡牌类型\n"
+  example: []
+  syntax:
+    content: public enum card_type
+    content.vb: Public Enum card_type
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.card_type.physical
+  commentId: F:Assets.Scripts.Utility.card_type.physical
+  id: physical
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: physical
+  nameWithType: card_type.physical
+  fullName: Assets.Scripts.Utility.card_type.physical
+  type: Field
+  source:
+    id: physical
+    path: ''
+    startLine: 163061
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical = 0
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.fire
+  commentId: F:Assets.Scripts.Utility.card_type.fire
+  id: fire
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: fire
+  nameWithType: card_type.fire
+  fullName: Assets.Scripts.Utility.card_type.fire
+  type: Field
+  source:
+    id: fire
+    path: ''
+    startLine: 163062
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: fire = 1
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.water
+  commentId: F:Assets.Scripts.Utility.card_type.water
+  id: water
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: water
+  nameWithType: card_type.water
+  fullName: Assets.Scripts.Utility.card_type.water
+  type: Field
+  source:
+    id: water
+    path: ''
+    startLine: 163063
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: water = 2
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.light
+  commentId: F:Assets.Scripts.Utility.card_type.light
+  id: light
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: light
+  nameWithType: card_type.light
+  fullName: Assets.Scripts.Utility.card_type.light
+  type: Field
+  source:
+    id: light
+    path: ''
+    startLine: 163064
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: light = 3
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.dark
+  commentId: F:Assets.Scripts.Utility.card_type.dark
+  id: dark
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: dark
+  nameWithType: card_type.dark
+  fullName: Assets.Scripts.Utility.card_type.dark
+  type: Field
+  source:
+    id: dark
+    path: ''
+    startLine: 163065
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: dark = 4
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.wood
+  commentId: F:Assets.Scripts.Utility.card_type.wood
+  id: wood
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: wood
+  nameWithType: card_type.wood
+  fullName: Assets.Scripts.Utility.card_type.wood
+  type: Field
+  source:
+    id: wood
+    path: ''
+    startLine: 163066
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: wood = 5
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.money
+  commentId: F:Assets.Scripts.Utility.card_type.money
+  id: money
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: money
+  nameWithType: card_type.money
+  fullName: Assets.Scripts.Utility.card_type.money
+  type: Field
+  source:
+    id: money
+    path: ''
+    startLine: 163067
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: money = 6
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_type.Error_type
+  commentId: F:Assets.Scripts.Utility.card_type.Error_type
+  id: Error_type
+  parent: Assets.Scripts.Utility.card_type
+  langs:
+  - csharp
+  - vb
+  name: Error_type
+  nameWithType: card_type.Error_type
+  fullName: Assets.Scripts.Utility.card_type.Error_type
+  type: Field
+  source:
+    id: Error_type
+    path: ''
+    startLine: 163068
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Error_type = 7
+    return:
+      type: Assets.Scripts.Utility.card_type
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.card_type
+  commentId: T:Assets.Scripts.Utility.card_type
+  parent: Assets.Scripts.Utility
+  name: card_type
+  nameWithType: card_type
+  fullName: Assets.Scripts.Utility.card_type

@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.monster_data_save_load
+  commentId: T:Assets.Scripts.Json_processor.monster_data_save_load
+  id: monster_data_save_load
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data(System.Collections.Generic.List{Assets.Scripts.Json_processor.monster})
+  - Assets.Scripts.Json_processor.monster_data_save_load.return_dict(System.String)
+  - Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime(System.String)
+  langs:
+  - csharp
+  - vb
+  name: monster_data_save_load
+  nameWithType: monster_data_save_load
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load
+  type: Class
+  source:
+    id: monster_data_save_load
+    path: ''
+    startLine: 158590
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n设置怪物技能动画对应技能\n"
+  example: []
+  syntax:
+    content: public static class monster_data_save_load
+    content.vb: Public Module monster_data_save_load
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data(System.Collections.Generic.List{Assets.Scripts.Json_processor.monster})
+  commentId: M:Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data(System.Collections.Generic.List{Assets.Scripts.Json_processor.monster})
+  id: initialize_monster_data(System.Collections.Generic.List{Assets.Scripts.Json_processor.monster})
+  parent: Assets.Scripts.Json_processor.monster_data_save_load
+  langs:
+  - csharp
+  - vb
+  name: initialize_monster_data(List<monster>)
+  nameWithType: monster_data_save_load.initialize_monster_data(List<monster>)
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data(System.Collections.Generic.List<Assets.Scripts.Json_processor.monster>)
+  type: Method
+  source:
+    id: initialize_monster_data
+    path: ''
+    startLine: 158597
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n怪物技能动画关系设置\n"
+  example: []
+  syntax:
+    content: public static void initialize_monster_data(List<monster> monster_list)
+    parameters:
+    - id: monster_list
+      type: System.Collections.Generic.List{Assets.Scripts.Json_processor.monster}
+      description: ''
+    content.vb: Public Shared Sub initialize_monster_data(monster_list As List(Of monster))
+  overload: Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data*
+  nameWithType.vb: monster_data_save_load.initialize_monster_data(List(Of monster))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data(System.Collections.Generic.List(Of Assets.Scripts.Json_processor.monster))
+  name.vb: initialize_monster_data(List(Of monster))
+- uid: Assets.Scripts.Json_processor.monster_data_save_load.return_dict(System.String)
+  commentId: M:Assets.Scripts.Json_processor.monster_data_save_load.return_dict(System.String)
+  id: return_dict(System.String)
+  parent: Assets.Scripts.Json_processor.monster_data_save_load
+  langs:
+  - csharp
+  - vb
+  name: return_dict(String)
+  nameWithType: monster_data_save_load.return_dict(String)
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load.return_dict(System.String)
+  type: Method
+  source:
+    id: return_dict
+    path: ''
+    startLine: 158614
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n返回目标怪物字典，key是动画名称，value是卡片效果\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, List<Effect_tuple>> return_dict(string target_name)
+    parameters:
+    - id: target_name
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+      description: ''
+    content.vb: Public Shared Function return_dict(target_name As String) As Dictionary(Of String, List(Of Effect_tuple))
+  overload: Assets.Scripts.Json_processor.monster_data_save_load.return_dict*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime(System.String)
+  commentId: M:Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime(System.String)
+  id: return_showcase_anime(System.String)
+  parent: Assets.Scripts.Json_processor.monster_data_save_load
+  langs:
+  - csharp
+  - vb
+  name: return_showcase_anime(String)
+  nameWithType: monster_data_save_load.return_showcase_anime(String)
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime(System.String)
+  type: Method
+  source:
+    id: return_showcase_anime
+    path: ''
+    startLine: 158632
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n在怪物界面选择怪物之后，怪物展示动画...\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, List<Effect_tuple>> return_showcase_anime(string target_name)
+    parameters:
+    - id: target_name
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+      description: ''
+    content.vb: Public Shared Function return_showcase_anime(target_name As String) As Dictionary(Of String, List(Of Effect_tuple))
+  overload: Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data*
+  commentId: Overload:Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data
+  name: initialize_monster_data
+  nameWithType: monster_data_save_load.initialize_monster_data
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load.initialize_monster_data
+- uid: System.Collections.Generic.List{Assets.Scripts.Json_processor.monster}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Json_processor.monster}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<monster>
+  nameWithType: List<monster>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Json_processor.monster>
+  nameWithType.vb: List(Of monster)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Json_processor.monster)
+  name.vb: List(Of monster)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Json_processor.monster
+    name: monster
+    nameWithType: monster
+    fullName: Assets.Scripts.Json_processor.monster
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Json_processor.monster
+    name: monster
+    nameWithType: monster
+    fullName: Assets.Scripts.Json_processor.monster
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Json_processor.monster_data_save_load.return_dict*
+  commentId: Overload:Assets.Scripts.Json_processor.monster_data_save_load.return_dict
+  name: return_dict
+  nameWithType: monster_data_save_load.return_dict
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load.return_dict
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, List<Effect_tuple>>
+  nameWithType: Dictionary<String, List<Effect_tuple>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<Effect_tuple>>
+  nameWithType.vb: Dictionary(Of String, List(Of Effect_tuple))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of Effect_tuple))
+  name.vb: Dictionary(Of String, List(Of Effect_tuple))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime*
+  commentId: Overload:Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime
+  name: return_showcase_anime
+  nameWithType: monster_data_save_load.return_showcase_anime
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load.return_showcase_anime

@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.small_card_panel
+  commentId: T:Assets.Scripts.Card_factory.small_card_panel
+  id: small_card_panel
+  parent: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.small_card_panel.decrease_page
+  - Assets.Scripts.Card_factory.small_card_panel.increase_page
+  - Assets.Scripts.Card_factory.small_card_panel.reload_templates
+  - Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character(System.String)
+  langs:
+  - csharp
+  - vb
+  name: small_card_panel
+  nameWithType: small_card_panel
+  fullName: Assets.Scripts.Card_factory.small_card_panel
+  type: Class
+  source:
+    id: small_card_panel
+    path: ''
+    startLine: 152589
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n选牌界面，负责卡牌展示\n"
+  example: []
+  syntax:
+    content: 'public class small_card_panel : MonoBehaviour'
+    content.vb: >-
+      Public Class small_card_panel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character(System.String)
+  commentId: M:Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character(System.String)
+  id: update_cards_according_to_character(System.String)
+  parent: Assets.Scripts.Card_factory.small_card_panel
+  langs:
+  - csharp
+  - vb
+  name: update_cards_according_to_character(String)
+  nameWithType: small_card_panel.update_cards_according_to_character(String)
+  fullName: Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character(System.String)
+  type: Method
+  source:
+    id: update_cards_according_to_character
+    path: ''
+    startLine: 152626
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n更新对应角色的卡牌列表\n"
+  example: []
+  syntax:
+    content: public void update_cards_according_to_character(string card_belong)
+    parameters:
+    - id: card_belong
+      type: System.String
+      description: ''
+    content.vb: Public Sub update_cards_according_to_character(card_belong As String)
+  overload: Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.small_card_panel.reload_templates
+  commentId: M:Assets.Scripts.Card_factory.small_card_panel.reload_templates
+  id: reload_templates
+  parent: Assets.Scripts.Card_factory.small_card_panel
+  langs:
+  - csharp
+  - vb
+  name: reload_templates()
+  nameWithType: small_card_panel.reload_templates()
+  fullName: Assets.Scripts.Card_factory.small_card_panel.reload_templates()
+  type: Method
+  source:
+    id: reload_templates
+    path: ''
+    startLine: 152640
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n更新画面上的卡牌\n"
+  example: []
+  syntax:
+    content: public void reload_templates()
+    content.vb: Public Sub reload_templates
+  overload: Assets.Scripts.Card_factory.small_card_panel.reload_templates*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.small_card_panel.increase_page
+  commentId: M:Assets.Scripts.Card_factory.small_card_panel.increase_page
+  id: increase_page
+  parent: Assets.Scripts.Card_factory.small_card_panel
+  langs:
+  - csharp
+  - vb
+  name: increase_page()
+  nameWithType: small_card_panel.increase_page()
+  fullName: Assets.Scripts.Card_factory.small_card_panel.increase_page()
+  type: Method
+  source:
+    id: increase_page
+    path: ''
+    startLine: 152665
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n下一页卡牌\n"
+  example: []
+  syntax:
+    content: public void increase_page()
+    content.vb: Public Sub increase_page
+  overload: Assets.Scripts.Card_factory.small_card_panel.increase_page*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.small_card_panel.decrease_page
+  commentId: M:Assets.Scripts.Card_factory.small_card_panel.decrease_page
+  id: decrease_page
+  parent: Assets.Scripts.Card_factory.small_card_panel
+  langs:
+  - csharp
+  - vb
+  name: decrease_page()
+  nameWithType: small_card_panel.decrease_page()
+  fullName: Assets.Scripts.Card_factory.small_card_panel.decrease_page()
+  type: Method
+  source:
+    id: decrease_page
+    path: ''
+    startLine: 152689
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n上一页卡牌\n"
+  example: []
+  syntax:
+    content: public void decrease_page()
+    content.vb: Public Sub decrease_page
+  overload: Assets.Scripts.Card_factory.small_card_panel.decrease_page*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character*
+  commentId: Overload:Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character
+  name: update_cards_according_to_character
+  nameWithType: small_card_panel.update_cards_according_to_character
+  fullName: Assets.Scripts.Card_factory.small_card_panel.update_cards_according_to_character
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Card_factory.small_card_panel.reload_templates*
+  commentId: Overload:Assets.Scripts.Card_factory.small_card_panel.reload_templates
+  name: reload_templates
+  nameWithType: small_card_panel.reload_templates
+  fullName: Assets.Scripts.Card_factory.small_card_panel.reload_templates
+- uid: Assets.Scripts.Card_factory.small_card_panel.increase_page*
+  commentId: Overload:Assets.Scripts.Card_factory.small_card_panel.increase_page
+  name: increase_page
+  nameWithType: small_card_panel.increase_page
+  fullName: Assets.Scripts.Card_factory.small_card_panel.increase_page
+- uid: Assets.Scripts.Card_factory.small_card_panel.decrease_page*
+  commentId: Overload:Assets.Scripts.Card_factory.small_card_panel.decrease_page
+  name: decrease_page
+  nameWithType: small_card_panel.decrease_page
+  fullName: Assets.Scripts.Card_factory.small_card_panel.decrease_page

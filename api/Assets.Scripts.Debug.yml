@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Debug
+  commentId: N:Assets.Scripts.Debug
+  id: Assets.Scripts.Debug
+  children:
+  - Assets.Scripts.Debug.anime_tuple
+  - Assets.Scripts.Debug.Cost_debug_text
+  - Assets.Scripts.Debug.Info_debug_text
+  - Assets.Scripts.Debug.Money_debug_text
+  - Assets.Scripts.Debug.progress_bar
+  - Assets.Scripts.Debug.round_debug_text
+  - Assets.Scripts.Debug.show_animation
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Debug
+  nameWithType: Assets.Scripts.Debug
+  fullName: Assets.Scripts.Debug
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Debug.Cost_debug_text
+  commentId: T:Assets.Scripts.Debug.Cost_debug_text
+  parent: Assets.Scripts.Debug
+  name: Cost_debug_text
+  nameWithType: Cost_debug_text
+  fullName: Assets.Scripts.Debug.Cost_debug_text
+- uid: Assets.Scripts.Debug.Info_debug_text
+  commentId: T:Assets.Scripts.Debug.Info_debug_text
+  parent: Assets.Scripts.Debug
+  name: Info_debug_text
+  nameWithType: Info_debug_text
+  fullName: Assets.Scripts.Debug.Info_debug_text
+- uid: Assets.Scripts.Debug.Money_debug_text
+  commentId: T:Assets.Scripts.Debug.Money_debug_text
+  parent: Assets.Scripts.Debug
+  name: Money_debug_text
+  nameWithType: Money_debug_text
+  fullName: Assets.Scripts.Debug.Money_debug_text
+- uid: Assets.Scripts.Debug.progress_bar
+  commentId: T:Assets.Scripts.Debug.progress_bar
+  name: progress_bar
+  nameWithType: progress_bar
+  fullName: Assets.Scripts.Debug.progress_bar
+- uid: Assets.Scripts.Debug.round_debug_text
+  commentId: T:Assets.Scripts.Debug.round_debug_text
+  parent: Assets.Scripts.Debug
+  name: round_debug_text
+  nameWithType: round_debug_text
+  fullName: Assets.Scripts.Debug.round_debug_text
+- uid: Assets.Scripts.Debug.show_animation
+  commentId: T:Assets.Scripts.Debug.show_animation
+  name: show_animation
+  nameWithType: show_animation
+  fullName: Assets.Scripts.Debug.show_animation
+- uid: Assets.Scripts.Debug.anime_tuple
+  commentId: T:Assets.Scripts.Debug.anime_tuple
+  name: anime_tuple
+  nameWithType: anime_tuple
+  fullName: Assets.Scripts.Debug.anime_tuple
+- uid: Assets.Scripts.Debug
+  commentId: N:Assets.Scripts.Debug
+  name: Assets.Scripts.Debug
+  nameWithType: Assets.Scripts.Debug
+  fullName: Assets.Scripts.Debug

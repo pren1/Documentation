@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.UI.Animation_auto_delete
+  commentId: T:Assets.Scripts.UI.Animation_auto_delete
+  id: Animation_auto_delete
+  parent: Assets.Scripts.UI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Animation_auto_delete
+  nameWithType: Animation_auto_delete
+  fullName: Assets.Scripts.UI.Animation_auto_delete
+  type: Class
+  source:
+    id: Animation_auto_delete
+    path: ''
+    startLine: 162725
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  syntax:
+    content: 'public class Animation_auto_delete : MonoBehaviour'
+    content.vb: >-
+      Public Class Animation_auto_delete
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.UI
+  commentId: N:Assets.Scripts.UI
+  name: Assets.Scripts.UI
+  nameWithType: Assets.Scripts.UI
+  fullName: Assets.Scripts.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

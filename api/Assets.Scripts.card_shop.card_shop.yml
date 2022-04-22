@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.card_shop.card_shop
+  commentId: T:Assets.Scripts.card_shop.card_shop
+  id: card_shop
+  parent: Assets.Scripts.card_shop
+  children:
+  - Assets.Scripts.card_shop.card_shop.add_single_component(System.String)
+  - Assets.Scripts.card_shop.card_shop.card_tab
+  - Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked(GameObject)
+  - Assets.Scripts.card_shop.card_shop.open_pack_button_obj
+  - Assets.Scripts.card_shop.card_shop.random_card(GameObject)
+  - Assets.Scripts.card_shop.card_shop.transition
+  langs:
+  - csharp
+  - vb
+  name: card_shop
+  nameWithType: card_shop
+  fullName: Assets.Scripts.card_shop.card_shop
+  type: Class
+  source:
+    id: card_shop
+    path: ''
+    startLine: 152896
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\n卡牌商店\n"
+  example: []
+  syntax:
+    content: 'public class card_shop : MonoBehaviour'
+    content.vb: >-
+      Public Class card_shop
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.card_shop.card_shop.transition
+  commentId: F:Assets.Scripts.card_shop.card_shop.transition
+  id: transition
+  parent: Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: transition
+  nameWithType: card_shop.transition
+  fullName: Assets.Scripts.card_shop.card_shop.transition
+  type: Field
+  source:
+    id: transition
+    path: ''
+    startLine: 152898
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  syntax:
+    content: public Animator transition
+    return:
+      type: Global.Animator
+    content.vb: Public transition As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_shop.card_shop.card_tab
+  commentId: F:Assets.Scripts.card_shop.card_shop.card_tab
+  id: card_tab
+  parent: Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: card_tab
+  nameWithType: card_shop.card_tab
+  fullName: Assets.Scripts.card_shop.card_shop.card_tab
+  type: Field
+  source:
+    id: card_tab
+    path: ''
+    startLine: 152903
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  syntax:
+    content: public GameObject card_tab
+    return:
+      type: Global.GameObject
+    content.vb: Public card_tab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_shop.card_shop.open_pack_button_obj
+  commentId: F:Assets.Scripts.card_shop.card_shop.open_pack_button_obj
+  id: open_pack_button_obj
+  parent: Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: open_pack_button_obj
+  nameWithType: card_shop.open_pack_button_obj
+  fullName: Assets.Scripts.card_shop.card_shop.open_pack_button_obj
+  type: Field
+  source:
+    id: open_pack_button_obj
+    path: ''
+    startLine: 152906
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  syntax:
+    content: public GameObject open_pack_button_obj
+    return:
+      type: Global.GameObject
+    content.vb: Public open_pack_button_obj As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked(GameObject)
+  commentId: M:Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked(GameObject)
+  id: on_buy_button_green_clicked(GameObject)
+  parent: Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: on_buy_button_green_clicked(GameObject)
+  nameWithType: card_shop.on_buy_button_green_clicked(GameObject)
+  fullName: Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked(GameObject)
+  type: Method
+  source:
+    id: on_buy_button_green_clicked
+    path: ''
+    startLine: 152961
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\n购买卡牌\n"
+  example: []
+  syntax:
+    content: public void on_buy_button_green_clicked(GameObject card_series)
+    parameters:
+    - id: card_series
+      type: Global.GameObject
+      description: 卡牌类型
+    content.vb: Public Sub on_buy_button_green_clicked(card_series As GameObject)
+  overload: Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_shop.card_shop.add_single_component(System.String)
+  commentId: M:Assets.Scripts.card_shop.card_shop.add_single_component(System.String)
+  id: add_single_component(System.String)
+  parent: Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: add_single_component(String)
+  nameWithType: card_shop.add_single_component(String)
+  fullName: Assets.Scripts.card_shop.card_shop.add_single_component(System.String)
+  type: Method
+  source:
+    id: add_single_component
+    path: ''
+    startLine: 152983
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\n增加单个卡牌类型出售\n"
+  example: []
+  syntax:
+    content: public void add_single_component(string input_text)
+    parameters:
+    - id: input_text
+      type: System.String
+      description: ''
+    content.vb: Public Sub add_single_component(input_text As String)
+  overload: Assets.Scripts.card_shop.card_shop.add_single_component*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_shop.card_shop.random_card(GameObject)
+  commentId: M:Assets.Scripts.card_shop.card_shop.random_card(GameObject)
+  id: random_card(GameObject)
+  parent: Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: random_card(GameObject)
+  nameWithType: card_shop.random_card(GameObject)
+  fullName: Assets.Scripts.card_shop.card_shop.random_card(GameObject)
+  type: Method
+  source:
+    id: random_card
+    path: ''
+    startLine: 153009
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\n按概率抽取卡牌\n"
+  example: []
+  syntax:
+    content: public void random_card(GameObject card_series)
+    parameters:
+    - id: card_series
+      type: Global.GameObject
+      description: 卡牌系列
+    content.vb: Public Sub random_card(card_series As GameObject)
+  overload: Assets.Scripts.card_shop.card_shop.random_card*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.card_shop
+  commentId: N:Assets.Scripts.card_shop
+  name: Assets.Scripts.card_shop
+  nameWithType: Assets.Scripts.card_shop
+  fullName: Assets.Scripts.card_shop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked*
+  commentId: Overload:Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked
+  name: on_buy_button_green_clicked
+  nameWithType: card_shop.on_buy_button_green_clicked
+  fullName: Assets.Scripts.card_shop.card_shop.on_buy_button_green_clicked
+- uid: Assets.Scripts.card_shop.card_shop.add_single_component*
+  commentId: Overload:Assets.Scripts.card_shop.card_shop.add_single_component
+  name: add_single_component
+  nameWithType: card_shop.add_single_component
+  fullName: Assets.Scripts.card_shop.card_shop.add_single_component
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.card_shop.card_shop.random_card*
+  commentId: Overload:Assets.Scripts.card_shop.card_shop.random_card
+  name: random_card
+  nameWithType: card_shop.random_card
+  fullName: Assets.Scripts.card_shop.card_shop.random_card

@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Cards
+  commentId: N:Assets.Scripts.Cards
+  id: Assets.Scripts.Cards
+  children:
+  - Assets.Scripts.Cards.block_card_click
+  - Assets.Scripts.Cards.Card_controller
+  - Assets.Scripts.Cards.Card_property
+  - Assets.Scripts.Cards.Card_readin_util
+  - Assets.Scripts.Cards.CardsPile
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Cards
+  nameWithType: Assets.Scripts.Cards
+  fullName: Assets.Scripts.Cards
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Cards.block_card_click
+  commentId: T:Assets.Scripts.Cards.block_card_click
+  name: block_card_click
+  nameWithType: block_card_click
+  fullName: Assets.Scripts.Cards.block_card_click
+- uid: Assets.Scripts.Cards.CardsPile
+  commentId: T:Assets.Scripts.Cards.CardsPile
+  name: CardsPile
+  nameWithType: CardsPile
+  fullName: Assets.Scripts.Cards.CardsPile
+- uid: Assets.Scripts.Cards.Card_controller
+  commentId: T:Assets.Scripts.Cards.Card_controller
+  name: Card_controller
+  nameWithType: Card_controller
+  fullName: Assets.Scripts.Cards.Card_controller
+- uid: Assets.Scripts.Cards.Card_property
+  commentId: T:Assets.Scripts.Cards.Card_property
+  name: Card_property
+  nameWithType: Card_property
+  fullName: Assets.Scripts.Cards.Card_property
+- uid: Assets.Scripts.Cards.Card_readin_util
+  commentId: T:Assets.Scripts.Cards.Card_readin_util
+  name: Card_readin_util
+  nameWithType: Card_readin_util
+  fullName: Assets.Scripts.Cards.Card_readin_util

@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge
+  commentId: T:Assets.Scripts.Card_factory.Tooltip_enlarge
+  id: Tooltip_enlarge
+  parent: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static
+  - Assets.Scripts.Card_factory.Tooltip_enlarge.Instance
+  - Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Tooltip_enlarge
+  nameWithType: Tooltip_enlarge
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge
+  type: Class
+  source:
+    id: Tooltip_enlarge
+    path: ''
+    startLine: 152777
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n废弃类\n"
+  example: []
+  syntax:
+    content: 'public class Tooltip_enlarge : MonoBehaviour'
+    content.vb: >-
+      Public Class Tooltip_enlarge
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge.Instance
+  commentId: P:Assets.Scripts.Card_factory.Tooltip_enlarge.Instance
+  id: Instance
+  parent: Assets.Scripts.Card_factory.Tooltip_enlarge
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Tooltip_enlarge.Instance
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 152779
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public static Tooltip_enlarge Instance { get; }
+    parameters: []
+    return:
+      type: Assets.Scripts.Card_factory.Tooltip_enlarge
+    content.vb: Public Shared ReadOnly Property Instance As Tooltip_enlarge
+  overload: Assets.Scripts.Card_factory.Tooltip_enlarge.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static(System.String)
+  commentId: M:Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static(System.String)
+  id: ShowTooltip_Static(System.String)
+  parent: Assets.Scripts.Card_factory.Tooltip_enlarge
+  langs:
+  - csharp
+  - vb
+  name: ShowTooltip_Static(String)
+  nameWithType: Tooltip_enlarge.ShowTooltip_Static(String)
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static(System.String)
+  type: Method
+  source:
+    id: ShowTooltip_Static
+    path: ''
+    startLine: 152834
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public static void ShowTooltip_Static(string tooltipText)
+    parameters:
+    - id: tooltipText
+      type: System.String
+    content.vb: Public Shared Sub ShowTooltip_Static(tooltipText As String)
+  overload: Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static
+  commentId: M:Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static
+  id: HideTooltil_Static
+  parent: Assets.Scripts.Card_factory.Tooltip_enlarge
+  langs:
+  - csharp
+  - vb
+  name: HideTooltil_Static()
+  nameWithType: Tooltip_enlarge.HideTooltil_Static()
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static()
+  type: Method
+  source:
+    id: HideTooltil_Static
+    path: ''
+    startLine: 152839
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public static void HideTooltil_Static()
+    content.vb: Public Shared Sub HideTooltil_Static
+  overload: Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge.Instance*
+  commentId: Overload:Assets.Scripts.Card_factory.Tooltip_enlarge.Instance
+  name: Instance
+  nameWithType: Tooltip_enlarge.Instance
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge.Instance
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge
+  commentId: T:Assets.Scripts.Card_factory.Tooltip_enlarge
+  parent: Assets.Scripts.Card_factory
+  name: Tooltip_enlarge
+  nameWithType: Tooltip_enlarge
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static*
+  commentId: Overload:Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static
+  name: ShowTooltip_Static
+  nameWithType: Tooltip_enlarge.ShowTooltip_Static
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge.ShowTooltip_Static
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static*
+  commentId: Overload:Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static
+  name: HideTooltil_Static
+  nameWithType: Tooltip_enlarge.HideTooltil_Static
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge.HideTooltil_Static

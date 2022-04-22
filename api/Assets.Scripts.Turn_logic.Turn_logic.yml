@@ -1,0 +1,652 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Turn_logic.Turn_logic
+  commentId: T:Assets.Scripts.Turn_logic.Turn_logic
+  id: Turn_logic
+  parent: Assets.Scripts.Turn_logic
+  children:
+  - Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit(System.Int32)
+  - Assets.Scripts.Turn_logic.Turn_logic.change_state
+  - Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution(System.Collections.Generic.List{Enemy},System.Collections.Generic.List{Member},show_animation)
+  - Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost
+  - Assets.Scripts.Turn_logic.Turn_logic.current_total_cost
+  - Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger(System.String)
+  - Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost
+  - Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost
+  - Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger
+  - Assets.Scripts.Turn_logic.Turn_logic.text
+  - Assets.Scripts.Turn_logic.Turn_logic.transition
+  - Assets.Scripts.Turn_logic.Turn_logic.update_card_cost(Card_property)
+  langs:
+  - csharp
+  - vb
+  name: Turn_logic
+  nameWithType: Turn_logic
+  fullName: Assets.Scripts.Turn_logic.Turn_logic
+  type: Class
+  source:
+    id: Turn_logic
+    path: ''
+    startLine: 162266
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n处理回合切换\n"
+  example: []
+  syntax:
+    content: 'public class Turn_logic : MonoBehaviour'
+    content.vb: >-
+      Public Class Turn_logic
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Turn_logic.Turn_logic.transition
+  commentId: F:Assets.Scripts.Turn_logic.Turn_logic.transition
+  id: transition
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: transition
+  nameWithType: Turn_logic.transition
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.transition
+  type: Field
+  source:
+    id: transition
+    path: ''
+    startLine: 162268
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public Animator transition
+    return:
+      type: Global.Animator
+    content.vb: Public transition As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.text
+  commentId: F:Assets.Scripts.Turn_logic.Turn_logic.text
+  id: text
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: Turn_logic.text
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 162269
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public Text text
+    return:
+      type: Global.Text
+    content.vb: Public text As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.current_total_cost
+  commentId: F:Assets.Scripts.Turn_logic.Turn_logic.current_total_cost
+  id: current_total_cost
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: current_total_cost
+  nameWithType: Turn_logic.current_total_cost
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.current_total_cost
+  type: Field
+  source:
+    id: current_total_cost
+    path: ''
+    startLine: 162272
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public int current_total_cost
+    return:
+      type: System.Int32
+    content.vb: Public current_total_cost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit(System.Int32)
+  id: Change_cost_limit(System.Int32)
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: Change_cost_limit(Int32)
+  nameWithType: Turn_logic.Change_cost_limit(Int32)
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit(System.Int32)
+  type: Method
+  source:
+    id: Change_cost_limit
+    path: ''
+    startLine: 162288
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n费用限制变化\n"
+  example: []
+  syntax:
+    content: public void Change_cost_limit(int amount)
+    parameters:
+    - id: amount
+      type: System.Int32
+      description: 变化量
+    content.vb: Public Sub Change_cost_limit(amount As Integer)
+  overload: Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.update_card_cost(Card_property)
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.update_card_cost(Card_property)
+  id: update_card_cost(Card_property)
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: update_card_cost(Card_property)
+  nameWithType: Turn_logic.update_card_cost(Card_property)
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.update_card_cost(Card_property)
+  type: Method
+  source:
+    id: update_card_cost
+    path: ''
+    startLine: 162299
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n更新卡牌耗费\n"
+  example: []
+  syntax:
+    content: public void update_card_cost(Card_property card_Property)
+    parameters:
+    - id: card_Property
+      type: Global.Card_property
+      description: 卡牌属性
+    content.vb: Public Sub update_card_cost(card_Property As Card_property)
+  overload: Assets.Scripts.Turn_logic.Turn_logic.update_card_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution(System.Collections.Generic.List{Enemy},System.Collections.Generic.List{Member},show_animation)
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution(System.Collections.Generic.List{Enemy},System.Collections.Generic.List{Member},show_animation)
+  id: check_state_for_execution(System.Collections.Generic.List{Enemy},System.Collections.Generic.List{Member},show_animation)
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: check_state_for_execution(List<Enemy>, List<Member>, show_animation)
+  nameWithType: Turn_logic.check_state_for_execution(List<Enemy>, List<Member>, show_animation)
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution(System.Collections.Generic.List<Enemy>, System.Collections.Generic.List<Member>, show_animation)
+  type: Method
+  source:
+    id: check_state_for_execution
+    path: ''
+    startLine: 162332
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n回合切换时，使敌人行动，并触发回合末效果\n"
+  example: []
+  syntax:
+    content: public void check_state_for_execution(List<Enemy> Enemy_list, List<Member> Member_list, show_animation show_Animation)
+    parameters:
+    - id: Enemy_list
+      type: System.Collections.Generic.List{Enemy}
+      description: 敌人列表
+    - id: Member_list
+      type: System.Collections.Generic.List{Member}
+      description: 己方列表
+    - id: show_Animation
+      type: Global.show_animation
+    content.vb: Public Sub check_state_for_execution(Enemy_list As List(Of Enemy), Member_list As List(Of Member), show_Animation As show_animation)
+  overload: Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution*
+  nameWithType.vb: Turn_logic.check_state_for_execution(List(Of Enemy), List(Of Member), show_animation)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution(System.Collections.Generic.List(Of Enemy), System.Collections.Generic.List(Of Member), show_animation)
+  name.vb: check_state_for_execution(List(Of Enemy), List(Of Member), show_animation)
+- uid: Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger(System.String)
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger(System.String)
+  id: end_turn_trigger(System.String)
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: end_turn_trigger(String)
+  nameWithType: Turn_logic.end_turn_trigger(String)
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger(System.String)
+  type: Method
+  source:
+    id: end_turn_trigger
+    path: ''
+    startLine: 162383
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n准备开始新的回合\n"
+  example: []
+  syntax:
+    content: public void end_turn_trigger(string enemy_name)
+    parameters:
+    - id: enemy_name
+      type: System.String
+    content.vb: Public Sub end_turn_trigger(enemy_name As String)
+  overload: Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.change_state
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.change_state
+  id: change_state
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: change_state()
+  nameWithType: Turn_logic.change_state()
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.change_state()
+  type: Method
+  source:
+    id: change_state
+    path: ''
+    startLine: 162496
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n更改回合状态\n"
+  example: []
+  syntax:
+    content: public void change_state()
+    content.vb: Public Sub change_state
+  overload: Assets.Scripts.Turn_logic.Turn_logic.change_state*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost
+  id: get_remain_cost
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: get_remain_cost()
+  nameWithType: Turn_logic.get_remain_cost()
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost()
+  type: Method
+  source:
+    id: get_remain_cost
+    path: ''
+    startLine: 162520
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n获取剩余体力\n"
+  example: []
+  syntax:
+    content: public int get_remain_cost()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function get_remain_cost As Integer
+  overload: Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost
+  id: get_remain_magic_cost
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: get_remain_magic_cost()
+  nameWithType: Turn_logic.get_remain_magic_cost()
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost()
+  type: Method
+  source:
+    id: get_remain_magic_cost
+    path: ''
+    startLine: 162528
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n获取剩余魔力\n"
+  example: []
+  syntax:
+    content: public int get_remain_magic_cost()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function get_remain_magic_cost As Integer
+  overload: Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost
+  id: check_valid_card_in_hand_based_on_cost
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: check_valid_card_in_hand_based_on_cost()
+  nameWithType: Turn_logic.check_valid_card_in_hand_based_on_cost()
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost()
+  type: Method
+  source:
+    id: check_valid_card_in_hand_based_on_cost
+    path: ''
+    startLine: 162536
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n查看是否有手牌可用\n"
+  example: []
+  syntax:
+    content: public bool check_valid_card_in_hand_based_on_cost()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function check_valid_card_in_hand_based_on_cost As Boolean
+  overload: Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger
+  commentId: M:Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger
+  id: next_turn_trigger
+  parent: Assets.Scripts.Turn_logic.Turn_logic
+  langs:
+  - csharp
+  - vb
+  name: next_turn_trigger()
+  nameWithType: Turn_logic.next_turn_trigger()
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger()
+  type: Method
+  source:
+    id: next_turn_trigger
+    path: ''
+    startLine: 162596
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n本回合结束，下一回合开始\n"
+  example: []
+  syntax:
+    content: public void next_turn_trigger()
+    content.vb: Public Sub next_turn_trigger
+  overload: Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Turn_logic
+  commentId: N:Assets.Scripts.Turn_logic
+  name: Assets.Scripts.Turn_logic
+  nameWithType: Assets.Scripts.Turn_logic
+  fullName: Assets.Scripts.Turn_logic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Global.Text
+  commentId: '!:Global.Text'
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit
+  name: Change_cost_limit
+  nameWithType: Turn_logic.Change_cost_limit
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.Change_cost_limit
+- uid: Assets.Scripts.Turn_logic.Turn_logic.update_card_cost*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.update_card_cost
+  name: update_card_cost
+  nameWithType: Turn_logic.update_card_cost
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.update_card_cost
+- uid: Global.Card_property
+  isExternal: true
+  name: Card_property
+  nameWithType: Card_property
+  fullName: Card_property
+- uid: Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution
+  name: check_state_for_execution
+  nameWithType: Turn_logic.check_state_for_execution
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.check_state_for_execution
+- uid: System.Collections.Generic.List{Enemy}
+  commentId: T:System.Collections.Generic.List{Enemy}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Enemy>
+  nameWithType: List<Enemy>
+  fullName: System.Collections.Generic.List<Enemy>
+  nameWithType.vb: List(Of Enemy)
+  fullName.vb: System.Collections.Generic.List(Of Enemy)
+  name.vb: List(Of Enemy)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Member}
+  commentId: T:System.Collections.Generic.List{Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Member>
+  nameWithType: List<Member>
+  fullName: System.Collections.Generic.List<Member>
+  nameWithType.vb: List(Of Member)
+  fullName.vb: System.Collections.Generic.List(Of Member)
+  name.vb: List(Of Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.show_animation
+  isExternal: true
+  name: show_animation
+  nameWithType: show_animation
+  fullName: show_animation
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger
+  name: end_turn_trigger
+  nameWithType: Turn_logic.end_turn_trigger
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.end_turn_trigger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Turn_logic.Turn_logic.change_state*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.change_state
+  name: change_state
+  nameWithType: Turn_logic.change_state
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.change_state
+- uid: Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost
+  name: get_remain_cost
+  nameWithType: Turn_logic.get_remain_cost
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.get_remain_cost
+- uid: Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost
+  name: get_remain_magic_cost
+  nameWithType: Turn_logic.get_remain_magic_cost
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.get_remain_magic_cost
+- uid: Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost
+  name: check_valid_card_in_hand_based_on_cost
+  nameWithType: Turn_logic.check_valid_card_in_hand_based_on_cost
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.check_valid_card_in_hand_based_on_cost
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger*
+  commentId: Overload:Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger
+  name: next_turn_trigger
+  nameWithType: Turn_logic.next_turn_trigger
+  fullName: Assets.Scripts.Turn_logic.Turn_logic.next_turn_trigger

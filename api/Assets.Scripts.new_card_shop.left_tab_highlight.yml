@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight
+  commentId: T:Assets.Scripts.new_card_shop.left_tab_highlight
+  id: left_tab_highlight
+  parent: Assets.Scripts.new_card_shop
+  children:
+  - Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed
+  - Assets.Scripts.new_card_shop.left_tab_highlight.icon
+  - Assets.Scripts.new_card_shop.left_tab_highlight.left_Tab_Group
+  - Assets.Scripts.new_card_shop.left_tab_highlight.Render_One_Page_Shop
+  - Assets.Scripts.new_card_shop.left_tab_highlight.set_active
+  - Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive
+  - Assets.Scripts.new_card_shop.left_tab_highlight.set_text(System.String)
+  - Assets.Scripts.new_card_shop.left_tab_highlight.text_pro
+  langs:
+  - csharp
+  - vb
+  name: left_tab_highlight
+  nameWithType: left_tab_highlight
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight
+  type: Class
+  source:
+    id: left_tab_highlight
+    path: ''
+    startLine: 160194
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  summary: "\n单个tab高亮\n"
+  example: []
+  syntax:
+    content: 'public class left_tab_highlight : MonoBehaviour'
+    content.vb: >-
+      Public Class left_tab_highlight
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.text_pro
+  commentId: F:Assets.Scripts.new_card_shop.left_tab_highlight.text_pro
+  id: text_pro
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: text_pro
+  nameWithType: left_tab_highlight.text_pro
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.text_pro
+  type: Field
+  source:
+    id: text_pro
+    path: ''
+    startLine: 160196
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public TextMeshProUGUI text_pro
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public text_pro As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.icon
+  commentId: F:Assets.Scripts.new_card_shop.left_tab_highlight.icon
+  id: icon
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: icon
+  nameWithType: left_tab_highlight.icon
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.icon
+  type: Field
+  source:
+    id: icon
+    path: ''
+    startLine: 160197
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public Image icon
+    return:
+      type: Global.Image
+    content.vb: Public icon As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.left_Tab_Group
+  commentId: F:Assets.Scripts.new_card_shop.left_tab_highlight.left_Tab_Group
+  id: left_Tab_Group
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: left_Tab_Group
+  nameWithType: left_tab_highlight.left_Tab_Group
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.left_Tab_Group
+  type: Field
+  source:
+    id: left_Tab_Group
+    path: ''
+    startLine: 160198
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public left_tab_group left_Tab_Group
+    return:
+      type: Assets.Scripts.new_card_shop.left_tab_group
+    content.vb: Public left_Tab_Group As left_tab_group
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.Render_One_Page_Shop
+  commentId: F:Assets.Scripts.new_card_shop.left_tab_highlight.Render_One_Page_Shop
+  id: Render_One_Page_Shop
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: Render_One_Page_Shop
+  nameWithType: left_tab_highlight.Render_One_Page_Shop
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.Render_One_Page_Shop
+  type: Field
+  source:
+    id: Render_One_Page_Shop
+    path: ''
+    startLine: 160199
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public Render_one_page_shop Render_One_Page_Shop
+    return:
+      type: Assets.Scripts.new_card_shop.Render_one_page_shop
+    content.vb: Public Render_One_Page_Shop As Render_one_page_shop
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.set_active
+  commentId: M:Assets.Scripts.new_card_shop.left_tab_highlight.set_active
+  id: set_active
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: set_active()
+  nameWithType: left_tab_highlight.set_active()
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.set_active()
+  type: Method
+  source:
+    id: set_active
+    path: ''
+    startLine: 160200
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void set_active()
+    content.vb: Public Sub set_active
+  overload: Assets.Scripts.new_card_shop.left_tab_highlight.set_active*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive
+  commentId: M:Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive
+  id: set_inactive
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: set_inactive()
+  nameWithType: left_tab_highlight.set_inactive()
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive()
+  type: Method
+  source:
+    id: set_inactive
+    path: ''
+    startLine: 160207
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void set_inactive()
+    content.vb: Public Sub set_inactive
+  overload: Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.set_text(System.String)
+  commentId: M:Assets.Scripts.new_card_shop.left_tab_highlight.set_text(System.String)
+  id: set_text(System.String)
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: set_text(String)
+  nameWithType: left_tab_highlight.set_text(String)
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.set_text(System.String)
+  type: Method
+  source:
+    id: set_text
+    path: ''
+    startLine: 160213
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void set_text(string left_tab_text)
+    parameters:
+    - id: left_tab_text
+      type: System.String
+    content.vb: Public Sub set_text(left_tab_text As String)
+  overload: Assets.Scripts.new_card_shop.left_tab_highlight.set_text*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed
+  commentId: M:Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed
+  id: button_pushed
+  parent: Assets.Scripts.new_card_shop.left_tab_highlight
+  langs:
+  - csharp
+  - vb
+  name: button_pushed()
+  nameWithType: left_tab_highlight.button_pushed()
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed()
+  type: Method
+  source:
+    id: button_pushed
+    path: ''
+    startLine: 160218
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void button_pushed()
+    content.vb: Public Sub button_pushed
+  overload: Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.new_card_shop
+  commentId: N:Assets.Scripts.new_card_shop
+  name: Assets.Scripts.new_card_shop
+  nameWithType: Assets.Scripts.new_card_shop
+  fullName: Assets.Scripts.new_card_shop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Assets.Scripts.new_card_shop.left_tab_group
+  commentId: T:Assets.Scripts.new_card_shop.left_tab_group
+  parent: Assets.Scripts.new_card_shop
+  name: left_tab_group
+  nameWithType: left_tab_group
+  fullName: Assets.Scripts.new_card_shop.left_tab_group
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop
+  commentId: T:Assets.Scripts.new_card_shop.Render_one_page_shop
+  parent: Assets.Scripts.new_card_shop
+  name: Render_one_page_shop
+  nameWithType: Render_one_page_shop
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.set_active*
+  commentId: Overload:Assets.Scripts.new_card_shop.left_tab_highlight.set_active
+  name: set_active
+  nameWithType: left_tab_highlight.set_active
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.set_active
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive*
+  commentId: Overload:Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive
+  name: set_inactive
+  nameWithType: left_tab_highlight.set_inactive
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.set_inactive
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.set_text*
+  commentId: Overload:Assets.Scripts.new_card_shop.left_tab_highlight.set_text
+  name: set_text
+  nameWithType: left_tab_highlight.set_text
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.set_text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed*
+  commentId: Overload:Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed
+  name: button_pushed
+  nameWithType: left_tab_highlight.button_pushed
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight.button_pushed

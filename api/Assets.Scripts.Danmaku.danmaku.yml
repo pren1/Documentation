@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Danmaku.danmaku
+  commentId: T:Assets.Scripts.Danmaku.danmaku
+  id: danmaku
+  parent: Assets.Scripts.Danmaku
+  children:
+  - Assets.Scripts.Danmaku.danmaku.#ctor
+  - Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance(System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: danmaku
+  nameWithType: danmaku
+  fullName: Assets.Scripts.Danmaku.danmaku
+  type: Class
+  source:
+    id: danmaku
+    path: ''
+    startLine: 154496
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  summary: "\n在屏幕上展示弹幕，当前版本未实装\n"
+  example: []
+  syntax:
+    content: public class danmaku
+    content.vb: Public Class danmaku
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Danmaku.danmaku.#ctor
+  commentId: M:Assets.Scripts.Danmaku.danmaku.#ctor
+  id: '#ctor'
+  parent: Assets.Scripts.Danmaku.danmaku
+  langs:
+  - csharp
+  - vb
+  name: danmaku()
+  nameWithType: danmaku.danmaku()
+  fullName: Assets.Scripts.Danmaku.danmaku.danmaku()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 154505
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  summary: "\n构造函数，加载弹幕\n"
+  example: []
+  syntax:
+    content: public danmaku()
+    content.vb: Public Sub New
+  overload: Assets.Scripts.Danmaku.danmaku.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance(System.Single,System.Single)
+  commentId: M:Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance(System.Single,System.Single)
+  id: create_one_danmaku_instance(System.Single,System.Single)
+  parent: Assets.Scripts.Danmaku.danmaku
+  langs:
+  - csharp
+  - vb
+  name: create_one_danmaku_instance(Single, Single)
+  nameWithType: danmaku.create_one_danmaku_instance(Single, Single)
+  fullName: Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance(System.Single, System.Single)
+  type: Method
+  source:
+    id: create_one_danmaku_instance
+    path: ''
+    startLine: 154543
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  summary: "\n创建弹幕实例，每条弹幕一个\n"
+  example: []
+  syntax:
+    content: public void create_one_danmaku_instance(float y_pos, float speed)
+    parameters:
+    - id: y_pos
+      type: System.Single
+      description: ''
+    - id: speed
+      type: System.Single
+      description: ''
+    content.vb: Public Sub create_one_danmaku_instance(y_pos As Single, speed As Single)
+  overload: Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Danmaku
+  commentId: N:Assets.Scripts.Danmaku
+  name: Assets.Scripts.Danmaku
+  nameWithType: Assets.Scripts.Danmaku
+  fullName: Assets.Scripts.Danmaku
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Danmaku.danmaku.#ctor*
+  commentId: Overload:Assets.Scripts.Danmaku.danmaku.#ctor
+  name: danmaku
+  nameWithType: danmaku.danmaku
+  fullName: Assets.Scripts.Danmaku.danmaku.danmaku
+- uid: Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance*
+  commentId: Overload:Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance
+  name: create_one_danmaku_instance
+  nameWithType: danmaku.create_one_danmaku_instance
+  fullName: Assets.Scripts.Danmaku.danmaku.create_one_danmaku_instance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

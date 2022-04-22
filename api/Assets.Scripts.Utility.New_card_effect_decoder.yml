@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.New_card_effect_decoder
+  commentId: T:Assets.Scripts.Utility.New_card_effect_decoder
+  id: New_card_effect_decoder
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder(System.String)
+  langs:
+  - csharp
+  - vb
+  name: New_card_effect_decoder
+  nameWithType: New_card_effect_decoder
+  fullName: Assets.Scripts.Utility.New_card_effect_decoder
+  type: Class
+  source:
+    id: New_card_effect_decoder
+    path: ''
+    startLine: 163171
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n卡牌效果解析\n"
+  example: []
+  syntax:
+    content: public class New_card_effect_decoder
+    content.vb: Public Class New_card_effect_decoder
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder(System.String)
+  commentId: M:Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder(System.String)
+  id: card_effect_decoder(System.String)
+  parent: Assets.Scripts.Utility.New_card_effect_decoder
+  langs:
+  - csharp
+  - vb
+  name: card_effect_decoder(String)
+  nameWithType: New_card_effect_decoder.card_effect_decoder(String)
+  fullName: Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder(System.String)
+  type: Method
+  source:
+    id: card_effect_decoder
+    path: ''
+    startLine: 163177
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n从描述解析卡片效果\n"
+  example: []
+  syntax:
+    content: public static Effect_tuple card_effect_decoder(string input_card_effect)
+    parameters:
+    - id: input_card_effect
+      type: System.String
+    return:
+      type: Assets.Scripts.Utility.Effect_tuple
+    content.vb: Public Shared Function card_effect_decoder(input_card_effect As String) As Effect_tuple
+  overload: Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder*
+  commentId: Overload:Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder
+  name: card_effect_decoder
+  nameWithType: New_card_effect_decoder.card_effect_decoder
+  fullName: Assets.Scripts.Utility.New_card_effect_decoder.card_effect_decoder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Utility.Effect_tuple
+  commentId: T:Assets.Scripts.Utility.Effect_tuple
+  parent: Assets.Scripts.Utility
+  name: Effect_tuple
+  nameWithType: Effect_tuple
+  fullName: Assets.Scripts.Utility.Effect_tuple

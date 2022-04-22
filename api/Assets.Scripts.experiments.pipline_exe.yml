@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.experiments.pipline_exe
+  commentId: T:Assets.Scripts.experiments.pipline_exe
+  id: pipline_exe
+  parent: Assets.Scripts.experiments
+  children:
+  - Assets.Scripts.experiments.pipline_exe.dequeue
+  langs:
+  - csharp
+  - vb
+  name: pipline_exe
+  nameWithType: pipline_exe
+  fullName: Assets.Scripts.experiments.pipline_exe
+  type: Class
+  source:
+    id: pipline_exe
+    path: ''
+    startLine: 155977
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.experiments
+  syntax:
+    content: public static class pipline_exe
+    content.vb: Public Module pipline_exe
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.experiments.pipline_exe.dequeue
+  commentId: M:Assets.Scripts.experiments.pipline_exe.dequeue
+  id: dequeue
+  parent: Assets.Scripts.experiments.pipline_exe
+  langs:
+  - csharp
+  - vb
+  name: dequeue()
+  nameWithType: pipline_exe.dequeue()
+  fullName: Assets.Scripts.experiments.pipline_exe.dequeue()
+  type: Method
+  source:
+    id: dequeue
+    path: ''
+    startLine: 156000
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.experiments
+  syntax:
+    content: public static void dequeue()
+    content.vb: Public Shared Sub dequeue
+  overload: Assets.Scripts.experiments.pipline_exe.dequeue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.experiments
+  commentId: N:Assets.Scripts.experiments
+  name: Assets.Scripts.experiments
+  nameWithType: Assets.Scripts.experiments
+  fullName: Assets.Scripts.experiments
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.experiments.pipline_exe.dequeue*
+  commentId: Overload:Assets.Scripts.experiments.pipline_exe.dequeue
+  name: dequeue
+  nameWithType: pipline_exe.dequeue
+  fullName: Assets.Scripts.experiments.pipline_exe.dequeue

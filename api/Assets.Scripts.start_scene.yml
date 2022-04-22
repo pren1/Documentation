@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.start_scene
+  commentId: N:Assets.Scripts.start_scene
+  id: Assets.Scripts.start_scene
+  children:
+  - Assets.Scripts.start_scene.Start_scene
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.start_scene
+  nameWithType: Assets.Scripts.start_scene
+  fullName: Assets.Scripts.start_scene
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.start_scene.Start_scene
+  commentId: T:Assets.Scripts.start_scene.Start_scene
+  name: Start_scene
+  nameWithType: Start_scene
+  fullName: Assets.Scripts.start_scene.Start_scene

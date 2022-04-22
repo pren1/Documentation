@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.Move_script.walking_state
+  commentId: T:Assets.Scripts.hex.Move_script.walking_state
+  id: Move_script.walking_state
+  parent: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.Move_script.walking_state.done
+  - Assets.Scripts.hex.Move_script.walking_state.updating
+  - Assets.Scripts.hex.Move_script.walking_state.walking
+  langs:
+  - csharp
+  - vb
+  name: Move_script.walking_state
+  nameWithType: Move_script.walking_state
+  fullName: Assets.Scripts.hex.Move_script.walking_state
+  type: Enum
+  source:
+    id: walking_state
+    path: ''
+    startLine: 157978
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public enum walking_state
+    content.vb: Public Enum walking_state
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.hex.Move_script.walking_state.walking
+  commentId: F:Assets.Scripts.hex.Move_script.walking_state.walking
+  id: walking
+  parent: Assets.Scripts.hex.Move_script.walking_state
+  langs:
+  - csharp
+  - vb
+  name: walking
+  nameWithType: Move_script.walking_state.walking
+  fullName: Assets.Scripts.hex.Move_script.walking_state.walking
+  type: Field
+  source:
+    id: walking
+    path: ''
+    startLine: 157979
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: walking = 0
+    return:
+      type: Assets.Scripts.hex.Move_script.walking_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.hex.Move_script.walking_state.updating
+  commentId: F:Assets.Scripts.hex.Move_script.walking_state.updating
+  id: updating
+  parent: Assets.Scripts.hex.Move_script.walking_state
+  langs:
+  - csharp
+  - vb
+  name: updating
+  nameWithType: Move_script.walking_state.updating
+  fullName: Assets.Scripts.hex.Move_script.walking_state.updating
+  type: Field
+  source:
+    id: updating
+    path: ''
+    startLine: 157980
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: updating = 1
+    return:
+      type: Assets.Scripts.hex.Move_script.walking_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.hex.Move_script.walking_state.done
+  commentId: F:Assets.Scripts.hex.Move_script.walking_state.done
+  id: done
+  parent: Assets.Scripts.hex.Move_script.walking_state
+  langs:
+  - csharp
+  - vb
+  name: done
+  nameWithType: Move_script.walking_state.done
+  fullName: Assets.Scripts.hex.Move_script.walking_state.done
+  type: Field
+  source:
+    id: done
+    path: ''
+    startLine: 157981
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: done = 2
+    return:
+      type: Assets.Scripts.hex.Move_script.walking_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: Assets.Scripts.hex.Move_script.walking_state
+  commentId: T:Assets.Scripts.hex.Move_script.walking_state
+  parent: Assets.Scripts.hex
+  name: Move_script.walking_state
+  nameWithType: Move_script.walking_state
+  fullName: Assets.Scripts.hex.Move_script.walking_state

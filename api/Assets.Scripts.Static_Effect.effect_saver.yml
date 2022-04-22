@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Static_Effect.effect_saver
+  commentId: T:Assets.Scripts.Static_Effect.effect_saver
+  id: effect_saver
+  parent: Assets.Scripts.Static_Effect
+  children:
+  - Assets.Scripts.Static_Effect.effect_saver.#ctor(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  - Assets.Scripts.Static_Effect.effect_saver.cascade
+  - Assets.Scripts.Static_Effect.effect_saver.effect
+  - Assets.Scripts.Static_Effect.effect_saver.source
+  - Assets.Scripts.Static_Effect.effect_saver.source_card_type
+  - Assets.Scripts.Static_Effect.effect_saver.target
+  langs:
+  - csharp
+  - vb
+  name: effect_saver
+  nameWithType: effect_saver
+  fullName: Assets.Scripts.Static_Effect.effect_saver
+  type: Class
+  source:
+    id: effect_saver
+    path: ''
+    startLine: 161957
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n用于存储回合末效果，并在turn_logic中触发\n"
+  example: []
+  syntax:
+    content: public class effect_saver
+    content.vb: Public Class effect_saver
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Static_Effect.effect_saver.effect
+  commentId: F:Assets.Scripts.Static_Effect.effect_saver.effect
+  id: effect
+  parent: Assets.Scripts.Static_Effect.effect_saver
+  langs:
+  - csharp
+  - vb
+  name: effect
+  nameWithType: effect_saver.effect
+  fullName: Assets.Scripts.Static_Effect.effect_saver.effect
+  type: Field
+  source:
+    id: effect
+    path: ''
+    startLine: 161959
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public Effect_tuple effect
+    return:
+      type: Global.Effect_tuple
+    content.vb: Public effect As Effect_tuple
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Static_Effect.effect_saver.source
+  commentId: F:Assets.Scripts.Static_Effect.effect_saver.source
+  id: source
+  parent: Assets.Scripts.Static_Effect.effect_saver
+  langs:
+  - csharp
+  - vb
+  name: source
+  nameWithType: effect_saver.source
+  fullName: Assets.Scripts.Static_Effect.effect_saver.source
+  type: Field
+  source:
+    id: source
+    path: ''
+    startLine: 161960
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public Character source
+    return:
+      type: Assets.Scripts.Character.Character
+    content.vb: Public source As Character
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Static_Effect.effect_saver.target
+  commentId: F:Assets.Scripts.Static_Effect.effect_saver.target
+  id: target
+  parent: Assets.Scripts.Static_Effect.effect_saver
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: effect_saver.target
+  fullName: Assets.Scripts.Static_Effect.effect_saver.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 161961
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public Character target
+    return:
+      type: Assets.Scripts.Character.Character
+    content.vb: Public target As Character
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Static_Effect.effect_saver.source_card_type
+  commentId: F:Assets.Scripts.Static_Effect.effect_saver.source_card_type
+  id: source_card_type
+  parent: Assets.Scripts.Static_Effect.effect_saver
+  langs:
+  - csharp
+  - vb
+  name: source_card_type
+  nameWithType: effect_saver.source_card_type
+  fullName: Assets.Scripts.Static_Effect.effect_saver.source_card_type
+  type: Field
+  source:
+    id: source_card_type
+    path: ''
+    startLine: 161962
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public card_type source_card_type
+    return:
+      type: Global.card_type
+    content.vb: Public source_card_type As card_type
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Static_Effect.effect_saver.cascade
+  commentId: F:Assets.Scripts.Static_Effect.effect_saver.cascade
+  id: cascade
+  parent: Assets.Scripts.Static_Effect.effect_saver
+  langs:
+  - csharp
+  - vb
+  name: cascade
+  nameWithType: effect_saver.cascade
+  fullName: Assets.Scripts.Static_Effect.effect_saver.cascade
+  type: Field
+  source:
+    id: cascade
+    path: ''
+    startLine: 161963
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public bool cascade
+    return:
+      type: System.Boolean
+    content.vb: Public cascade As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Static_Effect.effect_saver.#ctor(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.effect_saver.#ctor(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  id: '#ctor(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)'
+  parent: Assets.Scripts.Static_Effect.effect_saver
+  langs:
+  - csharp
+  - vb
+  name: effect_saver(Effect_tuple, Character, Character, card_type, Boolean)
+  nameWithType: effect_saver.effect_saver(Effect_tuple, Character, Character, card_type, Boolean)
+  fullName: Assets.Scripts.Static_Effect.effect_saver.effect_saver(Effect_tuple, Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, card_type, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 161964
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public effect_saver(Effect_tuple effect, Character source, Character target, card_type source_card_type, bool cascade = false)
+    parameters:
+    - id: effect
+      type: Global.Effect_tuple
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: source_card_type
+      type: Global.card_type
+    - id: cascade
+      type: System.Boolean
+    content.vb: Public Sub New(effect As Effect_tuple, source As Character, target As Character, source_card_type As card_type, cascade As Boolean = False)
+  overload: Assets.Scripts.Static_Effect.effect_saver.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Static_Effect
+  commentId: N:Assets.Scripts.Static_Effect
+  name: Assets.Scripts.Static_Effect
+  nameWithType: Assets.Scripts.Static_Effect
+  fullName: Assets.Scripts.Static_Effect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Effect_tuple
+  isExternal: true
+  name: Effect_tuple
+  nameWithType: Effect_tuple
+  fullName: Effect_tuple
+- uid: Assets.Scripts.Character.Character
+  commentId: T:Assets.Scripts.Character.Character
+  parent: Assets.Scripts.Character
+  name: Character
+  nameWithType: Character
+  fullName: Assets.Scripts.Character.Character
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: Global.card_type
+  isExternal: true
+  name: card_type
+  nameWithType: card_type
+  fullName: card_type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.Static_Effect.effect_saver.#ctor*
+  commentId: Overload:Assets.Scripts.Static_Effect.effect_saver.#ctor
+  name: effect_saver
+  nameWithType: effect_saver.effect_saver
+  fullName: Assets.Scripts.Static_Effect.effect_saver.effect_saver

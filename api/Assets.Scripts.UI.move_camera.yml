@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.UI.move_camera
+  commentId: T:Assets.Scripts.UI.move_camera
+  id: move_camera
+  parent: Assets.Scripts.UI
+  children:
+  - Assets.Scripts.UI.move_camera.speed
+  langs:
+  - csharp
+  - vb
+  name: move_camera
+  nameWithType: move_camera
+  fullName: Assets.Scripts.UI.move_camera
+  type: Class
+  source:
+    id: move_camera
+    path: ''
+    startLine: 162742
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  summary: "\n移动相机\n"
+  example: []
+  syntax:
+    content: 'public class move_camera : MonoBehaviour'
+    content.vb: >-
+      Public Class move_camera
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.UI.move_camera.speed
+  commentId: F:Assets.Scripts.UI.move_camera.speed
+  id: speed
+  parent: Assets.Scripts.UI.move_camera
+  langs:
+  - csharp
+  - vb
+  name: speed
+  nameWithType: move_camera.speed
+  fullName: Assets.Scripts.UI.move_camera.speed
+  type: Field
+  source:
+    id: speed
+    path: ''
+    startLine: 162744
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  syntax:
+    content: public float speed
+    return:
+      type: System.Single
+    content.vb: Public speed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.UI
+  commentId: N:Assets.Scripts.UI
+  name: Assets.Scripts.UI
+  nameWithType: Assets.Scripts.UI
+  fullName: Assets.Scripts.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

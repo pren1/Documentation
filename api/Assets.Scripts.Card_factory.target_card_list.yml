@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.target_card_list
+  commentId: T:Assets.Scripts.Card_factory.target_card_list
+  id: target_card_list
+  parent: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.target_card_list.add_single_component(System.String)
+  - Assets.Scripts.Card_factory.target_card_list.get_card_number
+  - Assets.Scripts.Card_factory.target_card_list.remove_previous_cards
+  langs:
+  - csharp
+  - vb
+  name: target_card_list
+  nameWithType: target_card_list
+  fullName: Assets.Scripts.Card_factory.target_card_list
+  type: Class
+  source:
+    id: target_card_list
+    path: ''
+    startLine: 152720
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: 'public class target_card_list : MonoBehaviour'
+    content.vb: >-
+      Public Class target_card_list
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Card_factory.target_card_list.add_single_component(System.String)
+  commentId: M:Assets.Scripts.Card_factory.target_card_list.add_single_component(System.String)
+  id: add_single_component(System.String)
+  parent: Assets.Scripts.Card_factory.target_card_list
+  langs:
+  - csharp
+  - vb
+  name: add_single_component(String)
+  nameWithType: target_card_list.add_single_component(String)
+  fullName: Assets.Scripts.Card_factory.target_card_list.add_single_component(System.String)
+  type: Method
+  source:
+    id: add_single_component
+    path: ''
+    startLine: 152730
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void add_single_component(string input_text)
+    parameters:
+    - id: input_text
+      type: System.String
+    content.vb: Public Sub add_single_component(input_text As String)
+  overload: Assets.Scripts.Card_factory.target_card_list.add_single_component*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.target_card_list.get_card_number
+  commentId: M:Assets.Scripts.Card_factory.target_card_list.get_card_number
+  id: get_card_number
+  parent: Assets.Scripts.Card_factory.target_card_list
+  langs:
+  - csharp
+  - vb
+  name: get_card_number()
+  nameWithType: target_card_list.get_card_number()
+  fullName: Assets.Scripts.Card_factory.target_card_list.get_card_number()
+  type: Method
+  source:
+    id: get_card_number
+    path: ''
+    startLine: 152737
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public int get_card_number()
+    return:
+      type: System.Int32
+    content.vb: Public Function get_card_number As Integer
+  overload: Assets.Scripts.Card_factory.target_card_list.get_card_number*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.target_card_list.remove_previous_cards
+  commentId: M:Assets.Scripts.Card_factory.target_card_list.remove_previous_cards
+  id: remove_previous_cards
+  parent: Assets.Scripts.Card_factory.target_card_list
+  langs:
+  - csharp
+  - vb
+  name: remove_previous_cards()
+  nameWithType: target_card_list.remove_previous_cards()
+  fullName: Assets.Scripts.Card_factory.target_card_list.remove_previous_cards()
+  type: Method
+  source:
+    id: remove_previous_cards
+    path: ''
+    startLine: 152751
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public List<string> remove_previous_cards()
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Function remove_previous_cards As List(Of String)
+  overload: Assets.Scripts.Card_factory.target_card_list.remove_previous_cards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Card_factory.target_card_list.add_single_component*
+  commentId: Overload:Assets.Scripts.Card_factory.target_card_list.add_single_component
+  name: add_single_component
+  nameWithType: target_card_list.add_single_component
+  fullName: Assets.Scripts.Card_factory.target_card_list.add_single_component
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Card_factory.target_card_list.get_card_number*
+  commentId: Overload:Assets.Scripts.Card_factory.target_card_list.get_card_number
+  name: get_card_number
+  nameWithType: target_card_list.get_card_number
+  fullName: Assets.Scripts.Card_factory.target_card_list.get_card_number
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Card_factory.target_card_list.remove_previous_cards*
+  commentId: Overload:Assets.Scripts.Card_factory.target_card_list.remove_previous_cards
+  name: remove_previous_cards
+  nameWithType: target_card_list.remove_previous_cards
+  fullName: Assets.Scripts.Card_factory.target_card_list.remove_previous_cards
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

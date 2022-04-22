@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Danmaku.danmaku_list
+  commentId: T:Assets.Scripts.Danmaku.danmaku_list
+  id: danmaku_list
+  parent: Assets.Scripts.Danmaku
+  children:
+  - Assets.Scripts.Danmaku.danmaku_list.Danmaku_instance
+  langs:
+  - csharp
+  - vb
+  name: danmaku_list
+  nameWithType: danmaku_list
+  fullName: Assets.Scripts.Danmaku.danmaku_list
+  type: Class
+  source:
+    id: danmaku_list
+    path: ''
+    startLine: 154579
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  summary: "\n加载弹幕并发送\n"
+  example: []
+  syntax:
+    content: 'public class danmaku_list : MonoBehaviour'
+    content.vb: >-
+      Public Class danmaku_list
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Danmaku.danmaku_list.Danmaku_instance
+  commentId: F:Assets.Scripts.Danmaku.danmaku_list.Danmaku_instance
+  id: Danmaku_instance
+  parent: Assets.Scripts.Danmaku.danmaku_list
+  langs:
+  - csharp
+  - vb
+  name: Danmaku_instance
+  nameWithType: danmaku_list.Danmaku_instance
+  fullName: Assets.Scripts.Danmaku.danmaku_list.Danmaku_instance
+  type: Field
+  source:
+    id: Danmaku_instance
+    path: ''
+    startLine: 154582
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  syntax:
+    content: public danmaku Danmaku_instance
+    return:
+      type: Assets.Scripts.Danmaku.danmaku
+    content.vb: Public Danmaku_instance As danmaku
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Danmaku
+  commentId: N:Assets.Scripts.Danmaku
+  name: Assets.Scripts.Danmaku
+  nameWithType: Assets.Scripts.Danmaku
+  fullName: Assets.Scripts.Danmaku
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Danmaku.danmaku
+  commentId: T:Assets.Scripts.Danmaku.danmaku
+  parent: Assets.Scripts.Danmaku
+  name: danmaku
+  nameWithType: danmaku
+  fullName: Assets.Scripts.Danmaku.danmaku

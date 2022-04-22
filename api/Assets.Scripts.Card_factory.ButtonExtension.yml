@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.ButtonExtension
+  commentId: T:Assets.Scripts.Card_factory.ButtonExtension
+  id: ButtonExtension
+  parent: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.ButtonExtension.AddEventListener``1(Button,``0,Action{``0})
+  langs:
+  - csharp
+  - vb
+  name: ButtonExtension
+  nameWithType: ButtonExtension
+  fullName: Assets.Scripts.Card_factory.ButtonExtension
+  type: Class
+  source:
+    id: ButtonExtension
+    path: ''
+    startLine: 152397
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n按钮扩展\n"
+  example: []
+  syntax:
+    content: public static class ButtonExtension
+    content.vb: Public Module ButtonExtension
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Card_factory.ButtonExtension.AddEventListener``1(Button,``0,Action{``0})
+  commentId: M:Assets.Scripts.Card_factory.ButtonExtension.AddEventListener``1(Button,``0,Action{``0})
+  id: AddEventListener``1(Button,``0,Action{``0})
+  isExtensionMethod: true
+  parent: Assets.Scripts.Card_factory.ButtonExtension
+  langs:
+  - csharp
+  - vb
+  name: AddEventListener<T>(Button, T, Action<T>)
+  nameWithType: ButtonExtension.AddEventListener<T>(Button, T, Action<T>)
+  fullName: Assets.Scripts.Card_factory.ButtonExtension.AddEventListener<T>(Button, T, Action<T>)
+  type: Method
+  source:
+    id: AddEventListener
+    path: ''
+    startLine: 152399
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public static void AddEventListener<T>(this Button button, T param, Action<T> OnClick)
+    parameters:
+    - id: button
+      type: Global.Button
+    - id: param
+      type: '{T}'
+    - id: OnClick
+      type: Global.Action{{T}}
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddEventListener(Of T)(button As Button, param As T, OnClick As Action(Of T))
+  overload: Assets.Scripts.Card_factory.ButtonExtension.AddEventListener*
+  nameWithType.vb: ButtonExtension.AddEventListener(Of T)(Button, T, Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Card_factory.ButtonExtension.AddEventListener(Of T)(Button, T, Action(Of T))
+  name.vb: AddEventListener(Of T)(Button, T, Action(Of T))
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Card_factory.ButtonExtension.AddEventListener*
+  commentId: Overload:Assets.Scripts.Card_factory.ButtonExtension.AddEventListener
+  name: AddEventListener
+  nameWithType: ButtonExtension.AddEventListener
+  fullName: Assets.Scripts.Card_factory.ButtonExtension.AddEventListener
+- uid: Global.Button
+  commentId: '!:Global.Button'
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.Action{{T}}
+  commentId: '!:Global.Action{``0}'
+  definition: Global.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

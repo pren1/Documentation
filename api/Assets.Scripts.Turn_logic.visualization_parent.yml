@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Turn_logic.visualization_parent
+  commentId: T:Assets.Scripts.Turn_logic.visualization_parent
+  id: visualization_parent
+  parent: Assets.Scripts.Turn_logic
+  children:
+  - Assets.Scripts.Turn_logic.visualization_parent.#ctor(Sprite,Sprite,Sprite,System.Int32,Transform,RectTransform)
+  - Assets.Scripts.Turn_logic.visualization_parent.highlight_cost(System.Int32)
+  - Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers(System.Int32)
+  - Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost
+  - Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: visualization_parent
+  nameWithType: visualization_parent
+  fullName: Assets.Scripts.Turn_logic.visualization_parent
+  type: Class
+  source:
+    id: visualization_parent
+    path: ''
+    startLine: 162612
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n父类：费用水晶可视化\n"
+  example: []
+  syntax:
+    content: public class visualization_parent
+    content.vb: Public Class visualization_parent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Turn_logic.visualization_parent.#ctor(Sprite,Sprite,Sprite,System.Int32,Transform,RectTransform)
+  commentId: M:Assets.Scripts.Turn_logic.visualization_parent.#ctor(Sprite,Sprite,Sprite,System.Int32,Transform,RectTransform)
+  id: '#ctor(Sprite,Sprite,Sprite,System.Int32,Transform,RectTransform)'
+  parent: Assets.Scripts.Turn_logic.visualization_parent
+  langs:
+  - csharp
+  - vb
+  name: visualization_parent(Sprite, Sprite, Sprite, Int32, Transform, RectTransform)
+  nameWithType: visualization_parent.visualization_parent(Sprite, Sprite, Sprite, Int32, Transform, RectTransform)
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.visualization_parent(Sprite, Sprite, Sprite, System.Int32, Transform, RectTransform)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 162625
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public visualization_parent(Sprite white_icon, Sprite purple_icon, Sprite Highlight_icon, int target_cost, Transform transform, RectTransform parent_background_line)
+    parameters:
+    - id: white_icon
+      type: Global.Sprite
+    - id: purple_icon
+      type: Global.Sprite
+    - id: Highlight_icon
+      type: Global.Sprite
+    - id: target_cost
+      type: System.Int32
+    - id: transform
+      type: Global.Transform
+    - id: parent_background_line
+      type: Global.RectTransform
+    content.vb: Public Sub New(white_icon As Sprite, purple_icon As Sprite, Highlight_icon As Sprite, target_cost As Integer, transform As Transform, parent_background_line As RectTransform)
+  overload: Assets.Scripts.Turn_logic.visualization_parent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers(System.Int32)
+  id: refresh_crystal_numbers(System.Int32)
+  parent: Assets.Scripts.Turn_logic.visualization_parent
+  langs:
+  - csharp
+  - vb
+  name: refresh_crystal_numbers(Int32)
+  nameWithType: visualization_parent.refresh_crystal_numbers(Int32)
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers(System.Int32)
+  type: Method
+  source:
+    id: refresh_crystal_numbers
+    path: ''
+    startLine: 162650
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n根据cost更新水晶数目\n"
+  example: []
+  syntax:
+    content: public void refresh_crystal_numbers(int input_target_cost)
+    parameters:
+    - id: input_target_cost
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub refresh_crystal_numbers(input_target_cost As Integer)
+  overload: Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization(System.Int32)
+  id: set_cost_visualization(System.Int32)
+  parent: Assets.Scripts.Turn_logic.visualization_parent
+  langs:
+  - csharp
+  - vb
+  name: set_cost_visualization(Int32)
+  nameWithType: visualization_parent.set_cost_visualization(Int32)
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization(System.Int32)
+  type: Method
+  source:
+    id: set_cost_visualization
+    path: ''
+    startLine: 162678
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n更新水晶颜色\n"
+  example: []
+  syntax:
+    content: public void set_cost_visualization(int target_cost)
+    parameters:
+    - id: target_cost
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub set_cost_visualization(target_cost As Integer)
+  overload: Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.visualization_parent.highlight_cost(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.visualization_parent.highlight_cost(System.Int32)
+  id: highlight_cost(System.Int32)
+  parent: Assets.Scripts.Turn_logic.visualization_parent
+  langs:
+  - csharp
+  - vb
+  name: highlight_cost(Int32)
+  nameWithType: visualization_parent.highlight_cost(Int32)
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.highlight_cost(System.Int32)
+  type: Method
+  source:
+    id: highlight_cost
+    path: ''
+    startLine: 162697
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n高亮水晶（在卡牌被选择之后高亮费用水晶）\n"
+  example: []
+  syntax:
+    content: public void highlight_cost(int input_cost)
+    parameters:
+    - id: input_cost
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub highlight_cost(input_cost As Integer)
+  overload: Assets.Scripts.Turn_logic.visualization_parent.highlight_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost
+  commentId: M:Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost
+  id: reset_target_cost
+  parent: Assets.Scripts.Turn_logic.visualization_parent
+  langs:
+  - csharp
+  - vb
+  name: reset_target_cost()
+  nameWithType: visualization_parent.reset_target_cost()
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost()
+  type: Method
+  source:
+    id: reset_target_cost
+    path: ''
+    startLine: 162712
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n重置水晶颜色\n"
+  example: []
+  syntax:
+    content: public void reset_target_cost()
+    content.vb: Public Sub reset_target_cost
+  overload: Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Turn_logic
+  commentId: N:Assets.Scripts.Turn_logic
+  name: Assets.Scripts.Turn_logic
+  nameWithType: Assets.Scripts.Turn_logic
+  fullName: Assets.Scripts.Turn_logic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Turn_logic.visualization_parent.#ctor*
+  commentId: Overload:Assets.Scripts.Turn_logic.visualization_parent.#ctor
+  name: visualization_parent
+  nameWithType: visualization_parent.visualization_parent
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.visualization_parent
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers*
+  commentId: Overload:Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers
+  name: refresh_crystal_numbers
+  nameWithType: visualization_parent.refresh_crystal_numbers
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.refresh_crystal_numbers
+- uid: Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization*
+  commentId: Overload:Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization
+  name: set_cost_visualization
+  nameWithType: visualization_parent.set_cost_visualization
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.set_cost_visualization
+- uid: Assets.Scripts.Turn_logic.visualization_parent.highlight_cost*
+  commentId: Overload:Assets.Scripts.Turn_logic.visualization_parent.highlight_cost
+  name: highlight_cost
+  nameWithType: visualization_parent.highlight_cost
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.highlight_cost
+- uid: Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost*
+  commentId: Overload:Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost
+  name: reset_target_cost
+  nameWithType: visualization_parent.reset_target_cost
+  fullName: Assets.Scripts.Turn_logic.visualization_parent.reset_target_cost

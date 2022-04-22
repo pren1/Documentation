@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.Dialog_variables
+  commentId: T:Assets.Scripts.Game_manager.Dialog_variables
+  id: Dialog_variables
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.Dialog_variables.Background_name
+  - Assets.Scripts.Game_manager.Dialog_variables.BGM_name
+  - Assets.Scripts.Game_manager.Dialog_variables.drama_index
+  - Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables(Assets.Scripts.Game_manager.Non_static_Dialog_variables)
+  langs:
+  - csharp
+  - vb
+  name: Dialog_variables
+  nameWithType: Dialog_variables
+  fullName: Assets.Scripts.Game_manager.Dialog_variables
+  type: Class
+  source:
+    id: Dialog_variables
+    path: ''
+    startLine: 156105
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n静态对话场景变量类，可以被不同场景访问\n"
+  example: []
+  syntax:
+    content: public static class Dialog_variables
+    content.vb: Public Module Dialog_variables
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Game_manager.Dialog_variables.drama_index
+  commentId: F:Assets.Scripts.Game_manager.Dialog_variables.drama_index
+  id: drama_index
+  parent: Assets.Scripts.Game_manager.Dialog_variables
+  langs:
+  - csharp
+  - vb
+  name: drama_index
+  nameWithType: Dialog_variables.drama_index
+  fullName: Assets.Scripts.Game_manager.Dialog_variables.drama_index
+  type: Field
+  source:
+    id: drama_index
+    path: ''
+    startLine: 156107
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int drama_index
+    return:
+      type: System.Int32
+    content.vb: Public Shared drama_index As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Dialog_variables.BGM_name
+  commentId: F:Assets.Scripts.Game_manager.Dialog_variables.BGM_name
+  id: BGM_name
+  parent: Assets.Scripts.Game_manager.Dialog_variables
+  langs:
+  - csharp
+  - vb
+  name: BGM_name
+  nameWithType: Dialog_variables.BGM_name
+  fullName: Assets.Scripts.Game_manager.Dialog_variables.BGM_name
+  type: Field
+  source:
+    id: BGM_name
+    path: ''
+    startLine: 156108
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string BGM_name
+    return:
+      type: System.String
+    content.vb: Public Shared BGM_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Dialog_variables.Background_name
+  commentId: F:Assets.Scripts.Game_manager.Dialog_variables.Background_name
+  id: Background_name
+  parent: Assets.Scripts.Game_manager.Dialog_variables
+  langs:
+  - csharp
+  - vb
+  name: Background_name
+  nameWithType: Dialog_variables.Background_name
+  fullName: Assets.Scripts.Game_manager.Dialog_variables.Background_name
+  type: Field
+  source:
+    id: Background_name
+    path: ''
+    startLine: 156109
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string Background_name
+    return:
+      type: System.String
+    content.vb: Public Shared Background_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables(Assets.Scripts.Game_manager.Non_static_Dialog_variables)
+  commentId: M:Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables(Assets.Scripts.Game_manager.Non_static_Dialog_variables)
+  id: set_Dialog_variables(Assets.Scripts.Game_manager.Non_static_Dialog_variables)
+  parent: Assets.Scripts.Game_manager.Dialog_variables
+  langs:
+  - csharp
+  - vb
+  name: set_Dialog_variables(Non_static_Dialog_variables)
+  nameWithType: Dialog_variables.set_Dialog_variables(Non_static_Dialog_variables)
+  fullName: Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables(Assets.Scripts.Game_manager.Non_static_Dialog_variables)
+  type: Method
+  source:
+    id: set_Dialog_variables
+    path: ''
+    startLine: 156111
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static void set_Dialog_variables(Non_static_Dialog_variables non_Static)
+    parameters:
+    - id: non_Static
+      type: Assets.Scripts.Game_manager.Non_static_Dialog_variables
+    content.vb: Public Shared Sub set_Dialog_variables(non_Static As Non_static_Dialog_variables)
+  overload: Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables*
+  commentId: Overload:Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables
+  name: set_Dialog_variables
+  nameWithType: Dialog_variables.set_Dialog_variables
+  fullName: Assets.Scripts.Game_manager.Dialog_variables.set_Dialog_variables
+- uid: Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  commentId: T:Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  parent: Assets.Scripts.Game_manager
+  name: Non_static_Dialog_variables
+  nameWithType: Non_static_Dialog_variables
+  fullName: Assets.Scripts.Game_manager.Non_static_Dialog_variables

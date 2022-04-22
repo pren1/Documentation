@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Effect
+  commentId: N:Assets.Scripts.Effect
+  id: Assets.Scripts.Effect
+  children:
+  - Assets.Scripts.Effect.ClickExplode
+  - Assets.Scripts.Effect.Show_effect
+  - Assets.Scripts.Effect.Show_emoji
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Effect
+  nameWithType: Assets.Scripts.Effect
+  fullName: Assets.Scripts.Effect
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Effect.ClickExplode
+  commentId: T:Assets.Scripts.Effect.ClickExplode
+  name: ClickExplode
+  nameWithType: ClickExplode
+  fullName: Assets.Scripts.Effect.ClickExplode
+- uid: Assets.Scripts.Effect.Show_effect
+  commentId: T:Assets.Scripts.Effect.Show_effect
+  name: Show_effect
+  nameWithType: Show_effect
+  fullName: Assets.Scripts.Effect.Show_effect
+- uid: Assets.Scripts.Effect.Show_emoji
+  commentId: T:Assets.Scripts.Effect.Show_emoji
+  name: Show_emoji
+  nameWithType: Show_emoji
+  fullName: Assets.Scripts.Effect.Show_emoji

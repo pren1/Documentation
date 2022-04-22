@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.PathNode
+  commentId: T:Assets.Scripts.hex.PathNode
+  id: PathNode
+  parent: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.PathNode.#ctor(System.Int32,System.Int32)
+  - Assets.Scripts.hex.PathNode.CalculateFCost
+  - Assets.Scripts.hex.PathNode.cameFromNode
+  - Assets.Scripts.hex.PathNode.fCost
+  - Assets.Scripts.hex.PathNode.gCost
+  - Assets.Scripts.hex.PathNode.hCost
+  - Assets.Scripts.hex.PathNode.x
+  - Assets.Scripts.hex.PathNode.y
+  langs:
+  - csharp
+  - vb
+  name: PathNode
+  nameWithType: PathNode
+  fullName: Assets.Scripts.hex.PathNode
+  type: Class
+  source:
+    id: PathNode
+    path: ''
+    startLine: 158038
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public class PathNode
+    content.vb: Public Class PathNode
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.hex.PathNode.x
+  commentId: F:Assets.Scripts.hex.PathNode.x
+  id: x
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: x
+  nameWithType: PathNode.x
+  fullName: Assets.Scripts.hex.PathNode.x
+  type: Field
+  source:
+    id: x
+    path: ''
+    startLine: 158040
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int x
+    return:
+      type: System.Int32
+    content.vb: Public x As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.y
+  commentId: F:Assets.Scripts.hex.PathNode.y
+  id: y
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: y
+  nameWithType: PathNode.y
+  fullName: Assets.Scripts.hex.PathNode.y
+  type: Field
+  source:
+    id: y
+    path: ''
+    startLine: 158041
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int y
+    return:
+      type: System.Int32
+    content.vb: Public y As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.gCost
+  commentId: F:Assets.Scripts.hex.PathNode.gCost
+  id: gCost
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: gCost
+  nameWithType: PathNode.gCost
+  fullName: Assets.Scripts.hex.PathNode.gCost
+  type: Field
+  source:
+    id: gCost
+    path: ''
+    startLine: 158043
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int gCost
+    return:
+      type: System.Int32
+    content.vb: Public gCost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.hCost
+  commentId: F:Assets.Scripts.hex.PathNode.hCost
+  id: hCost
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: hCost
+  nameWithType: PathNode.hCost
+  fullName: Assets.Scripts.hex.PathNode.hCost
+  type: Field
+  source:
+    id: hCost
+    path: ''
+    startLine: 158044
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int hCost
+    return:
+      type: System.Int32
+    content.vb: Public hCost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.fCost
+  commentId: F:Assets.Scripts.hex.PathNode.fCost
+  id: fCost
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: fCost
+  nameWithType: PathNode.fCost
+  fullName: Assets.Scripts.hex.PathNode.fCost
+  type: Field
+  source:
+    id: fCost
+    path: ''
+    startLine: 158045
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public int fCost
+    return:
+      type: System.Int32
+    content.vb: Public fCost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.cameFromNode
+  commentId: F:Assets.Scripts.hex.PathNode.cameFromNode
+  id: cameFromNode
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: cameFromNode
+  nameWithType: PathNode.cameFromNode
+  fullName: Assets.Scripts.hex.PathNode.cameFromNode
+  type: Field
+  source:
+    id: cameFromNode
+    path: ''
+    startLine: 158047
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public PathNode cameFromNode
+    return:
+      type: Assets.Scripts.hex.PathNode
+    content.vb: Public cameFromNode As PathNode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.#ctor(System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.hex.PathNode.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: PathNode(Int32, Int32)
+  nameWithType: PathNode.PathNode(Int32, Int32)
+  fullName: Assets.Scripts.hex.PathNode.PathNode(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 158049
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public PathNode(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    content.vb: Public Sub New(x As Integer, y As Integer)
+  overload: Assets.Scripts.hex.PathNode.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PathNode.CalculateFCost
+  commentId: M:Assets.Scripts.hex.PathNode.CalculateFCost
+  id: CalculateFCost
+  parent: Assets.Scripts.hex.PathNode
+  langs:
+  - csharp
+  - vb
+  name: CalculateFCost()
+  nameWithType: PathNode.CalculateFCost()
+  fullName: Assets.Scripts.hex.PathNode.CalculateFCost()
+  type: Method
+  source:
+    id: CalculateFCost
+    path: ''
+    startLine: 158054
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public void CalculateFCost()
+    content.vb: Public Sub CalculateFCost
+  overload: Assets.Scripts.hex.PathNode.CalculateFCost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.hex.PathNode
+  commentId: T:Assets.Scripts.hex.PathNode
+  parent: Assets.Scripts.hex
+  name: PathNode
+  nameWithType: PathNode
+  fullName: Assets.Scripts.hex.PathNode
+- uid: Assets.Scripts.hex.PathNode.#ctor*
+  commentId: Overload:Assets.Scripts.hex.PathNode.#ctor
+  name: PathNode
+  nameWithType: PathNode.PathNode
+  fullName: Assets.Scripts.hex.PathNode.PathNode
+- uid: Assets.Scripts.hex.PathNode.CalculateFCost*
+  commentId: Overload:Assets.Scripts.hex.PathNode.CalculateFCost
+  name: CalculateFCost
+  nameWithType: PathNode.CalculateFCost
+  fullName: Assets.Scripts.hex.PathNode.CalculateFCost

@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.live_card_property
+  commentId: T:Assets.Scripts.live.live_card_property
+  id: live_card_property
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.live_card_property.dynamic_card_builder(GameObject,System.Int32)
+  - Assets.Scripts.live.live_card_property.get_card_cost
+  - Assets.Scripts.live.live_card_property.is_usable
+  - Assets.Scripts.live.live_card_property.set_card_property(System.Int32)
+  - Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: live_card_property
+  nameWithType: live_card_property
+  fullName: Assets.Scripts.live.live_card_property
+  type: Class
+  source:
+    id: live_card_property
+    path: ''
+    startLine: 160006
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n卡牌属性\n"
+  example: []
+  syntax:
+    content: 'public class live_card_property : MonoBehaviour'
+    content.vb: >-
+      Public Class live_card_property
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.live_card_property.is_usable
+  commentId: F:Assets.Scripts.live.live_card_property.is_usable
+  id: is_usable
+  parent: Assets.Scripts.live.live_card_property
+  langs:
+  - csharp
+  - vb
+  name: is_usable
+  nameWithType: live_card_property.is_usable
+  fullName: Assets.Scripts.live.live_card_property.is_usable
+  type: Field
+  source:
+    id: is_usable
+    path: ''
+    startLine: 160009
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public bool is_usable
+    return:
+      type: System.Boolean
+    content.vb: Public is_usable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_property.set_card_property(System.Int32)
+  commentId: M:Assets.Scripts.live.live_card_property.set_card_property(System.Int32)
+  id: set_card_property(System.Int32)
+  parent: Assets.Scripts.live.live_card_property
+  langs:
+  - csharp
+  - vb
+  name: set_card_property(Int32)
+  nameWithType: live_card_property.set_card_property(Int32)
+  fullName: Assets.Scripts.live.live_card_property.set_card_property(System.Int32)
+  type: Method
+  source:
+    id: set_card_property
+    path: ''
+    startLine: 160018
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n设置卡牌属性\n"
+  example: []
+  syntax:
+    content: public void set_card_property(int card_cost)
+    parameters:
+    - id: card_cost
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub set_card_property(card_cost As Integer)
+  overload: Assets.Scripts.live.live_card_property.set_card_property*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_property.get_card_cost
+  commentId: M:Assets.Scripts.live.live_card_property.get_card_cost
+  id: get_card_cost
+  parent: Assets.Scripts.live.live_card_property
+  langs:
+  - csharp
+  - vb
+  name: get_card_cost()
+  nameWithType: live_card_property.get_card_cost()
+  fullName: Assets.Scripts.live.live_card_property.get_card_cost()
+  type: Method
+  source:
+    id: get_card_cost
+    path: ''
+    startLine: 160025
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public int get_card_cost()
+    return:
+      type: System.Int32
+    content.vb: Public Function get_card_cost As Integer
+  overload: Assets.Scripts.live.live_card_property.get_card_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_property.dynamic_card_builder(GameObject,System.Int32)
+  commentId: M:Assets.Scripts.live.live_card_property.dynamic_card_builder(GameObject,System.Int32)
+  id: dynamic_card_builder(GameObject,System.Int32)
+  parent: Assets.Scripts.live.live_card_property
+  langs:
+  - csharp
+  - vb
+  name: dynamic_card_builder(GameObject, Int32)
+  nameWithType: live_card_property.dynamic_card_builder(GameObject, Int32)
+  fullName: Assets.Scripts.live.live_card_property.dynamic_card_builder(GameObject, System.Int32)
+  type: Method
+  source:
+    id: dynamic_card_builder
+    path: ''
+    startLine: 160035
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n加载卡牌文字\n"
+  example: []
+  syntax:
+    content: public void dynamic_card_builder(GameObject card, int input_card_cost)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: input_card_cost
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub dynamic_card_builder(card As GameObject, input_card_cost As Integer)
+  overload: Assets.Scripts.live.live_card_property.dynamic_card_builder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  commentId: M:Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  id: set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  parent: Assets.Scripts.live.live_card_property
+  langs:
+  - csharp
+  - vb
+  name: set_sorting_orders_of_sub_properties(GameObject, Int32)
+  nameWithType: live_card_property.set_sorting_orders_of_sub_properties(GameObject, Int32)
+  fullName: Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties(GameObject, System.Int32)
+  type: Method
+  source:
+    id: set_sorting_orders_of_sub_properties
+    path: ''
+    startLine: 160055
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n处理卡牌文字显示问题, should update this everytime you update the card UI\n"
+  example: []
+  syntax:
+    content: public static void set_sorting_orders_of_sub_properties(GameObject card, int sorting_order)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: sorting_order
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub set_sorting_orders_of_sub_properties(card As GameObject, sorting_order As Integer)
+  overload: Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.live.live_card_property.set_card_property*
+  commentId: Overload:Assets.Scripts.live.live_card_property.set_card_property
+  name: set_card_property
+  nameWithType: live_card_property.set_card_property
+  fullName: Assets.Scripts.live.live_card_property.set_card_property
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.live.live_card_property.get_card_cost*
+  commentId: Overload:Assets.Scripts.live.live_card_property.get_card_cost
+  name: get_card_cost
+  nameWithType: live_card_property.get_card_cost
+  fullName: Assets.Scripts.live.live_card_property.get_card_cost
+- uid: Assets.Scripts.live.live_card_property.dynamic_card_builder*
+  commentId: Overload:Assets.Scripts.live.live_card_property.dynamic_card_builder
+  name: dynamic_card_builder
+  nameWithType: live_card_property.dynamic_card_builder
+  fullName: Assets.Scripts.live.live_card_property.dynamic_card_builder
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties*
+  commentId: Overload:Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties
+  name: set_sorting_orders_of_sub_properties
+  nameWithType: live_card_property.set_sorting_orders_of_sub_properties
+  fullName: Assets.Scripts.live.live_card_property.set_sorting_orders_of_sub_properties

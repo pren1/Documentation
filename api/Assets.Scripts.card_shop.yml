@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.card_shop
+  commentId: N:Assets.Scripts.card_shop
+  id: Assets.Scripts.card_shop
+  children:
+  - Assets.Scripts.card_shop.card_initialization
+  - Assets.Scripts.card_shop.card_shop
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.card_shop
+  nameWithType: Assets.Scripts.card_shop
+  fullName: Assets.Scripts.card_shop
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.card_shop.card_initialization
+  commentId: T:Assets.Scripts.card_shop.card_initialization
+  name: card_initialization
+  nameWithType: card_initialization
+  fullName: Assets.Scripts.card_shop.card_initialization
+- uid: Assets.Scripts.card_shop.card_shop
+  commentId: T:Assets.Scripts.card_shop.card_shop
+  name: card_shop
+  nameWithType: card_shop
+  fullName: Assets.Scripts.card_shop.card_shop

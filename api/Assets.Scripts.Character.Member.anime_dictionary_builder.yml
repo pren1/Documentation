@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Member.anime_dictionary_builder
+  commentId: T:Assets.Scripts.Character.Member.anime_dictionary_builder
+  id: anime_dictionary_builder
+  parent: Assets.Scripts.Character.Member
+  children:
+  - Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary(System.String,System.Collections.Generic.List{Effect_tuple})
+  langs:
+  - csharp
+  - vb
+  name: anime_dictionary_builder
+  nameWithType: anime_dictionary_builder
+  fullName: Assets.Scripts.Character.Member.anime_dictionary_builder
+  type: Class
+  source:
+    id: anime_dictionary_builder
+    path: ''
+    startLine: 154336
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Member
+  summary: "\n构建角色的动画和卡牌技能的对应关系\n"
+  example: []
+  syntax:
+    content: public static class anime_dictionary_builder
+    content.vb: Public Module anime_dictionary_builder
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary(System.String,System.Collections.Generic.List{Effect_tuple})
+  commentId: M:Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary(System.String,System.Collections.Generic.List{Effect_tuple})
+  id: build_anime_dictionary(System.String,System.Collections.Generic.List{Effect_tuple})
+  parent: Assets.Scripts.Character.Member.anime_dictionary_builder
+  langs:
+  - csharp
+  - vb
+  name: build_anime_dictionary(String, List<Effect_tuple>)
+  nameWithType: anime_dictionary_builder.build_anime_dictionary(String, List<Effect_tuple>)
+  fullName: Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary(System.String, System.Collections.Generic.List<Effect_tuple>)
+  type: Method
+  source:
+    id: build_anime_dictionary
+    path: ''
+    startLine: 154357
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Member
+  summary: "\n返回动画字典，key是动画名，value是卡片效果\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, List<Effect_tuple>> build_anime_dictionary(string target_name, List<Effect_tuple> card_Effects)
+    parameters:
+    - id: target_name
+      type: System.String
+      description: 卡片拥有者
+    - id: card_Effects
+      type: System.Collections.Generic.List{Effect_tuple}
+      description: 卡片效果列表
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+      description: ''
+    content.vb: Public Shared Function build_anime_dictionary(target_name As String, card_Effects As List(Of Effect_tuple)) As Dictionary(Of String, List(Of Effect_tuple))
+  overload: Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary*
+  nameWithType.vb: anime_dictionary_builder.build_anime_dictionary(String, List(Of Effect_tuple))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary(System.String, System.Collections.Generic.List(Of Effect_tuple))
+  name.vb: build_anime_dictionary(String, List(Of Effect_tuple))
+references:
+- uid: Assets.Scripts.Character.Member
+  commentId: N:Assets.Scripts.Character.Member
+  name: Assets.Scripts.Character.Member
+  nameWithType: Assets.Scripts.Character.Member
+  fullName: Assets.Scripts.Character.Member
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary*
+  commentId: Overload:Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary
+  name: build_anime_dictionary
+  nameWithType: anime_dictionary_builder.build_anime_dictionary
+  fullName: Assets.Scripts.Character.Member.anime_dictionary_builder.build_anime_dictionary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{Effect_tuple}
+  commentId: T:System.Collections.Generic.List{Effect_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Effect_tuple>
+  nameWithType: List<Effect_tuple>
+  fullName: System.Collections.Generic.List<Effect_tuple>
+  nameWithType.vb: List(Of Effect_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Effect_tuple)
+  name.vb: List(Of Effect_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Effect_tuple}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, List<Effect_tuple>>
+  nameWithType: Dictionary<String, List<Effect_tuple>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<Effect_tuple>>
+  nameWithType.vb: Dictionary(Of String, List(Of Effect_tuple))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of Effect_tuple))
+  name.vb: Dictionary(Of String, List(Of Effect_tuple))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

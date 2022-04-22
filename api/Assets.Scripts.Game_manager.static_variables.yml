@@ -1,0 +1,843 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.static_variables
+  commentId: T:Assets.Scripts.Game_manager.static_variables
+  id: static_variables
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.static_variables.add_on_card_index
+  - Assets.Scripts.Game_manager.static_variables.all_attack_aoe
+  - Assets.Scripts.Game_manager.static_variables.always_trigger_prob
+  - Assets.Scripts.Game_manager.static_variables.block_click_on_battle
+  - Assets.Scripts.Game_manager.static_variables.card_bag_name
+  - Assets.Scripts.Game_manager.static_variables.card_draw_every_turn
+  - Assets.Scripts.Game_manager.static_variables.card_name
+  - Assets.Scripts.Game_manager.static_variables.card_Selection_State
+  - Assets.Scripts.Game_manager.static_variables.diana_extra_card
+  - Assets.Scripts.Game_manager.static_variables.draw_card_offset
+  - Assets.Scripts.Game_manager.static_variables.global_card_object
+  - Assets.Scripts.Game_manager.static_variables.has_chance_of_double_magic_attack
+  - Assets.Scripts.Game_manager.static_variables.ignore_element
+  - Assets.Scripts.Game_manager.static_variables.is_double_effect_level
+  - Assets.Scripts.Game_manager.static_variables.is_money_protect
+  - Assets.Scripts.Game_manager.static_variables.keep_alive_once
+  - Assets.Scripts.Game_manager.static_variables.magic_card_cost_offset
+  - Assets.Scripts.Game_manager.static_variables.Money_amount
+  - Assets.Scripts.Game_manager.static_variables.next_card_double_damage
+  - Assets.Scripts.Game_manager.static_variables.on_live_member
+  - Assets.Scripts.Game_manager.static_variables.prob_trigger_scale
+  - Assets.Scripts.Game_manager.static_variables.random_discard_card_hit
+  - Assets.Scripts.Game_manager.static_variables.root_path
+  - Assets.Scripts.Game_manager.static_variables.round_number
+  - Assets.Scripts.Game_manager.static_variables.skip_play_cards
+  langs:
+  - csharp
+  - vb
+  name: static_variables
+  nameWithType: static_variables
+  fullName: Assets.Scripts.Game_manager.static_variables
+  type: Class
+  source:
+    id: static_variables
+    path: ''
+    startLine: 157030
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n静态变量类，可以被不同场景访问\n"
+  example: []
+  syntax:
+    content: public static class static_variables
+    content.vb: Public Module static_variables
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Game_manager.static_variables.Money_amount
+  commentId: F:Assets.Scripts.Game_manager.static_variables.Money_amount
+  id: Money_amount
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: Money_amount
+  nameWithType: static_variables.Money_amount
+  fullName: Assets.Scripts.Game_manager.static_variables.Money_amount
+  type: Field
+  source:
+    id: Money_amount
+    path: ''
+    startLine: 157032
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int Money_amount
+    return:
+      type: System.Int32
+    content.vb: Public Shared Money_amount As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.round_number
+  commentId: F:Assets.Scripts.Game_manager.static_variables.round_number
+  id: round_number
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: round_number
+  nameWithType: static_variables.round_number
+  fullName: Assets.Scripts.Game_manager.static_variables.round_number
+  type: Field
+  source:
+    id: round_number
+    path: ''
+    startLine: 157033
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int round_number
+    return:
+      type: System.Int32
+    content.vb: Public Shared round_number As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.root_path
+  commentId: F:Assets.Scripts.Game_manager.static_variables.root_path
+  id: root_path
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: root_path
+  nameWithType: static_variables.root_path
+  fullName: Assets.Scripts.Game_manager.static_variables.root_path
+  type: Field
+  source:
+    id: root_path
+    path: ''
+    startLine: 157034
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string root_path
+    return:
+      type: System.String
+    content.vb: Public Shared root_path As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.is_money_protect
+  commentId: F:Assets.Scripts.Game_manager.static_variables.is_money_protect
+  id: is_money_protect
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: is_money_protect
+  nameWithType: static_variables.is_money_protect
+  fullName: Assets.Scripts.Game_manager.static_variables.is_money_protect
+  type: Field
+  source:
+    id: is_money_protect
+    path: ''
+    startLine: 157036
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool is_money_protect
+    return:
+      type: System.Boolean
+    content.vb: Public Shared is_money_protect As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.is_double_effect_level
+  commentId: F:Assets.Scripts.Game_manager.static_variables.is_double_effect_level
+  id: is_double_effect_level
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: is_double_effect_level
+  nameWithType: static_variables.is_double_effect_level
+  fullName: Assets.Scripts.Game_manager.static_variables.is_double_effect_level
+  type: Field
+  source:
+    id: is_double_effect_level
+    path: ''
+    startLine: 157037
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool is_double_effect_level
+    return:
+      type: System.Boolean
+    content.vb: Public Shared is_double_effect_level As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.draw_card_offset
+  commentId: F:Assets.Scripts.Game_manager.static_variables.draw_card_offset
+  id: draw_card_offset
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: draw_card_offset
+  nameWithType: static_variables.draw_card_offset
+  fullName: Assets.Scripts.Game_manager.static_variables.draw_card_offset
+  type: Field
+  source:
+    id: draw_card_offset
+    path: ''
+    startLine: 157038
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int draw_card_offset
+    return:
+      type: System.Int32
+    content.vb: Public Shared draw_card_offset As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.diana_extra_card
+  commentId: F:Assets.Scripts.Game_manager.static_variables.diana_extra_card
+  id: diana_extra_card
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: diana_extra_card
+  nameWithType: static_variables.diana_extra_card
+  fullName: Assets.Scripts.Game_manager.static_variables.diana_extra_card
+  type: Field
+  source:
+    id: diana_extra_card
+    path: ''
+    startLine: 157039
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool diana_extra_card
+    return:
+      type: System.Boolean
+    content.vb: Public Shared diana_extra_card As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.add_on_card_index
+  commentId: F:Assets.Scripts.Game_manager.static_variables.add_on_card_index
+  id: add_on_card_index
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: add_on_card_index
+  nameWithType: static_variables.add_on_card_index
+  fullName: Assets.Scripts.Game_manager.static_variables.add_on_card_index
+  type: Field
+  source:
+    id: add_on_card_index
+    path: ''
+    startLine: 157040
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int add_on_card_index
+    return:
+      type: System.Int32
+    content.vb: Public Shared add_on_card_index As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.prob_trigger_scale
+  commentId: F:Assets.Scripts.Game_manager.static_variables.prob_trigger_scale
+  id: prob_trigger_scale
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: prob_trigger_scale
+  nameWithType: static_variables.prob_trigger_scale
+  fullName: Assets.Scripts.Game_manager.static_variables.prob_trigger_scale
+  type: Field
+  source:
+    id: prob_trigger_scale
+    path: ''
+    startLine: 157042
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static float prob_trigger_scale
+    return:
+      type: System.Single
+    content.vb: Public Shared prob_trigger_scale As Single
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.always_trigger_prob
+  commentId: F:Assets.Scripts.Game_manager.static_variables.always_trigger_prob
+  id: always_trigger_prob
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: always_trigger_prob
+  nameWithType: static_variables.always_trigger_prob
+  fullName: Assets.Scripts.Game_manager.static_variables.always_trigger_prob
+  type: Field
+  source:
+    id: always_trigger_prob
+    path: ''
+    startLine: 157043
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool always_trigger_prob
+    return:
+      type: System.Boolean
+    content.vb: Public Shared always_trigger_prob As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.ignore_element
+  commentId: F:Assets.Scripts.Game_manager.static_variables.ignore_element
+  id: ignore_element
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: ignore_element
+  nameWithType: static_variables.ignore_element
+  fullName: Assets.Scripts.Game_manager.static_variables.ignore_element
+  type: Field
+  source:
+    id: ignore_element
+    path: ''
+    startLine: 157044
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool ignore_element
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ignore_element As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.all_attack_aoe
+  commentId: F:Assets.Scripts.Game_manager.static_variables.all_attack_aoe
+  id: all_attack_aoe
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: all_attack_aoe
+  nameWithType: static_variables.all_attack_aoe
+  fullName: Assets.Scripts.Game_manager.static_variables.all_attack_aoe
+  type: Field
+  source:
+    id: all_attack_aoe
+    path: ''
+    startLine: 157045
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool all_attack_aoe
+    return:
+      type: System.Boolean
+    content.vb: Public Shared all_attack_aoe As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.keep_alive_once
+  commentId: F:Assets.Scripts.Game_manager.static_variables.keep_alive_once
+  id: keep_alive_once
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: keep_alive_once
+  nameWithType: static_variables.keep_alive_once
+  fullName: Assets.Scripts.Game_manager.static_variables.keep_alive_once
+  type: Field
+  source:
+    id: keep_alive_once
+    path: ''
+    startLine: 157046
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool keep_alive_once
+    return:
+      type: System.Boolean
+    content.vb: Public Shared keep_alive_once As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.skip_play_cards
+  commentId: F:Assets.Scripts.Game_manager.static_variables.skip_play_cards
+  id: skip_play_cards
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: skip_play_cards
+  nameWithType: static_variables.skip_play_cards
+  fullName: Assets.Scripts.Game_manager.static_variables.skip_play_cards
+  type: Field
+  source:
+    id: skip_play_cards
+    path: ''
+    startLine: 157047
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool skip_play_cards
+    return:
+      type: System.Boolean
+    content.vb: Public Shared skip_play_cards As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.card_Selection_State
+  commentId: F:Assets.Scripts.Game_manager.static_variables.card_Selection_State
+  id: card_Selection_State
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: card_Selection_State
+  nameWithType: static_variables.card_Selection_State
+  fullName: Assets.Scripts.Game_manager.static_variables.card_Selection_State
+  type: Field
+  source:
+    id: card_Selection_State
+    path: ''
+    startLine: 157048
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static Card_selection_state card_Selection_State
+    return:
+      type: Global.Card_selection_state
+    content.vb: Public Shared card_Selection_State As Card_selection_state
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.on_live_member
+  commentId: F:Assets.Scripts.Game_manager.static_variables.on_live_member
+  id: on_live_member
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: on_live_member
+  nameWithType: static_variables.on_live_member
+  fullName: Assets.Scripts.Game_manager.static_variables.on_live_member
+  type: Field
+  source:
+    id: on_live_member
+    path: ''
+    startLine: 157049
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static GameObject on_live_member
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared on_live_member As GameObject
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.next_card_double_damage
+  commentId: F:Assets.Scripts.Game_manager.static_variables.next_card_double_damage
+  id: next_card_double_damage
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: next_card_double_damage
+  nameWithType: static_variables.next_card_double_damage
+  fullName: Assets.Scripts.Game_manager.static_variables.next_card_double_damage
+  type: Field
+  source:
+    id: next_card_double_damage
+    path: ''
+    startLine: 157050
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool next_card_double_damage
+    return:
+      type: System.Boolean
+    content.vb: Public Shared next_card_double_damage As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.random_discard_card_hit
+  commentId: F:Assets.Scripts.Game_manager.static_variables.random_discard_card_hit
+  id: random_discard_card_hit
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: random_discard_card_hit
+  nameWithType: static_variables.random_discard_card_hit
+  fullName: Assets.Scripts.Game_manager.static_variables.random_discard_card_hit
+  type: Field
+  source:
+    id: random_discard_card_hit
+    path: ''
+    startLine: 157051
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool random_discard_card_hit
+    return:
+      type: System.Boolean
+    content.vb: Public Shared random_discard_card_hit As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.has_chance_of_double_magic_attack
+  commentId: F:Assets.Scripts.Game_manager.static_variables.has_chance_of_double_magic_attack
+  id: has_chance_of_double_magic_attack
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: has_chance_of_double_magic_attack
+  nameWithType: static_variables.has_chance_of_double_magic_attack
+  fullName: Assets.Scripts.Game_manager.static_variables.has_chance_of_double_magic_attack
+  type: Field
+  source:
+    id: has_chance_of_double_magic_attack
+    path: ''
+    startLine: 157052
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool has_chance_of_double_magic_attack
+    return:
+      type: System.Boolean
+    content.vb: Public Shared has_chance_of_double_magic_attack As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.magic_card_cost_offset
+  commentId: F:Assets.Scripts.Game_manager.static_variables.magic_card_cost_offset
+  id: magic_card_cost_offset
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: magic_card_cost_offset
+  nameWithType: static_variables.magic_card_cost_offset
+  fullName: Assets.Scripts.Game_manager.static_variables.magic_card_cost_offset
+  type: Field
+  source:
+    id: magic_card_cost_offset
+    path: ''
+    startLine: 157053
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int magic_card_cost_offset
+    return:
+      type: System.Int32
+    content.vb: Public Shared magic_card_cost_offset As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.card_bag_name
+  commentId: F:Assets.Scripts.Game_manager.static_variables.card_bag_name
+  id: card_bag_name
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: card_bag_name
+  nameWithType: static_variables.card_bag_name
+  fullName: Assets.Scripts.Game_manager.static_variables.card_bag_name
+  type: Field
+  source:
+    id: card_bag_name
+    path: ''
+    startLine: 157054
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string card_bag_name
+    return:
+      type: System.String
+    content.vb: Public Shared card_bag_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.block_click_on_battle
+  commentId: F:Assets.Scripts.Game_manager.static_variables.block_click_on_battle
+  id: block_click_on_battle
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: block_click_on_battle
+  nameWithType: static_variables.block_click_on_battle
+  fullName: Assets.Scripts.Game_manager.static_variables.block_click_on_battle
+  type: Field
+  source:
+    id: block_click_on_battle
+    path: ''
+    startLine: 157055
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static bool block_click_on_battle
+    return:
+      type: System.Boolean
+    content.vb: Public Shared block_click_on_battle As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.global_card_object
+  commentId: F:Assets.Scripts.Game_manager.static_variables.global_card_object
+  id: global_card_object
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: global_card_object
+  nameWithType: static_variables.global_card_object
+  fullName: Assets.Scripts.Game_manager.static_variables.global_card_object
+  type: Field
+  source:
+    id: global_card_object
+    path: ''
+    startLine: 157056
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static GameObject global_card_object
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared global_card_object As GameObject
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.card_name
+  commentId: F:Assets.Scripts.Game_manager.static_variables.card_name
+  id: card_name
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: card_name
+  nameWithType: static_variables.card_name
+  fullName: Assets.Scripts.Game_manager.static_variables.card_name
+  type: Field
+  source:
+    id: card_name
+    path: ''
+    startLine: 157057
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string card_name
+    return:
+      type: System.String
+    content.vb: Public Shared card_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.static_variables.card_draw_every_turn
+  commentId: F:Assets.Scripts.Game_manager.static_variables.card_draw_every_turn
+  id: card_draw_every_turn
+  parent: Assets.Scripts.Game_manager.static_variables
+  langs:
+  - csharp
+  - vb
+  name: card_draw_every_turn
+  nameWithType: static_variables.card_draw_every_turn
+  fullName: Assets.Scripts.Game_manager.static_variables.card_draw_every_turn
+  type: Field
+  source:
+    id: card_draw_every_turn
+    path: ''
+    startLine: 157058
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int card_draw_every_turn
+    return:
+      type: System.Int32
+    content.vb: Public Shared card_draw_every_turn As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Card_selection_state
+  commentId: '!:Global.Card_selection_state'
+  isExternal: true
+  name: Card_selection_state
+  nameWithType: Card_selection_state
+  fullName: Card_selection_state
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

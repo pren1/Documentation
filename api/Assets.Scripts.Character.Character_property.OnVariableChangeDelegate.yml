@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  commentId: T:Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  id: Character_property.OnVariableChangeDelegate
+  parent: Assets.Scripts.Character
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Character_property.OnVariableChangeDelegate
+  nameWithType: Character_property.OnVariableChangeDelegate
+  fullName: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  type: Delegate
+  source:
+    id: OnVariableChangeDelegate
+    path: ''
+    startLine: 153477
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public delegate void OnVariableChangeDelegate(float newVal, float changeVal);
+    parameters:
+    - id: newVal
+      type: System.Single
+    - id: changeVal
+      type: System.Single
+    content.vb: Public Delegate Sub OnVariableChangeDelegate(newVal As Single, changeVal As Single)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

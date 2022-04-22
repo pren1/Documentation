@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.PlayerMovement
+  commentId: T:Assets.Scripts.hex.PlayerMovement
+  id: PlayerMovement
+  parent: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.PlayerMovement.FogTilemap
+  - Assets.Scripts.hex.PlayerMovement.movefield_map
+  - Assets.Scripts.hex.PlayerMovement.MoveSpeed
+  - Assets.Scripts.hex.PlayerMovement.targetTilemap
+  - Assets.Scripts.hex.PlayerMovement.tilemap
+  langs:
+  - csharp
+  - vb
+  name: PlayerMovement
+  nameWithType: PlayerMovement
+  fullName: Assets.Scripts.hex.PlayerMovement
+  type: Class
+  source:
+    id: PlayerMovement
+    path: ''
+    startLine: 158066
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: 'public class PlayerMovement : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerMovement
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.hex.PlayerMovement.tilemap
+  commentId: F:Assets.Scripts.hex.PlayerMovement.tilemap
+  id: tilemap
+  parent: Assets.Scripts.hex.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: tilemap
+  nameWithType: PlayerMovement.tilemap
+  fullName: Assets.Scripts.hex.PlayerMovement.tilemap
+  type: Field
+  source:
+    id: tilemap
+    path: ''
+    startLine: 158068
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Tilemap tilemap
+    return:
+      type: Global.Tilemap
+    content.vb: Public tilemap As Tilemap
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PlayerMovement.FogTilemap
+  commentId: F:Assets.Scripts.hex.PlayerMovement.FogTilemap
+  id: FogTilemap
+  parent: Assets.Scripts.hex.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: FogTilemap
+  nameWithType: PlayerMovement.FogTilemap
+  fullName: Assets.Scripts.hex.PlayerMovement.FogTilemap
+  type: Field
+  source:
+    id: FogTilemap
+    path: ''
+    startLine: 158069
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Tilemap FogTilemap
+    return:
+      type: Global.Tilemap
+    content.vb: Public FogTilemap As Tilemap
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PlayerMovement.targetTilemap
+  commentId: F:Assets.Scripts.hex.PlayerMovement.targetTilemap
+  id: targetTilemap
+  parent: Assets.Scripts.hex.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: targetTilemap
+  nameWithType: PlayerMovement.targetTilemap
+  fullName: Assets.Scripts.hex.PlayerMovement.targetTilemap
+  type: Field
+  source:
+    id: targetTilemap
+    path: ''
+    startLine: 158070
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Tilemap targetTilemap
+    return:
+      type: Global.Tilemap
+    content.vb: Public targetTilemap As Tilemap
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PlayerMovement.movefield_map
+  commentId: F:Assets.Scripts.hex.PlayerMovement.movefield_map
+  id: movefield_map
+  parent: Assets.Scripts.hex.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: movefield_map
+  nameWithType: PlayerMovement.movefield_map
+  fullName: Assets.Scripts.hex.PlayerMovement.movefield_map
+  type: Field
+  source:
+    id: movefield_map
+    path: ''
+    startLine: 158071
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Tilemap movefield_map
+    return:
+      type: Global.Tilemap
+    content.vb: Public movefield_map As Tilemap
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.PlayerMovement.MoveSpeed
+  commentId: F:Assets.Scripts.hex.PlayerMovement.MoveSpeed
+  id: MoveSpeed
+  parent: Assets.Scripts.hex.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: MoveSpeed
+  nameWithType: PlayerMovement.MoveSpeed
+  fullName: Assets.Scripts.hex.PlayerMovement.MoveSpeed
+  type: Field
+  source:
+    id: MoveSpeed
+    path: ''
+    startLine: 158072
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public float MoveSpeed
+    return:
+      type: System.Single
+    content.vb: Public MoveSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

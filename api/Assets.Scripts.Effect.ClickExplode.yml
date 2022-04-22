@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Effect.ClickExplode
+  commentId: T:Assets.Scripts.Effect.ClickExplode
+  id: ClickExplode
+  parent: Assets.Scripts.Effect
+  children:
+  - Assets.Scripts.Effect.ClickExplode.myVFX
+  langs:
+  - csharp
+  - vb
+  name: ClickExplode
+  nameWithType: ClickExplode
+  fullName: Assets.Scripts.Effect.ClickExplode
+  type: Class
+  source:
+    id: ClickExplode
+    path: ''
+    startLine: 155374
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  summary: "\ndebug，未使用此类\n"
+  example: []
+  syntax:
+    content: 'public class ClickExplode : MonoBehaviour'
+    content.vb: >-
+      Public Class ClickExplode
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Effect.ClickExplode.myVFX
+  commentId: F:Assets.Scripts.Effect.ClickExplode.myVFX
+  id: myVFX
+  parent: Assets.Scripts.Effect.ClickExplode
+  langs:
+  - csharp
+  - vb
+  name: myVFX
+  nameWithType: ClickExplode.myVFX
+  fullName: Assets.Scripts.Effect.ClickExplode.myVFX
+  type: Field
+  source:
+    id: myVFX
+    path: ''
+    startLine: 155376
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  syntax:
+    content: public GameObject myVFX
+    return:
+      type: Global.GameObject
+    content.vb: Public myVFX As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Effect
+  commentId: N:Assets.Scripts.Effect
+  name: Assets.Scripts.Effect
+  nameWithType: Assets.Scripts.Effect
+  fullName: Assets.Scripts.Effect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

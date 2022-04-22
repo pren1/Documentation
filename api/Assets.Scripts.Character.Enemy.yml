@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Enemy
+  commentId: N:Assets.Scripts.Character.Enemy
+  id: Assets.Scripts.Character.Enemy
+  children:
+  - Assets.Scripts.Character.Enemy.Enemy
+  - Assets.Scripts.Character.Enemy.Enemy_click
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Character.Enemy
+  nameWithType: Assets.Scripts.Character.Enemy
+  fullName: Assets.Scripts.Character.Enemy
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Character.Enemy.Enemy
+  commentId: T:Assets.Scripts.Character.Enemy.Enemy
+  name: Enemy
+  nameWithType: Enemy
+  fullName: Assets.Scripts.Character.Enemy.Enemy
+- uid: Assets.Scripts.Character.Enemy.Enemy_click
+  commentId: T:Assets.Scripts.Character.Enemy.Enemy_click
+  name: Enemy_click
+  nameWithType: Enemy_click
+  fullName: Assets.Scripts.Character.Enemy.Enemy_click

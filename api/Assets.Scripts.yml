@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts
+  commentId: N:Assets.Scripts
+  id: Assets.Scripts
+  children:
+  - Assets.Scripts.card_draw_effect_tuple
+  - Assets.Scripts.DemoScript
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts
+  nameWithType: Assets.Scripts
+  fullName: Assets.Scripts
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.DemoScript
+  commentId: T:Assets.Scripts.DemoScript
+  name: DemoScript
+  nameWithType: DemoScript
+  fullName: Assets.Scripts.DemoScript
+- uid: Assets.Scripts.card_draw_effect_tuple
+  commentId: T:Assets.Scripts.card_draw_effect_tuple
+  parent: Assets.Scripts
+  name: card_draw_effect_tuple
+  nameWithType: card_draw_effect_tuple
+  fullName: Assets.Scripts.card_draw_effect_tuple
+- uid: Assets.Scripts
+  commentId: N:Assets.Scripts
+  name: Assets.Scripts
+  nameWithType: Assets.Scripts
+  fullName: Assets.Scripts

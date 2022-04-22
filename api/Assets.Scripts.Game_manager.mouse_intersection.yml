@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.mouse_intersection
+  commentId: T:Assets.Scripts.Game_manager.mouse_intersection
+  id: mouse_intersection
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.mouse_intersection.Get_intersections
+  - Assets.Scripts.Game_manager.mouse_intersection.object_name_list
+  langs:
+  - csharp
+  - vb
+  name: mouse_intersection
+  nameWithType: mouse_intersection
+  fullName: Assets.Scripts.Game_manager.mouse_intersection
+  type: Class
+  source:
+    id: mouse_intersection
+    path: ''
+    startLine: 156436
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n未应用废弃类\n"
+  example: []
+  syntax:
+    content: 'public class mouse_intersection : MonoBehaviour'
+    content.vb: >-
+      Public Class mouse_intersection
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.mouse_intersection.object_name_list
+  commentId: F:Assets.Scripts.Game_manager.mouse_intersection.object_name_list
+  id: object_name_list
+  parent: Assets.Scripts.Game_manager.mouse_intersection
+  langs:
+  - csharp
+  - vb
+  name: object_name_list
+  nameWithType: mouse_intersection.object_name_list
+  fullName: Assets.Scripts.Game_manager.mouse_intersection.object_name_list
+  type: Field
+  source:
+    id: object_name_list
+    path: ''
+    startLine: 156440
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public List<string> object_name_list
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public object_name_list As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.mouse_intersection.Get_intersections
+  commentId: M:Assets.Scripts.Game_manager.mouse_intersection.Get_intersections
+  id: Get_intersections
+  parent: Assets.Scripts.Game_manager.mouse_intersection
+  langs:
+  - csharp
+  - vb
+  name: Get_intersections()
+  nameWithType: mouse_intersection.Get_intersections()
+  fullName: Assets.Scripts.Game_manager.mouse_intersection.Get_intersections()
+  type: Method
+  source:
+    id: Get_intersections
+    path: ''
+    startLine: 156461
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public List<string> Get_intersections()
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Function Get_intersections As List(Of String)
+  overload: Assets.Scripts.Game_manager.mouse_intersection.Get_intersections*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Game_manager.mouse_intersection.Get_intersections*
+  commentId: Overload:Assets.Scripts.Game_manager.mouse_intersection.Get_intersections
+  name: Get_intersections
+  nameWithType: mouse_intersection.Get_intersections
+  fullName: Assets.Scripts.Game_manager.mouse_intersection.Get_intersections

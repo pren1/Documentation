@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1
+  commentId: T:Assets.Scripts.Utility.FixedSizedQueue`1
+  id: FixedSizedQueue`1
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.FixedSizedQueue`1.#ctor(System.Collections.Generic.List{`0})
+  - Assets.Scripts.Utility.FixedSizedQueue`1.Clear
+  - Assets.Scripts.Utility.FixedSizedQueue`1.Enqueue
+  langs:
+  - csharp
+  - vb
+  name: FixedSizedQueue<T>
+  nameWithType: FixedSizedQueue<T>
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>
+  type: Class
+  source:
+    id: FixedSizedQueue
+    path: ''
+    startLine: 163126
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n固定容量队列，用于处理对话立绘的展示问题。\n"
+  example: []
+  syntax:
+    content: public class FixedSizedQueue<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Class FixedSizedQueue(Of T)
+  inheritance:
+  - System.Object
+  nameWithType.vb: FixedSizedQueue(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T)
+  name.vb: FixedSizedQueue(Of T)
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1.#ctor(System.Collections.Generic.List{`0})
+  commentId: M:Assets.Scripts.Utility.FixedSizedQueue`1.#ctor(System.Collections.Generic.List{`0})
+  id: '#ctor(System.Collections.Generic.List{`0})'
+  parent: Assets.Scripts.Utility.FixedSizedQueue`1
+  langs:
+  - csharp
+  - vb
+  name: FixedSizedQueue(List<T>)
+  nameWithType: FixedSizedQueue<T>.FixedSizedQueue(List<T>)
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>.FixedSizedQueue(System.Collections.Generic.List<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 163132
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public FixedSizedQueue(List<T> initial_list)
+    parameters:
+    - id: initial_list
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Sub New(initial_list As List(Of T))
+  overload: Assets.Scripts.Utility.FixedSizedQueue`1.#ctor*
+  nameWithType.vb: FixedSizedQueue(Of T).FixedSizedQueue(List(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T).FixedSizedQueue(System.Collections.Generic.List(Of T))
+  name.vb: FixedSizedQueue(List(Of T))
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1.Enqueue
+  commentId: M:Assets.Scripts.Utility.FixedSizedQueue`1.Enqueue
+  id: Enqueue
+  parent: Assets.Scripts.Utility.FixedSizedQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Enqueue()
+  nameWithType: FixedSizedQueue<T>.Enqueue()
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>.Enqueue()
+  type: Method
+  source:
+    id: Enqueue
+    path: ''
+    startLine: 163141
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n入列\n"
+  example: []
+  syntax:
+    content: public T Enqueue()
+    return:
+      type: '{T}'
+    content.vb: Public Function Enqueue As T
+  overload: Assets.Scripts.Utility.FixedSizedQueue`1.Enqueue*
+  nameWithType.vb: FixedSizedQueue(Of T).Enqueue()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T).Enqueue()
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1.Clear
+  commentId: M:Assets.Scripts.Utility.FixedSizedQueue`1.Clear
+  id: Clear
+  parent: Assets.Scripts.Utility.FixedSizedQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: FixedSizedQueue<T>.Clear()
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 163156
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Assets.Scripts.Utility.FixedSizedQueue`1.Clear*
+  nameWithType.vb: FixedSizedQueue(Of T).Clear()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T).Clear()
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1.#ctor*
+  commentId: Overload:Assets.Scripts.Utility.FixedSizedQueue`1.#ctor
+  name: FixedSizedQueue
+  nameWithType: FixedSizedQueue<T>.FixedSizedQueue
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>.FixedSizedQueue
+  nameWithType.vb: FixedSizedQueue(Of T).FixedSizedQueue
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T).FixedSizedQueue
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1.Enqueue*
+  commentId: Overload:Assets.Scripts.Utility.FixedSizedQueue`1.Enqueue
+  name: Enqueue
+  nameWithType: FixedSizedQueue<T>.Enqueue
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>.Enqueue
+  nameWithType.vb: FixedSizedQueue(Of T).Enqueue
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T).Enqueue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1.Clear*
+  commentId: Overload:Assets.Scripts.Utility.FixedSizedQueue`1.Clear
+  name: Clear
+  nameWithType: FixedSizedQueue<T>.Clear
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>.Clear
+  nameWithType.vb: FixedSizedQueue(Of T).Clear
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T).Clear

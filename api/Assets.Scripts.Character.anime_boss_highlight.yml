@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.anime_boss_highlight
+  commentId: T:Assets.Scripts.Character.anime_boss_highlight
+  id: anime_boss_highlight
+  parent: Assets.Scripts.Character
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: anime_boss_highlight
+  nameWithType: anime_boss_highlight
+  fullName: Assets.Scripts.Character.anime_boss_highlight
+  type: Class
+  source:
+    id: anime_boss_highlight
+    path: ''
+    startLine: 153106
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n在战斗场景高亮角色\n"
+  example: []
+  syntax:
+    content: 'public class anime_boss_highlight : MonoBehaviour'
+    content.vb: >-
+      Public Class anime_boss_highlight
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

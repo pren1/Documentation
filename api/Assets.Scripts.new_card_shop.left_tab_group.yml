@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.new_card_shop.left_tab_group
+  commentId: T:Assets.Scripts.new_card_shop.left_tab_group
+  id: left_tab_group
+  parent: Assets.Scripts.new_card_shop
+  children:
+  - Assets.Scripts.new_card_shop.left_tab_group.build_left_tab
+  - Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs
+  langs:
+  - csharp
+  - vb
+  name: left_tab_group
+  nameWithType: left_tab_group
+  fullName: Assets.Scripts.new_card_shop.left_tab_group
+  type: Class
+  source:
+    id: left_tab_group
+    path: ''
+    startLine: 160147
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  summary: "\n左侧tab生成\n"
+  example: []
+  syntax:
+    content: 'public class left_tab_group : MonoBehaviour'
+    content.vb: >-
+      Public Class left_tab_group
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.new_card_shop.left_tab_group.build_left_tab
+  commentId: M:Assets.Scripts.new_card_shop.left_tab_group.build_left_tab
+  id: build_left_tab
+  parent: Assets.Scripts.new_card_shop.left_tab_group
+  langs:
+  - csharp
+  - vb
+  name: build_left_tab()
+  nameWithType: left_tab_group.build_left_tab()
+  fullName: Assets.Scripts.new_card_shop.left_tab_group.build_left_tab()
+  type: Method
+  source:
+    id: build_left_tab
+    path: ''
+    startLine: 160165
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void build_left_tab()
+    content.vb: Public Sub build_left_tab
+  overload: Assets.Scripts.new_card_shop.left_tab_group.build_left_tab*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs
+  commentId: M:Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs
+  id: disable_all_tabs
+  parent: Assets.Scripts.new_card_shop.left_tab_group
+  langs:
+  - csharp
+  - vb
+  name: disable_all_tabs()
+  nameWithType: left_tab_group.disable_all_tabs()
+  fullName: Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs()
+  type: Method
+  source:
+    id: disable_all_tabs
+    path: ''
+    startLine: 160175
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void disable_all_tabs()
+    content.vb: Public Sub disable_all_tabs
+  overload: Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.new_card_shop
+  commentId: N:Assets.Scripts.new_card_shop
+  name: Assets.Scripts.new_card_shop
+  nameWithType: Assets.Scripts.new_card_shop
+  fullName: Assets.Scripts.new_card_shop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.new_card_shop.left_tab_group.build_left_tab*
+  commentId: Overload:Assets.Scripts.new_card_shop.left_tab_group.build_left_tab
+  name: build_left_tab
+  nameWithType: left_tab_group.build_left_tab
+  fullName: Assets.Scripts.new_card_shop.left_tab_group.build_left_tab
+- uid: Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs*
+  commentId: Overload:Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs
+  name: disable_all_tabs
+  nameWithType: left_tab_group.disable_all_tabs
+  fullName: Assets.Scripts.new_card_shop.left_tab_group.disable_all_tabs

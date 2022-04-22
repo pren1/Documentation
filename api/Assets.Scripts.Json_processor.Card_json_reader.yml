@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.Card_json_reader
+  commentId: T:Assets.Scripts.Json_processor.Card_json_reader
+  id: Card_json_reader
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.Card_json_reader.card_json_file
+  - Assets.Scripts.Json_processor.Card_json_reader.card_list
+  - Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card(System.String,System.Int32)
+  - Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count(System.String)
+  - Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list
+  - Assets.Scripts.Json_processor.Card_json_reader.res_card_dict
+  langs:
+  - csharp
+  - vb
+  name: Card_json_reader
+  nameWithType: Card_json_reader
+  fullName: Assets.Scripts.Json_processor.Card_json_reader
+  type: Class
+  source:
+    id: Card_json_reader
+    path: ''
+    startLine: 158332
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n读入json文件，已转化为静态类\n"
+  example: []
+  syntax:
+    content: public class Card_json_reader
+    content.vb: Public Class Card_json_reader
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Json_processor.Card_json_reader.card_json_file
+  commentId: F:Assets.Scripts.Json_processor.Card_json_reader.card_json_file
+  id: card_json_file
+  parent: Assets.Scripts.Json_processor.Card_json_reader
+  langs:
+  - csharp
+  - vb
+  name: card_json_file
+  nameWithType: Card_json_reader.card_json_file
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.card_json_file
+  type: Field
+  source:
+    id: card_json_file
+    path: ''
+    startLine: 158334
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public static card_json card_json_file
+    return:
+      type: Assets.Scripts.Json_processor.card_json
+    content.vb: Public Shared card_json_file As card_json
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Json_processor.Card_json_reader.card_list
+  commentId: F:Assets.Scripts.Json_processor.Card_json_reader.card_list
+  id: card_list
+  parent: Assets.Scripts.Json_processor.Card_json_reader
+  langs:
+  - csharp
+  - vb
+  name: card_list
+  nameWithType: Card_json_reader.card_list
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.card_list
+  type: Field
+  source:
+    id: card_list
+    path: ''
+    startLine: 158336
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public static List<basic_card> card_list
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}
+    content.vb: Public Shared card_list As List(Of basic_card)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Json_processor.Card_json_reader.res_card_dict
+  commentId: F:Assets.Scripts.Json_processor.Card_json_reader.res_card_dict
+  id: res_card_dict
+  parent: Assets.Scripts.Json_processor.Card_json_reader
+  langs:
+  - csharp
+  - vb
+  name: res_card_dict
+  nameWithType: Card_json_reader.res_card_dict
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.res_card_dict
+  type: Field
+  source:
+    id: res_card_dict
+    path: ''
+    startLine: 158337
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public static Dictionary<string, List<basic_card>> res_card_dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}}
+    content.vb: Public Shared res_card_dict As Dictionary(Of String, List(Of basic_card))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list
+  commentId: M:Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list
+  id: load_character_spec_card_list
+  parent: Assets.Scripts.Json_processor.Card_json_reader
+  langs:
+  - csharp
+  - vb
+  name: load_character_spec_card_list()
+  nameWithType: Card_json_reader.load_character_spec_card_list()
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list()
+  type: Method
+  source:
+    id: load_character_spec_card_list
+    path: ''
+    startLine: 158368
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n对每个角色的特有卡牌，分别放入dict中\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, List<basic_card>> load_character_spec_card_list()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}}
+      description: ''
+    content.vb: Public Shared Function load_character_spec_card_list As Dictionary(Of String, List(Of basic_card))
+  overload: Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card(System.String,System.Int32)
+  commentId: M:Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card(System.String,System.Int32)
+  id: Change_count_to_target_card(System.String,System.Int32)
+  parent: Assets.Scripts.Json_processor.Card_json_reader
+  langs:
+  - csharp
+  - vb
+  name: Change_count_to_target_card(String, Int32)
+  nameWithType: Card_json_reader.Change_count_to_target_card(String, Int32)
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card(System.String, System.Int32)
+  type: Method
+  source:
+    id: Change_count_to_target_card
+    path: ''
+    startLine: 158390
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n改变目标卡牌数量\n"
+  example: []
+  syntax:
+    content: public static void Change_count_to_target_card(string card_name, int count_change)
+    parameters:
+    - id: card_name
+      type: System.String
+      description: ''
+    - id: count_change
+      type: System.Int32
+      description: 改变数量
+    content.vb: Public Shared Sub Change_count_to_target_card(card_name As String, count_change As Integer)
+  overload: Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count(System.String)
+  commentId: M:Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count(System.String)
+  id: Get_target_card_count(System.String)
+  parent: Assets.Scripts.Json_processor.Card_json_reader
+  langs:
+  - csharp
+  - vb
+  name: Get_target_card_count(String)
+  nameWithType: Card_json_reader.Get_target_card_count(String)
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count(System.String)
+  type: Method
+  source:
+    id: Get_target_card_count
+    path: ''
+    startLine: 158408
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n获取目标卡片数量\n"
+  example: []
+  syntax:
+    content: public static int Get_target_card_count(string card_name)
+    parameters:
+    - id: card_name
+      type: System.String
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Get_target_card_count(card_name As String) As Integer
+  overload: Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Json_processor.card_json
+  commentId: T:Assets.Scripts.Json_processor.card_json
+  parent: Assets.Scripts.Json_processor
+  name: card_json
+  nameWithType: card_json
+  fullName: Assets.Scripts.Json_processor.card_json
+- uid: System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<basic_card>
+  nameWithType: List<basic_card>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Json_processor.basic_card>
+  nameWithType.vb: List(Of basic_card)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Json_processor.basic_card)
+  name.vb: List(Of basic_card)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Json_processor.basic_card
+    name: basic_card
+    nameWithType: basic_card
+    fullName: Assets.Scripts.Json_processor.basic_card
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Json_processor.basic_card
+    name: basic_card
+    nameWithType: basic_card
+    fullName: Assets.Scripts.Json_processor.basic_card
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Assets.Scripts.Json_processor.basic_card}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, List<basic_card>>
+  nameWithType: Dictionary<String, List<basic_card>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<Assets.Scripts.Json_processor.basic_card>>
+  nameWithType.vb: Dictionary(Of String, List(Of basic_card))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of Assets.Scripts.Json_processor.basic_card))
+  name.vb: Dictionary(Of String, List(Of basic_card))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Json_processor.basic_card
+    name: basic_card
+    nameWithType: basic_card
+    fullName: Assets.Scripts.Json_processor.basic_card
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Json_processor.basic_card
+    name: basic_card
+    nameWithType: basic_card
+    fullName: Assets.Scripts.Json_processor.basic_card
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list*
+  commentId: Overload:Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list
+  name: load_character_spec_card_list
+  nameWithType: Card_json_reader.load_character_spec_card_list
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.load_character_spec_card_list
+- uid: Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card*
+  commentId: Overload:Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card
+  name: Change_count_to_target_card
+  nameWithType: Card_json_reader.Change_count_to_target_card
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.Change_count_to_target_card
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count*
+  commentId: Overload:Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count
+  name: Get_target_card_count
+  nameWithType: Card_json_reader.Get_target_card_count
+  fullName: Assets.Scripts.Json_processor.Card_json_reader.Get_target_card_count

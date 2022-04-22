@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Effect_tuple
+  commentId: T:Assets.Scripts.Utility.Effect_tuple
+  id: Effect_tuple
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Effect_tuple.#ctor(Assets.Scripts.Utility.card_effect,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.Int32)
+  - Assets.Scripts.Utility.Effect_tuple.card_name
+  - Assets.Scripts.Utility.Effect_tuple.Effect
+  - Assets.Scripts.Utility.Effect_tuple.effect_last_round
+  - Assets.Scripts.Utility.Effect_tuple.end_last_round
+  - Assets.Scripts.Utility.Effect_tuple.is_aoe
+  - Assets.Scripts.Utility.Effect_tuple.is_end_trigger
+  - Assets.Scripts.Utility.Effect_tuple.is_repeat
+  - Assets.Scripts.Utility.Effect_tuple.is_start_trigger
+  - Assets.Scripts.Utility.Effect_tuple.level
+  - Assets.Scripts.Utility.Effect_tuple.specific_character_name
+  - Assets.Scripts.Utility.Effect_tuple.start_last_round
+  - Assets.Scripts.Utility.Effect_tuple.trigger_when_is_hand_empty
+  langs:
+  - csharp
+  - vb
+  name: Effect_tuple
+  nameWithType: Effect_tuple
+  fullName: Assets.Scripts.Utility.Effect_tuple
+  type: Struct
+  source:
+    id: Effect_tuple
+    path: ''
+    startLine: 162867
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n存储单个卡牌效果\n"
+  example: []
+  syntax:
+    content: public struct Effect_tuple
+    content.vb: Public Structure Effect_tuple
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Assets.Scripts.Utility.Effect_tuple.Effect
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.Effect
+  id: Effect
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: Effect
+  nameWithType: Effect_tuple.Effect
+  fullName: Assets.Scripts.Utility.Effect_tuple.Effect
+  type: Field
+  source:
+    id: Effect
+    path: ''
+    startLine: 162869
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public card_effect Effect
+    return:
+      type: Assets.Scripts.Utility.card_effect
+    content.vb: Public Effect As card_effect
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.level
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.level
+  id: level
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: level
+  nameWithType: Effect_tuple.level
+  fullName: Assets.Scripts.Utility.Effect_tuple.level
+  type: Field
+  source:
+    id: level
+    path: ''
+    startLine: 162870
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public int level
+    return:
+      type: System.Int32
+    content.vb: Public level As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.is_aoe
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.is_aoe
+  id: is_aoe
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: is_aoe
+  nameWithType: Effect_tuple.is_aoe
+  fullName: Assets.Scripts.Utility.Effect_tuple.is_aoe
+  type: Field
+  source:
+    id: is_aoe
+    path: ''
+    startLine: 162871
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public bool is_aoe
+    return:
+      type: System.Boolean
+    content.vb: Public is_aoe As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.is_repeat
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.is_repeat
+  id: is_repeat
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: is_repeat
+  nameWithType: Effect_tuple.is_repeat
+  fullName: Assets.Scripts.Utility.Effect_tuple.is_repeat
+  type: Field
+  source:
+    id: is_repeat
+    path: ''
+    startLine: 162872
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public bool is_repeat
+    return:
+      type: System.Boolean
+    content.vb: Public is_repeat As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.is_end_trigger
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.is_end_trigger
+  id: is_end_trigger
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: is_end_trigger
+  nameWithType: Effect_tuple.is_end_trigger
+  fullName: Assets.Scripts.Utility.Effect_tuple.is_end_trigger
+  type: Field
+  source:
+    id: is_end_trigger
+    path: ''
+    startLine: 162873
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public bool is_end_trigger
+    return:
+      type: System.Boolean
+    content.vb: Public is_end_trigger As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.is_start_trigger
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.is_start_trigger
+  id: is_start_trigger
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: is_start_trigger
+  nameWithType: Effect_tuple.is_start_trigger
+  fullName: Assets.Scripts.Utility.Effect_tuple.is_start_trigger
+  type: Field
+  source:
+    id: is_start_trigger
+    path: ''
+    startLine: 162874
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public bool is_start_trigger
+    return:
+      type: System.Boolean
+    content.vb: Public is_start_trigger As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.end_last_round
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.end_last_round
+  id: end_last_round
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: end_last_round
+  nameWithType: Effect_tuple.end_last_round
+  fullName: Assets.Scripts.Utility.Effect_tuple.end_last_round
+  type: Field
+  source:
+    id: end_last_round
+    path: ''
+    startLine: 162875
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public int end_last_round
+    return:
+      type: System.Int32
+    content.vb: Public end_last_round As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.start_last_round
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.start_last_round
+  id: start_last_round
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: start_last_round
+  nameWithType: Effect_tuple.start_last_round
+  fullName: Assets.Scripts.Utility.Effect_tuple.start_last_round
+  type: Field
+  source:
+    id: start_last_round
+    path: ''
+    startLine: 162876
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public int start_last_round
+    return:
+      type: System.Int32
+    content.vb: Public start_last_round As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.card_name
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.card_name
+  id: card_name
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: card_name
+  nameWithType: Effect_tuple.card_name
+  fullName: Assets.Scripts.Utility.Effect_tuple.card_name
+  type: Field
+  source:
+    id: card_name
+    path: ''
+    startLine: 162877
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public string card_name
+    return:
+      type: System.String
+    content.vb: Public card_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.specific_character_name
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.specific_character_name
+  id: specific_character_name
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: specific_character_name
+  nameWithType: Effect_tuple.specific_character_name
+  fullName: Assets.Scripts.Utility.Effect_tuple.specific_character_name
+  type: Field
+  source:
+    id: specific_character_name
+    path: ''
+    startLine: 162878
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public string specific_character_name
+    return:
+      type: System.String
+    content.vb: Public specific_character_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.effect_last_round
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.effect_last_round
+  id: effect_last_round
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: effect_last_round
+  nameWithType: Effect_tuple.effect_last_round
+  fullName: Assets.Scripts.Utility.Effect_tuple.effect_last_round
+  type: Field
+  source:
+    id: effect_last_round
+    path: ''
+    startLine: 162879
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public int effect_last_round
+    return:
+      type: System.Int32
+    content.vb: Public effect_last_round As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.trigger_when_is_hand_empty
+  commentId: F:Assets.Scripts.Utility.Effect_tuple.trigger_when_is_hand_empty
+  id: trigger_when_is_hand_empty
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: trigger_when_is_hand_empty
+  nameWithType: Effect_tuple.trigger_when_is_hand_empty
+  fullName: Assets.Scripts.Utility.Effect_tuple.trigger_when_is_hand_empty
+  type: Field
+  source:
+    id: trigger_when_is_hand_empty
+    path: ''
+    startLine: 162880
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public bool trigger_when_is_hand_empty
+    return:
+      type: System.Boolean
+    content.vb: Public trigger_when_is_hand_empty As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Effect_tuple.#ctor(Assets.Scripts.Utility.card_effect,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.Int32)
+  commentId: M:Assets.Scripts.Utility.Effect_tuple.#ctor(Assets.Scripts.Utility.card_effect,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.Int32)
+  id: '#ctor(Assets.Scripts.Utility.card_effect,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.Int32)'
+  parent: Assets.Scripts.Utility.Effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: Effect_tuple(card_effect, Int32, Boolean, Boolean, Boolean, Int32, String, String, Int32)
+  nameWithType: Effect_tuple.Effect_tuple(card_effect, Int32, Boolean, Boolean, Boolean, Int32, String, String, Int32)
+  fullName: Assets.Scripts.Utility.Effect_tuple.Effect_tuple(Assets.Scripts.Utility.card_effect, System.Int32, System.Boolean, System.Boolean, System.Boolean, System.Int32, System.String, System.String, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 162894
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n单个卡牌效果存储\n"
+  example: []
+  syntax:
+    content: public Effect_tuple(card_effect Effect, int level, bool is_aoe = true, bool is_repeat = false, bool is_end_triggered = false, int end_last_round = 0, string card_name = "", string specific_character_name = "", int effect_last_round = 0)
+    parameters:
+    - id: Effect
+      type: Assets.Scripts.Utility.card_effect
+      description: 卡片效果
+    - id: level
+      type: System.Int32
+      description: 等级
+    - id: is_aoe
+      type: System.Boolean
+      description: ''
+    - id: is_repeat
+      type: System.Boolean
+      description: 是否重复
+    - id: is_end_triggered
+      type: System.Boolean
+      description: 是否在回合末触发
+    - id: end_last_round
+      type: System.Int32
+      description: 回合末触发持续回合
+    - id: card_name
+      type: System.String
+      description: 抽卡目标(抽的卡的名称)
+    - id: specific_character_name
+      type: System.String
+      description: 特别角色增益
+    - id: effect_last_round
+      type: System.Int32
+      description: 效果持续回合
+    content.vb: Public Sub New(Effect As card_effect, level As Integer, is_aoe As Boolean = True, is_repeat As Boolean = False, is_end_triggered As Boolean = False, end_last_round As Integer = 0, card_name As String = "", specific_character_name As String = "", effect_last_round As Integer = 0)
+  overload: Assets.Scripts.Utility.Effect_tuple.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.card_effect
+  commentId: T:Assets.Scripts.Utility.card_effect
+  parent: Assets.Scripts.Utility
+  name: card_effect
+  nameWithType: card_effect
+  fullName: Assets.Scripts.Utility.card_effect
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Utility.Effect_tuple.#ctor*
+  commentId: Overload:Assets.Scripts.Utility.Effect_tuple.#ctor
+  name: Effect_tuple
+  nameWithType: Effect_tuple.Effect_tuple
+  fullName: Assets.Scripts.Utility.Effect_tuple.Effect_tuple

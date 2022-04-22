@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.stage_clear.render_icons
+  commentId: T:Assets.Scripts.stage_clear.render_icons
+  id: render_icons
+  parent: Assets.Scripts.stage_clear
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: render_icons
+  nameWithType: render_icons
+  fullName: Assets.Scripts.stage_clear.render_icons
+  type: Class
+  source:
+    id: render_icons
+    path: ''
+    startLine: 160388
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.stage_clear
+  syntax:
+    content: 'public class render_icons : MonoBehaviour'
+    content.vb: >-
+      Public Class render_icons
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.stage_clear
+  commentId: N:Assets.Scripts.stage_clear
+  name: Assets.Scripts.stage_clear
+  nameWithType: Assets.Scripts.stage_clear
+  fullName: Assets.Scripts.stage_clear
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

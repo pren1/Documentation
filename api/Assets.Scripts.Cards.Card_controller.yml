@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Cards.Card_controller
+  commentId: T:Assets.Scripts.Cards.Card_controller
+  id: Card_controller
+  parent: Assets.Scripts.Cards
+  children:
+  - Assets.Scripts.Cards.Card_controller.update_card_cover_status(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Card_controller
+  nameWithType: Card_controller
+  fullName: Assets.Scripts.Cards.Card_controller
+  type: Class
+  source:
+    id: Card_controller
+    path: ''
+    startLine: 151463
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  summary: "\n控制单张卡片\n"
+  example: []
+  syntax:
+    content: 'public class Card_controller : MonoBehaviour'
+    content.vb: >-
+      Public Class Card_controller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Cards.Card_controller.update_card_cover_status(System.String)
+  commentId: M:Assets.Scripts.Cards.Card_controller.update_card_cover_status(System.String)
+  id: update_card_cover_status(System.String)
+  parent: Assets.Scripts.Cards.Card_controller
+  langs:
+  - csharp
+  - vb
+  name: update_card_cover_status(String)
+  nameWithType: Card_controller.update_card_cover_status(String)
+  fullName: Assets.Scripts.Cards.Card_controller.update_card_cover_status(System.String)
+  type: Method
+  source:
+    id: update_card_cover_status
+    path: ''
+    startLine: 151503
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  summary: "\n处理卡背显示与否\n"
+  example: []
+  syntax:
+    content: public void update_card_cover_status(string pile_name)
+    parameters:
+    - id: pile_name
+      type: System.String
+      description: ''
+    content.vb: Public Sub update_card_cover_status(pile_name As String)
+  overload: Assets.Scripts.Cards.Card_controller.update_card_cover_status*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Cards
+  commentId: N:Assets.Scripts.Cards
+  name: Assets.Scripts.Cards
+  nameWithType: Assets.Scripts.Cards
+  fullName: Assets.Scripts.Cards
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Cards.Card_controller.update_card_cover_status*
+  commentId: Overload:Assets.Scripts.Cards.Card_controller.update_card_cover_status
+  name: update_card_cover_status
+  nameWithType: Card_controller.update_card_cover_status
+  fullName: Assets.Scripts.Cards.Card_controller.update_card_cover_status
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

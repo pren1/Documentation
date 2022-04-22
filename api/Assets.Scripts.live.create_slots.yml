@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.create_slots
+  commentId: T:Assets.Scripts.live.create_slots
+  id: create_slots
+  parent: Assets.Scripts.live
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: create_slots
+  nameWithType: create_slots
+  fullName: Assets.Scripts.live.create_slots
+  type: Class
+  source:
+    id: create_slots
+    path: ''
+    startLine: 159183
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: 'public class create_slots : MonoBehaviour'
+    content.vb: >-
+      Public Class create_slots
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

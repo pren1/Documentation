@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.highlight_slot
+  commentId: T:Assets.Scripts.live.highlight_slot
+  id: highlight_slot
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.highlight_slot.Highlight_card_slot(System.Boolean)
+  - Assets.Scripts.live.highlight_slot.live_Card_Pile
+  - Assets.Scripts.live.highlight_slot.OnMouseDown
+  - Assets.Scripts.live.highlight_slot.OnPointerClick(PointerEventData)
+  langs:
+  - csharp
+  - vb
+  name: highlight_slot
+  nameWithType: highlight_slot
+  fullName: Assets.Scripts.live.highlight_slot
+  type: Class
+  source:
+    id: highlight_slot
+    path: ''
+    startLine: 159211
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: 'public class highlight_slot : MonoBehaviour'
+    content.vb: >-
+      Public Class highlight_slot
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.highlight_slot.live_Card_Pile
+  commentId: F:Assets.Scripts.live.highlight_slot.live_Card_Pile
+  id: live_Card_Pile
+  parent: Assets.Scripts.live.highlight_slot
+  langs:
+  - csharp
+  - vb
+  name: live_Card_Pile
+  nameWithType: highlight_slot.live_Card_Pile
+  fullName: Assets.Scripts.live.highlight_slot.live_Card_Pile
+  type: Field
+  source:
+    id: live_Card_Pile
+    path: ''
+    startLine: 159213
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public live_card_pile live_Card_Pile
+    return:
+      type: Assets.Scripts.live.live_card_pile
+    content.vb: Public live_Card_Pile As live_card_pile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.highlight_slot.OnPointerClick(PointerEventData)
+  commentId: M:Assets.Scripts.live.highlight_slot.OnPointerClick(PointerEventData)
+  id: OnPointerClick(PointerEventData)
+  parent: Assets.Scripts.live.highlight_slot
+  langs:
+  - csharp
+  - vb
+  name: OnPointerClick(PointerEventData)
+  nameWithType: highlight_slot.OnPointerClick(PointerEventData)
+  fullName: Assets.Scripts.live.highlight_slot.OnPointerClick(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerClick
+    path: ''
+    startLine: 159215
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void OnPointerClick(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerClick(eventData As PointerEventData)
+  overload: Assets.Scripts.live.highlight_slot.OnPointerClick*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.highlight_slot.Highlight_card_slot(System.Boolean)
+  commentId: M:Assets.Scripts.live.highlight_slot.Highlight_card_slot(System.Boolean)
+  id: Highlight_card_slot(System.Boolean)
+  parent: Assets.Scripts.live.highlight_slot
+  langs:
+  - csharp
+  - vb
+  name: Highlight_card_slot(Boolean)
+  nameWithType: highlight_slot.Highlight_card_slot(Boolean)
+  fullName: Assets.Scripts.live.highlight_slot.Highlight_card_slot(System.Boolean)
+  type: Method
+  source:
+    id: Highlight_card_slot
+    path: ''
+    startLine: 159233
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void Highlight_card_slot(bool enable)
+    parameters:
+    - id: enable
+      type: System.Boolean
+    content.vb: Public Sub Highlight_card_slot(enable As Boolean)
+  overload: Assets.Scripts.live.highlight_slot.Highlight_card_slot*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.highlight_slot.OnMouseDown
+  commentId: M:Assets.Scripts.live.highlight_slot.OnMouseDown
+  id: OnMouseDown
+  parent: Assets.Scripts.live.highlight_slot
+  langs:
+  - csharp
+  - vb
+  name: OnMouseDown()
+  nameWithType: highlight_slot.OnMouseDown()
+  fullName: Assets.Scripts.live.highlight_slot.OnMouseDown()
+  type: Method
+  source:
+    id: OnMouseDown
+    path: ''
+    startLine: 159253
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void OnMouseDown()
+    content.vb: Public Sub OnMouseDown
+  overload: Assets.Scripts.live.highlight_slot.OnMouseDown*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.live.live_card_pile
+  commentId: T:Assets.Scripts.live.live_card_pile
+  parent: Assets.Scripts.live
+  name: live_card_pile
+  nameWithType: live_card_pile
+  fullName: Assets.Scripts.live.live_card_pile
+- uid: Assets.Scripts.live.highlight_slot.OnPointerClick*
+  commentId: Overload:Assets.Scripts.live.highlight_slot.OnPointerClick
+  name: OnPointerClick
+  nameWithType: highlight_slot.OnPointerClick
+  fullName: Assets.Scripts.live.highlight_slot.OnPointerClick
+- uid: Global.PointerEventData
+  commentId: '!:Global.PointerEventData'
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: Assets.Scripts.live.highlight_slot.Highlight_card_slot*
+  commentId: Overload:Assets.Scripts.live.highlight_slot.Highlight_card_slot
+  name: Highlight_card_slot
+  nameWithType: highlight_slot.Highlight_card_slot
+  fullName: Assets.Scripts.live.highlight_slot.Highlight_card_slot
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.live.highlight_slot.OnMouseDown*
+  commentId: Overload:Assets.Scripts.live.highlight_slot.OnMouseDown
+  name: OnMouseDown
+  nameWithType: highlight_slot.OnMouseDown
+  fullName: Assets.Scripts.live.highlight_slot.OnMouseDown

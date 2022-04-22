@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.time_bar
+  commentId: T:Assets.Scripts.live.time_bar
+  id: time_bar
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.time_bar.push_Button
+  - Assets.Scripts.live.time_bar.set_duration_time(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: time_bar
+  nameWithType: time_bar
+  fullName: Assets.Scripts.live.time_bar
+  type: Class
+  source:
+    id: time_bar
+    path: ''
+    startLine: 160104
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n计时进度条\n"
+  example: []
+  syntax:
+    content: 'public class time_bar : MonoBehaviour'
+    content.vb: >-
+      Public Class time_bar
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.time_bar.push_Button
+  commentId: F:Assets.Scripts.live.time_bar.push_Button
+  id: push_Button
+  parent: Assets.Scripts.live.time_bar
+  langs:
+  - csharp
+  - vb
+  name: push_Button
+  nameWithType: time_bar.push_Button
+  fullName: Assets.Scripts.live.time_bar.push_Button
+  type: Field
+  source:
+    id: push_Button
+    path: ''
+    startLine: 160109
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public push_button push_Button
+    return:
+      type: Assets.Scripts.live.push_button
+    content.vb: Public push_Button As push_button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.time_bar.set_duration_time(System.Single)
+  commentId: M:Assets.Scripts.live.time_bar.set_duration_time(System.Single)
+  id: set_duration_time(System.Single)
+  parent: Assets.Scripts.live.time_bar
+  langs:
+  - csharp
+  - vb
+  name: set_duration_time(Single)
+  nameWithType: time_bar.set_duration_time(Single)
+  fullName: Assets.Scripts.live.time_bar.set_duration_time(System.Single)
+  type: Method
+  source:
+    id: set_duration_time
+    path: ''
+    startLine: 160118
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void set_duration_time(float time)
+    parameters:
+    - id: time
+      type: System.Single
+    content.vb: Public Sub set_duration_time(time As Single)
+  overload: Assets.Scripts.live.time_bar.set_duration_time*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.live.push_button
+  commentId: T:Assets.Scripts.live.push_button
+  parent: Assets.Scripts.live
+  name: push_button
+  nameWithType: push_button
+  fullName: Assets.Scripts.live.push_button
+- uid: Assets.Scripts.live.time_bar.set_duration_time*
+  commentId: Overload:Assets.Scripts.live.time_bar.set_duration_time
+  name: set_duration_time
+  nameWithType: time_bar.set_duration_time
+  fullName: Assets.Scripts.live.time_bar.set_duration_time
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

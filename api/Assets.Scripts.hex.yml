@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  id: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.A_star_path_finder
+  - Assets.Scripts.hex.axis_transfer
+  - Assets.Scripts.hex.Follow_Enemy
+  - Assets.Scripts.hex.Grid
+  - Assets.Scripts.hex.Move_script
+  - Assets.Scripts.hex.Move_script.walking_state
+  - Assets.Scripts.hex.PathNode
+  - Assets.Scripts.hex.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.hex.axis_transfer
+  commentId: T:Assets.Scripts.hex.axis_transfer
+  name: axis_transfer
+  nameWithType: axis_transfer
+  fullName: Assets.Scripts.hex.axis_transfer
+- uid: Assets.Scripts.hex.A_star_path_finder
+  commentId: T:Assets.Scripts.hex.A_star_path_finder
+  name: A_star_path_finder
+  nameWithType: A_star_path_finder
+  fullName: Assets.Scripts.hex.A_star_path_finder
+- uid: Assets.Scripts.hex.Follow_Enemy
+  commentId: T:Assets.Scripts.hex.Follow_Enemy
+  name: Follow_Enemy
+  nameWithType: Follow_Enemy
+  fullName: Assets.Scripts.hex.Follow_Enemy
+- uid: Assets.Scripts.hex.Grid
+  commentId: T:Assets.Scripts.hex.Grid
+  name: Grid
+  nameWithType: Grid
+  fullName: Assets.Scripts.hex.Grid
+- uid: Assets.Scripts.hex.Move_script
+  commentId: T:Assets.Scripts.hex.Move_script
+  parent: Assets.Scripts.hex
+  name: Move_script
+  nameWithType: Move_script
+  fullName: Assets.Scripts.hex.Move_script
+- uid: Assets.Scripts.hex.Move_script.walking_state
+  commentId: T:Assets.Scripts.hex.Move_script.walking_state
+  parent: Assets.Scripts.hex
+  name: Move_script.walking_state
+  nameWithType: Move_script.walking_state
+  fullName: Assets.Scripts.hex.Move_script.walking_state
+- uid: Assets.Scripts.hex.PathNode
+  commentId: T:Assets.Scripts.hex.PathNode
+  parent: Assets.Scripts.hex
+  name: PathNode
+  nameWithType: PathNode
+  fullName: Assets.Scripts.hex.PathNode
+- uid: Assets.Scripts.hex.PlayerMovement
+  commentId: T:Assets.Scripts.hex.PlayerMovement
+  name: PlayerMovement
+  nameWithType: PlayerMovement
+  fullName: Assets.Scripts.hex.PlayerMovement
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex

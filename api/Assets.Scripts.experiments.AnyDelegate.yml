@@ -1,0 +1,36 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.experiments.AnyDelegate
+  commentId: T:Assets.Scripts.experiments.AnyDelegate
+  id: AnyDelegate
+  parent: Assets.Scripts.experiments
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AnyDelegate
+  nameWithType: AnyDelegate
+  fullName: Assets.Scripts.experiments.AnyDelegate
+  type: Delegate
+  source:
+    id: AnyDelegate
+    path: ''
+    startLine: 155976
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.experiments
+  syntax:
+    content: public delegate void AnyDelegate();
+    content.vb: Public Delegate Sub AnyDelegate
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Assets.Scripts.experiments
+  commentId: N:Assets.Scripts.experiments
+  name: Assets.Scripts.experiments
+  nameWithType: Assets.Scripts.experiments
+  fullName: Assets.Scripts.experiments

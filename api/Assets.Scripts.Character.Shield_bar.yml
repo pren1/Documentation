@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Shield_bar
+  commentId: T:Assets.Scripts.Character.Shield_bar
+  id: Shield_bar
+  parent: Assets.Scripts.Character
+  children:
+  - Assets.Scripts.Character.Shield_bar.#ctor(GameObject,Canvas,RectTransform,System.Single,Assets.Scripts.Character.Character_property)
+  - Assets.Scripts.Character.Shield_bar.change_shield_bar(System.Single)
+  - Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive
+  - Assets.Scripts.Character.Shield_bar.shield_bar
+  - Assets.Scripts.Character.Shield_bar.show_shield_bar
+  langs:
+  - csharp
+  - vb
+  name: Shield_bar
+  nameWithType: Shield_bar
+  fullName: Assets.Scripts.Character.Shield_bar
+  type: Class
+  source:
+    id: Shield_bar
+    path: ''
+    startLine: 153844
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n护甲条\n"
+  example: []
+  syntax:
+    content: public class Shield_bar
+    content.vb: Public Class Shield_bar
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Character.Shield_bar.shield_bar
+  commentId: F:Assets.Scripts.Character.Shield_bar.shield_bar
+  id: shield_bar
+  parent: Assets.Scripts.Character.Shield_bar
+  langs:
+  - csharp
+  - vb
+  name: shield_bar
+  nameWithType: Shield_bar.shield_bar
+  fullName: Assets.Scripts.Character.Shield_bar.shield_bar
+  type: Field
+  source:
+    id: shield_bar
+    path: ''
+    startLine: 153847
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public GameObject shield_bar
+    return:
+      type: Global.GameObject
+    content.vb: Public shield_bar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Shield_bar.#ctor(GameObject,Canvas,RectTransform,System.Single,Assets.Scripts.Character.Character_property)
+  commentId: M:Assets.Scripts.Character.Shield_bar.#ctor(GameObject,Canvas,RectTransform,System.Single,Assets.Scripts.Character.Character_property)
+  id: '#ctor(GameObject,Canvas,RectTransform,System.Single,Assets.Scripts.Character.Character_property)'
+  parent: Assets.Scripts.Character.Shield_bar
+  langs:
+  - csharp
+  - vb
+  name: Shield_bar(GameObject, Canvas, RectTransform, Single, Character_property)
+  nameWithType: Shield_bar.Shield_bar(GameObject, Canvas, RectTransform, Single, Character_property)
+  fullName: Assets.Scripts.Character.Shield_bar.Shield_bar(GameObject, Canvas, RectTransform, System.Single, Assets.Scripts.Character.Character_property)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 153858
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public Shield_bar(GameObject parent_gameobject, Canvas my_canvas, RectTransform CanvasRect, float offset_y, Character_property character_Property)
+    parameters:
+    - id: parent_gameobject
+      type: Global.GameObject
+    - id: my_canvas
+      type: Global.Canvas
+    - id: CanvasRect
+      type: Global.RectTransform
+    - id: offset_y
+      type: System.Single
+    - id: character_Property
+      type: Assets.Scripts.Character.Character_property
+    content.vb: Public Sub New(parent_gameobject As GameObject, my_canvas As Canvas, CanvasRect As RectTransform, offset_y As Single, character_Property As Character_property)
+  overload: Assets.Scripts.Character.Shield_bar.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive
+  commentId: M:Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive
+  id: set_elite_icon_inactive
+  parent: Assets.Scripts.Character.Shield_bar
+  langs:
+  - csharp
+  - vb
+  name: set_elite_icon_inactive()
+  nameWithType: Shield_bar.set_elite_icon_inactive()
+  fullName: Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive()
+  type: Method
+  source:
+    id: set_elite_icon_inactive
+    path: ''
+    startLine: 153892
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void set_elite_icon_inactive()
+    content.vb: Public Sub set_elite_icon_inactive
+  overload: Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Shield_bar.show_shield_bar
+  commentId: M:Assets.Scripts.Character.Shield_bar.show_shield_bar
+  id: show_shield_bar
+  parent: Assets.Scripts.Character.Shield_bar
+  langs:
+  - csharp
+  - vb
+  name: show_shield_bar()
+  nameWithType: Shield_bar.show_shield_bar()
+  fullName: Assets.Scripts.Character.Shield_bar.show_shield_bar()
+  type: Method
+  source:
+    id: show_shield_bar
+    path: ''
+    startLine: 153897
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void show_shield_bar()
+    content.vb: Public Sub show_shield_bar
+  overload: Assets.Scripts.Character.Shield_bar.show_shield_bar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Shield_bar.change_shield_bar(System.Single)
+  commentId: M:Assets.Scripts.Character.Shield_bar.change_shield_bar(System.Single)
+  id: change_shield_bar(System.Single)
+  parent: Assets.Scripts.Character.Shield_bar
+  langs:
+  - csharp
+  - vb
+  name: change_shield_bar(Single)
+  nameWithType: Shield_bar.change_shield_bar(Single)
+  fullName: Assets.Scripts.Character.Shield_bar.change_shield_bar(System.Single)
+  type: Method
+  source:
+    id: change_shield_bar
+    path: ''
+    startLine: 153918
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n改变护盾\n"
+  example: []
+  syntax:
+    content: public void change_shield_bar(float resulted_shield)
+    parameters:
+    - id: resulted_shield
+      type: System.Single
+      description: 当前护盾
+    content.vb: Public Sub change_shield_bar(resulted_shield As Single)
+  overload: Assets.Scripts.Character.Shield_bar.change_shield_bar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.Character.Shield_bar.#ctor*
+  commentId: Overload:Assets.Scripts.Character.Shield_bar.#ctor
+  name: Shield_bar
+  nameWithType: Shield_bar.Shield_bar
+  fullName: Assets.Scripts.Character.Shield_bar.Shield_bar
+- uid: Global.Canvas
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Character.Character_property
+  commentId: T:Assets.Scripts.Character.Character_property
+  parent: Assets.Scripts.Character
+  name: Character_property
+  nameWithType: Character_property
+  fullName: Assets.Scripts.Character.Character_property
+- uid: Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive*
+  commentId: Overload:Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive
+  name: set_elite_icon_inactive
+  nameWithType: Shield_bar.set_elite_icon_inactive
+  fullName: Assets.Scripts.Character.Shield_bar.set_elite_icon_inactive
+- uid: Assets.Scripts.Character.Shield_bar.show_shield_bar*
+  commentId: Overload:Assets.Scripts.Character.Shield_bar.show_shield_bar
+  name: show_shield_bar
+  nameWithType: Shield_bar.show_shield_bar
+  fullName: Assets.Scripts.Character.Shield_bar.show_shield_bar
+- uid: Assets.Scripts.Character.Shield_bar.change_shield_bar*
+  commentId: Overload:Assets.Scripts.Character.Shield_bar.change_shield_bar
+  name: change_shield_bar
+  nameWithType: Shield_bar.change_shield_bar
+  fullName: Assets.Scripts.Character.Shield_bar.change_shield_bar

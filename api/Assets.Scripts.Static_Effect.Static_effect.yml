@@ -1,0 +1,1736 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Static_Effect.Static_effect
+  commentId: T:Assets.Scripts.Static_Effect.Static_effect
+  id: Static_effect
+  parent: Assets.Scripts.Static_Effect
+  children:
+  - Assets.Scripts.Static_Effect.Static_effect.Change_attack_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_charge_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_health(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,card_type,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  - Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  - Assets.Scripts.Static_Effect.Static_effect.clean_stats(Assets.Scripts.Character.Character)
+  - Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level(System.Collections.Generic.List{Effect_tuple})
+  - Assets.Scripts.Static_Effect.Static_effect.draw_card(System.Int32)
+  - Assets.Scripts.Static_Effect.Static_effect.effect_end_Dictionary
+  - Assets.Scripts.Static_Effect.Static_effect.effect_start_Dictionary
+  - Assets.Scripts.Static_Effect.Static_effect.Enemy_dict
+  - Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,card_effect,System.Int32,System.Int32,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects(System.Collections.Generic.List{Effect_tuple},Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type)
+  - Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object(GameObject,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character(GameObject,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object(GameObject,Color,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit(System.Int32)
+  - Assets.Scripts.Static_Effect.Static_effect.levelLoaderScript
+  - Assets.Scripts.Static_Effect.Static_effect.Member_dict
+  - Assets.Scripts.Static_Effect.Static_effect.money_Manager
+  - Assets.Scripts.Static_Effect.Static_effect.prob_resurrection(Assets.Scripts.Character.Character)
+  - Assets.Scripts.Static_Effect.Static_effect.random_attack(Card_property)
+  - Assets.Scripts.Static_Effect.Static_effect.resurrection(Assets.Scripts.Character.Character)
+  - Assets.Scripts.Static_Effect.Static_effect.sacrifice_self(Card_property)
+  - Assets.Scripts.Static_Effect.Static_effect.set_forward_position(System.String,System.Boolean,System.Boolean,Action)
+  - Assets.Scripts.Static_Effect.Static_effect.target_change_damage(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  - Assets.Scripts.Static_Effect.Static_effect.target_change_defense(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Static_effect
+  nameWithType: Static_effect
+  fullName: Assets.Scripts.Static_Effect.Static_effect
+  type: Class
+  source:
+    id: Static_effect
+    path: ''
+    startLine: 160742
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n静态效果类，用于实现各类卡牌效果\n"
+  example: []
+  syntax:
+    content: public static class Static_effect
+    content.vb: Public Module Static_effect
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Static_Effect.Static_effect.Enemy_dict
+  commentId: F:Assets.Scripts.Static_Effect.Static_effect.Enemy_dict
+  id: Enemy_dict
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Enemy_dict
+  nameWithType: Static_effect.Enemy_dict
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Enemy_dict
+  type: Field
+  source:
+    id: Enemy_dict
+    path: ''
+    startLine: 160744
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static Dictionary<string, Enemy> Enemy_dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Enemy}
+    content.vb: Public Shared Enemy_dict As Dictionary(Of String, Enemy)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Member_dict
+  commentId: F:Assets.Scripts.Static_Effect.Static_effect.Member_dict
+  id: Member_dict
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Member_dict
+  nameWithType: Static_effect.Member_dict
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Member_dict
+  type: Field
+  source:
+    id: Member_dict
+    path: ''
+    startLine: 160745
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static Dictionary<string, Member> Member_dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Member}
+    content.vb: Public Shared Member_dict As Dictionary(Of String, Member)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.money_Manager
+  commentId: F:Assets.Scripts.Static_Effect.Static_effect.money_Manager
+  id: money_Manager
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: money_Manager
+  nameWithType: Static_effect.money_Manager
+  fullName: Assets.Scripts.Static_Effect.Static_effect.money_Manager
+  type: Field
+  source:
+    id: money_Manager
+    path: ''
+    startLine: 160747
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static Money_manager money_Manager
+    return:
+      type: Global.Money_manager
+    content.vb: Public Shared money_Manager As Money_manager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.effect_end_Dictionary
+  commentId: F:Assets.Scripts.Static_Effect.Static_effect.effect_end_Dictionary
+  id: effect_end_Dictionary
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: effect_end_Dictionary
+  nameWithType: Static_effect.effect_end_Dictionary
+  fullName: Assets.Scripts.Static_Effect.Static_effect.effect_end_Dictionary
+  type: Field
+  source:
+    id: effect_end_Dictionary
+    path: ''
+    startLine: 160749
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static Dictionary<int, List<effect_saver>> effect_end_Dictionary
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{Assets.Scripts.Static_Effect.effect_saver}}
+    content.vb: Public Shared effect_end_Dictionary As Dictionary(Of Integer, List(Of effect_saver))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.effect_start_Dictionary
+  commentId: F:Assets.Scripts.Static_Effect.Static_effect.effect_start_Dictionary
+  id: effect_start_Dictionary
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: effect_start_Dictionary
+  nameWithType: Static_effect.effect_start_Dictionary
+  fullName: Assets.Scripts.Static_Effect.Static_effect.effect_start_Dictionary
+  type: Field
+  source:
+    id: effect_start_Dictionary
+    path: ''
+    startLine: 160750
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static Dictionary<int, List<effect_saver>> effect_start_Dictionary
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{Assets.Scripts.Static_Effect.effect_saver}}
+    content.vb: Public Shared effect_start_Dictionary As Dictionary(Of Integer, List(Of effect_saver))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.levelLoaderScript
+  commentId: F:Assets.Scripts.Static_Effect.Static_effect.levelLoaderScript
+  id: levelLoaderScript
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: levelLoaderScript
+  nameWithType: Static_effect.levelLoaderScript
+  fullName: Assets.Scripts.Static_Effect.Static_effect.levelLoaderScript
+  type: Field
+  source:
+    id: levelLoaderScript
+    path: ''
+    startLine: 160751
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static LevelLoaderScript levelLoaderScript
+    return:
+      type: Global.LevelLoaderScript
+    content.vb: Public Shared levelLoaderScript As LevelLoaderScript
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.set_forward_position(System.String,System.Boolean,System.Boolean,Action)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.set_forward_position(System.String,System.Boolean,System.Boolean,Action)
+  id: set_forward_position(System.String,System.Boolean,System.Boolean,Action)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: set_forward_position(String, Boolean, Boolean, Action)
+  nameWithType: Static_effect.set_forward_position(String, Boolean, Boolean, Action)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.set_forward_position(System.String, System.Boolean, System.Boolean, Action)
+  type: Method
+  source:
+    id: set_forward_position
+    path: ''
+    startLine: 160771
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n动画：水平移动敌人或队友\n"
+  example: []
+  syntax:
+    content: public static void set_forward_position(string character_name, bool is_forward, bool is_enemy, Action enemy_move_complete = null)
+    parameters:
+    - id: character_name
+      type: System.String
+      description: ''
+    - id: is_forward
+      type: System.Boolean
+      description: ''
+    - id: is_enemy
+      type: System.Boolean
+      description: ''
+    - id: enemy_move_complete
+      type: Global.Action
+      description: ''
+    content.vb: Public Shared Sub set_forward_position(character_name As String, is_forward As Boolean, is_enemy As Boolean, enemy_move_complete As Action = Nothing)
+  overload: Assets.Scripts.Static_Effect.Static_effect.set_forward_position*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level(System.Collections.Generic.List{Effect_tuple})
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level(System.Collections.Generic.List{Effect_tuple})
+  id: Deal_with_need_charge_level(System.Collections.Generic.List{Effect_tuple})
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Deal_with_need_charge_level(List<Effect_tuple>)
+  nameWithType: Static_effect.Deal_with_need_charge_level(List<Effect_tuple>)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level(System.Collections.Generic.List<Effect_tuple>)
+  type: Method
+  source:
+    id: Deal_with_need_charge_level
+    path: ''
+    startLine: 160836
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n设置卡牌属性：需要蓄力等级\n"
+  example: []
+  syntax:
+    content: public static int Deal_with_need_charge_level(List<Effect_tuple> card_Effects)
+    parameters:
+    - id: card_Effects
+      type: System.Collections.Generic.List{Effect_tuple}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Deal_with_need_charge_level(card_Effects As List(Of Effect_tuple)) As Integer
+  overload: Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level*
+  nameWithType.vb: Static_effect.Deal_with_need_charge_level(List(Of Effect_tuple))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level(System.Collections.Generic.List(Of Effect_tuple))
+  name.vb: Deal_with_need_charge_level(List(Of Effect_tuple))
+- uid: Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects(System.Collections.Generic.List{Effect_tuple},Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects(System.Collections.Generic.List{Effect_tuple},Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type)
+  id: Handle_card_effects(System.Collections.Generic.List{Effect_tuple},Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Handle_card_effects(List<Effect_tuple>, Character, Character, card_type)
+  nameWithType: Static_effect.Handle_card_effects(List<Effect_tuple>, Character, Character, card_type)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects(System.Collections.Generic.List<Effect_tuple>, Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, card_type)
+  type: Method
+  source:
+    id: Handle_card_effects
+    path: ''
+    startLine: 160854
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n处理effect_tuple列表\n"
+  example: []
+  syntax:
+    content: public static void Handle_card_effects(List<Effect_tuple> card_Effects, Character source, Character target, card_type source_card_type)
+    parameters:
+    - id: card_Effects
+      type: System.Collections.Generic.List{Effect_tuple}
+      description: effect_tuple列表
+    - id: source
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: source_card_type
+      type: Global.card_type
+      description: 卡牌元素类别
+    content.vb: Public Shared Sub Handle_card_effects(card_Effects As List(Of Effect_tuple), source As Character, target As Character, source_card_type As card_type)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects*
+  nameWithType.vb: Static_effect.Handle_card_effects(List(Of Effect_tuple), Character, Character, card_type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects(System.Collections.Generic.List(Of Effect_tuple), Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, card_type)
+  name.vb: Handle_card_effects(List(Of Effect_tuple), Character, Character, card_type)
+- uid: Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  id: Handle_single_effect(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Handle_single_effect(Effect_tuple, Character, Character, card_type, Boolean)
+  nameWithType: Static_effect.Handle_single_effect(Effect_tuple, Character, Character, card_type, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect(Effect_tuple, Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, card_type, System.Boolean)
+  type: Method
+  source:
+    id: Handle_single_effect
+    path: ''
+    startLine: 160903
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n处理单个卡牌效果\n"
+  example: []
+  syntax:
+    content: public static void Handle_single_effect(Effect_tuple effect, Character source, Character target, card_type source_card_type, bool cascade = false)
+    parameters:
+    - id: effect
+      type: Global.Effect_tuple
+      description: 单个卡牌效果
+    - id: source
+      type: Assets.Scripts.Character.Character
+      description: 卡牌效果来源
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: 卡牌效果对象
+    - id: source_card_type
+      type: Global.card_type
+      description: 卡牌元素类别
+    - id: cascade
+      type: System.Boolean
+      description: 此效果是否由其他效果触发
+    content.vb: Public Shared Sub Handle_single_effect(effect As Effect_tuple, source As Character, target As Character, source_card_type As card_type, cascade As Boolean = False)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,card_effect,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,card_effect,System.Int32,System.Int32,System.Boolean)
+  id: execute_after_N_turn(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,card_effect,System.Int32,System.Int32,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: execute_after_N_turn(Character, Character, card_type, card_effect, Int32, Int32, Boolean)
+  nameWithType: Static_effect.execute_after_N_turn(Character, Character, card_type, card_effect, Int32, Int32, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, card_type, card_effect, System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: execute_after_N_turn
+    path: ''
+    startLine: 161517
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n在N回合后触发一次效果。例如，对于攻击上升三回合这一效果，我们需要在三回合后使得攻击下降。\n注意这和持续三回合下降是不同的\n"
+  example: []
+  syntax:
+    content: public static void execute_after_N_turn(Character source, Character target, card_type source_card_type, card_effect card_Effect, int effect_level, int N_turn, bool is_end_triggered)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: source_card_type
+      type: Global.card_type
+      description: ''
+    - id: card_Effect
+      type: Global.card_effect
+      description: ''
+    - id: effect_level
+      type: System.Int32
+      description: ''
+    - id: N_turn
+      type: System.Int32
+      description: ''
+    - id: is_end_triggered
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Sub execute_after_N_turn(source As Character, target As Character, source_card_type As card_type, card_Effect As card_effect, effect_level As Integer, N_turn As Integer, is_end_triggered As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.clean_stats(Assets.Scripts.Character.Character)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.clean_stats(Assets.Scripts.Character.Character)
+  id: clean_stats(Assets.Scripts.Character.Character)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: clean_stats(Character)
+  nameWithType: Static_effect.clean_stats(Character)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.clean_stats(Assets.Scripts.Character.Character)
+  type: Method
+  source:
+    id: clean_stats
+    path: ''
+    startLine: 161539
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n消除各种效果\nToDo: double check this. 可能有漏掉的\n"
+  example: []
+  syntax:
+    content: public static void clean_stats(Character target)
+    parameters:
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    content.vb: Public Shared Sub clean_stats(target As Character)
+  overload: Assets.Scripts.Static_Effect.Static_effect.clean_stats*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.prob_resurrection(Assets.Scripts.Character.Character)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.prob_resurrection(Assets.Scripts.Character.Character)
+  id: prob_resurrection(Assets.Scripts.Character.Character)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: prob_resurrection(Character)
+  nameWithType: Static_effect.prob_resurrection(Character)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.prob_resurrection(Assets.Scripts.Character.Character)
+  type: Method
+  source:
+    id: prob_resurrection
+    path: ''
+    startLine: 161563
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n概率复活\n"
+  example: []
+  syntax:
+    content: public static void prob_resurrection(Character target)
+    parameters:
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    content.vb: Public Shared Sub prob_resurrection(target As Character)
+  overload: Assets.Scripts.Static_Effect.Static_effect.prob_resurrection*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.target_change_damage(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.target_change_damage(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  id: target_change_damage(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: target_change_damage(Character, Single, Boolean)
+  nameWithType: Static_effect.target_change_damage(Character, Single, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.target_change_damage(Assets.Scripts.Character.Character, System.Single, System.Boolean)
+  type: Method
+  source:
+    id: target_change_damage
+    path: ''
+    startLine: 161576
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void target_change_damage(Character target, float scale, bool is_magic = false)
+    parameters:
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: scale
+      type: System.Single
+    - id: is_magic
+      type: System.Boolean
+    content.vb: Public Shared Sub target_change_damage(target As Character, scale As Single, is_magic As Boolean = False)
+  overload: Assets.Scripts.Static_Effect.Static_effect.target_change_damage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.target_change_defense(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.target_change_defense(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  id: target_change_defense(Assets.Scripts.Character.Character,System.Single,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: target_change_defense(Character, Single, Boolean)
+  nameWithType: Static_effect.target_change_defense(Character, Single, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.target_change_defense(Assets.Scripts.Character.Character, System.Single, System.Boolean)
+  type: Method
+  source:
+    id: target_change_defense
+    path: ''
+    startLine: 161588
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void target_change_defense(Character target, float scale, bool is_magic = false)
+    parameters:
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: scale
+      type: System.Single
+    - id: is_magic
+      type: System.Boolean
+    content.vb: Public Shared Sub target_change_defense(target As Character, scale As Single, is_magic As Boolean = False)
+  overload: Assets.Scripts.Static_Effect.Static_effect.target_change_defense*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.resurrection(Assets.Scripts.Character.Character)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.resurrection(Assets.Scripts.Character.Character)
+  id: resurrection(Assets.Scripts.Character.Character)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: resurrection(Character)
+  nameWithType: Static_effect.resurrection(Character)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.resurrection(Assets.Scripts.Character.Character)
+  type: Method
+  source:
+    id: resurrection
+    path: ''
+    startLine: 161598
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void resurrection(Character target)
+    parameters:
+    - id: target
+      type: Assets.Scripts.Character.Character
+    content.vb: Public Shared Sub resurrection(target As Character)
+  overload: Assets.Scripts.Static_Effect.Static_effect.resurrection*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit(System.Int32)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit(System.Int32)
+  id: increase_cost_limit(System.Int32)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: increase_cost_limit(Int32)
+  nameWithType: Static_effect.increase_cost_limit(Int32)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit(System.Int32)
+  type: Method
+  source:
+    id: increase_cost_limit
+    path: ''
+    startLine: 161603
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void increase_cost_limit(int change_amount)
+    parameters:
+    - id: change_amount
+      type: System.Int32
+    content.vb: Public Shared Sub increase_cost_limit(change_amount As Integer)
+  overload: Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_health(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,card_type,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_health(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,card_type,System.Boolean)
+  id: Change_health(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,card_type,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_health(Character, Character, Int32, card_type, Boolean)
+  nameWithType: Static_effect.Change_health(Character, Character, Int32, card_type, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_health(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32, card_type, System.Boolean)
+  type: Method
+  source:
+    id: Change_health
+    path: ''
+    startLine: 161717
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n处理攻击，治疗后生命值变化情况\n"
+  example: []
+  syntax:
+    content: public static void Change_health(Character source, Character target, int amount, card_type source_card_type, bool repeat)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: amount
+      type: System.Int32
+      description: 变化量
+    - id: source_card_type
+      type: Global.card_type
+      description: ''
+    - id: repeat
+      type: System.Boolean
+      description: 是否重复攻击，治疗一次
+    content.vb: Public Shared Sub Change_health(source As Character, target As Character, amount As Integer, source_card_type As card_type, repeat As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_health*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_attack_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_attack_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  id: Change_attack_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_attack_level(Character, Character, Int32, Boolean)
+  nameWithType: Static_effect.Change_attack_level(Character, Character, Int32, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_attack_level(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: Change_attack_level
+    path: ''
+    startLine: 161788
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_attack_level(Character source, Character target, int amount, bool is_magic)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: amount
+      type: System.Int32
+    - id: is_magic
+      type: System.Boolean
+    content.vb: Public Shared Sub Change_attack_level(source As Character, target As Character, amount As Integer, is_magic As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_attack_level*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  id: Change_tmp_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_tmp_defense(Character, Character, Int32)
+  nameWithType: Static_effect.Change_tmp_defense(Character, Character, Int32)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32)
+  type: Method
+  source:
+    id: Change_tmp_defense
+    path: ''
+    startLine: 161802
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_tmp_defense(Character source, Character target, int amount)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: amount
+      type: System.Int32
+    content.vb: Public Shared Sub Change_tmp_defense(source As Character, target As Character, amount As Integer)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  id: Change_tmp_Magic_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_tmp_Magic_defense(Character, Character, Int32)
+  nameWithType: Static_effect.Change_tmp_Magic_defense(Character, Character, Int32)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32)
+  type: Method
+  source:
+    id: Change_tmp_Magic_defense
+    path: ''
+    startLine: 161814
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_tmp_Magic_defense(Character source, Character target, int amount)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: amount
+      type: System.Int32
+    content.vb: Public Shared Sub Change_tmp_Magic_defense(source As Character, target As Character, amount As Integer)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  id: Change_Dizzy_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_Dizzy_status(Character, Character)
+  nameWithType: Static_effect.Change_Dizzy_status(Character, Character)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character)
+  type: Method
+  source:
+    id: Change_Dizzy_status
+    path: ''
+    startLine: 161826
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_Dizzy_status(Character source, Character target)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    content.vb: Public Shared Sub Change_Dizzy_status(source As Character, target As Character)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  id: Change_taunt_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_taunt_status(Character, Character)
+  nameWithType: Static_effect.Change_taunt_status(Character, Character)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character)
+  type: Method
+  source:
+    id: Change_taunt_status
+    path: ''
+    startLine: 161838
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_taunt_status(Character source, Character target)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    content.vb: Public Shared Sub Change_taunt_status(source As Character, target As Character)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  id: Change_counter_attack_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_counter_attack_status(Character, Character, Int32, Boolean)
+  nameWithType: Static_effect.Change_counter_attack_status(Character, Character, Int32, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: Change_counter_attack_status
+    path: ''
+    startLine: 161847
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_counter_attack_status(Character source, Character target, int amount, bool is_aoe)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: amount
+      type: System.Int32
+    - id: is_aoe
+      type: System.Boolean
+    content.vb: Public Shared Sub Change_counter_attack_status(source As Character, target As Character, amount As Integer, is_aoe As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_charge_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Change_charge_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  id: Change_charge_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Change_charge_level(Character, Character, Int32)
+  nameWithType: Static_effect.Change_charge_level(Character, Character, Int32)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_charge_level(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32)
+  type: Method
+  source:
+    id: Change_charge_level
+    path: ''
+    startLine: 161858
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Change_charge_level(Character source, Character target, int amount)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+    - id: target
+      type: Assets.Scripts.Character.Character
+    - id: amount
+      type: System.Int32
+    content.vb: Public Shared Sub Change_charge_level(source As Character, target As Character, amount As Integer)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Change_charge_level*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object(GameObject,Color,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object(GameObject,Color,System.Boolean)
+  id: Highlight_target_object(GameObject,Color,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Highlight_target_object(GameObject, Color, Boolean)
+  nameWithType: Static_effect.Highlight_target_object(GameObject, Color, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object(GameObject, Color, System.Boolean)
+  type: Method
+  source:
+    id: Highlight_target_object
+    path: ''
+    startLine: 161874
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void Highlight_target_object(GameObject gameObject, Color color, bool enable)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+    - id: color
+      type: Global.Color
+    - id: enable
+      type: System.Boolean
+    content.vb: Public Shared Sub Highlight_target_object(gameObject As GameObject, color As Color, enable As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object(GameObject,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object(GameObject,System.Boolean)
+  id: Highlight_quest_object(GameObject,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Highlight_quest_object(GameObject, Boolean)
+  nameWithType: Static_effect.Highlight_quest_object(GameObject, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object(GameObject, System.Boolean)
+  type: Method
+  source:
+    id: Highlight_quest_object
+    path: ''
+    startLine: 161890
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\nMight be deprecated\n"
+  example: []
+  syntax:
+    content: public static void Highlight_quest_object(GameObject gameObject, bool enable)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+      description: ''
+    - id: enable
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Sub Highlight_quest_object(gameObject As GameObject, enable As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character(GameObject,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character(GameObject,System.Boolean)
+  id: Highlight_target_character(GameObject,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Highlight_target_character(GameObject, Boolean)
+  nameWithType: Static_effect.Highlight_target_character(GameObject, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character(GameObject, System.Boolean)
+  type: Method
+  source:
+    id: Highlight_target_character
+    path: ''
+    startLine: 161907
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n高亮目标角色\n"
+  example: []
+  syntax:
+    content: public static void Highlight_target_character(GameObject gameObject, bool enable)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+      description: ''
+    - id: enable
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Sub Highlight_target_character(gameObject As GameObject, enable As Boolean)
+  overload: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.random_attack(Card_property)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.random_attack(Card_property)
+  id: random_attack(Card_property)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: random_attack(Card_property)
+  nameWithType: Static_effect.random_attack(Card_property)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.random_attack(Card_property)
+  type: Method
+  source:
+    id: random_attack
+    path: ''
+    startLine: 161922
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n随机攻击一个敌人\n"
+  example: []
+  syntax:
+    content: public static void random_attack(Card_property card_Property)
+    parameters:
+    - id: card_Property
+      type: Global.Card_property
+      description: ''
+    content.vb: Public Shared Sub random_attack(card_Property As Card_property)
+  overload: Assets.Scripts.Static_Effect.Static_effect.random_attack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.sacrifice_self(Card_property)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.sacrifice_self(Card_property)
+  id: sacrifice_self(Card_property)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: sacrifice_self(Card_property)
+  nameWithType: Static_effect.sacrifice_self(Card_property)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.sacrifice_self(Card_property)
+  type: Method
+  source:
+    id: sacrifice_self
+    path: ''
+    startLine: 161934
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  syntax:
+    content: public static void sacrifice_self(Card_property card_Property)
+    parameters:
+    - id: card_Property
+      type: Global.Card_property
+    content.vb: Public Shared Sub sacrifice_self(card_Property As Card_property)
+  overload: Assets.Scripts.Static_Effect.Static_effect.sacrifice_self*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Static_effect.draw_card(System.Int32)
+  commentId: M:Assets.Scripts.Static_Effect.Static_effect.draw_card(System.Int32)
+  id: draw_card(System.Int32)
+  parent: Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: draw_card(Int32)
+  nameWithType: Static_effect.draw_card(Int32)
+  fullName: Assets.Scripts.Static_Effect.Static_effect.draw_card(System.Int32)
+  type: Method
+  source:
+    id: draw_card
+    path: ''
+    startLine: 161946
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n静态效果：抽牌\n"
+  example: []
+  syntax:
+    content: public static void draw_card(int card_number)
+    parameters:
+    - id: card_number
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub draw_card(card_number As Integer)
+  overload: Assets.Scripts.Static_Effect.Static_effect.draw_card*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Static_Effect
+  commentId: N:Assets.Scripts.Static_Effect
+  name: Assets.Scripts.Static_Effect
+  nameWithType: Assets.Scripts.Static_Effect
+  fullName: Assets.Scripts.Static_Effect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,Enemy}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Enemy}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Enemy>
+  nameWithType: Dictionary<String, Enemy>
+  fullName: System.Collections.Generic.Dictionary<System.String, Enemy>
+  nameWithType.vb: Dictionary(Of String, Enemy)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Enemy)
+  name.vb: Dictionary(Of String, Enemy)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary{System.String,Member}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Member>
+  nameWithType: Dictionary<String, Member>
+  fullName: System.Collections.Generic.Dictionary<System.String, Member>
+  nameWithType.vb: Dictionary(Of String, Member)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Member)
+  name.vb: Dictionary(Of String, Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Money_manager
+  commentId: '!:Global.Money_manager'
+  isExternal: true
+  name: Money_manager
+  nameWithType: Money_manager
+  fullName: Money_manager
+- uid: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{Assets.Scripts.Static_Effect.effect_saver}}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{Assets.Scripts.Static_Effect.effect_saver}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, List<effect_saver>>
+  nameWithType: Dictionary<Int32, List<effect_saver>>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, System.Collections.Generic.List<Assets.Scripts.Static_Effect.effect_saver>>
+  nameWithType.vb: Dictionary(Of Int32, List(Of effect_saver))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, System.Collections.Generic.List(Of Assets.Scripts.Static_Effect.effect_saver))
+  name.vb: Dictionary(Of Int32, List(Of effect_saver))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Static_Effect.effect_saver
+    name: effect_saver
+    nameWithType: effect_saver
+    fullName: Assets.Scripts.Static_Effect.effect_saver
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Static_Effect.effect_saver
+    name: effect_saver
+    nameWithType: effect_saver
+    fullName: Assets.Scripts.Static_Effect.effect_saver
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.LevelLoaderScript
+  commentId: '!:Global.LevelLoaderScript'
+  isExternal: true
+  name: LevelLoaderScript
+  nameWithType: LevelLoaderScript
+  fullName: LevelLoaderScript
+- uid: Assets.Scripts.Static_Effect.Static_effect.set_forward_position*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.set_forward_position
+  name: set_forward_position
+  nameWithType: Static_effect.set_forward_position
+  fullName: Assets.Scripts.Static_Effect.Static_effect.set_forward_position
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level
+  name: Deal_with_need_charge_level
+  nameWithType: Static_effect.Deal_with_need_charge_level
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level
+- uid: System.Collections.Generic.List{Effect_tuple}
+  commentId: T:System.Collections.Generic.List{Effect_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Effect_tuple>
+  nameWithType: List<Effect_tuple>
+  fullName: System.Collections.Generic.List<Effect_tuple>
+  nameWithType.vb: List(Of Effect_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Effect_tuple)
+  name.vb: List(Of Effect_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects
+  name: Handle_card_effects
+  nameWithType: Static_effect.Handle_card_effects
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects
+- uid: Assets.Scripts.Character.Character
+  commentId: T:Assets.Scripts.Character.Character
+  parent: Assets.Scripts.Character
+  name: Character
+  nameWithType: Character
+  fullName: Assets.Scripts.Character.Character
+- uid: Global.card_type
+  isExternal: true
+  name: card_type
+  nameWithType: card_type
+  fullName: card_type
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect
+  name: Handle_single_effect
+  nameWithType: Static_effect.Handle_single_effect
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect
+- uid: Global.Effect_tuple
+  isExternal: true
+  name: Effect_tuple
+  nameWithType: Effect_tuple
+  fullName: Effect_tuple
+- uid: Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn
+  name: execute_after_N_turn
+  nameWithType: Static_effect.execute_after_N_turn
+  fullName: Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn
+- uid: Global.card_effect
+  isExternal: true
+  name: card_effect
+  nameWithType: card_effect
+  fullName: card_effect
+- uid: Assets.Scripts.Static_Effect.Static_effect.clean_stats*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.clean_stats
+  name: clean_stats
+  nameWithType: Static_effect.clean_stats
+  fullName: Assets.Scripts.Static_Effect.Static_effect.clean_stats
+- uid: Assets.Scripts.Static_Effect.Static_effect.prob_resurrection*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.prob_resurrection
+  name: prob_resurrection
+  nameWithType: Static_effect.prob_resurrection
+  fullName: Assets.Scripts.Static_Effect.Static_effect.prob_resurrection
+- uid: Assets.Scripts.Static_Effect.Static_effect.target_change_damage*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.target_change_damage
+  name: target_change_damage
+  nameWithType: Static_effect.target_change_damage
+  fullName: Assets.Scripts.Static_Effect.Static_effect.target_change_damage
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Static_Effect.Static_effect.target_change_defense*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.target_change_defense
+  name: target_change_defense
+  nameWithType: Static_effect.target_change_defense
+  fullName: Assets.Scripts.Static_Effect.Static_effect.target_change_defense
+- uid: Assets.Scripts.Static_Effect.Static_effect.resurrection*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.resurrection
+  name: resurrection
+  nameWithType: Static_effect.resurrection
+  fullName: Assets.Scripts.Static_Effect.Static_effect.resurrection
+- uid: Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit
+  name: increase_cost_limit
+  nameWithType: Static_effect.increase_cost_limit
+  fullName: Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_health*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_health
+  name: Change_health
+  nameWithType: Static_effect.Change_health
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_health
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_attack_level*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_attack_level
+  name: Change_attack_level
+  nameWithType: Static_effect.Change_attack_level
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_attack_level
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense
+  name: Change_tmp_defense
+  nameWithType: Static_effect.Change_tmp_defense
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense
+  name: Change_tmp_Magic_defense
+  nameWithType: Static_effect.Change_tmp_Magic_defense
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status
+  name: Change_Dizzy_status
+  nameWithType: Static_effect.Change_Dizzy_status
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status
+  name: Change_taunt_status
+  nameWithType: Static_effect.Change_taunt_status
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status
+  name: Change_counter_attack_status
+  nameWithType: Static_effect.Change_counter_attack_status
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status
+- uid: Assets.Scripts.Static_Effect.Static_effect.Change_charge_level*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Change_charge_level
+  name: Change_charge_level
+  nameWithType: Static_effect.Change_charge_level
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Change_charge_level
+- uid: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object
+  name: Highlight_target_object
+  nameWithType: Static_effect.Highlight_target_object
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object
+  name: Highlight_quest_object
+  nameWithType: Static_effect.Highlight_quest_object
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object
+- uid: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character
+  name: Highlight_target_character
+  nameWithType: Static_effect.Highlight_target_character
+  fullName: Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character
+- uid: Assets.Scripts.Static_Effect.Static_effect.random_attack*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.random_attack
+  name: random_attack
+  nameWithType: Static_effect.random_attack
+  fullName: Assets.Scripts.Static_Effect.Static_effect.random_attack
+- uid: Global.Card_property
+  isExternal: true
+  name: Card_property
+  nameWithType: Card_property
+  fullName: Card_property
+- uid: Assets.Scripts.Static_Effect.Static_effect.sacrifice_self*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.sacrifice_self
+  name: sacrifice_self
+  nameWithType: Static_effect.sacrifice_self
+  fullName: Assets.Scripts.Static_Effect.Static_effect.sacrifice_self
+- uid: Assets.Scripts.Static_Effect.Static_effect.draw_card*
+  commentId: Overload:Assets.Scripts.Static_Effect.Static_effect.draw_card
+  name: draw_card
+  nameWithType: Static_effect.draw_card
+  fullName: Assets.Scripts.Static_Effect.Static_effect.draw_card

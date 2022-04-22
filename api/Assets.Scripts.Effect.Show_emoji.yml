@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Effect.Show_emoji
+  commentId: T:Assets.Scripts.Effect.Show_emoji
+  id: Show_emoji
+  parent: Assets.Scripts.Effect
+  children:
+  - Assets.Scripts.Effect.Show_emoji.play_music
+  - Assets.Scripts.Effect.Show_emoji.SpawnEffect(Vector2,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Show_emoji
+  nameWithType: Show_emoji
+  fullName: Assets.Scripts.Effect.Show_emoji
+  type: Class
+  source:
+    id: Show_emoji
+    path: ''
+    startLine: 155500
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  summary: "\n在对话场景中展示emoji(将来会直接被立绘差分替代)\n"
+  example: []
+  syntax:
+    content: 'public class Show_emoji : MonoBehaviour'
+    content.vb: >-
+      Public Class Show_emoji
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Effect.Show_emoji.SpawnEffect(Vector2,System.String)
+  commentId: M:Assets.Scripts.Effect.Show_emoji.SpawnEffect(Vector2,System.String)
+  id: SpawnEffect(Vector2,System.String)
+  parent: Assets.Scripts.Effect.Show_emoji
+  langs:
+  - csharp
+  - vb
+  name: SpawnEffect(Vector2, String)
+  nameWithType: Show_emoji.SpawnEffect(Vector2, String)
+  fullName: Assets.Scripts.Effect.Show_emoji.SpawnEffect(Vector2, System.String)
+  type: Method
+  source:
+    id: SpawnEffect
+    path: ''
+    startLine: 155541
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  summary: "\n展示emoji\n"
+  example: []
+  syntax:
+    content: public void SpawnEffect(Vector2 localPosition, string emoji_name)
+    parameters:
+    - id: localPosition
+      type: Global.Vector2
+      description: 展示位置
+    - id: emoji_name
+      type: System.String
+      description: emoji名称
+    content.vb: Public Sub SpawnEffect(localPosition As Vector2, emoji_name As String)
+  overload: Assets.Scripts.Effect.Show_emoji.SpawnEffect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect.Show_emoji.play_music
+  commentId: M:Assets.Scripts.Effect.Show_emoji.play_music
+  id: play_music
+  parent: Assets.Scripts.Effect.Show_emoji
+  langs:
+  - csharp
+  - vb
+  name: play_music()
+  nameWithType: Show_emoji.play_music()
+  fullName: Assets.Scripts.Effect.Show_emoji.play_music()
+  type: Method
+  source:
+    id: play_music
+    path: ''
+    startLine: 155560
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  summary: "\n当emoji动画播放时播放音乐\n"
+  example: []
+  syntax:
+    content: public void play_music()
+    content.vb: Public Sub play_music
+  overload: Assets.Scripts.Effect.Show_emoji.play_music*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Effect
+  commentId: N:Assets.Scripts.Effect
+  name: Assets.Scripts.Effect
+  nameWithType: Assets.Scripts.Effect
+  fullName: Assets.Scripts.Effect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Effect.Show_emoji.SpawnEffect*
+  commentId: Overload:Assets.Scripts.Effect.Show_emoji.SpawnEffect
+  name: SpawnEffect
+  nameWithType: Show_emoji.SpawnEffect
+  fullName: Assets.Scripts.Effect.Show_emoji.SpawnEffect
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Effect.Show_emoji.play_music*
+  commentId: Overload:Assets.Scripts.Effect.Show_emoji.play_music
+  name: play_music
+  nameWithType: Show_emoji.play_music
+  fullName: Assets.Scripts.Effect.Show_emoji.play_music

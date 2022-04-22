@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Turn_logic_state
+  commentId: T:Assets.Scripts.Utility.Turn_logic_state
+  id: Turn_logic_state
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Turn_logic_state.member_round
+  - Assets.Scripts.Utility.Turn_logic_state.real_begin_enemy
+  - Assets.Scripts.Utility.Turn_logic_state.to_enemy_triggered
+  langs:
+  - csharp
+  - vb
+  name: Turn_logic_state
+  nameWithType: Turn_logic_state
+  fullName: Assets.Scripts.Utility.Turn_logic_state
+  type: Enum
+  source:
+    id: Turn_logic_state
+    path: ''
+    startLine: 163092
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n回合状态\n"
+  example: []
+  syntax:
+    content: public enum Turn_logic_state
+    content.vb: Public Enum Turn_logic_state
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.Turn_logic_state.to_enemy_triggered
+  commentId: F:Assets.Scripts.Utility.Turn_logic_state.to_enemy_triggered
+  id: to_enemy_triggered
+  parent: Assets.Scripts.Utility.Turn_logic_state
+  langs:
+  - csharp
+  - vb
+  name: to_enemy_triggered
+  nameWithType: Turn_logic_state.to_enemy_triggered
+  fullName: Assets.Scripts.Utility.Turn_logic_state.to_enemy_triggered
+  type: Field
+  source:
+    id: to_enemy_triggered
+    path: ''
+    startLine: 163094
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: to_enemy_triggered = 0
+    return:
+      type: Assets.Scripts.Utility.Turn_logic_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Turn_logic_state.real_begin_enemy
+  commentId: F:Assets.Scripts.Utility.Turn_logic_state.real_begin_enemy
+  id: real_begin_enemy
+  parent: Assets.Scripts.Utility.Turn_logic_state
+  langs:
+  - csharp
+  - vb
+  name: real_begin_enemy
+  nameWithType: Turn_logic_state.real_begin_enemy
+  fullName: Assets.Scripts.Utility.Turn_logic_state.real_begin_enemy
+  type: Field
+  source:
+    id: real_begin_enemy
+    path: ''
+    startLine: 163095
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: real_begin_enemy = 1
+    return:
+      type: Assets.Scripts.Utility.Turn_logic_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Turn_logic_state.member_round
+  commentId: F:Assets.Scripts.Utility.Turn_logic_state.member_round
+  id: member_round
+  parent: Assets.Scripts.Utility.Turn_logic_state
+  langs:
+  - csharp
+  - vb
+  name: member_round
+  nameWithType: Turn_logic_state.member_round
+  fullName: Assets.Scripts.Utility.Turn_logic_state.member_round
+  type: Field
+  source:
+    id: member_round
+    path: ''
+    startLine: 163096
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: member_round = 2
+    return:
+      type: Assets.Scripts.Utility.Turn_logic_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.Turn_logic_state
+  commentId: T:Assets.Scripts.Utility.Turn_logic_state
+  parent: Assets.Scripts.Utility
+  name: Turn_logic_state
+  nameWithType: Turn_logic_state
+  fullName: Assets.Scripts.Utility.Turn_logic_state

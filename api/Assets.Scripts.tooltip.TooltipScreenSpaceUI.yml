@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  commentId: T:Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  id: TooltipScreenSpaceUI
+  parent: Assets.Scripts.tooltip
+  children:
+  - Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static
+  - Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance
+  - Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static(System.String)
+  - Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos(System.String,Vector2)
+  langs:
+  - csharp
+  - vb
+  name: TooltipScreenSpaceUI
+  nameWithType: TooltipScreenSpaceUI
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  type: Class
+  source:
+    id: TooltipScreenSpaceUI
+    path: ''
+    startLine: 161983
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.tooltip
+  summary: "\ntooltip控制\n"
+  example: []
+  syntax:
+    content: 'public class TooltipScreenSpaceUI : MonoBehaviour'
+    content.vb: >-
+      Public Class TooltipScreenSpaceUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance
+  commentId: P:Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance
+  id: Instance
+  parent: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: TooltipScreenSpaceUI.Instance
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 161985
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.tooltip
+  syntax:
+    content: public static TooltipScreenSpaceUI Instance { get; }
+    parameters: []
+    return:
+      type: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+    content.vb: Public Shared ReadOnly Property Instance As TooltipScreenSpaceUI
+  overload: Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static(System.String)
+  commentId: M:Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static(System.String)
+  id: ShowTooltip_Static(System.String)
+  parent: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  langs:
+  - csharp
+  - vb
+  name: ShowTooltip_Static(String)
+  nameWithType: TooltipScreenSpaceUI.ShowTooltip_Static(String)
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static(System.String)
+  type: Method
+  source:
+    id: ShowTooltip_Static
+    path: ''
+    startLine: 162057
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.tooltip
+  summary: "\n显示tooltip的静态类，可用在各处调用\n"
+  example: []
+  syntax:
+    content: public static void ShowTooltip_Static(string tooltipText)
+    parameters:
+    - id: tooltipText
+      type: System.String
+      description: ''
+    content.vb: Public Shared Sub ShowTooltip_Static(tooltipText As String)
+  overload: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos(System.String,Vector2)
+  commentId: M:Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos(System.String,Vector2)
+  id: ShowTooltip_Static_with_pos(System.String,Vector2)
+  parent: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  langs:
+  - csharp
+  - vb
+  name: ShowTooltip_Static_with_pos(String, Vector2)
+  nameWithType: TooltipScreenSpaceUI.ShowTooltip_Static_with_pos(String, Vector2)
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos(System.String, Vector2)
+  type: Method
+  source:
+    id: ShowTooltip_Static_with_pos
+    path: ''
+    startLine: 162066
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.tooltip
+  summary: "\ntooltip显示在指定位置\n"
+  example: []
+  syntax:
+    content: public static void ShowTooltip_Static_with_pos(string tooltipText, Vector2 anchoredPosition)
+    parameters:
+    - id: tooltipText
+      type: System.String
+      description: ''
+    - id: anchoredPosition
+      type: Global.Vector2
+      description: ''
+    content.vb: Public Shared Sub ShowTooltip_Static_with_pos(tooltipText As String, anchoredPosition As Vector2)
+  overload: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static
+  commentId: M:Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static
+  id: HideTooltil_Static
+  parent: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  langs:
+  - csharp
+  - vb
+  name: HideTooltil_Static()
+  nameWithType: TooltipScreenSpaceUI.HideTooltil_Static()
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static()
+  type: Method
+  source:
+    id: HideTooltil_Static
+    path: ''
+    startLine: 162075
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.tooltip
+  summary: "\n隐藏tooltip\n"
+  example: []
+  syntax:
+    content: public static void HideTooltil_Static()
+    content.vb: Public Shared Sub HideTooltil_Static
+  overload: Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.tooltip
+  commentId: N:Assets.Scripts.tooltip
+  name: Assets.Scripts.tooltip
+  nameWithType: Assets.Scripts.tooltip
+  fullName: Assets.Scripts.tooltip
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance*
+  commentId: Overload:Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance
+  name: Instance
+  nameWithType: TooltipScreenSpaceUI.Instance
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.Instance
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  commentId: T:Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  parent: Assets.Scripts.tooltip
+  name: TooltipScreenSpaceUI
+  nameWithType: TooltipScreenSpaceUI
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static*
+  commentId: Overload:Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static
+  name: ShowTooltip_Static
+  nameWithType: TooltipScreenSpaceUI.ShowTooltip_Static
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos*
+  commentId: Overload:Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos
+  name: ShowTooltip_Static_with_pos
+  nameWithType: TooltipScreenSpaceUI.ShowTooltip_Static_with_pos
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.ShowTooltip_Static_with_pos
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static*
+  commentId: Overload:Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static
+  name: HideTooltil_Static
+  nameWithType: TooltipScreenSpaceUI.HideTooltil_Static
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI.HideTooltil_Static

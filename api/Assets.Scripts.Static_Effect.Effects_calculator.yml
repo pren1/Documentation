@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Static_Effect.Effects_calculator
+  commentId: T:Assets.Scripts.Static_Effect.Effects_calculator
+  id: Effects_calculator
+  parent: Assets.Scripts.Static_Effect
+  children:
+  - Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal(Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  - Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination(card_type,System.Collections.Generic.List{card_type})
+  - Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean,card_type)
+  - Assets.Scripts.Static_Effect.Effects_calculator.element_calculator(card_type,card_type)
+  - Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal(Assets.Scripts.Character.Character,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Effects_calculator
+  nameWithType: Effects_calculator
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator
+  type: Class
+  source:
+    id: Effects_calculator
+    path: ''
+    startLine: 160461
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n效果计算\n"
+  example: []
+  syntax:
+    content: public static class Effects_calculator
+    content.vb: Public Module Effects_calculator
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean,card_type)
+  commentId: M:Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean,card_type)
+  id: Damage_cal(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean,card_type)
+  parent: Assets.Scripts.Static_Effect.Effects_calculator
+  langs:
+  - csharp
+  - vb
+  name: Damage_cal(Character, Character, Int32, Boolean, card_type)
+  nameWithType: Effects_calculator.Damage_cal(Character, Character, Int32, Boolean, card_type)
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal(Assets.Scripts.Character.Character, Assets.Scripts.Character.Character, System.Int32, System.Boolean, card_type)
+  type: Method
+  source:
+    id: Damage_cal
+    path: ''
+    startLine: 160472
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n计算伤害\n"
+  example: []
+  syntax:
+    content: public static int Damage_cal(Character source, Character target, int level, bool is_magic, card_type source_card_type)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: level
+      type: System.Int32
+      description: 级别
+    - id: is_magic
+      type: System.Boolean
+      description: 是否是魔法
+    - id: source_card_type
+      type: Global.card_type
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Damage_cal(source As Character, target As Character, level As Integer, is_magic As Boolean, source_card_type As card_type) As Integer
+  overload: Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal(Assets.Scripts.Character.Character,System.Int32)
+  commentId: M:Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal(Assets.Scripts.Character.Character,System.Int32)
+  id: heal_sacrifice_cal(Assets.Scripts.Character.Character,System.Int32)
+  parent: Assets.Scripts.Static_Effect.Effects_calculator
+  langs:
+  - csharp
+  - vb
+  name: heal_sacrifice_cal(Character, Int32)
+  nameWithType: Effects_calculator.heal_sacrifice_cal(Character, Int32)
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal(Assets.Scripts.Character.Character, System.Int32)
+  type: Method
+  source:
+    id: heal_sacrifice_cal
+    path: ''
+    startLine: 160580
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n计算治疗，牺牲\n"
+  example: []
+  syntax:
+    content: public static int heal_sacrifice_cal(Character source, int level)
+    parameters:
+    - id: source
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: level
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function heal_sacrifice_cal(source As Character, level As Integer) As Integer
+  overload: Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal(Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  commentId: M:Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal(Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  id: Armor_cal(Assets.Scripts.Character.Character,System.Int32,System.Boolean)
+  parent: Assets.Scripts.Static_Effect.Effects_calculator
+  langs:
+  - csharp
+  - vb
+  name: Armor_cal(Character, Int32, Boolean)
+  nameWithType: Effects_calculator.Armor_cal(Character, Int32, Boolean)
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal(Assets.Scripts.Character.Character, System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: Armor_cal
+    path: ''
+    startLine: 160603
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n护甲计算\n"
+  example: []
+  syntax:
+    content: public static int Armor_cal(Character target, int level, bool is_magic)
+    parameters:
+    - id: target
+      type: Assets.Scripts.Character.Character
+      description: ''
+    - id: level
+      type: System.Int32
+      description: ''
+    - id: is_magic
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Armor_cal(target As Character, level As Integer, is_magic As Boolean) As Integer
+  overload: Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination(card_type,System.Collections.Generic.List{card_type})
+  commentId: M:Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination(card_type,System.Collections.Generic.List{card_type})
+  id: array_element_combination(card_type,System.Collections.Generic.List{card_type})
+  parent: Assets.Scripts.Static_Effect.Effects_calculator
+  langs:
+  - csharp
+  - vb
+  name: array_element_combination(card_type, List<card_type>)
+  nameWithType: Effects_calculator.array_element_combination(card_type, List<card_type>)
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination(card_type, System.Collections.Generic.List<card_type>)
+  type: Method
+  source:
+    id: array_element_combination
+    path: ''
+    startLine: 160625
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n如果一张卡有多重属性，则属性系数相乘\n"
+  example: []
+  syntax:
+    content: public static float array_element_combination(card_type source_type, List<card_type> target_type)
+    parameters:
+    - id: source_type
+      type: Global.card_type
+      description: ''
+    - id: target_type
+      type: System.Collections.Generic.List{card_type}
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function array_element_combination(source_type As card_type, target_type As List(Of card_type)) As Single
+  overload: Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination*
+  nameWithType.vb: Effects_calculator.array_element_combination(card_type, List(Of card_type))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination(card_type, System.Collections.Generic.List(Of card_type))
+  name.vb: array_element_combination(card_type, List(Of card_type))
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.element_calculator(card_type,card_type)
+  commentId: M:Assets.Scripts.Static_Effect.Effects_calculator.element_calculator(card_type,card_type)
+  id: element_calculator(card_type,card_type)
+  parent: Assets.Scripts.Static_Effect.Effects_calculator
+  langs:
+  - csharp
+  - vb
+  name: element_calculator(card_type, card_type)
+  nameWithType: Effects_calculator.element_calculator(card_type, card_type)
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.element_calculator(card_type, card_type)
+  type: Method
+  source:
+    id: element_calculator
+    path: ''
+    startLine: 160642
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Static_Effect
+  summary: "\n元素冲突，TODO：根据设定更改\n"
+  example: []
+  syntax:
+    content: public static float element_calculator(card_type source_type, card_type target_type)
+    parameters:
+    - id: source_type
+      type: Global.card_type
+      description: ''
+    - id: target_type
+      type: Global.card_type
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function element_calculator(source_type As card_type, target_type As card_type) As Single
+  overload: Assets.Scripts.Static_Effect.Effects_calculator.element_calculator*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Static_Effect
+  commentId: N:Assets.Scripts.Static_Effect
+  name: Assets.Scripts.Static_Effect
+  nameWithType: Assets.Scripts.Static_Effect
+  fullName: Assets.Scripts.Static_Effect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal*
+  commentId: Overload:Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal
+  name: Damage_cal
+  nameWithType: Effects_calculator.Damage_cal
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.Damage_cal
+- uid: Assets.Scripts.Character.Character
+  commentId: T:Assets.Scripts.Character.Character
+  parent: Assets.Scripts.Character
+  name: Character
+  nameWithType: Character
+  fullName: Assets.Scripts.Character.Character
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.card_type
+  isExternal: true
+  name: card_type
+  nameWithType: card_type
+  fullName: card_type
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal*
+  commentId: Overload:Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal
+  name: heal_sacrifice_cal
+  nameWithType: Effects_calculator.heal_sacrifice_cal
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.heal_sacrifice_cal
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal*
+  commentId: Overload:Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal
+  name: Armor_cal
+  nameWithType: Effects_calculator.Armor_cal
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.Armor_cal
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination*
+  commentId: Overload:Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination
+  name: array_element_combination
+  nameWithType: Effects_calculator.array_element_combination
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.array_element_combination
+- uid: System.Collections.Generic.List{card_type}
+  commentId: T:System.Collections.Generic.List{card_type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<card_type>
+  nameWithType: List<card_type>
+  fullName: System.Collections.Generic.List<card_type>
+  nameWithType.vb: List(Of card_type)
+  fullName.vb: System.Collections.Generic.List(Of card_type)
+  name.vb: List(Of card_type)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.card_type
+    name: card_type
+    nameWithType: card_type
+    fullName: card_type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.card_type
+    name: card_type
+    nameWithType: card_type
+    fullName: card_type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Static_Effect.Effects_calculator.element_calculator*
+  commentId: Overload:Assets.Scripts.Static_Effect.Effects_calculator.element_calculator
+  name: element_calculator
+  nameWithType: Effects_calculator.element_calculator
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator.element_calculator

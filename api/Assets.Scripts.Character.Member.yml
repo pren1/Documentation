@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Member
+  commentId: N:Assets.Scripts.Character.Member
+  id: Assets.Scripts.Character.Member
+  children:
+  - Assets.Scripts.Character.Member.anime_dictionary_builder
+  - Assets.Scripts.Character.Member.Member
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Character.Member
+  nameWithType: Assets.Scripts.Character.Member
+  fullName: Assets.Scripts.Character.Member
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Character.Member.anime_dictionary_builder
+  commentId: T:Assets.Scripts.Character.Member.anime_dictionary_builder
+  name: anime_dictionary_builder
+  nameWithType: anime_dictionary_builder
+  fullName: Assets.Scripts.Character.Member.anime_dictionary_builder
+- uid: Assets.Scripts.Character.Member.Member
+  commentId: T:Assets.Scripts.Character.Member.Member
+  name: Member
+  nameWithType: Member
+  fullName: Assets.Scripts.Character.Member.Member

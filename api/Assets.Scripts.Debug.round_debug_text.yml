@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Debug.round_debug_text
+  commentId: T:Assets.Scripts.Debug.round_debug_text
+  id: round_debug_text
+  parent: Assets.Scripts.Debug
+  children:
+  - Assets.Scripts.Debug.round_debug_text.Instance
+  - Assets.Scripts.Debug.round_debug_text.SetText_Static(System.String)
+  langs:
+  - csharp
+  - vb
+  name: round_debug_text
+  nameWithType: round_debug_text
+  fullName: Assets.Scripts.Debug.round_debug_text
+  type: Class
+  source:
+    id: round_debug_text
+    path: ''
+    startLine: 154877
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  summary: "\n显示回合信息\n"
+  example: []
+  syntax:
+    content: 'public class round_debug_text : MonoBehaviour'
+    content.vb: >-
+      Public Class round_debug_text
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Debug.round_debug_text.Instance
+  commentId: P:Assets.Scripts.Debug.round_debug_text.Instance
+  id: Instance
+  parent: Assets.Scripts.Debug.round_debug_text
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: round_debug_text.Instance
+  fullName: Assets.Scripts.Debug.round_debug_text.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 154879
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public static round_debug_text Instance { get; }
+    parameters: []
+    return:
+      type: Assets.Scripts.Debug.round_debug_text
+    content.vb: Public Shared ReadOnly Property Instance As round_debug_text
+  overload: Assets.Scripts.Debug.round_debug_text.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Assets.Scripts.Debug.round_debug_text.SetText_Static(System.String)
+  commentId: M:Assets.Scripts.Debug.round_debug_text.SetText_Static(System.String)
+  id: SetText_Static(System.String)
+  parent: Assets.Scripts.Debug.round_debug_text
+  langs:
+  - csharp
+  - vb
+  name: SetText_Static(String)
+  nameWithType: round_debug_text.SetText_Static(String)
+  fullName: Assets.Scripts.Debug.round_debug_text.SetText_Static(System.String)
+  type: Method
+  source:
+    id: SetText_Static
+    path: ''
+    startLine: 154896
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public static void SetText_Static(string Text)
+    parameters:
+    - id: Text
+      type: System.String
+    content.vb: Public Shared Sub SetText_Static(Text As String)
+  overload: Assets.Scripts.Debug.round_debug_text.SetText_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Debug
+  commentId: N:Assets.Scripts.Debug
+  name: Assets.Scripts.Debug
+  nameWithType: Assets.Scripts.Debug
+  fullName: Assets.Scripts.Debug
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Debug.round_debug_text.Instance*
+  commentId: Overload:Assets.Scripts.Debug.round_debug_text.Instance
+  name: Instance
+  nameWithType: round_debug_text.Instance
+  fullName: Assets.Scripts.Debug.round_debug_text.Instance
+- uid: Assets.Scripts.Debug.round_debug_text
+  commentId: T:Assets.Scripts.Debug.round_debug_text
+  parent: Assets.Scripts.Debug
+  name: round_debug_text
+  nameWithType: round_debug_text
+  fullName: Assets.Scripts.Debug.round_debug_text
+- uid: Assets.Scripts.Debug.round_debug_text.SetText_Static*
+  commentId: Overload:Assets.Scripts.Debug.round_debug_text.SetText_Static
+  name: SetText_Static
+  nameWithType: round_debug_text.SetText_Static
+  fullName: Assets.Scripts.Debug.round_debug_text.SetText_Static
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

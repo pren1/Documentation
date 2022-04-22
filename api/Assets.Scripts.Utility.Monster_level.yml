@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Monster_level
+  commentId: T:Assets.Scripts.Utility.Monster_level
+  id: Monster_level
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Monster_level.army
+  - Assets.Scripts.Utility.Monster_level.boss
+  - Assets.Scripts.Utility.Monster_level.elite
+  - Assets.Scripts.Utility.Monster_level.Error_type
+  langs:
+  - csharp
+  - vb
+  name: Monster_level
+  nameWithType: Monster_level
+  fullName: Assets.Scripts.Utility.Monster_level
+  type: Enum
+  source:
+    id: Monster_level
+    path: ''
+    startLine: 163082
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n怪物等级\n"
+  example: []
+  syntax:
+    content: public enum Monster_level
+    content.vb: Public Enum Monster_level
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.Monster_level.army
+  commentId: F:Assets.Scripts.Utility.Monster_level.army
+  id: army
+  parent: Assets.Scripts.Utility.Monster_level
+  langs:
+  - csharp
+  - vb
+  name: army
+  nameWithType: Monster_level.army
+  fullName: Assets.Scripts.Utility.Monster_level.army
+  type: Field
+  source:
+    id: army
+    path: ''
+    startLine: 163084
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: army = 0
+    return:
+      type: Assets.Scripts.Utility.Monster_level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Monster_level.elite
+  commentId: F:Assets.Scripts.Utility.Monster_level.elite
+  id: elite
+  parent: Assets.Scripts.Utility.Monster_level
+  langs:
+  - csharp
+  - vb
+  name: elite
+  nameWithType: Monster_level.elite
+  fullName: Assets.Scripts.Utility.Monster_level.elite
+  type: Field
+  source:
+    id: elite
+    path: ''
+    startLine: 163085
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: elite = 1
+    return:
+      type: Assets.Scripts.Utility.Monster_level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Monster_level.boss
+  commentId: F:Assets.Scripts.Utility.Monster_level.boss
+  id: boss
+  parent: Assets.Scripts.Utility.Monster_level
+  langs:
+  - csharp
+  - vb
+  name: boss
+  nameWithType: Monster_level.boss
+  fullName: Assets.Scripts.Utility.Monster_level.boss
+  type: Field
+  source:
+    id: boss
+    path: ''
+    startLine: 163086
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: boss = 2
+    return:
+      type: Assets.Scripts.Utility.Monster_level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Monster_level.Error_type
+  commentId: F:Assets.Scripts.Utility.Monster_level.Error_type
+  id: Error_type
+  parent: Assets.Scripts.Utility.Monster_level
+  langs:
+  - csharp
+  - vb
+  name: Error_type
+  nameWithType: Monster_level.Error_type
+  fullName: Assets.Scripts.Utility.Monster_level.Error_type
+  type: Field
+  source:
+    id: Error_type
+    path: ''
+    startLine: 163087
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Error_type = 3
+    return:
+      type: Assets.Scripts.Utility.Monster_level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.Monster_level
+  commentId: T:Assets.Scripts.Utility.Monster_level
+  parent: Assets.Scripts.Utility
+  name: Monster_level
+  nameWithType: Monster_level
+  fullName: Assets.Scripts.Utility.Monster_level

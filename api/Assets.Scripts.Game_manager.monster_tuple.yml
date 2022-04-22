@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.monster_tuple
+  commentId: T:Assets.Scripts.Game_manager.monster_tuple
+  id: monster_tuple
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.monster_tuple.#ctor(System.String,Vector3)
+  - Assets.Scripts.Game_manager.monster_tuple.monster_position
+  - Assets.Scripts.Game_manager.monster_tuple.monter_name
+  langs:
+  - csharp
+  - vb
+  name: monster_tuple
+  nameWithType: monster_tuple
+  fullName: Assets.Scripts.Game_manager.monster_tuple
+  type: Class
+  source:
+    id: monster_tuple
+    path: ''
+    startLine: 156309
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public class monster_tuple
+    content.vb: Public Class monster_tuple
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.monster_tuple.monter_name
+  commentId: F:Assets.Scripts.Game_manager.monster_tuple.monter_name
+  id: monter_name
+  parent: Assets.Scripts.Game_manager.monster_tuple
+  langs:
+  - csharp
+  - vb
+  name: monter_name
+  nameWithType: monster_tuple.monter_name
+  fullName: Assets.Scripts.Game_manager.monster_tuple.monter_name
+  type: Field
+  source:
+    id: monter_name
+    path: ''
+    startLine: 156311
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public string monter_name
+    return:
+      type: System.String
+    content.vb: Public monter_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.monster_tuple.monster_position
+  commentId: F:Assets.Scripts.Game_manager.monster_tuple.monster_position
+  id: monster_position
+  parent: Assets.Scripts.Game_manager.monster_tuple
+  langs:
+  - csharp
+  - vb
+  name: monster_position
+  nameWithType: monster_tuple.monster_position
+  fullName: Assets.Scripts.Game_manager.monster_tuple.monster_position
+  type: Field
+  source:
+    id: monster_position
+    path: ''
+    startLine: 156312
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public Vector3 monster_position
+    return:
+      type: Global.Vector3
+    content.vb: Public monster_position As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.monster_tuple.#ctor(System.String,Vector3)
+  commentId: M:Assets.Scripts.Game_manager.monster_tuple.#ctor(System.String,Vector3)
+  id: '#ctor(System.String,Vector3)'
+  parent: Assets.Scripts.Game_manager.monster_tuple
+  langs:
+  - csharp
+  - vb
+  name: monster_tuple(String, Vector3)
+  nameWithType: monster_tuple.monster_tuple(String, Vector3)
+  fullName: Assets.Scripts.Game_manager.monster_tuple.monster_tuple(System.String, Vector3)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 156313
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public monster_tuple(string monter_name, Vector3 monster_position)
+    parameters:
+    - id: monter_name
+      type: System.String
+    - id: monster_position
+      type: Global.Vector3
+    content.vb: Public Sub New(monter_name As String, monster_position As Vector3)
+  overload: Assets.Scripts.Game_manager.monster_tuple.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Assets.Scripts.Game_manager.monster_tuple.#ctor*
+  commentId: Overload:Assets.Scripts.Game_manager.monster_tuple.#ctor
+  name: monster_tuple
+  nameWithType: monster_tuple.monster_tuple
+  fullName: Assets.Scripts.Game_manager.monster_tuple.monster_tuple

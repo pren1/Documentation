@@ -1,0 +1,942 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.card_renderer
+  commentId: T:Assets.Scripts.live.card_renderer
+  id: card_renderer
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck(GameObject,Assets.Scripts.live.live_card_pile)
+  - Assets.Scripts.live.card_renderer.cancel_discard_window
+  - Assets.Scripts.live.card_renderer.card_queue
+  - Assets.Scripts.live.card_renderer.Clean_pile_to_pile(Assets.Scripts.live.live_card_pile,System.Boolean)
+  - Assets.Scripts.live.card_renderer.Custom_FillCard
+  - Assets.Scripts.live.card_renderer.deck
+  - Assets.Scripts.live.card_renderer.deckSize
+  - Assets.Scripts.live.card_renderer.discard_current_card_draw_next
+  - Assets.Scripts.live.card_renderer.Extra
+  - Assets.Scripts.live.card_renderer.grave
+  - Assets.Scripts.live.card_renderer.hand
+  - Assets.Scripts.live.card_renderer.handSize
+  - Assets.Scripts.live.card_renderer.Remove_card
+  - Assets.Scripts.live.card_renderer.Remove_Nrandom_card(System.Int32,System.Int32)
+  - Assets.Scripts.live.card_renderer.RemoveTargetCard(GameObject,System.Boolean)
+  - Assets.Scripts.live.card_renderer.show_discard_window
+  - Assets.Scripts.live.card_renderer.shuffle_deck
+  - Assets.Scripts.live.card_renderer.shuffle_hand
+  - Assets.Scripts.live.card_renderer.Spawn_NCards(System.Int32)
+  - Assets.Scripts.live.card_renderer.SpawnCard
+  - Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck(System.String,System.Int32)
+  - Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig(System.String)
+  - Assets.Scripts.live.card_renderer.SpawnTargetCardToHand(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: card_renderer
+  nameWithType: card_renderer
+  fullName: Assets.Scripts.live.card_renderer
+  type: Class
+  source:
+    id: card_renderer
+    path: ''
+    startLine: 158703
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n实例化牌堆并处理\n"
+  example: []
+  syntax:
+    content: 'public class card_renderer : MonoBehaviour'
+    content.vb: >-
+      Public Class card_renderer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.card_renderer.handSize
+  commentId: F:Assets.Scripts.live.card_renderer.handSize
+  id: handSize
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: handSize
+  nameWithType: card_renderer.handSize
+  fullName: Assets.Scripts.live.card_renderer.handSize
+  type: Field
+  source:
+    id: handSize
+    path: ''
+    startLine: 158705
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public int handSize
+    return:
+      type: System.Int32
+    content.vb: Public handSize As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.deckSize
+  commentId: F:Assets.Scripts.live.card_renderer.deckSize
+  id: deckSize
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: deckSize
+  nameWithType: card_renderer.deckSize
+  fullName: Assets.Scripts.live.card_renderer.deckSize
+  type: Field
+  source:
+    id: deckSize
+    path: ''
+    startLine: 158706
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public int deckSize
+    return:
+      type: System.Int32
+    content.vb: Public deckSize As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.hand
+  commentId: F:Assets.Scripts.live.card_renderer.hand
+  id: hand
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: hand
+  nameWithType: card_renderer.hand
+  fullName: Assets.Scripts.live.card_renderer.hand
+  type: Field
+  source:
+    id: hand
+    path: ''
+    startLine: 158709
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public live_card_pile hand
+    return:
+      type: Assets.Scripts.live.live_card_pile
+    content.vb: Public hand As live_card_pile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.deck
+  commentId: F:Assets.Scripts.live.card_renderer.deck
+  id: deck
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: deck
+  nameWithType: card_renderer.deck
+  fullName: Assets.Scripts.live.card_renderer.deck
+  type: Field
+  source:
+    id: deck
+    path: ''
+    startLine: 158710
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public live_card_pile deck
+    return:
+      type: Assets.Scripts.live.live_card_pile
+    content.vb: Public deck As live_card_pile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.grave
+  commentId: F:Assets.Scripts.live.card_renderer.grave
+  id: grave
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: grave
+  nameWithType: card_renderer.grave
+  fullName: Assets.Scripts.live.card_renderer.grave
+  type: Field
+  source:
+    id: grave
+    path: ''
+    startLine: 158711
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public live_card_pile grave
+    return:
+      type: Assets.Scripts.live.live_card_pile
+    content.vb: Public grave As live_card_pile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Extra
+  commentId: F:Assets.Scripts.live.card_renderer.Extra
+  id: Extra
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Extra
+  nameWithType: card_renderer.Extra
+  fullName: Assets.Scripts.live.card_renderer.Extra
+  type: Field
+  source:
+    id: Extra
+    path: ''
+    startLine: 158712
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public live_card_pile Extra
+    return:
+      type: Assets.Scripts.live.live_card_pile
+    content.vb: Public Extra As live_card_pile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.card_queue
+  commentId: F:Assets.Scripts.live.card_renderer.card_queue
+  id: card_queue
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: card_queue
+  nameWithType: card_renderer.card_queue
+  fullName: Assets.Scripts.live.card_renderer.card_queue
+  type: Field
+  source:
+    id: card_queue
+    path: ''
+    startLine: 158721
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public Queue<card_draw_effect_tuple> card_queue
+    return:
+      type: System.Collections.Generic.Queue{Assets.Scripts.card_draw_effect_tuple}
+    content.vb: Public card_queue As Queue(Of card_draw_effect_tuple)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.SpawnCard
+  commentId: M:Assets.Scripts.live.card_renderer.SpawnCard
+  id: SpawnCard
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: SpawnCard()
+  nameWithType: card_renderer.SpawnCard()
+  fullName: Assets.Scripts.live.card_renderer.SpawnCard()
+  type: Method
+  source:
+    id: SpawnCard
+    path: ''
+    startLine: 158823
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n从牌堆抽牌\n"
+  example: []
+  syntax:
+    content: public void SpawnCard()
+    content.vb: Public Sub SpawnCard
+  overload: Assets.Scripts.live.card_renderer.SpawnCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.SpawnTargetCardToHand(System.String,System.Int32)
+  commentId: M:Assets.Scripts.live.card_renderer.SpawnTargetCardToHand(System.String,System.Int32)
+  id: SpawnTargetCardToHand(System.String,System.Int32)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: SpawnTargetCardToHand(String, Int32)
+  nameWithType: card_renderer.SpawnTargetCardToHand(String, Int32)
+  fullName: Assets.Scripts.live.card_renderer.SpawnTargetCardToHand(System.String, System.Int32)
+  type: Method
+  source:
+    id: SpawnTargetCardToHand
+    path: ''
+    startLine: 158884
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void SpawnTargetCardToHand(string card_name, int remaining_count)
+    parameters:
+    - id: card_name
+      type: System.String
+    - id: remaining_count
+      type: System.Int32
+    content.vb: Public Sub SpawnTargetCardToHand(card_name As String, remaining_count As Integer)
+  overload: Assets.Scripts.live.card_renderer.SpawnTargetCardToHand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck(System.String,System.Int32)
+  commentId: M:Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck(System.String,System.Int32)
+  id: SpawnTargetCardToDeck(System.String,System.Int32)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: SpawnTargetCardToDeck(String, Int32)
+  nameWithType: card_renderer.SpawnTargetCardToDeck(String, Int32)
+  fullName: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck(System.String, System.Int32)
+  type: Method
+  source:
+    id: SpawnTargetCardToDeck
+    path: ''
+    startLine: 158914
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void SpawnTargetCardToDeck(string card_name, int N)
+    parameters:
+    - id: card_name
+      type: System.String
+    - id: N
+      type: System.Int32
+    content.vb: Public Sub SpawnTargetCardToDeck(card_name As String, N As Integer)
+  overload: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig(System.String)
+  commentId: M:Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig(System.String)
+  id: SpawnTargetCardToDeck_sig(System.String)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: SpawnTargetCardToDeck_sig(String)
+  nameWithType: card_renderer.SpawnTargetCardToDeck_sig(String)
+  fullName: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig(System.String)
+  type: Method
+  source:
+    id: SpawnTargetCardToDeck_sig
+    path: ''
+    startLine: 158926
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n将指定牌从Extra放入牌库\n"
+  example: []
+  syntax:
+    content: public void SpawnTargetCardToDeck_sig(string card_name)
+    parameters:
+    - id: card_name
+      type: System.String
+    content.vb: Public Sub SpawnTargetCardToDeck_sig(card_name As String)
+  overload: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Spawn_NCards(System.Int32)
+  commentId: M:Assets.Scripts.live.card_renderer.Spawn_NCards(System.Int32)
+  id: Spawn_NCards(System.Int32)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Spawn_NCards(Int32)
+  nameWithType: card_renderer.Spawn_NCards(Int32)
+  fullName: Assets.Scripts.live.card_renderer.Spawn_NCards(System.Int32)
+  type: Method
+  source:
+    id: Spawn_NCards
+    path: ''
+    startLine: 158943
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n抽N张牌\n"
+  example: []
+  syntax:
+    content: public void Spawn_NCards(int N)
+    parameters:
+    - id: N
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub Spawn_NCards(N As Integer)
+  overload: Assets.Scripts.live.card_renderer.Spawn_NCards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Remove_Nrandom_card(System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.live.card_renderer.Remove_Nrandom_card(System.Int32,System.Int32)
+  id: Remove_Nrandom_card(System.Int32,System.Int32)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Remove_Nrandom_card(Int32, Int32)
+  nameWithType: card_renderer.Remove_Nrandom_card(Int32, Int32)
+  fullName: Assets.Scripts.live.card_renderer.Remove_Nrandom_card(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Remove_Nrandom_card
+    path: ''
+    startLine: 158959
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n随机弃牌\n<param name=\"N\">card number</param>\n"
+  example: []
+  syntax:
+    content: public void Remove_Nrandom_card(int N, int random_mode)
+    parameters:
+    - id: N
+      type: System.Int32
+    - id: random_mode
+      type: System.Int32
+    content.vb: Public Sub Remove_Nrandom_card(N As Integer, random_mode As Integer)
+  overload: Assets.Scripts.live.card_renderer.Remove_Nrandom_card*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Remove_card
+  commentId: M:Assets.Scripts.live.card_renderer.Remove_card
+  id: Remove_card
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Remove_card()
+  nameWithType: card_renderer.Remove_card()
+  fullName: Assets.Scripts.live.card_renderer.Remove_card()
+  type: Method
+  source:
+    id: Remove_card
+    path: ''
+    startLine: 158966
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void Remove_card()
+    content.vb: Public Sub Remove_card
+  overload: Assets.Scripts.live.card_renderer.Remove_card*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.discard_current_card_draw_next
+  commentId: M:Assets.Scripts.live.card_renderer.discard_current_card_draw_next
+  id: discard_current_card_draw_next
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: discard_current_card_draw_next()
+  nameWithType: card_renderer.discard_current_card_draw_next()
+  fullName: Assets.Scripts.live.card_renderer.discard_current_card_draw_next()
+  type: Method
+  source:
+    id: discard_current_card_draw_next
+    path: ''
+    startLine: 159020
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n弃当前牌，牺牲，并抽下一张\n"
+  example: []
+  syntax:
+    content: public void discard_current_card_draw_next()
+    content.vb: Public Sub discard_current_card_draw_next
+  overload: Assets.Scripts.live.card_renderer.discard_current_card_draw_next*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.cancel_discard_window
+  commentId: M:Assets.Scripts.live.card_renderer.cancel_discard_window
+  id: cancel_discard_window
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: cancel_discard_window()
+  nameWithType: card_renderer.cancel_discard_window()
+  fullName: Assets.Scripts.live.card_renderer.cancel_discard_window()
+  type: Method
+  source:
+    id: cancel_discard_window
+    path: ''
+    startLine: 159026
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void cancel_discard_window()
+    content.vb: Public Sub cancel_discard_window
+  overload: Assets.Scripts.live.card_renderer.cancel_discard_window*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.show_discard_window
+  commentId: M:Assets.Scripts.live.card_renderer.show_discard_window
+  id: show_discard_window
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: show_discard_window()
+  nameWithType: card_renderer.show_discard_window()
+  fullName: Assets.Scripts.live.card_renderer.show_discard_window()
+  type: Method
+  source:
+    id: show_discard_window
+    path: ''
+    startLine: 159031
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void show_discard_window()
+    content.vb: Public Sub show_discard_window
+  overload: Assets.Scripts.live.card_renderer.show_discard_window*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck(GameObject,Assets.Scripts.live.live_card_pile)
+  commentId: M:Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck(GameObject,Assets.Scripts.live.live_card_pile)
+  id: Add_card_from_hand_to_target_deck(GameObject,Assets.Scripts.live.live_card_pile)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Add_card_from_hand_to_target_deck(GameObject, live_card_pile)
+  nameWithType: card_renderer.Add_card_from_hand_to_target_deck(GameObject, live_card_pile)
+  fullName: Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck(GameObject, Assets.Scripts.live.live_card_pile)
+  type: Method
+  source:
+    id: Add_card_from_hand_to_target_deck
+    path: ''
+    startLine: 159062
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\nmove card from hand to target pile\n"
+  example: []
+  syntax:
+    content: public void Add_card_from_hand_to_target_deck(GameObject card, live_card_pile target_pile)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: target_pile
+      type: Assets.Scripts.live.live_card_pile
+      description: ''
+    content.vb: Public Sub Add_card_from_hand_to_target_deck(card As GameObject, target_pile As live_card_pile)
+  overload: Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Clean_pile_to_pile(Assets.Scripts.live.live_card_pile,System.Boolean)
+  commentId: M:Assets.Scripts.live.card_renderer.Clean_pile_to_pile(Assets.Scripts.live.live_card_pile,System.Boolean)
+  id: Clean_pile_to_pile(Assets.Scripts.live.live_card_pile,System.Boolean)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Clean_pile_to_pile(live_card_pile, Boolean)
+  nameWithType: card_renderer.Clean_pile_to_pile(live_card_pile, Boolean)
+  fullName: Assets.Scripts.live.card_renderer.Clean_pile_to_pile(Assets.Scripts.live.live_card_pile, System.Boolean)
+  type: Method
+  source:
+    id: Clean_pile_to_pile
+    path: ''
+    startLine: 159085
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\nmove all cards in this pile to grave\n"
+  example: []
+  syntax:
+    content: public void Clean_pile_to_pile(live_card_pile A, bool to_grave)
+    parameters:
+    - id: A
+      type: Assets.Scripts.live.live_card_pile
+      description: ''
+    - id: to_grave
+      type: System.Boolean
+    content.vb: Public Sub Clean_pile_to_pile(A As live_card_pile, to_grave As Boolean)
+  overload: Assets.Scripts.live.card_renderer.Clean_pile_to_pile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.RemoveTargetCard(GameObject,System.Boolean)
+  commentId: M:Assets.Scripts.live.card_renderer.RemoveTargetCard(GameObject,System.Boolean)
+  id: RemoveTargetCard(GameObject,System.Boolean)
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: RemoveTargetCard(GameObject, Boolean)
+  nameWithType: card_renderer.RemoveTargetCard(GameObject, Boolean)
+  fullName: Assets.Scripts.live.card_renderer.RemoveTargetCard(GameObject, System.Boolean)
+  type: Method
+  source:
+    id: RemoveTargetCard
+    path: ''
+    startLine: 159123
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n移除指定牌\n"
+  example: []
+  syntax:
+    content: public void RemoveTargetCard(GameObject card, bool is_effect_triggered = false)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: is_effect_triggered
+      type: System.Boolean
+      description: 是否在移除时触发该卡牌效果
+    content.vb: Public Sub RemoveTargetCard(card As GameObject, is_effect_triggered As Boolean = False)
+  overload: Assets.Scripts.live.card_renderer.RemoveTargetCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.Custom_FillCard
+  commentId: M:Assets.Scripts.live.card_renderer.Custom_FillCard
+  id: Custom_FillCard
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: Custom_FillCard()
+  nameWithType: card_renderer.Custom_FillCard()
+  fullName: Assets.Scripts.live.card_renderer.Custom_FillCard()
+  type: Method
+  source:
+    id: Custom_FillCard
+    path: ''
+    startLine: 159161
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n从墓地放入牌组\n"
+  example: []
+  syntax:
+    content: public void Custom_FillCard()
+    content.vb: Public Sub Custom_FillCard
+  overload: Assets.Scripts.live.card_renderer.Custom_FillCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.shuffle_hand
+  commentId: M:Assets.Scripts.live.card_renderer.shuffle_hand
+  id: shuffle_hand
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: shuffle_hand()
+  nameWithType: card_renderer.shuffle_hand()
+  fullName: Assets.Scripts.live.card_renderer.shuffle_hand()
+  type: Method
+  source:
+    id: shuffle_hand
+    path: ''
+    startLine: 159168
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void shuffle_hand()
+    content.vb: Public Sub shuffle_hand
+  overload: Assets.Scripts.live.card_renderer.shuffle_hand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.card_renderer.shuffle_deck
+  commentId: M:Assets.Scripts.live.card_renderer.shuffle_deck
+  id: shuffle_deck
+  parent: Assets.Scripts.live.card_renderer
+  langs:
+  - csharp
+  - vb
+  name: shuffle_deck()
+  nameWithType: card_renderer.shuffle_deck()
+  fullName: Assets.Scripts.live.card_renderer.shuffle_deck()
+  type: Method
+  source:
+    id: shuffle_deck
+    path: ''
+    startLine: 159173
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void shuffle_deck()
+    content.vb: Public Sub shuffle_deck
+  overload: Assets.Scripts.live.card_renderer.shuffle_deck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.live.live_card_pile
+  commentId: T:Assets.Scripts.live.live_card_pile
+  parent: Assets.Scripts.live
+  name: live_card_pile
+  nameWithType: live_card_pile
+  fullName: Assets.Scripts.live.live_card_pile
+- uid: System.Collections.Generic.Queue{Assets.Scripts.card_draw_effect_tuple}
+  commentId: T:System.Collections.Generic.Queue{Assets.Scripts.card_draw_effect_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Queue`1
+  name: Queue<card_draw_effect_tuple>
+  nameWithType: Queue<card_draw_effect_tuple>
+  fullName: System.Collections.Generic.Queue<Assets.Scripts.card_draw_effect_tuple>
+  nameWithType.vb: Queue(Of card_draw_effect_tuple)
+  fullName.vb: System.Collections.Generic.Queue(Of Assets.Scripts.card_draw_effect_tuple)
+  name.vb: Queue(Of card_draw_effect_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.card_draw_effect_tuple
+    name: card_draw_effect_tuple
+    nameWithType: card_draw_effect_tuple
+    fullName: Assets.Scripts.card_draw_effect_tuple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.card_draw_effect_tuple
+    name: card_draw_effect_tuple
+    nameWithType: card_draw_effect_tuple
+    fullName: Assets.Scripts.card_draw_effect_tuple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Queue`1
+  commentId: T:System.Collections.Generic.Queue`1
+  isExternal: true
+  name: Queue<T>
+  nameWithType: Queue<T>
+  fullName: System.Collections.Generic.Queue<T>
+  nameWithType.vb: Queue(Of T)
+  fullName.vb: System.Collections.Generic.Queue(Of T)
+  name.vb: Queue(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.live.card_renderer.SpawnCard*
+  commentId: Overload:Assets.Scripts.live.card_renderer.SpawnCard
+  name: SpawnCard
+  nameWithType: card_renderer.SpawnCard
+  fullName: Assets.Scripts.live.card_renderer.SpawnCard
+- uid: Assets.Scripts.live.card_renderer.SpawnTargetCardToHand*
+  commentId: Overload:Assets.Scripts.live.card_renderer.SpawnTargetCardToHand
+  name: SpawnTargetCardToHand
+  nameWithType: card_renderer.SpawnTargetCardToHand
+  fullName: Assets.Scripts.live.card_renderer.SpawnTargetCardToHand
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck*
+  commentId: Overload:Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck
+  name: SpawnTargetCardToDeck
+  nameWithType: card_renderer.SpawnTargetCardToDeck
+  fullName: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck
+- uid: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig*
+  commentId: Overload:Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig
+  name: SpawnTargetCardToDeck_sig
+  nameWithType: card_renderer.SpawnTargetCardToDeck_sig
+  fullName: Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig
+- uid: Assets.Scripts.live.card_renderer.Spawn_NCards*
+  commentId: Overload:Assets.Scripts.live.card_renderer.Spawn_NCards
+  name: Spawn_NCards
+  nameWithType: card_renderer.Spawn_NCards
+  fullName: Assets.Scripts.live.card_renderer.Spawn_NCards
+- uid: Assets.Scripts.live.card_renderer.Remove_Nrandom_card*
+  commentId: Overload:Assets.Scripts.live.card_renderer.Remove_Nrandom_card
+  name: Remove_Nrandom_card
+  nameWithType: card_renderer.Remove_Nrandom_card
+  fullName: Assets.Scripts.live.card_renderer.Remove_Nrandom_card
+- uid: Assets.Scripts.live.card_renderer.Remove_card*
+  commentId: Overload:Assets.Scripts.live.card_renderer.Remove_card
+  name: Remove_card
+  nameWithType: card_renderer.Remove_card
+  fullName: Assets.Scripts.live.card_renderer.Remove_card
+- uid: Assets.Scripts.live.card_renderer.discard_current_card_draw_next*
+  commentId: Overload:Assets.Scripts.live.card_renderer.discard_current_card_draw_next
+  name: discard_current_card_draw_next
+  nameWithType: card_renderer.discard_current_card_draw_next
+  fullName: Assets.Scripts.live.card_renderer.discard_current_card_draw_next
+- uid: Assets.Scripts.live.card_renderer.cancel_discard_window*
+  commentId: Overload:Assets.Scripts.live.card_renderer.cancel_discard_window
+  name: cancel_discard_window
+  nameWithType: card_renderer.cancel_discard_window
+  fullName: Assets.Scripts.live.card_renderer.cancel_discard_window
+- uid: Assets.Scripts.live.card_renderer.show_discard_window*
+  commentId: Overload:Assets.Scripts.live.card_renderer.show_discard_window
+  name: show_discard_window
+  nameWithType: card_renderer.show_discard_window
+  fullName: Assets.Scripts.live.card_renderer.show_discard_window
+- uid: Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck*
+  commentId: Overload:Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck
+  name: Add_card_from_hand_to_target_deck
+  nameWithType: card_renderer.Add_card_from_hand_to_target_deck
+  fullName: Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.live.card_renderer.Clean_pile_to_pile*
+  commentId: Overload:Assets.Scripts.live.card_renderer.Clean_pile_to_pile
+  name: Clean_pile_to_pile
+  nameWithType: card_renderer.Clean_pile_to_pile
+  fullName: Assets.Scripts.live.card_renderer.Clean_pile_to_pile
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.live.card_renderer.RemoveTargetCard*
+  commentId: Overload:Assets.Scripts.live.card_renderer.RemoveTargetCard
+  name: RemoveTargetCard
+  nameWithType: card_renderer.RemoveTargetCard
+  fullName: Assets.Scripts.live.card_renderer.RemoveTargetCard
+- uid: Assets.Scripts.live.card_renderer.Custom_FillCard*
+  commentId: Overload:Assets.Scripts.live.card_renderer.Custom_FillCard
+  name: Custom_FillCard
+  nameWithType: card_renderer.Custom_FillCard
+  fullName: Assets.Scripts.live.card_renderer.Custom_FillCard
+- uid: Assets.Scripts.live.card_renderer.shuffle_hand*
+  commentId: Overload:Assets.Scripts.live.card_renderer.shuffle_hand
+  name: shuffle_hand
+  nameWithType: card_renderer.shuffle_hand
+  fullName: Assets.Scripts.live.card_renderer.shuffle_hand
+- uid: Assets.Scripts.live.card_renderer.shuffle_deck*
+  commentId: Overload:Assets.Scripts.live.card_renderer.shuffle_deck
+  name: shuffle_deck
+  nameWithType: card_renderer.shuffle_deck
+  fullName: Assets.Scripts.live.card_renderer.shuffle_deck

@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.live_card_controller
+  commentId: T:Assets.Scripts.live.live_card_controller
+  id: live_card_controller
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.live_card_controller.update_card_cover_status(System.String)
+  langs:
+  - csharp
+  - vb
+  name: live_card_controller
+  nameWithType: live_card_controller
+  fullName: Assets.Scripts.live.live_card_controller
+  type: Class
+  source:
+    id: live_card_controller
+    path: ''
+    startLine: 159300
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n控制单张卡片\n"
+  example: []
+  syntax:
+    content: 'public class live_card_controller : MonoBehaviour'
+    content.vb: >-
+      Public Class live_card_controller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.live_card_controller.update_card_cover_status(System.String)
+  commentId: M:Assets.Scripts.live.live_card_controller.update_card_cover_status(System.String)
+  id: update_card_cover_status(System.String)
+  parent: Assets.Scripts.live.live_card_controller
+  langs:
+  - csharp
+  - vb
+  name: update_card_cover_status(String)
+  nameWithType: live_card_controller.update_card_cover_status(String)
+  fullName: Assets.Scripts.live.live_card_controller.update_card_cover_status(System.String)
+  type: Method
+  source:
+    id: update_card_cover_status
+    path: ''
+    startLine: 159331
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n处理卡背显示与否\n"
+  example: []
+  syntax:
+    content: public void update_card_cover_status(string pile_name)
+    parameters:
+    - id: pile_name
+      type: System.String
+      description: ''
+    content.vb: Public Sub update_card_cover_status(pile_name As String)
+  overload: Assets.Scripts.live.live_card_controller.update_card_cover_status*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.live.live_card_controller.update_card_cover_status*
+  commentId: Overload:Assets.Scripts.live.live_card_controller.update_card_cover_status
+  name: update_card_cover_status
+  nameWithType: live_card_controller.update_card_cover_status
+  fullName: Assets.Scripts.live.live_card_controller.update_card_cover_status
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

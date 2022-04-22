@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.Game_pipeline
+  commentId: T:Assets.Scripts.Game_manager.Game_pipeline
+  id: Game_pipeline
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene
+  langs:
+  - csharp
+  - vb
+  name: Game_pipeline
+  nameWithType: Game_pipeline
+  fullName: Assets.Scripts.Game_manager.Game_pipeline
+  type: Class
+  source:
+    id: Game_pipeline
+    path: ''
+    startLine: 156140
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n决定剧情顺序。每次某个场景结束后，会从这个队列中获取接下来要执行的内容\n"
+  example: []
+  syntax:
+    content: public static class Game_pipeline
+    content.vb: Public Module Game_pipeline
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene
+  commentId: M:Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene
+  id: dequeue_scene
+  parent: Assets.Scripts.Game_manager.Game_pipeline
+  langs:
+  - csharp
+  - vb
+  name: dequeue_scene()
+  nameWithType: Game_pipeline.dequeue_scene()
+  fullName: Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene()
+  type: Method
+  source:
+    id: dequeue_scene
+    path: ''
+    startLine: 156237
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n加载下一场景\n"
+  example: []
+  syntax:
+    content: public static void dequeue_scene()
+    content.vb: Public Shared Sub dequeue_scene
+  overload: Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene*
+  commentId: Overload:Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene
+  name: dequeue_scene
+  nameWithType: Game_pipeline.dequeue_scene
+  fullName: Assets.Scripts.Game_manager.Game_pipeline.dequeue_scene

@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.card_shop.card_initialization
+  commentId: T:Assets.Scripts.card_shop.card_initialization
+  id: card_initialization
+  parent: Assets.Scripts.card_shop
+  children:
+  - Assets.Scripts.card_shop.card_initialization._initialized
+  - Assets.Scripts.card_shop.card_initialization.IfEditor
+  - Assets.Scripts.card_shop.card_initialization.Initialization
+  - Assets.Scripts.card_shop.card_initialization.Start
+  langs:
+  - csharp
+  - vb
+  name: card_initialization
+  nameWithType: card_initialization
+  fullName: Assets.Scripts.card_shop.card_initialization
+  type: Class
+  source:
+    id: card_initialization
+    path: ''
+    startLine: 152850
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  syntax:
+    content: 'public class card_initialization : MonoBehaviour'
+    content.vb: >-
+      Public Class card_initialization
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.card_shop.card_initialization._initialized
+  commentId: F:Assets.Scripts.card_shop.card_initialization._initialized
+  id: _initialized
+  parent: Assets.Scripts.card_shop.card_initialization
+  langs:
+  - csharp
+  - vb
+  name: _initialized
+  nameWithType: card_initialization._initialized
+  fullName: Assets.Scripts.card_shop.card_initialization._initialized
+  type: Field
+  source:
+    id: _initialized
+    path: ''
+    startLine: 152853
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  syntax:
+    content: protected bool _initialized
+    return:
+      type: System.Boolean
+    content.vb: Protected _initialized As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Assets.Scripts.card_shop.card_initialization.Start
+  commentId: M:Assets.Scripts.card_shop.card_initialization.Start
+  id: Start
+  parent: Assets.Scripts.card_shop.card_initialization
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: card_initialization.Start()
+  fullName: Assets.Scripts.card_shop.card_initialization.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 152857
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\nOn Start we initialize our object\n"
+  example: []
+  syntax:
+    content: protected virtual void Start()
+    content.vb: Protected Overridable Sub Start
+  overload: Assets.Scripts.card_shop.card_initialization.Start*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Assets.Scripts.card_shop.card_initialization.Initialization
+  commentId: M:Assets.Scripts.card_shop.card_initialization.Initialization
+  id: Initialization
+  parent: Assets.Scripts.card_shop.card_initialization
+  langs:
+  - csharp
+  - vb
+  name: Initialization()
+  nameWithType: card_initialization.Initialization()
+  fullName: Assets.Scripts.card_shop.card_initialization.Initialization()
+  type: Method
+  source:
+    id: Initialization
+    path: ''
+    startLine: 152864
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\nOn init we grab our rect transform and initialize visibility\n"
+  example: []
+  syntax:
+    content: protected virtual void Initialization()
+    content.vb: Protected Overridable Sub Initialization
+  overload: Assets.Scripts.card_shop.card_initialization.Initialization*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Assets.Scripts.card_shop.card_initialization.IfEditor
+  commentId: M:Assets.Scripts.card_shop.card_initialization.IfEditor
+  id: IfEditor
+  parent: Assets.Scripts.card_shop.card_initialization
+  langs:
+  - csharp
+  - vb
+  name: IfEditor()
+  nameWithType: card_initialization.IfEditor()
+  fullName: Assets.Scripts.card_shop.card_initialization.IfEditor()
+  type: Method
+  source:
+    id: IfEditor
+    path: ''
+    startLine: 152872
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.card_shop
+  summary: "\nIf in editor, we initialize if needed, and apply the debug scale value if needed\n"
+  example: []
+  syntax:
+    content: protected virtual void IfEditor()
+    content.vb: Protected Overridable Sub IfEditor
+  overload: Assets.Scripts.card_shop.card_initialization.IfEditor*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: Assets.Scripts.card_shop
+  commentId: N:Assets.Scripts.card_shop
+  name: Assets.Scripts.card_shop
+  nameWithType: Assets.Scripts.card_shop
+  fullName: Assets.Scripts.card_shop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.card_shop.card_initialization.Start*
+  commentId: Overload:Assets.Scripts.card_shop.card_initialization.Start
+  name: Start
+  nameWithType: card_initialization.Start
+  fullName: Assets.Scripts.card_shop.card_initialization.Start
+- uid: Assets.Scripts.card_shop.card_initialization.Initialization*
+  commentId: Overload:Assets.Scripts.card_shop.card_initialization.Initialization
+  name: Initialization
+  nameWithType: card_initialization.Initialization
+  fullName: Assets.Scripts.card_shop.card_initialization.Initialization
+- uid: Assets.Scripts.card_shop.card_initialization.IfEditor*
+  commentId: Overload:Assets.Scripts.card_shop.card_initialization.IfEditor
+  name: IfEditor
+  nameWithType: card_initialization.IfEditor
+  fullName: Assets.Scripts.card_shop.card_initialization.IfEditor

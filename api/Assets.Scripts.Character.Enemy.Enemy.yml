@@ -1,0 +1,828 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Enemy.Enemy
+  commentId: T:Assets.Scripts.Character.Enemy.Enemy
+  id: Enemy
+  parent: Assets.Scripts.Character.Enemy
+  children:
+  - Assets.Scripts.Character.Enemy.Enemy.#ctor(Vector3,Assets.Scripts.Character.Character_property,DamageNumber,DamageNumber,System.Collections.Generic.List{card_type},Monster_level,System.Int32)
+  - Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour(System.Collections.Generic.List{Assets.Scripts.Character.Member.Member},show_animation,Action)
+  - Assets.Scripts.Character.Enemy.Enemy.monster_Level
+  langs:
+  - csharp
+  - vb
+  name: Enemy
+  nameWithType: Enemy
+  fullName: Assets.Scripts.Character.Enemy.Enemy
+  type: Class
+  source:
+    id: Enemy
+    path: ''
+    startLine: 154178
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Enemy
+  summary: "\n敌人类，继承自Character类\n"
+  example: []
+  syntax:
+    content: 'public class Enemy : Character'
+    content.vb: >-
+      Public Class Enemy
+          Inherits Character
+  inheritance:
+  - System.Object
+  - Assets.Scripts.Character.Character
+  inheritedMembers:
+  - Assets.Scripts.Character.Character.resource_name
+  - Assets.Scripts.Character.Character.resource_position
+  - Assets.Scripts.Character.Character.gameObj
+  - Assets.Scripts.Character.Character.user_type
+  - Assets.Scripts.Character.Character.my_canvas
+  - Assets.Scripts.Character.Character.CanvasRect
+  - Assets.Scripts.Character.Character.character_property
+  - Assets.Scripts.Character.Character.damageNumber
+  - Assets.Scripts.Character.Character.healNumber
+  - Assets.Scripts.Character.Character.health_Bar
+  - Assets.Scripts.Character.Character.shield_bar
+  - Assets.Scripts.Character.Character.icon_offset_y
+  - Assets.Scripts.Character.Character.Show_Animation
+  - Assets.Scripts.Character.Character.pos_index
+  - Assets.Scripts.Character.Character.set_health_value_change_listener(Assets.Scripts.Character.Character_property.OnVariableChangeDelegate)
+  - Assets.Scripts.Character.Character.set_shield_value_change_listener(Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate)
+  - Assets.Scripts.Character.Character.add_shield_bar
+  - Assets.Scripts.Character.Character.update_health_icon
+  - Assets.Scripts.Character.Character.update_Strength_icon
+  - Assets.Scripts.Character.Character.update_Defense_icon
+  - Assets.Scripts.Character.Character.update_tmp_Defense_icon
+  - Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+  - Assets.Scripts.Character.Character.update_Charge_level_icon
+  - Assets.Scripts.Character.Character.update_Dizzy_icon
+  - Assets.Scripts.Character.Character.update_Taunt_icon
+  - Assets.Scripts.Character.Character.update_Counter_attack_icon
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Character.Enemy.Enemy.monster_Level
+  commentId: F:Assets.Scripts.Character.Enemy.Enemy.monster_Level
+  id: monster_Level
+  parent: Assets.Scripts.Character.Enemy.Enemy
+  langs:
+  - csharp
+  - vb
+  name: monster_Level
+  nameWithType: Enemy.monster_Level
+  fullName: Assets.Scripts.Character.Enemy.Enemy.monster_Level
+  type: Field
+  source:
+    id: monster_Level
+    path: ''
+    startLine: 154182
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Enemy
+  syntax:
+    content: public Monster_level monster_Level
+    return:
+      type: Global.Monster_level
+    content.vb: Public monster_Level As Monster_level
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Enemy.Enemy.#ctor(Vector3,Assets.Scripts.Character.Character_property,DamageNumber,DamageNumber,System.Collections.Generic.List{card_type},Monster_level,System.Int32)
+  commentId: M:Assets.Scripts.Character.Enemy.Enemy.#ctor(Vector3,Assets.Scripts.Character.Character_property,DamageNumber,DamageNumber,System.Collections.Generic.List{card_type},Monster_level,System.Int32)
+  id: '#ctor(Vector3,Assets.Scripts.Character.Character_property,DamageNumber,DamageNumber,System.Collections.Generic.List{card_type},Monster_level,System.Int32)'
+  parent: Assets.Scripts.Character.Enemy.Enemy
+  langs:
+  - csharp
+  - vb
+  name: Enemy(Vector3, Character_property, DamageNumber, DamageNumber, List<card_type>, Monster_level, Int32)
+  nameWithType: Enemy.Enemy(Vector3, Character_property, DamageNumber, DamageNumber, List<card_type>, Monster_level, Int32)
+  fullName: Assets.Scripts.Character.Enemy.Enemy.Enemy(Vector3, Assets.Scripts.Character.Character_property, DamageNumber, DamageNumber, System.Collections.Generic.List<card_type>, Monster_level, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 154191
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Enemy
+  summary: "\n构造函数，直接调用character的\n"
+  example: []
+  syntax:
+    content: public Enemy(Vector3 resource_position, Character_property character_property, DamageNumber damageNumber, DamageNumber healNumber, List<card_type> user_type, Monster_level monster_Level, int pos_index)
+    parameters:
+    - id: resource_position
+      type: Global.Vector3
+      description: 位置
+    - id: character_property
+      type: Assets.Scripts.Character.Character_property
+      description: ''
+    - id: damageNumber
+      type: Global.DamageNumber
+      description: 显示伤害数字
+    - id: healNumber
+      type: Global.DamageNumber
+      description: 显示治疗数字
+    - id: user_type
+      type: System.Collections.Generic.List{card_type}
+    - id: monster_Level
+      type: Global.Monster_level
+    - id: pos_index
+      type: System.Int32
+    content.vb: Public Sub New(resource_position As Vector3, character_property As Character_property, damageNumber As DamageNumber, healNumber As DamageNumber, user_type As List(Of card_type), monster_Level As Monster_level, pos_index As Integer)
+  overload: Assets.Scripts.Character.Enemy.Enemy.#ctor*
+  nameWithType.vb: Enemy.Enemy(Vector3, Character_property, DamageNumber, DamageNumber, List(Of card_type), Monster_level, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Character.Enemy.Enemy.Enemy(Vector3, Assets.Scripts.Character.Character_property, DamageNumber, DamageNumber, System.Collections.Generic.List(Of card_type), Monster_level, System.Int32)
+  name.vb: Enemy(Vector3, Character_property, DamageNumber, DamageNumber, List(Of card_type), Monster_level, Int32)
+- uid: Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour(System.Collections.Generic.List{Assets.Scripts.Character.Member.Member},show_animation,Action)
+  commentId: M:Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour(System.Collections.Generic.List{Assets.Scripts.Character.Member.Member},show_animation,Action)
+  id: Enemy_turn_behaviour(System.Collections.Generic.List{Assets.Scripts.Character.Member.Member},show_animation,Action)
+  parent: Assets.Scripts.Character.Enemy.Enemy
+  langs:
+  - csharp
+  - vb
+  name: Enemy_turn_behaviour(List<Member>, show_animation, Action)
+  nameWithType: Enemy.Enemy_turn_behaviour(List<Member>, show_animation, Action)
+  fullName: Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour(System.Collections.Generic.List<Assets.Scripts.Character.Member.Member>, show_animation, Action)
+  type: Method
+  source:
+    id: Enemy_turn_behaviour
+    path: ''
+    startLine: 154261
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Enemy
+  summary: "\n此函数控制敌人在敌人的回合内做的事情\n"
+  example: []
+  syntax:
+    content: public void Enemy_turn_behaviour(List<Member> member_list, show_animation Show_Animation, Action complete_action)
+    parameters:
+    - id: member_list
+      type: System.Collections.Generic.List{Assets.Scripts.Character.Member.Member}
+      description: ''
+    - id: Show_Animation
+      type: Global.show_animation
+    - id: complete_action
+      type: Global.Action
+    content.vb: Public Sub Enemy_turn_behaviour(member_list As List(Of Member), Show_Animation As show_animation, complete_action As Action)
+  overload: Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour*
+  nameWithType.vb: Enemy.Enemy_turn_behaviour(List(Of Member), show_animation, Action)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour(System.Collections.Generic.List(Of Assets.Scripts.Character.Member.Member), show_animation, Action)
+  name.vb: Enemy_turn_behaviour(List(Of Member), show_animation, Action)
+references:
+- uid: Assets.Scripts.Character.Enemy
+  commentId: N:Assets.Scripts.Character.Enemy
+  name: Assets.Scripts.Character.Enemy
+  nameWithType: Assets.Scripts.Character.Enemy
+  fullName: Assets.Scripts.Character.Enemy
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Assets.Scripts.Character.Character
+  commentId: T:Assets.Scripts.Character.Character
+  parent: Assets.Scripts.Character
+  name: Character
+  nameWithType: Character
+  fullName: Assets.Scripts.Character.Character
+- uid: Assets.Scripts.Character.Character.resource_name
+  commentId: F:Assets.Scripts.Character.Character.resource_name
+  parent: Assets.Scripts.Character.Character
+  name: resource_name
+  nameWithType: Character.resource_name
+  fullName: Assets.Scripts.Character.Character.resource_name
+- uid: Assets.Scripts.Character.Character.resource_position
+  commentId: F:Assets.Scripts.Character.Character.resource_position
+  parent: Assets.Scripts.Character.Character
+  name: resource_position
+  nameWithType: Character.resource_position
+  fullName: Assets.Scripts.Character.Character.resource_position
+- uid: Assets.Scripts.Character.Character.gameObj
+  commentId: F:Assets.Scripts.Character.Character.gameObj
+  parent: Assets.Scripts.Character.Character
+  name: gameObj
+  nameWithType: Character.gameObj
+  fullName: Assets.Scripts.Character.Character.gameObj
+- uid: Assets.Scripts.Character.Character.user_type
+  commentId: F:Assets.Scripts.Character.Character.user_type
+  parent: Assets.Scripts.Character.Character
+  name: user_type
+  nameWithType: Character.user_type
+  fullName: Assets.Scripts.Character.Character.user_type
+- uid: Assets.Scripts.Character.Character.my_canvas
+  commentId: F:Assets.Scripts.Character.Character.my_canvas
+  parent: Assets.Scripts.Character.Character
+  name: my_canvas
+  nameWithType: Character.my_canvas
+  fullName: Assets.Scripts.Character.Character.my_canvas
+- uid: Assets.Scripts.Character.Character.CanvasRect
+  commentId: F:Assets.Scripts.Character.Character.CanvasRect
+  parent: Assets.Scripts.Character.Character
+  name: CanvasRect
+  nameWithType: Character.CanvasRect
+  fullName: Assets.Scripts.Character.Character.CanvasRect
+- uid: Assets.Scripts.Character.Character.character_property
+  commentId: F:Assets.Scripts.Character.Character.character_property
+  parent: Assets.Scripts.Character.Character
+  name: character_property
+  nameWithType: Character.character_property
+  fullName: Assets.Scripts.Character.Character.character_property
+- uid: Assets.Scripts.Character.Character.damageNumber
+  commentId: F:Assets.Scripts.Character.Character.damageNumber
+  parent: Assets.Scripts.Character.Character
+  name: damageNumber
+  nameWithType: Character.damageNumber
+  fullName: Assets.Scripts.Character.Character.damageNumber
+- uid: Assets.Scripts.Character.Character.healNumber
+  commentId: F:Assets.Scripts.Character.Character.healNumber
+  parent: Assets.Scripts.Character.Character
+  name: healNumber
+  nameWithType: Character.healNumber
+  fullName: Assets.Scripts.Character.Character.healNumber
+- uid: Assets.Scripts.Character.Character.health_Bar
+  commentId: F:Assets.Scripts.Character.Character.health_Bar
+  parent: Assets.Scripts.Character.Character
+  name: health_Bar
+  nameWithType: Character.health_Bar
+  fullName: Assets.Scripts.Character.Character.health_Bar
+- uid: Assets.Scripts.Character.Character.shield_bar
+  commentId: F:Assets.Scripts.Character.Character.shield_bar
+  parent: Assets.Scripts.Character.Character
+  name: shield_bar
+  nameWithType: Character.shield_bar
+  fullName: Assets.Scripts.Character.Character.shield_bar
+- uid: Assets.Scripts.Character.Character.icon_offset_y
+  commentId: F:Assets.Scripts.Character.Character.icon_offset_y
+  parent: Assets.Scripts.Character.Character
+  name: icon_offset_y
+  nameWithType: Character.icon_offset_y
+  fullName: Assets.Scripts.Character.Character.icon_offset_y
+- uid: Assets.Scripts.Character.Character.Show_Animation
+  commentId: F:Assets.Scripts.Character.Character.Show_Animation
+  parent: Assets.Scripts.Character.Character
+  name: Show_Animation
+  nameWithType: Character.Show_Animation
+  fullName: Assets.Scripts.Character.Character.Show_Animation
+- uid: Assets.Scripts.Character.Character.pos_index
+  commentId: F:Assets.Scripts.Character.Character.pos_index
+  parent: Assets.Scripts.Character.Character
+  name: pos_index
+  nameWithType: Character.pos_index
+  fullName: Assets.Scripts.Character.Character.pos_index
+- uid: Assets.Scripts.Character.Character.set_health_value_change_listener(Assets.Scripts.Character.Character_property.OnVariableChangeDelegate)
+  commentId: M:Assets.Scripts.Character.Character.set_health_value_change_listener(Assets.Scripts.Character.Character_property.OnVariableChangeDelegate)
+  parent: Assets.Scripts.Character.Character
+  name: set_health_value_change_listener(Character_property.OnVariableChangeDelegate)
+  nameWithType: Character.set_health_value_change_listener(Character_property.OnVariableChangeDelegate)
+  fullName: Assets.Scripts.Character.Character.set_health_value_change_listener(Assets.Scripts.Character.Character_property.OnVariableChangeDelegate)
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.set_health_value_change_listener(Assets.Scripts.Character.Character_property.OnVariableChangeDelegate)
+    name: set_health_value_change_listener
+    nameWithType: Character.set_health_value_change_listener
+    fullName: Assets.Scripts.Character.Character.set_health_value_change_listener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+    name: Character_property.OnVariableChangeDelegate
+    nameWithType: Character_property.OnVariableChangeDelegate
+    fullName: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.set_health_value_change_listener(Assets.Scripts.Character.Character_property.OnVariableChangeDelegate)
+    name: set_health_value_change_listener
+    nameWithType: Character.set_health_value_change_listener
+    fullName: Assets.Scripts.Character.Character.set_health_value_change_listener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+    name: Character_property.OnVariableChangeDelegate
+    nameWithType: Character_property.OnVariableChangeDelegate
+    fullName: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.set_shield_value_change_listener(Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate)
+  commentId: M:Assets.Scripts.Character.Character.set_shield_value_change_listener(Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate)
+  parent: Assets.Scripts.Character.Character
+  name: set_shield_value_change_listener(Character_property.Shield_OnVariableChangeDelegate)
+  nameWithType: Character.set_shield_value_change_listener(Character_property.Shield_OnVariableChangeDelegate)
+  fullName: Assets.Scripts.Character.Character.set_shield_value_change_listener(Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate)
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.set_shield_value_change_listener(Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate)
+    name: set_shield_value_change_listener
+    nameWithType: Character.set_shield_value_change_listener
+    fullName: Assets.Scripts.Character.Character.set_shield_value_change_listener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+    name: Character_property.Shield_OnVariableChangeDelegate
+    nameWithType: Character_property.Shield_OnVariableChangeDelegate
+    fullName: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.set_shield_value_change_listener(Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate)
+    name: set_shield_value_change_listener
+    nameWithType: Character.set_shield_value_change_listener
+    fullName: Assets.Scripts.Character.Character.set_shield_value_change_listener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+    name: Character_property.Shield_OnVariableChangeDelegate
+    nameWithType: Character_property.Shield_OnVariableChangeDelegate
+    fullName: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.add_shield_bar
+  commentId: M:Assets.Scripts.Character.Character.add_shield_bar
+  parent: Assets.Scripts.Character.Character
+  name: add_shield_bar()
+  nameWithType: Character.add_shield_bar()
+  fullName: Assets.Scripts.Character.Character.add_shield_bar()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.add_shield_bar
+    name: add_shield_bar
+    nameWithType: Character.add_shield_bar
+    fullName: Assets.Scripts.Character.Character.add_shield_bar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.add_shield_bar
+    name: add_shield_bar
+    nameWithType: Character.add_shield_bar
+    fullName: Assets.Scripts.Character.Character.add_shield_bar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_health_icon
+  commentId: M:Assets.Scripts.Character.Character.update_health_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_health_icon()
+  nameWithType: Character.update_health_icon()
+  fullName: Assets.Scripts.Character.Character.update_health_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_health_icon
+    name: update_health_icon
+    nameWithType: Character.update_health_icon
+    fullName: Assets.Scripts.Character.Character.update_health_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_health_icon
+    name: update_health_icon
+    nameWithType: Character.update_health_icon
+    fullName: Assets.Scripts.Character.Character.update_health_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_Strength_icon
+  commentId: M:Assets.Scripts.Character.Character.update_Strength_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_Strength_icon()
+  nameWithType: Character.update_Strength_icon()
+  fullName: Assets.Scripts.Character.Character.update_Strength_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_Strength_icon
+    name: update_Strength_icon
+    nameWithType: Character.update_Strength_icon
+    fullName: Assets.Scripts.Character.Character.update_Strength_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_Strength_icon
+    name: update_Strength_icon
+    nameWithType: Character.update_Strength_icon
+    fullName: Assets.Scripts.Character.Character.update_Strength_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_Defense_icon
+  commentId: M:Assets.Scripts.Character.Character.update_Defense_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_Defense_icon()
+  nameWithType: Character.update_Defense_icon()
+  fullName: Assets.Scripts.Character.Character.update_Defense_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_Defense_icon
+    name: update_Defense_icon
+    nameWithType: Character.update_Defense_icon
+    fullName: Assets.Scripts.Character.Character.update_Defense_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_Defense_icon
+    name: update_Defense_icon
+    nameWithType: Character.update_Defense_icon
+    fullName: Assets.Scripts.Character.Character.update_Defense_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_tmp_Defense_icon
+  commentId: M:Assets.Scripts.Character.Character.update_tmp_Defense_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_tmp_Defense_icon()
+  nameWithType: Character.update_tmp_Defense_icon()
+  fullName: Assets.Scripts.Character.Character.update_tmp_Defense_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_tmp_Defense_icon
+    name: update_tmp_Defense_icon
+    nameWithType: Character.update_tmp_Defense_icon
+    fullName: Assets.Scripts.Character.Character.update_tmp_Defense_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_tmp_Defense_icon
+    name: update_tmp_Defense_icon
+    nameWithType: Character.update_tmp_Defense_icon
+    fullName: Assets.Scripts.Character.Character.update_tmp_Defense_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+  commentId: M:Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_tmp_Magic_Defense_icon()
+  nameWithType: Character.update_tmp_Magic_Defense_icon()
+  fullName: Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+    name: update_tmp_Magic_Defense_icon
+    nameWithType: Character.update_tmp_Magic_Defense_icon
+    fullName: Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+    name: update_tmp_Magic_Defense_icon
+    nameWithType: Character.update_tmp_Magic_Defense_icon
+    fullName: Assets.Scripts.Character.Character.update_tmp_Magic_Defense_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_Charge_level_icon
+  commentId: M:Assets.Scripts.Character.Character.update_Charge_level_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_Charge_level_icon()
+  nameWithType: Character.update_Charge_level_icon()
+  fullName: Assets.Scripts.Character.Character.update_Charge_level_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_Charge_level_icon
+    name: update_Charge_level_icon
+    nameWithType: Character.update_Charge_level_icon
+    fullName: Assets.Scripts.Character.Character.update_Charge_level_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_Charge_level_icon
+    name: update_Charge_level_icon
+    nameWithType: Character.update_Charge_level_icon
+    fullName: Assets.Scripts.Character.Character.update_Charge_level_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_Dizzy_icon
+  commentId: M:Assets.Scripts.Character.Character.update_Dizzy_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_Dizzy_icon()
+  nameWithType: Character.update_Dizzy_icon()
+  fullName: Assets.Scripts.Character.Character.update_Dizzy_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_Dizzy_icon
+    name: update_Dizzy_icon
+    nameWithType: Character.update_Dizzy_icon
+    fullName: Assets.Scripts.Character.Character.update_Dizzy_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_Dizzy_icon
+    name: update_Dizzy_icon
+    nameWithType: Character.update_Dizzy_icon
+    fullName: Assets.Scripts.Character.Character.update_Dizzy_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_Taunt_icon
+  commentId: M:Assets.Scripts.Character.Character.update_Taunt_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_Taunt_icon()
+  nameWithType: Character.update_Taunt_icon()
+  fullName: Assets.Scripts.Character.Character.update_Taunt_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_Taunt_icon
+    name: update_Taunt_icon
+    nameWithType: Character.update_Taunt_icon
+    fullName: Assets.Scripts.Character.Character.update_Taunt_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_Taunt_icon
+    name: update_Taunt_icon
+    nameWithType: Character.update_Taunt_icon
+    fullName: Assets.Scripts.Character.Character.update_Taunt_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Character.Character.update_Counter_attack_icon
+  commentId: M:Assets.Scripts.Character.Character.update_Counter_attack_icon
+  parent: Assets.Scripts.Character.Character
+  name: update_Counter_attack_icon()
+  nameWithType: Character.update_Counter_attack_icon()
+  fullName: Assets.Scripts.Character.Character.update_Counter_attack_icon()
+  spec.csharp:
+  - uid: Assets.Scripts.Character.Character.update_Counter_attack_icon
+    name: update_Counter_attack_icon
+    nameWithType: Character.update_Counter_attack_icon
+    fullName: Assets.Scripts.Character.Character.update_Counter_attack_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assets.Scripts.Character.Character.update_Counter_attack_icon
+    name: update_Counter_attack_icon
+    nameWithType: Character.update_Counter_attack_icon
+    fullName: Assets.Scripts.Character.Character.update_Counter_attack_icon
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: Global.Monster_level
+  isExternal: true
+  name: Monster_level
+  nameWithType: Monster_level
+  fullName: Monster_level
+- uid: Assets.Scripts.Character.Enemy.Enemy.#ctor*
+  commentId: Overload:Assets.Scripts.Character.Enemy.Enemy.#ctor
+  name: Enemy
+  nameWithType: Enemy.Enemy
+  fullName: Assets.Scripts.Character.Enemy.Enemy.Enemy
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Assets.Scripts.Character.Character_property
+  commentId: T:Assets.Scripts.Character.Character_property
+  parent: Assets.Scripts.Character
+  name: Character_property
+  nameWithType: Character_property
+  fullName: Assets.Scripts.Character.Character_property
+- uid: Global.DamageNumber
+  isExternal: true
+  name: DamageNumber
+  nameWithType: DamageNumber
+  fullName: DamageNumber
+- uid: System.Collections.Generic.List{card_type}
+  commentId: T:System.Collections.Generic.List{card_type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<card_type>
+  nameWithType: List<card_type>
+  fullName: System.Collections.Generic.List<card_type>
+  nameWithType.vb: List(Of card_type)
+  fullName.vb: System.Collections.Generic.List(Of card_type)
+  name.vb: List(Of card_type)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.card_type
+    name: card_type
+    nameWithType: card_type
+    fullName: card_type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.card_type
+    name: card_type
+    nameWithType: card_type
+    fullName: card_type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour*
+  commentId: Overload:Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour
+  name: Enemy_turn_behaviour
+  nameWithType: Enemy.Enemy_turn_behaviour
+  fullName: Assets.Scripts.Character.Enemy.Enemy.Enemy_turn_behaviour
+- uid: System.Collections.Generic.List{Assets.Scripts.Character.Member.Member}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Character.Member.Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Member>
+  nameWithType: List<Member>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Character.Member.Member>
+  nameWithType.vb: List(Of Member)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Character.Member.Member)
+  name.vb: List(Of Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Character.Member.Member
+    name: Member
+    nameWithType: Member
+    fullName: Assets.Scripts.Character.Member.Member
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Character.Member.Member
+    name: Member
+    nameWithType: Member
+    fullName: Assets.Scripts.Character.Member.Member
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.show_animation
+  isExternal: true
+  name: show_animation
+  nameWithType: show_animation
+  fullName: show_animation
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

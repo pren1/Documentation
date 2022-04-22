@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Turn_logic.cost_visualization
+  commentId: T:Assets.Scripts.Turn_logic.cost_visualization
+  id: cost_visualization
+  parent: Assets.Scripts.Turn_logic
+  children:
+  - Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static(System.Int32)
+  - Assets.Scripts.Turn_logic.cost_visualization.Highlight_icon
+  - Assets.Scripts.Turn_logic.cost_visualization.Instance
+  - Assets.Scripts.Turn_logic.cost_visualization.parent_background_line
+  - Assets.Scripts.Turn_logic.cost_visualization.purple_icon
+  - Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static(System.Int32)
+  - Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static
+  - Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static(System.Int32)
+  - Assets.Scripts.Turn_logic.cost_visualization.target_cost
+  - Assets.Scripts.Turn_logic.cost_visualization.visualization_Parent
+  - Assets.Scripts.Turn_logic.cost_visualization.white_icon
+  langs:
+  - csharp
+  - vb
+  name: cost_visualization
+  nameWithType: cost_visualization
+  fullName: Assets.Scripts.Turn_logic.cost_visualization
+  type: Class
+  source:
+    id: cost_visualization
+    path: ''
+    startLine: 162089
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n体力水晶\n"
+  example: []
+  syntax:
+    content: 'public class cost_visualization : MonoBehaviour'
+    content.vb: >-
+      Public Class cost_visualization
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Turn_logic.cost_visualization.Instance
+  commentId: P:Assets.Scripts.Turn_logic.cost_visualization.Instance
+  id: Instance
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: cost_visualization.Instance
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 162092
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static cost_visualization Instance { get; }
+    parameters: []
+    return:
+      type: Assets.Scripts.Turn_logic.cost_visualization
+    content.vb: Public Shared ReadOnly Property Instance As cost_visualization
+  overload: Assets.Scripts.Turn_logic.cost_visualization.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Assets.Scripts.Turn_logic.cost_visualization.white_icon
+  commentId: F:Assets.Scripts.Turn_logic.cost_visualization.white_icon
+  id: white_icon
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: white_icon
+  nameWithType: cost_visualization.white_icon
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.white_icon
+  type: Field
+  source:
+    id: white_icon
+    path: ''
+    startLine: 162093
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public Sprite white_icon
+    return:
+      type: Global.Sprite
+    content.vb: Public white_icon As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.cost_visualization.purple_icon
+  commentId: F:Assets.Scripts.Turn_logic.cost_visualization.purple_icon
+  id: purple_icon
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: purple_icon
+  nameWithType: cost_visualization.purple_icon
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.purple_icon
+  type: Field
+  source:
+    id: purple_icon
+    path: ''
+    startLine: 162094
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public Sprite purple_icon
+    return:
+      type: Global.Sprite
+    content.vb: Public purple_icon As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.cost_visualization.Highlight_icon
+  commentId: F:Assets.Scripts.Turn_logic.cost_visualization.Highlight_icon
+  id: Highlight_icon
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: Highlight_icon
+  nameWithType: cost_visualization.Highlight_icon
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.Highlight_icon
+  type: Field
+  source:
+    id: Highlight_icon
+    path: ''
+    startLine: 162095
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public Sprite Highlight_icon
+    return:
+      type: Global.Sprite
+    content.vb: Public Highlight_icon As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.cost_visualization.target_cost
+  commentId: F:Assets.Scripts.Turn_logic.cost_visualization.target_cost
+  id: target_cost
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: target_cost
+  nameWithType: cost_visualization.target_cost
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.target_cost
+  type: Field
+  source:
+    id: target_cost
+    path: ''
+    startLine: 162096
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public int target_cost
+    return:
+      type: System.Int32
+    content.vb: Public target_cost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.cost_visualization.parent_background_line
+  commentId: F:Assets.Scripts.Turn_logic.cost_visualization.parent_background_line
+  id: parent_background_line
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: parent_background_line
+  nameWithType: cost_visualization.parent_background_line
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.parent_background_line
+  type: Field
+  source:
+    id: parent_background_line
+    path: ''
+    startLine: 162097
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public RectTransform parent_background_line
+    return:
+      type: Global.RectTransform
+    content.vb: Public parent_background_line As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.cost_visualization.visualization_Parent
+  commentId: F:Assets.Scripts.Turn_logic.cost_visualization.visualization_Parent
+  id: visualization_Parent
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: visualization_Parent
+  nameWithType: cost_visualization.visualization_Parent
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.visualization_Parent
+  type: Field
+  source:
+    id: visualization_Parent
+    path: ''
+    startLine: 162099
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public visualization_parent visualization_Parent
+    return:
+      type: Assets.Scripts.Turn_logic.visualization_parent
+    content.vb: Public visualization_Parent As visualization_parent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static(System.Int32)
+  id: set_cost_visualization_Static(System.Int32)
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: set_cost_visualization_Static(Int32)
+  nameWithType: cost_visualization.set_cost_visualization_Static(Int32)
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static(System.Int32)
+  type: Method
+  source:
+    id: set_cost_visualization_Static
+    path: ''
+    startLine: 162111
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void set_cost_visualization_Static(int target_cost)
+    parameters:
+    - id: target_cost
+      type: System.Int32
+    content.vb: Public Shared Sub set_cost_visualization_Static(target_cost As Integer)
+  overload: Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static(System.Int32)
+  id: highlight_cost_Static(System.Int32)
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: highlight_cost_Static(Int32)
+  nameWithType: cost_visualization.highlight_cost_Static(Int32)
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static(System.Int32)
+  type: Method
+  source:
+    id: highlight_cost_Static
+    path: ''
+    startLine: 162115
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void highlight_cost_Static(int input_cost)
+    parameters:
+    - id: input_cost
+      type: System.Int32
+    content.vb: Public Shared Sub highlight_cost_Static(input_cost As Integer)
+  overload: Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static
+  commentId: M:Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static
+  id: reset_target_cost_Static
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: reset_target_cost_Static()
+  nameWithType: cost_visualization.reset_target_cost_Static()
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static()
+  type: Method
+  source:
+    id: reset_target_cost_Static
+    path: ''
+    startLine: 162119
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void reset_target_cost_Static()
+    content.vb: Public Shared Sub reset_target_cost_Static
+  overload: Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static(System.Int32)
+  commentId: M:Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static(System.Int32)
+  id: refresh_crystal_numbers_Static(System.Int32)
+  parent: Assets.Scripts.Turn_logic.cost_visualization
+  langs:
+  - csharp
+  - vb
+  name: refresh_crystal_numbers_Static(Int32)
+  nameWithType: cost_visualization.refresh_crystal_numbers_Static(Int32)
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static(System.Int32)
+  type: Method
+  source:
+    id: refresh_crystal_numbers_Static
+    path: ''
+    startLine: 162123
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void refresh_crystal_numbers_Static(int input_cost)
+    parameters:
+    - id: input_cost
+      type: System.Int32
+    content.vb: Public Shared Sub refresh_crystal_numbers_Static(input_cost As Integer)
+  overload: Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Turn_logic
+  commentId: N:Assets.Scripts.Turn_logic
+  name: Assets.Scripts.Turn_logic
+  nameWithType: Assets.Scripts.Turn_logic
+  fullName: Assets.Scripts.Turn_logic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Turn_logic.cost_visualization.Instance*
+  commentId: Overload:Assets.Scripts.Turn_logic.cost_visualization.Instance
+  name: Instance
+  nameWithType: cost_visualization.Instance
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.Instance
+- uid: Assets.Scripts.Turn_logic.cost_visualization
+  commentId: T:Assets.Scripts.Turn_logic.cost_visualization
+  parent: Assets.Scripts.Turn_logic
+  name: cost_visualization
+  nameWithType: cost_visualization
+  fullName: Assets.Scripts.Turn_logic.cost_visualization
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Assets.Scripts.Turn_logic.visualization_parent
+  commentId: T:Assets.Scripts.Turn_logic.visualization_parent
+  parent: Assets.Scripts.Turn_logic
+  name: visualization_parent
+  nameWithType: visualization_parent
+  fullName: Assets.Scripts.Turn_logic.visualization_parent
+- uid: Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static*
+  commentId: Overload:Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static
+  name: set_cost_visualization_Static
+  nameWithType: cost_visualization.set_cost_visualization_Static
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.set_cost_visualization_Static
+- uid: Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static*
+  commentId: Overload:Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static
+  name: highlight_cost_Static
+  nameWithType: cost_visualization.highlight_cost_Static
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.highlight_cost_Static
+- uid: Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static*
+  commentId: Overload:Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static
+  name: reset_target_cost_Static
+  nameWithType: cost_visualization.reset_target_cost_Static
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.reset_target_cost_Static
+- uid: Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static*
+  commentId: Overload:Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static
+  name: refresh_crystal_numbers_Static
+  nameWithType: cost_visualization.refresh_crystal_numbers_Static
+  fullName: Assets.Scripts.Turn_logic.cost_visualization.refresh_crystal_numbers_Static

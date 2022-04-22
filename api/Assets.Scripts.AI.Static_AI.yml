@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.AI.Static_AI
+  commentId: T:Assets.Scripts.AI.Static_AI
+  id: Static_AI
+  parent: Assets.Scripts.AI
+  children:
+  - Assets.Scripts.AI.Static_AI.AI_Select_effect(System.Collections.Generic.List{Effect_tuple})
+  - Assets.Scripts.AI.Static_AI.AI_Select_target(System.Collections.Generic.List{Member})
+  langs:
+  - csharp
+  - vb
+  name: Static_AI
+  nameWithType: Static_AI
+  fullName: Assets.Scripts.AI.Static_AI
+  type: Class
+  source:
+    id: Static_AI
+    path: ''
+    startLine: 150962
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.AI
+  summary: "\n敌人AI\n"
+  example: []
+  syntax:
+    content: public class Static_AI
+    content.vb: Public Class Static_AI
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.AI.Static_AI.AI_Select_target(System.Collections.Generic.List{Member})
+  commentId: M:Assets.Scripts.AI.Static_AI.AI_Select_target(System.Collections.Generic.List{Member})
+  id: AI_Select_target(System.Collections.Generic.List{Member})
+  parent: Assets.Scripts.AI.Static_AI
+  langs:
+  - csharp
+  - vb
+  name: AI_Select_target(List<Member>)
+  nameWithType: Static_AI.AI_Select_target(List<Member>)
+  fullName: Assets.Scripts.AI.Static_AI.AI_Select_target(System.Collections.Generic.List<Member>)
+  type: Method
+  source:
+    id: AI_Select_target
+    path: ''
+    startLine: 150969
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.AI
+  summary: "\n随机选择一个目标\n"
+  example: []
+  syntax:
+    content: public static Member AI_Select_target(List<Member> member_list)
+    parameters:
+    - id: member_list
+      type: System.Collections.Generic.List{Member}
+      description: ''
+    return:
+      type: Global.Member
+      description: ''
+    content.vb: Public Shared Function AI_Select_target(member_list As List(Of Member)) As Member
+  overload: Assets.Scripts.AI.Static_AI.AI_Select_target*
+  nameWithType.vb: Static_AI.AI_Select_target(List(Of Member))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.AI.Static_AI.AI_Select_target(System.Collections.Generic.List(Of Member))
+  name.vb: AI_Select_target(List(Of Member))
+- uid: Assets.Scripts.AI.Static_AI.AI_Select_effect(System.Collections.Generic.List{Effect_tuple})
+  commentId: M:Assets.Scripts.AI.Static_AI.AI_Select_effect(System.Collections.Generic.List{Effect_tuple})
+  id: AI_Select_effect(System.Collections.Generic.List{Effect_tuple})
+  parent: Assets.Scripts.AI.Static_AI
+  langs:
+  - csharp
+  - vb
+  name: AI_Select_effect(List<Effect_tuple>)
+  nameWithType: Static_AI.AI_Select_effect(List<Effect_tuple>)
+  fullName: Assets.Scripts.AI.Static_AI.AI_Select_effect(System.Collections.Generic.List<Effect_tuple>)
+  type: Method
+  source:
+    id: AI_Select_effect
+    path: ''
+    startLine: 150995
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.AI
+  summary: "\n选择效果，未实装\n"
+  example: []
+  syntax:
+    content: public static List<Effect_tuple> AI_Select_effect(List<Effect_tuple> input_effects)
+    parameters:
+    - id: input_effects
+      type: System.Collections.Generic.List{Effect_tuple}
+      description: ''
+    return:
+      type: System.Collections.Generic.List{Effect_tuple}
+      description: ''
+    content.vb: Public Shared Function AI_Select_effect(input_effects As List(Of Effect_tuple)) As List(Of Effect_tuple)
+  overload: Assets.Scripts.AI.Static_AI.AI_Select_effect*
+  nameWithType.vb: Static_AI.AI_Select_effect(List(Of Effect_tuple))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.AI.Static_AI.AI_Select_effect(System.Collections.Generic.List(Of Effect_tuple))
+  name.vb: AI_Select_effect(List(Of Effect_tuple))
+references:
+- uid: Assets.Scripts.AI
+  commentId: N:Assets.Scripts.AI
+  name: Assets.Scripts.AI
+  nameWithType: Assets.Scripts.AI
+  fullName: Assets.Scripts.AI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.AI.Static_AI.AI_Select_target*
+  commentId: Overload:Assets.Scripts.AI.Static_AI.AI_Select_target
+  name: AI_Select_target
+  nameWithType: Static_AI.AI_Select_target
+  fullName: Assets.Scripts.AI.Static_AI.AI_Select_target
+- uid: System.Collections.Generic.List{Member}
+  commentId: T:System.Collections.Generic.List{Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Member>
+  nameWithType: List<Member>
+  fullName: System.Collections.Generic.List<Member>
+  nameWithType.vb: List(Of Member)
+  fullName.vb: System.Collections.Generic.List(Of Member)
+  name.vb: List(Of Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Member
+  isExternal: true
+  name: Member
+  nameWithType: Member
+  fullName: Member
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.AI.Static_AI.AI_Select_effect*
+  commentId: Overload:Assets.Scripts.AI.Static_AI.AI_Select_effect
+  name: AI_Select_effect
+  nameWithType: Static_AI.AI_Select_effect
+  fullName: Assets.Scripts.AI.Static_AI.AI_Select_effect
+- uid: System.Collections.Generic.List{Effect_tuple}
+  commentId: T:System.Collections.Generic.List{Effect_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Effect_tuple>
+  nameWithType: List<Effect_tuple>
+  fullName: System.Collections.Generic.List<Effect_tuple>
+  nameWithType.vb: List(Of Effect_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Effect_tuple)
+  name.vb: List(Of Effect_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

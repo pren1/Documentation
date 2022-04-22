@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Card_rarity
+  commentId: T:Assets.Scripts.Utility.Card_rarity
+  id: Card_rarity
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Card_rarity.ASOUL_rare
+  - Assets.Scripts.Utility.Card_rarity.Error_rare
+  - Assets.Scripts.Utility.Card_rarity.Legendary_rare
+  - Assets.Scripts.Utility.Card_rarity.Normal
+  - Assets.Scripts.Utility.Card_rarity.Rare
+  - Assets.Scripts.Utility.Card_rarity.Ultimate_rare
+  langs:
+  - csharp
+  - vb
+  name: Card_rarity
+  nameWithType: Card_rarity
+  fullName: Assets.Scripts.Utility.Card_rarity
+  type: Enum
+  source:
+    id: Card_rarity
+    path: ''
+    startLine: 162928
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n卡牌稀有度\n"
+  example: []
+  syntax:
+    content: public enum Card_rarity
+    content.vb: Public Enum Card_rarity
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.Card_rarity.Normal
+  commentId: F:Assets.Scripts.Utility.Card_rarity.Normal
+  id: Normal
+  parent: Assets.Scripts.Utility.Card_rarity
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Card_rarity.Normal
+  fullName: Assets.Scripts.Utility.Card_rarity.Normal
+  type: Field
+  source:
+    id: Normal
+    path: ''
+    startLine: 162930
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Normal = 0
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_rarity.Rare
+  commentId: F:Assets.Scripts.Utility.Card_rarity.Rare
+  id: Rare
+  parent: Assets.Scripts.Utility.Card_rarity
+  langs:
+  - csharp
+  - vb
+  name: Rare
+  nameWithType: Card_rarity.Rare
+  fullName: Assets.Scripts.Utility.Card_rarity.Rare
+  type: Field
+  source:
+    id: Rare
+    path: ''
+    startLine: 162931
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Rare = 1
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_rarity.Ultimate_rare
+  commentId: F:Assets.Scripts.Utility.Card_rarity.Ultimate_rare
+  id: Ultimate_rare
+  parent: Assets.Scripts.Utility.Card_rarity
+  langs:
+  - csharp
+  - vb
+  name: Ultimate_rare
+  nameWithType: Card_rarity.Ultimate_rare
+  fullName: Assets.Scripts.Utility.Card_rarity.Ultimate_rare
+  type: Field
+  source:
+    id: Ultimate_rare
+    path: ''
+    startLine: 162932
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Ultimate_rare = 2
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_rarity.Legendary_rare
+  commentId: F:Assets.Scripts.Utility.Card_rarity.Legendary_rare
+  id: Legendary_rare
+  parent: Assets.Scripts.Utility.Card_rarity
+  langs:
+  - csharp
+  - vb
+  name: Legendary_rare
+  nameWithType: Card_rarity.Legendary_rare
+  fullName: Assets.Scripts.Utility.Card_rarity.Legendary_rare
+  type: Field
+  source:
+    id: Legendary_rare
+    path: ''
+    startLine: 162933
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Legendary_rare = 3
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_rarity.ASOUL_rare
+  commentId: F:Assets.Scripts.Utility.Card_rarity.ASOUL_rare
+  id: ASOUL_rare
+  parent: Assets.Scripts.Utility.Card_rarity
+  langs:
+  - csharp
+  - vb
+  name: ASOUL_rare
+  nameWithType: Card_rarity.ASOUL_rare
+  fullName: Assets.Scripts.Utility.Card_rarity.ASOUL_rare
+  type: Field
+  source:
+    id: ASOUL_rare
+    path: ''
+    startLine: 162934
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: ASOUL_rare = 4
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_rarity.Error_rare
+  commentId: F:Assets.Scripts.Utility.Card_rarity.Error_rare
+  id: Error_rare
+  parent: Assets.Scripts.Utility.Card_rarity
+  langs:
+  - csharp
+  - vb
+  name: Error_rare
+  nameWithType: Card_rarity.Error_rare
+  fullName: Assets.Scripts.Utility.Card_rarity.Error_rare
+  type: Field
+  source:
+    id: Error_rare
+    path: ''
+    startLine: 162935
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Error_rare = 5
+    return:
+      type: Assets.Scripts.Utility.Card_rarity
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.Card_rarity
+  commentId: T:Assets.Scripts.Utility.Card_rarity
+  parent: Assets.Scripts.Utility
+  name: Card_rarity
+  nameWithType: Card_rarity
+  fullName: Assets.Scripts.Utility.Card_rarity

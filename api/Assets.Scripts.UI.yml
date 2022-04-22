@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.UI
+  commentId: N:Assets.Scripts.UI
+  id: Assets.Scripts.UI
+  children:
+  - Assets.Scripts.UI.Animation_auto_delete
+  - Assets.Scripts.UI.move_camera
+  - Assets.Scripts.UI.place_icon_handler
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.UI
+  nameWithType: Assets.Scripts.UI
+  fullName: Assets.Scripts.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.UI.Animation_auto_delete
+  commentId: T:Assets.Scripts.UI.Animation_auto_delete
+  name: Animation_auto_delete
+  nameWithType: Animation_auto_delete
+  fullName: Assets.Scripts.UI.Animation_auto_delete
+- uid: Assets.Scripts.UI.move_camera
+  commentId: T:Assets.Scripts.UI.move_camera
+  name: move_camera
+  nameWithType: move_camera
+  fullName: Assets.Scripts.UI.move_camera
+- uid: Assets.Scripts.UI.place_icon_handler
+  commentId: T:Assets.Scripts.UI.place_icon_handler
+  name: place_icon_handler
+  nameWithType: place_icon_handler
+  fullName: Assets.Scripts.UI.place_icon_handler

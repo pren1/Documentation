@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer
+  commentId: T:Assets.Scripts.Turn_logic.turn_anime_transfer
+  id: turn_anime_transfer
+  parent: Assets.Scripts.Turn_logic
+  children:
+  - Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer
+  - Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer
+  - Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn
+  langs:
+  - csharp
+  - vb
+  name: turn_anime_transfer
+  nameWithType: turn_anime_transfer
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer
+  type: Class
+  source:
+    id: turn_anime_transfer
+    path: ''
+    startLine: 162211
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  summary: "\n控制回合转换中的动画问题\n"
+  example: []
+  syntax:
+    content: public class turn_anime_transfer
+    content.vb: Public Class turn_anime_transfer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer
+  commentId: M:Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer
+  id: enemy_turn_start_state_transfer
+  parent: Assets.Scripts.Turn_logic.turn_anime_transfer
+  langs:
+  - csharp
+  - vb
+  name: enemy_turn_start_state_transfer()
+  nameWithType: turn_anime_transfer.enemy_turn_start_state_transfer()
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer()
+  type: Method
+  source:
+    id: enemy_turn_start_state_transfer
+    path: ''
+    startLine: 162215
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void enemy_turn_start_state_transfer()
+    content.vb: Public Shared Sub enemy_turn_start_state_transfer
+  overload: Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer
+  commentId: M:Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer
+  id: member_turn_start_state_transfer
+  parent: Assets.Scripts.Turn_logic.turn_anime_transfer
+  langs:
+  - csharp
+  - vb
+  name: member_turn_start_state_transfer()
+  nameWithType: turn_anime_transfer.member_turn_start_state_transfer()
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer()
+  type: Method
+  source:
+    id: member_turn_start_state_transfer
+    path: ''
+    startLine: 162234
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void member_turn_start_state_transfer()
+    content.vb: Public Shared Sub member_turn_start_state_transfer
+  overload: Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn
+  commentId: M:Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn
+  id: start_enemy_turn
+  parent: Assets.Scripts.Turn_logic.turn_anime_transfer
+  langs:
+  - csharp
+  - vb
+  name: start_enemy_turn()
+  nameWithType: turn_anime_transfer.start_enemy_turn()
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn()
+  type: Method
+  source:
+    id: start_enemy_turn
+    path: ''
+    startLine: 162243
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Turn_logic
+  syntax:
+    content: public static void start_enemy_turn()
+    content.vb: Public Shared Sub start_enemy_turn
+  overload: Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Turn_logic
+  commentId: N:Assets.Scripts.Turn_logic
+  name: Assets.Scripts.Turn_logic
+  nameWithType: Assets.Scripts.Turn_logic
+  fullName: Assets.Scripts.Turn_logic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer*
+  commentId: Overload:Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer
+  name: enemy_turn_start_state_transfer
+  nameWithType: turn_anime_transfer.enemy_turn_start_state_transfer
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer.enemy_turn_start_state_transfer
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer*
+  commentId: Overload:Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer
+  name: member_turn_start_state_transfer
+  nameWithType: turn_anime_transfer.member_turn_start_state_transfer
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer.member_turn_start_state_transfer
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn*
+  commentId: Overload:Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn
+  name: start_enemy_turn
+  nameWithType: turn_anime_transfer.start_enemy_turn
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer.start_enemy_turn

@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.character_button_creator
+  commentId: T:Assets.Scripts.Card_factory.character_button_creator
+  id: character_button_creator
+  parent: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.character_button_creator.add_target_character
+  - Assets.Scripts.Card_factory.character_button_creator.character_property
+  - Assets.Scripts.Card_factory.character_button_creator.character_sprite
+  - Assets.Scripts.Card_factory.character_button_creator.decrease_page
+  - Assets.Scripts.Card_factory.character_button_creator.increase_page
+  - Assets.Scripts.Card_factory.character_button_creator.ItemClicked(GameObject)
+  - Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter(GameObject)
+  - Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave
+  - Assets.Scripts.Card_factory.character_button_creator.reload_templates
+  - Assets.Scripts.Card_factory.character_button_creator.save_saveObject
+  - Assets.Scripts.Card_factory.character_button_creator.skill_bar
+  - Assets.Scripts.Card_factory.character_button_creator.TextMeshProUGUI
+  langs:
+  - csharp
+  - vb
+  name: character_button_creator
+  nameWithType: character_button_creator
+  fullName: Assets.Scripts.Card_factory.character_button_creator
+  type: Class
+  source:
+    id: character_button_creator
+    path: ''
+    startLine: 152161
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: 'public class character_button_creator : MonoBehaviour'
+    content.vb: >-
+      Public Class character_button_creator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Card_factory.character_button_creator.TextMeshProUGUI
+  commentId: F:Assets.Scripts.Card_factory.character_button_creator.TextMeshProUGUI
+  id: TextMeshProUGUI
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: TextMeshProUGUI
+  nameWithType: character_button_creator.TextMeshProUGUI
+  fullName: Assets.Scripts.Card_factory.character_button_creator.TextMeshProUGUI
+  type: Field
+  source:
+    id: TextMeshProUGUI
+    path: ''
+    startLine: 152170
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public TextMeshProUGUI TextMeshProUGUI
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public TextMeshProUGUI As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.character_sprite
+  commentId: F:Assets.Scripts.Card_factory.character_button_creator.character_sprite
+  id: character_sprite
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: character_sprite
+  nameWithType: character_button_creator.character_sprite
+  fullName: Assets.Scripts.Card_factory.character_button_creator.character_sprite
+  type: Field
+  source:
+    id: character_sprite
+    path: ''
+    startLine: 152173
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public Image character_sprite
+    return:
+      type: Global.Image
+    content.vb: Public character_sprite As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.character_property
+  commentId: F:Assets.Scripts.Card_factory.character_button_creator.character_property
+  id: character_property
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: character_property
+  nameWithType: character_button_creator.character_property
+  fullName: Assets.Scripts.Card_factory.character_button_creator.character_property
+  type: Field
+  source:
+    id: character_property
+    path: ''
+    startLine: 152180
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public GameObject character_property
+    return:
+      type: Global.GameObject
+    content.vb: Public character_property As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.skill_bar
+  commentId: F:Assets.Scripts.Card_factory.character_button_creator.skill_bar
+  id: skill_bar
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: skill_bar
+  nameWithType: character_button_creator.skill_bar
+  fullName: Assets.Scripts.Card_factory.character_button_creator.skill_bar
+  type: Field
+  source:
+    id: skill_bar
+    path: ''
+    startLine: 152181
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public GameObject skill_bar
+    return:
+      type: Global.GameObject
+    content.vb: Public skill_bar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.add_target_character
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.add_target_character
+  id: add_target_character
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: add_target_character()
+  nameWithType: character_button_creator.add_target_character()
+  fullName: Assets.Scripts.Card_factory.character_button_creator.add_target_character()
+  type: Method
+  source:
+    id: add_target_character
+    path: ''
+    startLine: 152220
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void add_target_character()
+    content.vb: Public Sub add_target_character
+  overload: Assets.Scripts.Card_factory.character_button_creator.add_target_character*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.ItemClicked(GameObject)
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.ItemClicked(GameObject)
+  id: ItemClicked(GameObject)
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: ItemClicked(GameObject)
+  nameWithType: character_button_creator.ItemClicked(GameObject)
+  fullName: Assets.Scripts.Card_factory.character_button_creator.ItemClicked(GameObject)
+  type: Method
+  source:
+    id: ItemClicked
+    path: ''
+    startLine: 152252
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void ItemClicked(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+    content.vb: Public Sub ItemClicked(gameObject As GameObject)
+  overload: Assets.Scripts.Card_factory.character_button_creator.ItemClicked*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter(GameObject)
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter(GameObject)
+  id: OnMouseEnter(GameObject)
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: OnMouseEnter(GameObject)
+  nameWithType: character_button_creator.OnMouseEnter(GameObject)
+  fullName: Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter(GameObject)
+  type: Method
+  source:
+    id: OnMouseEnter
+    path: ''
+    startLine: 152260
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void OnMouseEnter(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: Global.GameObject
+    content.vb: Public Sub OnMouseEnter(gameObject As GameObject)
+  overload: Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave
+  id: OnMouseLeave
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: OnMouseLeave()
+  nameWithType: character_button_creator.OnMouseLeave()
+  fullName: Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave()
+  type: Method
+  source:
+    id: OnMouseLeave
+    path: ''
+    startLine: 152272
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void OnMouseLeave()
+    content.vb: Public Sub OnMouseLeave
+  overload: Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.save_saveObject
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.save_saveObject
+  id: save_saveObject
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: save_saveObject()
+  nameWithType: character_button_creator.save_saveObject()
+  fullName: Assets.Scripts.Card_factory.character_button_creator.save_saveObject()
+  type: Method
+  source:
+    id: save_saveObject
+    path: ''
+    startLine: 152277
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void save_saveObject()
+    content.vb: Public Sub save_saveObject
+  overload: Assets.Scripts.Card_factory.character_button_creator.save_saveObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.reload_templates
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.reload_templates
+  id: reload_templates
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: reload_templates()
+  nameWithType: character_button_creator.reload_templates()
+  fullName: Assets.Scripts.Card_factory.character_button_creator.reload_templates()
+  type: Method
+  source:
+    id: reload_templates
+    path: ''
+    startLine: 152300
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n更新画面上的卡牌\n"
+  example: []
+  syntax:
+    content: public void reload_templates()
+    content.vb: Public Sub reload_templates
+  overload: Assets.Scripts.Card_factory.character_button_creator.reload_templates*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.increase_page
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.increase_page
+  id: increase_page
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: increase_page()
+  nameWithType: character_button_creator.increase_page()
+  fullName: Assets.Scripts.Card_factory.character_button_creator.increase_page()
+  type: Method
+  source:
+    id: increase_page
+    path: ''
+    startLine: 152346
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n下一页卡牌\n"
+  example: []
+  syntax:
+    content: public void increase_page()
+    content.vb: Public Sub increase_page
+  overload: Assets.Scripts.Card_factory.character_button_creator.increase_page*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_button_creator.decrease_page
+  commentId: M:Assets.Scripts.Card_factory.character_button_creator.decrease_page
+  id: decrease_page
+  parent: Assets.Scripts.Card_factory.character_button_creator
+  langs:
+  - csharp
+  - vb
+  name: decrease_page()
+  nameWithType: character_button_creator.decrease_page()
+  fullName: Assets.Scripts.Card_factory.character_button_creator.decrease_page()
+  type: Method
+  source:
+    id: decrease_page
+    path: ''
+    startLine: 152354
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n上一页卡牌\n"
+  example: []
+  syntax:
+    content: public void decrease_page()
+    content.vb: Public Sub decrease_page
+  overload: Assets.Scripts.Card_factory.character_button_creator.decrease_page*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.Card_factory.character_button_creator.add_target_character*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.add_target_character
+  name: add_target_character
+  nameWithType: character_button_creator.add_target_character
+  fullName: Assets.Scripts.Card_factory.character_button_creator.add_target_character
+- uid: Assets.Scripts.Card_factory.character_button_creator.ItemClicked*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.ItemClicked
+  name: ItemClicked
+  nameWithType: character_button_creator.ItemClicked
+  fullName: Assets.Scripts.Card_factory.character_button_creator.ItemClicked
+- uid: Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter
+  name: OnMouseEnter
+  nameWithType: character_button_creator.OnMouseEnter
+  fullName: Assets.Scripts.Card_factory.character_button_creator.OnMouseEnter
+- uid: Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave
+  name: OnMouseLeave
+  nameWithType: character_button_creator.OnMouseLeave
+  fullName: Assets.Scripts.Card_factory.character_button_creator.OnMouseLeave
+- uid: Assets.Scripts.Card_factory.character_button_creator.save_saveObject*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.save_saveObject
+  name: save_saveObject
+  nameWithType: character_button_creator.save_saveObject
+  fullName: Assets.Scripts.Card_factory.character_button_creator.save_saveObject
+- uid: Assets.Scripts.Card_factory.character_button_creator.reload_templates*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.reload_templates
+  name: reload_templates
+  nameWithType: character_button_creator.reload_templates
+  fullName: Assets.Scripts.Card_factory.character_button_creator.reload_templates
+- uid: Assets.Scripts.Card_factory.character_button_creator.increase_page*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.increase_page
+  name: increase_page
+  nameWithType: character_button_creator.increase_page
+  fullName: Assets.Scripts.Card_factory.character_button_creator.increase_page
+- uid: Assets.Scripts.Card_factory.character_button_creator.decrease_page*
+  commentId: Overload:Assets.Scripts.Card_factory.character_button_creator.decrease_page
+  name: decrease_page
+  nameWithType: character_button_creator.decrease_page
+  fullName: Assets.Scripts.Card_factory.character_button_creator.decrease_page

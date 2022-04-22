@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop
+  commentId: T:Assets.Scripts.new_card_shop.Render_one_page_shop
+  id: Render_one_page_shop
+  parent: Assets.Scripts.new_card_shop
+  children:
+  - Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig
+  - Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list
+  langs:
+  - csharp
+  - vb
+  name: Render_one_page_shop
+  nameWithType: Render_one_page_shop
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop
+  type: Class
+  source:
+    id: Render_one_page_shop
+    path: ''
+    startLine: 160234
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  summary: "\n右侧商品列表\n"
+  example: []
+  syntax:
+    content: 'public class Render_one_page_shop : MonoBehaviour'
+    content.vb: >-
+      Public Class Render_one_page_shop
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig
+  commentId: M:Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig
+  id: build_sig
+  parent: Assets.Scripts.new_card_shop.Render_one_page_shop
+  langs:
+  - csharp
+  - vb
+  name: build_sig()
+  nameWithType: Render_one_page_shop.build_sig()
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig()
+  type: Method
+  source:
+    id: build_sig
+    path: ''
+    startLine: 160250
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void build_sig()
+    content.vb: Public Sub build_sig
+  overload: Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list
+  commentId: M:Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list
+  id: refresh_shop_list
+  parent: Assets.Scripts.new_card_shop.Render_one_page_shop
+  langs:
+  - csharp
+  - vb
+  name: refresh_shop_list()
+  nameWithType: Render_one_page_shop.refresh_shop_list()
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list()
+  type: Method
+  source:
+    id: refresh_shop_list
+    path: ''
+    startLine: 160262
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void refresh_shop_list()
+    content.vb: Public Sub refresh_shop_list
+  overload: Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.new_card_shop
+  commentId: N:Assets.Scripts.new_card_shop
+  name: Assets.Scripts.new_card_shop
+  nameWithType: Assets.Scripts.new_card_shop
+  fullName: Assets.Scripts.new_card_shop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig*
+  commentId: Overload:Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig
+  name: build_sig
+  nameWithType: Render_one_page_shop.build_sig
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop.build_sig
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list*
+  commentId: Overload:Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list
+  name: refresh_shop_list
+  nameWithType: Render_one_page_shop.refresh_shop_list
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop.refresh_shop_list

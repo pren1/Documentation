@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Card_selection_state
+  commentId: T:Assets.Scripts.Utility.Card_selection_state
+  id: Card_selection_state
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Card_selection_state.card_entered
+  - Assets.Scripts.Utility.Card_selection_state.card_not_entered
+  - Assets.Scripts.Utility.Card_selection_state.card_selected
+  - Assets.Scripts.Utility.Card_selection_state.no_tar_card_played
+  - Assets.Scripts.Utility.Card_selection_state.target_selected
+  langs:
+  - csharp
+  - vb
+  name: Card_selection_state
+  nameWithType: Card_selection_state
+  fullName: Assets.Scripts.Utility.Card_selection_state
+  type: Enum
+  source:
+    id: Card_selection_state
+    path: ''
+    startLine: 163101
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n卡牌选择状态\n"
+  example: []
+  syntax:
+    content: public enum Card_selection_state
+    content.vb: Public Enum Card_selection_state
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.Card_selection_state.card_not_entered
+  commentId: F:Assets.Scripts.Utility.Card_selection_state.card_not_entered
+  id: card_not_entered
+  parent: Assets.Scripts.Utility.Card_selection_state
+  langs:
+  - csharp
+  - vb
+  name: card_not_entered
+  nameWithType: Card_selection_state.card_not_entered
+  fullName: Assets.Scripts.Utility.Card_selection_state.card_not_entered
+  type: Field
+  source:
+    id: card_not_entered
+    path: ''
+    startLine: 163103
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: card_not_entered = 0
+    return:
+      type: Assets.Scripts.Utility.Card_selection_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_selection_state.card_entered
+  commentId: F:Assets.Scripts.Utility.Card_selection_state.card_entered
+  id: card_entered
+  parent: Assets.Scripts.Utility.Card_selection_state
+  langs:
+  - csharp
+  - vb
+  name: card_entered
+  nameWithType: Card_selection_state.card_entered
+  fullName: Assets.Scripts.Utility.Card_selection_state.card_entered
+  type: Field
+  source:
+    id: card_entered
+    path: ''
+    startLine: 163104
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: card_entered = 1
+    return:
+      type: Assets.Scripts.Utility.Card_selection_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_selection_state.card_selected
+  commentId: F:Assets.Scripts.Utility.Card_selection_state.card_selected
+  id: card_selected
+  parent: Assets.Scripts.Utility.Card_selection_state
+  langs:
+  - csharp
+  - vb
+  name: card_selected
+  nameWithType: Card_selection_state.card_selected
+  fullName: Assets.Scripts.Utility.Card_selection_state.card_selected
+  type: Field
+  source:
+    id: card_selected
+    path: ''
+    startLine: 163105
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: card_selected = 2
+    return:
+      type: Assets.Scripts.Utility.Card_selection_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_selection_state.no_tar_card_played
+  commentId: F:Assets.Scripts.Utility.Card_selection_state.no_tar_card_played
+  id: no_tar_card_played
+  parent: Assets.Scripts.Utility.Card_selection_state
+  langs:
+  - csharp
+  - vb
+  name: no_tar_card_played
+  nameWithType: Card_selection_state.no_tar_card_played
+  fullName: Assets.Scripts.Utility.Card_selection_state.no_tar_card_played
+  type: Field
+  source:
+    id: no_tar_card_played
+    path: ''
+    startLine: 163106
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: no_tar_card_played = 3
+    return:
+      type: Assets.Scripts.Utility.Card_selection_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Card_selection_state.target_selected
+  commentId: F:Assets.Scripts.Utility.Card_selection_state.target_selected
+  id: target_selected
+  parent: Assets.Scripts.Utility.Card_selection_state
+  langs:
+  - csharp
+  - vb
+  name: target_selected
+  nameWithType: Card_selection_state.target_selected
+  fullName: Assets.Scripts.Utility.Card_selection_state.target_selected
+  type: Field
+  source:
+    id: target_selected
+    path: ''
+    startLine: 163107
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_selected = 4
+    return:
+      type: Assets.Scripts.Utility.Card_selection_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.Card_selection_state
+  commentId: T:Assets.Scripts.Utility.Card_selection_state
+  parent: Assets.Scripts.Utility
+  name: Card_selection_state
+  nameWithType: Card_selection_state
+  fullName: Assets.Scripts.Utility.Card_selection_state

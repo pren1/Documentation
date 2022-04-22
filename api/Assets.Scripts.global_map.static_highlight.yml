@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map.static_highlight
+  commentId: T:Assets.Scripts.global_map.static_highlight
+  id: static_highlight
+  parent: Assets.Scripts.global_map
+  children:
+  - Assets.Scripts.global_map.static_highlight.update_all_child_materials(System.String,GameObject)
+  langs:
+  - csharp
+  - vb
+  name: static_highlight
+  nameWithType: static_highlight
+  fullName: Assets.Scripts.global_map.static_highlight
+  type: Class
+  source:
+    id: static_highlight
+    path: ''
+    startLine: 157615
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n高亮动画对象\n"
+  example: []
+  syntax:
+    content: public static class static_highlight
+    content.vb: Public Module static_highlight
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.global_map.static_highlight.update_all_child_materials(System.String,GameObject)
+  commentId: M:Assets.Scripts.global_map.static_highlight.update_all_child_materials(System.String,GameObject)
+  id: update_all_child_materials(System.String,GameObject)
+  parent: Assets.Scripts.global_map.static_highlight
+  langs:
+  - csharp
+  - vb
+  name: update_all_child_materials(String, GameObject)
+  nameWithType: static_highlight.update_all_child_materials(String, GameObject)
+  fullName: Assets.Scripts.global_map.static_highlight.update_all_child_materials(System.String, GameObject)
+  type: Method
+  source:
+    id: update_all_child_materials
+    path: ''
+    startLine: 157622
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n高亮动画对象. TODO: 游戏打包时此处需要重写\n"
+  example: []
+  syntax:
+    content: public static void update_all_child_materials(string target_name, GameObject gameObject)
+    parameters:
+    - id: target_name
+      type: System.String
+      description: 高亮材质
+    - id: gameObject
+      type: Global.GameObject
+      description: 动画gameobj
+    content.vb: Public Shared Sub update_all_child_materials(target_name As String, gameObject As GameObject)
+  overload: Assets.Scripts.global_map.static_highlight.update_all_child_materials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.global_map.static_highlight.update_all_child_materials*
+  commentId: Overload:Assets.Scripts.global_map.static_highlight.update_all_child_materials
+  name: update_all_child_materials
+  nameWithType: static_highlight.update_all_child_materials
+  fullName: Assets.Scripts.global_map.static_highlight.update_all_child_materials
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

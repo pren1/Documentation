@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.start_scene.Start_scene
+  commentId: T:Assets.Scripts.start_scene.Start_scene
+  id: Start_scene
+  parent: Assets.Scripts.start_scene
+  children:
+  - Assets.Scripts.start_scene.Start_scene.initalization
+  langs:
+  - csharp
+  - vb
+  name: Start_scene
+  nameWithType: Start_scene
+  fullName: Assets.Scripts.start_scene.Start_scene
+  type: Class
+  source:
+    id: Start_scene
+    path: ''
+    startLine: 160442
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.start_scene
+  summary: "\n初始屏幕\n"
+  example: []
+  syntax:
+    content: 'public class Start_scene : MonoBehaviour'
+    content.vb: >-
+      Public Class Start_scene
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.start_scene.Start_scene.initalization
+  commentId: M:Assets.Scripts.start_scene.Start_scene.initalization
+  id: initalization
+  parent: Assets.Scripts.start_scene.Start_scene
+  langs:
+  - csharp
+  - vb
+  name: initalization()
+  nameWithType: Start_scene.initalization()
+  fullName: Assets.Scripts.start_scene.Start_scene.initalization()
+  type: Method
+  source:
+    id: initalization
+    path: ''
+    startLine: 160444
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.start_scene
+  syntax:
+    content: public void initalization()
+    content.vb: Public Sub initalization
+  overload: Assets.Scripts.start_scene.Start_scene.initalization*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.start_scene
+  commentId: N:Assets.Scripts.start_scene
+  name: Assets.Scripts.start_scene
+  nameWithType: Assets.Scripts.start_scene
+  fullName: Assets.Scripts.start_scene
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.start_scene.Start_scene.initalization*
+  commentId: Overload:Assets.Scripts.start_scene.Start_scene.initalization
+  name: initalization
+  nameWithType: Start_scene.initalization
+  fullName: Assets.Scripts.start_scene.Start_scene.initalization

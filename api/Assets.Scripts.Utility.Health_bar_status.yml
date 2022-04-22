@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Health_bar_status
+  commentId: T:Assets.Scripts.Utility.Health_bar_status
+  id: Health_bar_status
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Health_bar_status.broken
+  - Assets.Scripts.Utility.Health_bar_status.dead
+  - Assets.Scripts.Utility.Health_bar_status.health
+  langs:
+  - csharp
+  - vb
+  name: Health_bar_status
+  nameWithType: Health_bar_status
+  fullName: Assets.Scripts.Utility.Health_bar_status
+  type: Enum
+  source:
+    id: Health_bar_status
+    path: ''
+    startLine: 163112
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n血条状态\n"
+  example: []
+  syntax:
+    content: public enum Health_bar_status
+    content.vb: Public Enum Health_bar_status
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.Health_bar_status.health
+  commentId: F:Assets.Scripts.Utility.Health_bar_status.health
+  id: health
+  parent: Assets.Scripts.Utility.Health_bar_status
+  langs:
+  - csharp
+  - vb
+  name: health
+  nameWithType: Health_bar_status.health
+  fullName: Assets.Scripts.Utility.Health_bar_status.health
+  type: Field
+  source:
+    id: health
+    path: ''
+    startLine: 163114
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: health = 0
+    return:
+      type: Assets.Scripts.Utility.Health_bar_status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Health_bar_status.broken
+  commentId: F:Assets.Scripts.Utility.Health_bar_status.broken
+  id: broken
+  parent: Assets.Scripts.Utility.Health_bar_status
+  langs:
+  - csharp
+  - vb
+  name: broken
+  nameWithType: Health_bar_status.broken
+  fullName: Assets.Scripts.Utility.Health_bar_status.broken
+  type: Field
+  source:
+    id: broken
+    path: ''
+    startLine: 163115
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: broken = 1
+    return:
+      type: Assets.Scripts.Utility.Health_bar_status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Health_bar_status.dead
+  commentId: F:Assets.Scripts.Utility.Health_bar_status.dead
+  id: dead
+  parent: Assets.Scripts.Utility.Health_bar_status
+  langs:
+  - csharp
+  - vb
+  name: dead
+  nameWithType: Health_bar_status.dead
+  fullName: Assets.Scripts.Utility.Health_bar_status.dead
+  type: Field
+  source:
+    id: dead
+    path: ''
+    startLine: 163116
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: dead = 2
+    return:
+      type: Assets.Scripts.Utility.Health_bar_status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.Health_bar_status
+  commentId: T:Assets.Scripts.Utility.Health_bar_status
+  parent: Assets.Scripts.Utility
+  name: Health_bar_status
+  nameWithType: Health_bar_status
+  fullName: Assets.Scripts.Utility.Health_bar_status

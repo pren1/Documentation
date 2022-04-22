@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.save_card_before_battle
+  commentId: T:Assets.Scripts.Game_manager.save_card_before_battle
+  id: save_card_before_battle
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.save_card_before_battle.saveObject
+  langs:
+  - csharp
+  - vb
+  name: save_card_before_battle
+  nameWithType: save_card_before_battle
+  fullName: Assets.Scripts.Game_manager.save_card_before_battle
+  type: Class
+  source:
+    id: save_card_before_battle
+    path: ''
+    startLine: 156575
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public class save_card_before_battle
+    content.vb: Public Class save_card_before_battle
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.save_card_before_battle.saveObject
+  commentId: F:Assets.Scripts.Game_manager.save_card_before_battle.saveObject
+  id: saveObject
+  parent: Assets.Scripts.Game_manager.save_card_before_battle
+  langs:
+  - csharp
+  - vb
+  name: saveObject
+  nameWithType: save_card_before_battle.saveObject
+  fullName: Assets.Scripts.Game_manager.save_card_before_battle.saveObject
+  type: Field
+  source:
+    id: saveObject
+    path: ''
+    startLine: 156577
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static SaveObject saveObject
+    return:
+      type: Assets.Scripts.Game_manager.SaveObject
+    content.vb: Public Shared saveObject As SaveObject
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Game_manager.SaveObject
+  commentId: T:Assets.Scripts.Game_manager.SaveObject
+  parent: Assets.Scripts.Game_manager
+  name: SaveObject
+  nameWithType: SaveObject
+  fullName: Assets.Scripts.Game_manager.SaveObject

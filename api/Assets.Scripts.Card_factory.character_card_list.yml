@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.character_card_list
+  commentId: T:Assets.Scripts.Card_factory.character_card_list
+  id: character_card_list
+  parent: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.character_card_list.Fin_save_process
+  - Assets.Scripts.Card_factory.character_card_list.small_Card_Panel
+  langs:
+  - csharp
+  - vb
+  name: character_card_list
+  nameWithType: character_card_list
+  fullName: Assets.Scripts.Card_factory.character_card_list
+  type: Class
+  source:
+    id: character_card_list
+    path: ''
+    startLine: 152410
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n角色配卡界面：角色列表\n"
+  example: []
+  syntax:
+    content: 'public class character_card_list : MonoBehaviour'
+    content.vb: >-
+      Public Class character_card_list
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Card_factory.character_card_list.small_Card_Panel
+  commentId: F:Assets.Scripts.Card_factory.character_card_list.small_Card_Panel
+  id: small_Card_Panel
+  parent: Assets.Scripts.Card_factory.character_card_list
+  langs:
+  - csharp
+  - vb
+  name: small_Card_Panel
+  nameWithType: character_card_list.small_Card_Panel
+  fullName: Assets.Scripts.Card_factory.character_card_list.small_Card_Panel
+  type: Field
+  source:
+    id: small_Card_Panel
+    path: ''
+    startLine: 152415
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public small_card_panel small_Card_Panel
+    return:
+      type: Assets.Scripts.Card_factory.small_card_panel
+    content.vb: Public small_Card_Panel As small_card_panel
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Card_factory.character_card_list.Fin_save_process
+  commentId: M:Assets.Scripts.Card_factory.character_card_list.Fin_save_process
+  id: Fin_save_process
+  parent: Assets.Scripts.Card_factory.character_card_list
+  langs:
+  - csharp
+  - vb
+  name: Fin_save_process()
+  nameWithType: character_card_list.Fin_save_process()
+  fullName: Assets.Scripts.Card_factory.character_card_list.Fin_save_process()
+  type: Method
+  source:
+    id: Fin_save_process
+    path: ''
+    startLine: 152440
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  syntax:
+    content: public void Fin_save_process()
+    content.vb: Public Sub Fin_save_process
+  overload: Assets.Scripts.Card_factory.character_card_list.Fin_save_process*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Card_factory.small_card_panel
+  commentId: T:Assets.Scripts.Card_factory.small_card_panel
+  parent: Assets.Scripts.Card_factory
+  name: small_card_panel
+  nameWithType: small_card_panel
+  fullName: Assets.Scripts.Card_factory.small_card_panel
+- uid: Assets.Scripts.Card_factory.character_card_list.Fin_save_process*
+  commentId: Overload:Assets.Scripts.Card_factory.character_card_list.Fin_save_process
+  name: Fin_save_process
+  nameWithType: character_card_list.Fin_save_process
+  fullName: Assets.Scripts.Card_factory.character_card_list.Fin_save_process

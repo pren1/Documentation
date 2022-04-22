@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.delay_func_executor
+  commentId: T:Assets.Scripts.Game_manager.delay_func_executor
+  id: delay_func_executor
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay(System.Single,Action)
+  langs:
+  - csharp
+  - vb
+  name: delay_func_executor
+  nameWithType: delay_func_executor
+  fullName: Assets.Scripts.Game_manager.delay_func_executor
+  type: Class
+  source:
+    id: delay_func_executor
+    path: ''
+    startLine: 156084
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n延迟执行目标action\n"
+  example: []
+  syntax:
+    content: 'public class delay_func_executor : MonoBehaviour'
+    content.vb: >-
+      Public Class delay_func_executor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay(System.Single,Action)
+  commentId: M:Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay(System.Single,Action)
+  id: start_process_with_delay(System.Single,Action)
+  parent: Assets.Scripts.Game_manager.delay_func_executor
+  langs:
+  - csharp
+  - vb
+  name: start_process_with_delay(Single, Action)
+  nameWithType: delay_func_executor.start_process_with_delay(Single, Action)
+  fullName: Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay(System.Single, Action)
+  type: Method
+  source:
+    id: start_process_with_delay
+    path: ''
+    startLine: 156086
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public void start_process_with_delay(float secs, Action complete_action)
+    parameters:
+    - id: secs
+      type: System.Single
+    - id: complete_action
+      type: Global.Action
+    content.vb: Public Sub start_process_with_delay(secs As Single, complete_action As Action)
+  overload: Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay*
+  commentId: Overload:Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay
+  name: start_process_with_delay
+  nameWithType: delay_func_executor.start_process_with_delay
+  fullName: Assets.Scripts.Game_manager.delay_func_executor.start_process_with_delay
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

@@ -1,0 +1,772 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.Sequence_Render
+  commentId: T:Assets.Scripts.Game_manager.Sequence_Render
+  id: Sequence_Render
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.Sequence_Render.Enemy_dict
+  - Assets.Scripts.Game_manager.Sequence_Render.fake_member
+  - Assets.Scripts.Game_manager.Sequence_Render.global_enemy_list
+  - Assets.Scripts.Game_manager.Sequence_Render.global_member_list
+  - Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters(System.Collections.Generic.List{monster},System.Collections.Generic.List{member})
+  - Assets.Scripts.Game_manager.Sequence_Render.Member_dict
+  - Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process(System.String)
+  - Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object(System.String,System.String)
+  - Assets.Scripts.Game_manager.Sequence_Render.Show_Animation
+  langs:
+  - csharp
+  - vb
+  name: Sequence_Render
+  nameWithType: Sequence_Render
+  fullName: Assets.Scripts.Game_manager.Sequence_Render
+  type: Class
+  source:
+    id: Sequence_Render
+    path: ''
+    startLine: 156646
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n战斗场景对象渲染\n"
+  example: []
+  syntax:
+    content: public class Sequence_Render
+    content.vb: Public Class Sequence_Render
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.Sequence_Render.Enemy_dict
+  commentId: F:Assets.Scripts.Game_manager.Sequence_Render.Enemy_dict
+  id: Enemy_dict
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: Enemy_dict
+  nameWithType: Sequence_Render.Enemy_dict
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.Enemy_dict
+  type: Field
+  source:
+    id: Enemy_dict
+    path: ''
+    startLine: 156648
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static Dictionary<string, Enemy> Enemy_dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Enemy}
+    content.vb: Public Shared Enemy_dict As Dictionary(Of String, Enemy)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Sequence_Render.Member_dict
+  commentId: F:Assets.Scripts.Game_manager.Sequence_Render.Member_dict
+  id: Member_dict
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: Member_dict
+  nameWithType: Sequence_Render.Member_dict
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.Member_dict
+  type: Field
+  source:
+    id: Member_dict
+    path: ''
+    startLine: 156649
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static Dictionary<string, Member> Member_dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Member}
+    content.vb: Public Shared Member_dict As Dictionary(Of String, Member)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Sequence_Render.global_enemy_list
+  commentId: F:Assets.Scripts.Game_manager.Sequence_Render.global_enemy_list
+  id: global_enemy_list
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: global_enemy_list
+  nameWithType: Sequence_Render.global_enemy_list
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.global_enemy_list
+  type: Field
+  source:
+    id: global_enemy_list
+    path: ''
+    startLine: 156651
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static List<Enemy> global_enemy_list
+    return:
+      type: System.Collections.Generic.List{Enemy}
+    content.vb: Public Shared global_enemy_list As List(Of Enemy)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Sequence_Render.global_member_list
+  commentId: F:Assets.Scripts.Game_manager.Sequence_Render.global_member_list
+  id: global_member_list
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: global_member_list
+  nameWithType: Sequence_Render.global_member_list
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.global_member_list
+  type: Field
+  source:
+    id: global_member_list
+    path: ''
+    startLine: 156652
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static List<Member> global_member_list
+    return:
+      type: System.Collections.Generic.List{Member}
+    content.vb: Public Shared global_member_list As List(Of Member)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Sequence_Render.fake_member
+  commentId: F:Assets.Scripts.Game_manager.Sequence_Render.fake_member
+  id: fake_member
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: fake_member
+  nameWithType: Sequence_Render.fake_member
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.fake_member
+  type: Field
+  source:
+    id: fake_member
+    path: ''
+    startLine: 156654
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static Member fake_member
+    return:
+      type: Global.Member
+    content.vb: Public Shared fake_member As Member
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.Sequence_Render.Show_Animation
+  commentId: F:Assets.Scripts.Game_manager.Sequence_Render.Show_Animation
+  id: Show_Animation
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: Show_Animation
+  nameWithType: Sequence_Render.Show_Animation
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.Show_Animation
+  type: Field
+  source:
+    id: Show_Animation
+    path: ''
+    startLine: 156656
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public show_animation Show_Animation
+    return:
+      type: Global.show_animation
+    content.vb: Public Show_Animation As show_animation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters(System.Collections.Generic.List{monster},System.Collections.Generic.List{member})
+  commentId: M:Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters(System.Collections.Generic.List{monster},System.Collections.Generic.List{member})
+  id: initialize_and_render_all_characters(System.Collections.Generic.List{monster},System.Collections.Generic.List{member})
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: initialize_and_render_all_characters(List<monster>, List<member>)
+  nameWithType: Sequence_Render.initialize_and_render_all_characters(List<monster>, List<member>)
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters(System.Collections.Generic.List<monster>, System.Collections.Generic.List<member>)
+  type: Method
+  source:
+    id: initialize_and_render_all_characters
+    path: ''
+    startLine: 156702
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n渲染成员和敌人\n"
+  example: []
+  syntax:
+    content: public void initialize_and_render_all_characters(List<monster> monster_list, List<member> member_list)
+    parameters:
+    - id: monster_list
+      type: System.Collections.Generic.List{monster}
+      description: ''
+    - id: member_list
+      type: System.Collections.Generic.List{member}
+      description: ''
+    content.vb: Public Sub initialize_and_render_all_characters(monster_list As List(Of monster), member_list As List(Of member))
+  overload: Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters*
+  nameWithType.vb: Sequence_Render.initialize_and_render_all_characters(List(Of monster), List(Of member))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters(System.Collections.Generic.List(Of monster), System.Collections.Generic.List(Of member))
+  name.vb: initialize_and_render_all_characters(List(Of monster), List(Of member))
+- uid: Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process(System.String)
+  commentId: M:Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process(System.String)
+  id: pre_effect_process(System.String)
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: pre_effect_process(String)
+  nameWithType: Sequence_Render.pre_effect_process(String)
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process(System.String)
+  type: Method
+  source:
+    id: pre_effect_process
+    path: ''
+    startLine: 156854
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n执行预效果\n"
+  example: []
+  syntax:
+    content: public bool pre_effect_process(string card_name)
+    parameters:
+    - id: card_name
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+    content.vb: Public Function pre_effect_process(card_name As String) As Boolean
+  overload: Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object(System.String,System.String)
+  commentId: M:Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object(System.String,System.String)
+  id: process_target_name_object(System.String,System.String)
+  parent: Assets.Scripts.Game_manager.Sequence_Render
+  langs:
+  - csharp
+  - vb
+  name: process_target_name_object(String, String)
+  nameWithType: Sequence_Render.process_target_name_object(String, String)
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object(System.String, System.String)
+  type: Method
+  source:
+    id: process_target_name_object
+    path: ''
+    startLine: 156879
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n执行卡牌效果\n"
+  example: []
+  syntax:
+    content: public void process_target_name_object(string card_name, string object_name)
+    parameters:
+    - id: card_name
+      type: System.String
+      description: 卡牌名称
+    - id: object_name
+      type: System.String
+      description: 卡牌效果作用对象
+    content.vb: Public Sub process_target_name_object(card_name As String, object_name As String)
+  overload: Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,Enemy}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Enemy}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Enemy>
+  nameWithType: Dictionary<String, Enemy>
+  fullName: System.Collections.Generic.Dictionary<System.String, Enemy>
+  nameWithType.vb: Dictionary(Of String, Enemy)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Enemy)
+  name.vb: Dictionary(Of String, Enemy)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary{System.String,Member}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Member>
+  nameWithType: Dictionary<String, Member>
+  fullName: System.Collections.Generic.Dictionary<System.String, Member>
+  nameWithType.vb: Dictionary(Of String, Member)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Member)
+  name.vb: Dictionary(Of String, Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Enemy}
+  commentId: T:System.Collections.Generic.List{Enemy}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Enemy>
+  nameWithType: List<Enemy>
+  fullName: System.Collections.Generic.List<Enemy>
+  nameWithType.vb: List(Of Enemy)
+  fullName.vb: System.Collections.Generic.List(Of Enemy)
+  name.vb: List(Of Enemy)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Member}
+  commentId: T:System.Collections.Generic.List{Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Member>
+  nameWithType: List<Member>
+  fullName: System.Collections.Generic.List<Member>
+  nameWithType.vb: List(Of Member)
+  fullName.vb: System.Collections.Generic.List(Of Member)
+  name.vb: List(Of Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Member
+  isExternal: true
+  name: Member
+  nameWithType: Member
+  fullName: Member
+- uid: Global.show_animation
+  isExternal: true
+  name: show_animation
+  nameWithType: show_animation
+  fullName: show_animation
+- uid: Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters*
+  commentId: Overload:Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters
+  name: initialize_and_render_all_characters
+  nameWithType: Sequence_Render.initialize_and_render_all_characters
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.initialize_and_render_all_characters
+- uid: System.Collections.Generic.List{monster}
+  commentId: T:System.Collections.Generic.List{monster}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<monster>
+  nameWithType: List<monster>
+  fullName: System.Collections.Generic.List<monster>
+  nameWithType.vb: List(Of monster)
+  fullName.vb: System.Collections.Generic.List(Of monster)
+  name.vb: List(Of monster)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.monster
+    name: monster
+    nameWithType: monster
+    fullName: monster
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.monster
+    name: monster
+    nameWithType: monster
+    fullName: monster
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{member}
+  commentId: T:System.Collections.Generic.List{member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<member>
+  nameWithType: List<member>
+  fullName: System.Collections.Generic.List<member>
+  nameWithType.vb: List(Of member)
+  fullName.vb: System.Collections.Generic.List(Of member)
+  name.vb: List(Of member)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.member
+    name: member
+    nameWithType: member
+    fullName: member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.member
+    name: member
+    nameWithType: member
+    fullName: member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process*
+  commentId: Overload:Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process
+  name: pre_effect_process
+  nameWithType: Sequence_Render.pre_effect_process
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.pre_effect_process
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object*
+  commentId: Overload:Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object
+  name: process_target_name_object
+  nameWithType: Sequence_Render.process_target_name_object
+  fullName: Assets.Scripts.Game_manager.Sequence_Render.process_target_name_object

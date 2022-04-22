@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Dialog.Dialog_manager
+  commentId: T:Assets.Scripts.Dialog.Dialog_manager
+  id: Dialog_manager
+  parent: Assets.Scripts.Dialog
+  children:
+  - Assets.Scripts.Dialog.Dialog_manager.background
+  - Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue(System.Int32)
+  - Assets.Scripts.Dialog.Dialog_manager.load_sprites_list
+  - Assets.Scripts.Dialog.Dialog_manager.Music_player
+  - Assets.Scripts.Dialog.Dialog_manager.on_battle_scene
+  - Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog(Assets.Scripts.Dialog.single_dialog)
+  langs:
+  - csharp
+  - vb
+  name: Dialog_manager
+  nameWithType: Dialog_manager
+  fullName: Assets.Scripts.Dialog.Dialog_manager
+  type: Class
+  source:
+    id: Dialog_manager
+    path: ''
+    startLine: 155190
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  summary: "\n对话场景，对话展示管理者\n"
+  example: []
+  syntax:
+    content: 'public class Dialog_manager : MonoBehaviour'
+    content.vb: >-
+      Public Class Dialog_manager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Dialog.Dialog_manager.background
+  commentId: F:Assets.Scripts.Dialog.Dialog_manager.background
+  id: background
+  parent: Assets.Scripts.Dialog.Dialog_manager
+  langs:
+  - csharp
+  - vb
+  name: background
+  nameWithType: Dialog_manager.background
+  fullName: Assets.Scripts.Dialog.Dialog_manager.background
+  type: Field
+  source:
+    id: background
+    path: ''
+    startLine: 155208
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public GameObject background
+    return:
+      type: Global.GameObject
+    content.vb: Public background As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_manager.Music_player
+  commentId: F:Assets.Scripts.Dialog.Dialog_manager.Music_player
+  id: Music_player
+  parent: Assets.Scripts.Dialog.Dialog_manager
+  langs:
+  - csharp
+  - vb
+  name: Music_player
+  nameWithType: Dialog_manager.Music_player
+  fullName: Assets.Scripts.Dialog.Dialog_manager.Music_player
+  type: Field
+  source:
+    id: Music_player
+    path: ''
+    startLine: 155209
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public GameObject Music_player
+    return:
+      type: Global.GameObject
+    content.vb: Public Music_player As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_manager.on_battle_scene
+  commentId: F:Assets.Scripts.Dialog.Dialog_manager.on_battle_scene
+  id: on_battle_scene
+  parent: Assets.Scripts.Dialog.Dialog_manager
+  langs:
+  - csharp
+  - vb
+  name: on_battle_scene
+  nameWithType: Dialog_manager.on_battle_scene
+  fullName: Assets.Scripts.Dialog.Dialog_manager.on_battle_scene
+  type: Field
+  source:
+    id: on_battle_scene
+    path: ''
+    startLine: 155212
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public bool on_battle_scene
+    return:
+      type: System.Boolean
+    content.vb: Public on_battle_scene As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_manager.load_sprites_list
+  commentId: M:Assets.Scripts.Dialog.Dialog_manager.load_sprites_list
+  id: load_sprites_list
+  parent: Assets.Scripts.Dialog.Dialog_manager
+  langs:
+  - csharp
+  - vb
+  name: load_sprites_list()
+  nameWithType: Dialog_manager.load_sprites_list()
+  fullName: Assets.Scripts.Dialog.Dialog_manager.load_sprites_list()
+  type: Method
+  source:
+    id: load_sprites_list
+    path: ''
+    startLine: 155245
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  summary: "\n预加载立绘\n"
+  example: []
+  syntax:
+    content: public void load_sprites_list()
+    content.vb: Public Sub load_sprites_list
+  overload: Assets.Scripts.Dialog.Dialog_manager.load_sprites_list*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog(Assets.Scripts.Dialog.single_dialog)
+  commentId: M:Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog(Assets.Scripts.Dialog.single_dialog)
+  id: Show_one_dialog(Assets.Scripts.Dialog.single_dialog)
+  parent: Assets.Scripts.Dialog.Dialog_manager
+  langs:
+  - csharp
+  - vb
+  name: Show_one_dialog(single_dialog)
+  nameWithType: Dialog_manager.Show_one_dialog(single_dialog)
+  fullName: Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog(Assets.Scripts.Dialog.single_dialog)
+  type: Method
+  source:
+    id: Show_one_dialog
+    path: ''
+    startLine: 155259
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  summary: "\n展示一条对话\n"
+  example: []
+  syntax:
+    content: public void Show_one_dialog(single_dialog single_Dialog)
+    parameters:
+    - id: single_Dialog
+      type: Assets.Scripts.Dialog.single_dialog
+      description: ''
+    content.vb: Public Sub Show_one_dialog(single_Dialog As single_dialog)
+  overload: Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue(System.Int32)
+  commentId: M:Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue(System.Int32)
+  id: Load_dialog_enqueue(System.Int32)
+  parent: Assets.Scripts.Dialog.Dialog_manager
+  langs:
+  - csharp
+  - vb
+  name: Load_dialog_enqueue(Int32)
+  nameWithType: Dialog_manager.Load_dialog_enqueue(Int32)
+  fullName: Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue(System.Int32)
+  type: Method
+  source:
+    id: Load_dialog_enqueue
+    path: ''
+    startLine: 155312
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  summary: "\n加载整个剧本\n"
+  example: []
+  syntax:
+    content: public void Load_dialog_enqueue(int input_value)
+    parameters:
+    - id: input_value
+      type: System.Int32
+      description: 剧本编号
+    content.vb: Public Sub Load_dialog_enqueue(input_value As Integer)
+  overload: Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assets.Scripts.Dialog.Dialog_manager.load_sprites_list*
+  commentId: Overload:Assets.Scripts.Dialog.Dialog_manager.load_sprites_list
+  name: load_sprites_list
+  nameWithType: Dialog_manager.load_sprites_list
+  fullName: Assets.Scripts.Dialog.Dialog_manager.load_sprites_list
+- uid: Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog*
+  commentId: Overload:Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog
+  name: Show_one_dialog
+  nameWithType: Dialog_manager.Show_one_dialog
+  fullName: Assets.Scripts.Dialog.Dialog_manager.Show_one_dialog
+- uid: Assets.Scripts.Dialog.single_dialog
+  commentId: T:Assets.Scripts.Dialog.single_dialog
+  parent: Assets.Scripts.Dialog
+  name: single_dialog
+  nameWithType: single_dialog
+  fullName: Assets.Scripts.Dialog.single_dialog
+- uid: Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue*
+  commentId: Overload:Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue
+  name: Load_dialog_enqueue
+  nameWithType: Dialog_manager.Load_dialog_enqueue
+  fullName: Assets.Scripts.Dialog.Dialog_manager.Load_dialog_enqueue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

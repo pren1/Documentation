@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.basic_card
+  commentId: T:Assets.Scripts.Json_processor.basic_card
+  id: basic_card
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.basic_card.Card_belong
+  - Assets.Scripts.Json_processor.basic_card.card_cost
+  - Assets.Scripts.Json_processor.basic_card.Card_count
+  - Assets.Scripts.Json_processor.basic_card.card_effect_text
+  - Assets.Scripts.Json_processor.basic_card.card_favor_text
+  - Assets.Scripts.Json_processor.basic_card.Card_name
+  - Assets.Scripts.Json_processor.basic_card.card_series
+  - Assets.Scripts.Json_processor.basic_card.card_type
+  - Assets.Scripts.Json_processor.basic_card.Clone
+  - Assets.Scripts.Json_processor.basic_card.index_card_name
+  - Assets.Scripts.Json_processor.basic_card.is_magic_card
+  - Assets.Scripts.Json_processor.basic_card.is_no_target_card
+  - Assets.Scripts.Json_processor.basic_card.rarity
+  langs:
+  - csharp
+  - vb
+  name: basic_card
+  nameWithType: basic_card
+  fullName: Assets.Scripts.Json_processor.basic_card
+  type: Class
+  source:
+    id: basic_card
+    path: ''
+    startLine: 158433
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class basic_card
+    content.vb: >-
+      <Serializable>
+
+      Public Class basic_card
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Json_processor.basic_card.Card_name
+  commentId: F:Assets.Scripts.Json_processor.basic_card.Card_name
+  id: Card_name
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: Card_name
+  nameWithType: basic_card.Card_name
+  fullName: Assets.Scripts.Json_processor.basic_card.Card_name
+  type: Field
+  source:
+    id: Card_name
+    path: ''
+    startLine: 158439
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string Card_name
+    return:
+      type: System.String
+    content.vb: Public Card_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.rarity
+  commentId: F:Assets.Scripts.Json_processor.basic_card.rarity
+  id: rarity
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: rarity
+  nameWithType: basic_card.rarity
+  fullName: Assets.Scripts.Json_processor.basic_card.rarity
+  type: Field
+  source:
+    id: rarity
+    path: ''
+    startLine: 158440
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string rarity
+    return:
+      type: System.String
+    content.vb: Public rarity As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.card_type
+  commentId: F:Assets.Scripts.Json_processor.basic_card.card_type
+  id: card_type
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: card_type
+  nameWithType: basic_card.card_type
+  fullName: Assets.Scripts.Json_processor.basic_card.card_type
+  type: Field
+  source:
+    id: card_type
+    path: ''
+    startLine: 158441
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string card_type
+    return:
+      type: System.String
+    content.vb: Public card_type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.card_cost
+  commentId: F:Assets.Scripts.Json_processor.basic_card.card_cost
+  id: card_cost
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: card_cost
+  nameWithType: basic_card.card_cost
+  fullName: Assets.Scripts.Json_processor.basic_card.card_cost
+  type: Field
+  source:
+    id: card_cost
+    path: ''
+    startLine: 158442
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int card_cost
+    return:
+      type: System.Int32
+    content.vb: Public card_cost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.card_effect_text
+  commentId: F:Assets.Scripts.Json_processor.basic_card.card_effect_text
+  id: card_effect_text
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: card_effect_text
+  nameWithType: basic_card.card_effect_text
+  fullName: Assets.Scripts.Json_processor.basic_card.card_effect_text
+  type: Field
+  source:
+    id: card_effect_text
+    path: ''
+    startLine: 158443
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public List<string> card_effect_text
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public card_effect_text As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.card_favor_text
+  commentId: F:Assets.Scripts.Json_processor.basic_card.card_favor_text
+  id: card_favor_text
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: card_favor_text
+  nameWithType: basic_card.card_favor_text
+  fullName: Assets.Scripts.Json_processor.basic_card.card_favor_text
+  type: Field
+  source:
+    id: card_favor_text
+    path: ''
+    startLine: 158444
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string card_favor_text
+    return:
+      type: System.String
+    content.vb: Public card_favor_text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.index_card_name
+  commentId: F:Assets.Scripts.Json_processor.basic_card.index_card_name
+  id: index_card_name
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: index_card_name
+  nameWithType: basic_card.index_card_name
+  fullName: Assets.Scripts.Json_processor.basic_card.index_card_name
+  type: Field
+  source:
+    id: index_card_name
+    path: ''
+    startLine: 158445
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string index_card_name
+    return:
+      type: System.String
+    content.vb: Public index_card_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.Card_belong
+  commentId: F:Assets.Scripts.Json_processor.basic_card.Card_belong
+  id: Card_belong
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: Card_belong
+  nameWithType: basic_card.Card_belong
+  fullName: Assets.Scripts.Json_processor.basic_card.Card_belong
+  type: Field
+  source:
+    id: Card_belong
+    path: ''
+    startLine: 158446
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string Card_belong
+    return:
+      type: System.String
+    content.vb: Public Card_belong As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.Card_count
+  commentId: F:Assets.Scripts.Json_processor.basic_card.Card_count
+  id: Card_count
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: Card_count
+  nameWithType: basic_card.Card_count
+  fullName: Assets.Scripts.Json_processor.basic_card.Card_count
+  type: Field
+  source:
+    id: Card_count
+    path: ''
+    startLine: 158447
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Card_count
+    return:
+      type: System.Int32
+    content.vb: Public Card_count As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.card_series
+  commentId: F:Assets.Scripts.Json_processor.basic_card.card_series
+  id: card_series
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: card_series
+  nameWithType: basic_card.card_series
+  fullName: Assets.Scripts.Json_processor.basic_card.card_series
+  type: Field
+  source:
+    id: card_series
+    path: ''
+    startLine: 158448
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string card_series
+    return:
+      type: System.String
+    content.vb: Public card_series As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.is_no_target_card
+  commentId: F:Assets.Scripts.Json_processor.basic_card.is_no_target_card
+  id: is_no_target_card
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: is_no_target_card
+  nameWithType: basic_card.is_no_target_card
+  fullName: Assets.Scripts.Json_processor.basic_card.is_no_target_card
+  type: Field
+  source:
+    id: is_no_target_card
+    path: ''
+    startLine: 158449
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string is_no_target_card
+    return:
+      type: System.String
+    content.vb: Public is_no_target_card As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.is_magic_card
+  commentId: F:Assets.Scripts.Json_processor.basic_card.is_magic_card
+  id: is_magic_card
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: is_magic_card
+  nameWithType: basic_card.is_magic_card
+  fullName: Assets.Scripts.Json_processor.basic_card.is_magic_card
+  type: Field
+  source:
+    id: is_magic_card
+    path: ''
+    startLine: 158450
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string is_magic_card
+    return:
+      type: System.String
+    content.vb: Public is_magic_card As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.basic_card.Clone
+  commentId: M:Assets.Scripts.Json_processor.basic_card.Clone
+  id: Clone
+  parent: Assets.Scripts.Json_processor.basic_card
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: basic_card.Clone()
+  fullName: Assets.Scripts.Json_processor.basic_card.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 158455
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n深拷贝卡片\n"
+  example: []
+  syntax:
+    content: public basic_card Clone()
+    return:
+      type: Assets.Scripts.Json_processor.basic_card
+      description: ''
+    content.vb: Public Function Clone As basic_card
+  overload: Assets.Scripts.Json_processor.basic_card.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Json_processor.basic_card.Clone*
+  commentId: Overload:Assets.Scripts.Json_processor.basic_card.Clone
+  name: Clone
+  nameWithType: basic_card.Clone
+  fullName: Assets.Scripts.Json_processor.basic_card.Clone
+- uid: Assets.Scripts.Json_processor.basic_card
+  commentId: T:Assets.Scripts.Json_processor.basic_card
+  parent: Assets.Scripts.Json_processor
+  name: basic_card
+  nameWithType: basic_card
+  fullName: Assets.Scripts.Json_processor.basic_card

@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map.quest_sign_creater
+  commentId: T:Assets.Scripts.global_map.quest_sign_creater
+  id: quest_sign_creater
+  parent: Assets.Scripts.global_map
+  children:
+  - Assets.Scripts.global_map.quest_sign_creater.background
+  - Assets.Scripts.global_map.quest_sign_creater.duplicate_locate_point
+  - Assets.Scripts.global_map.quest_sign_creater.Music_player
+  langs:
+  - csharp
+  - vb
+  name: quest_sign_creater
+  nameWithType: quest_sign_creater
+  fullName: Assets.Scripts.global_map.quest_sign_creater
+  type: Class
+  source:
+    id: quest_sign_creater
+    path: ''
+    startLine: 157563
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n地图标记生成\n"
+  example: []
+  syntax:
+    content: 'public class quest_sign_creater : MonoBehaviour'
+    content.vb: >-
+      Public Class quest_sign_creater
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.global_map.quest_sign_creater.background
+  commentId: F:Assets.Scripts.global_map.quest_sign_creater.background
+  id: background
+  parent: Assets.Scripts.global_map.quest_sign_creater
+  langs:
+  - csharp
+  - vb
+  name: background
+  nameWithType: quest_sign_creater.background
+  fullName: Assets.Scripts.global_map.quest_sign_creater.background
+  type: Field
+  source:
+    id: background
+    path: ''
+    startLine: 157567
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public GameObject background
+    return:
+      type: Global.GameObject
+    content.vb: Public background As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.global_map.quest_sign_creater.Music_player
+  commentId: F:Assets.Scripts.global_map.quest_sign_creater.Music_player
+  id: Music_player
+  parent: Assets.Scripts.global_map.quest_sign_creater
+  langs:
+  - csharp
+  - vb
+  name: Music_player
+  nameWithType: quest_sign_creater.Music_player
+  fullName: Assets.Scripts.global_map.quest_sign_creater.Music_player
+  type: Field
+  source:
+    id: Music_player
+    path: ''
+    startLine: 157568
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public GameObject Music_player
+    return:
+      type: Global.GameObject
+    content.vb: Public Music_player As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.global_map.quest_sign_creater.duplicate_locate_point
+  commentId: F:Assets.Scripts.global_map.quest_sign_creater.duplicate_locate_point
+  id: duplicate_locate_point
+  parent: Assets.Scripts.global_map.quest_sign_creater
+  langs:
+  - csharp
+  - vb
+  name: duplicate_locate_point
+  nameWithType: quest_sign_creater.duplicate_locate_point
+  fullName: Assets.Scripts.global_map.quest_sign_creater.duplicate_locate_point
+  type: Field
+  source:
+    id: duplicate_locate_point
+    path: ''
+    startLine: 157570
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public GameObject duplicate_locate_point
+    return:
+      type: Global.GameObject
+    content.vb: Public duplicate_locate_point As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

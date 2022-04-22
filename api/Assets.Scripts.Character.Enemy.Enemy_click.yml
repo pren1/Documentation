@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Enemy.Enemy_click
+  commentId: T:Assets.Scripts.Character.Enemy.Enemy_click
+  id: Enemy_click
+  parent: Assets.Scripts.Character.Enemy
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Enemy_click
+  nameWithType: Enemy_click
+  fullName: Assets.Scripts.Character.Enemy.Enemy_click
+  type: Class
+  source:
+    id: Enemy_click
+    path: ''
+    startLine: 154315
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character.Enemy
+  summary: "\n废弃类，但是请勿删除。先放在这\n"
+  example: []
+  syntax:
+    content: 'public class Enemy_click : MonoBehaviour'
+    content.vb: >-
+      Public Class Enemy_click
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.Character.Enemy
+  commentId: N:Assets.Scripts.Character.Enemy
+  name: Assets.Scripts.Character.Enemy
+  nameWithType: Assets.Scripts.Character.Enemy
+  fullName: Assets.Scripts.Character.Enemy
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.global_map_variables
+  commentId: T:Assets.Scripts.Game_manager.global_map_variables
+  id: global_map_variables
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.global_map_variables.Background_name
+  - Assets.Scripts.Game_manager.global_map_variables.BGM_name
+  - Assets.Scripts.Game_manager.global_map_variables.monster_Tuples
+  - Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables(Assets.Scripts.Game_manager.Non_static_global_map_variables)
+  langs:
+  - csharp
+  - vb
+  name: global_map_variables
+  nameWithType: global_map_variables
+  fullName: Assets.Scripts.Game_manager.global_map_variables
+  type: Class
+  source:
+    id: global_map_variables
+    path: ''
+    startLine: 156282
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n静态大地图场景变量类，可以被不同场景访问\n"
+  example: []
+  syntax:
+    content: public static class global_map_variables
+    content.vb: Public Module global_map_variables
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Game_manager.global_map_variables.monster_Tuples
+  commentId: F:Assets.Scripts.Game_manager.global_map_variables.monster_Tuples
+  id: monster_Tuples
+  parent: Assets.Scripts.Game_manager.global_map_variables
+  langs:
+  - csharp
+  - vb
+  name: monster_Tuples
+  nameWithType: global_map_variables.monster_Tuples
+  fullName: Assets.Scripts.Game_manager.global_map_variables.monster_Tuples
+  type: Field
+  source:
+    id: monster_Tuples
+    path: ''
+    startLine: 156284
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static List<monster_tuple> monster_Tuples
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Game_manager.monster_tuple}
+    content.vb: Public Shared monster_Tuples As List(Of monster_tuple)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.global_map_variables.BGM_name
+  commentId: F:Assets.Scripts.Game_manager.global_map_variables.BGM_name
+  id: BGM_name
+  parent: Assets.Scripts.Game_manager.global_map_variables
+  langs:
+  - csharp
+  - vb
+  name: BGM_name
+  nameWithType: global_map_variables.BGM_name
+  fullName: Assets.Scripts.Game_manager.global_map_variables.BGM_name
+  type: Field
+  source:
+    id: BGM_name
+    path: ''
+    startLine: 156285
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string BGM_name
+    return:
+      type: System.String
+    content.vb: Public Shared BGM_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.global_map_variables.Background_name
+  commentId: F:Assets.Scripts.Game_manager.global_map_variables.Background_name
+  id: Background_name
+  parent: Assets.Scripts.Game_manager.global_map_variables
+  langs:
+  - csharp
+  - vb
+  name: Background_name
+  nameWithType: global_map_variables.Background_name
+  fullName: Assets.Scripts.Game_manager.global_map_variables.Background_name
+  type: Field
+  source:
+    id: Background_name
+    path: ''
+    startLine: 156286
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string Background_name
+    return:
+      type: System.String
+    content.vb: Public Shared Background_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables(Assets.Scripts.Game_manager.Non_static_global_map_variables)
+  commentId: M:Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables(Assets.Scripts.Game_manager.Non_static_global_map_variables)
+  id: set_global_map_variables(Assets.Scripts.Game_manager.Non_static_global_map_variables)
+  parent: Assets.Scripts.Game_manager.global_map_variables
+  langs:
+  - csharp
+  - vb
+  name: set_global_map_variables(Non_static_global_map_variables)
+  nameWithType: global_map_variables.set_global_map_variables(Non_static_global_map_variables)
+  fullName: Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables(Assets.Scripts.Game_manager.Non_static_global_map_variables)
+  type: Method
+  source:
+    id: set_global_map_variables
+    path: ''
+    startLine: 156288
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static void set_global_map_variables(Non_static_global_map_variables non_Static)
+    parameters:
+    - id: non_Static
+      type: Assets.Scripts.Game_manager.Non_static_global_map_variables
+    content.vb: Public Shared Sub set_global_map_variables(non_Static As Non_static_global_map_variables)
+  overload: Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Assets.Scripts.Game_manager.monster_tuple}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Game_manager.monster_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<monster_tuple>
+  nameWithType: List<monster_tuple>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Game_manager.monster_tuple>
+  nameWithType.vb: List(Of monster_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Game_manager.monster_tuple)
+  name.vb: List(Of monster_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Game_manager.monster_tuple
+    name: monster_tuple
+    nameWithType: monster_tuple
+    fullName: Assets.Scripts.Game_manager.monster_tuple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Game_manager.monster_tuple
+    name: monster_tuple
+    nameWithType: monster_tuple
+    fullName: Assets.Scripts.Game_manager.monster_tuple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables*
+  commentId: Overload:Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables
+  name: set_global_map_variables
+  nameWithType: global_map_variables.set_global_map_variables
+  fullName: Assets.Scripts.Game_manager.global_map_variables.set_global_map_variables
+- uid: Assets.Scripts.Game_manager.Non_static_global_map_variables
+  commentId: T:Assets.Scripts.Game_manager.Non_static_global_map_variables
+  parent: Assets.Scripts.Game_manager
+  name: Non_static_global_map_variables
+  nameWithType: Non_static_global_map_variables
+  fullName: Assets.Scripts.Game_manager.Non_static_global_map_variables

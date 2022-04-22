@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Danmaku.Single_danmaku
+  commentId: T:Assets.Scripts.Danmaku.Single_danmaku
+  id: Single_danmaku
+  parent: Assets.Scripts.Danmaku
+  children:
+  - Assets.Scripts.Danmaku.Single_danmaku.speed
+  langs:
+  - csharp
+  - vb
+  name: Single_danmaku
+  nameWithType: Single_danmaku
+  fullName: Assets.Scripts.Danmaku.Single_danmaku
+  type: Class
+  source:
+    id: Single_danmaku
+    path: ''
+    startLine: 154610
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  summary: "\n单个弹幕类\n"
+  example: []
+  syntax:
+    content: 'public class Single_danmaku : MonoBehaviour'
+    content.vb: >-
+      Public Class Single_danmaku
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Danmaku.Single_danmaku.speed
+  commentId: F:Assets.Scripts.Danmaku.Single_danmaku.speed
+  id: speed
+  parent: Assets.Scripts.Danmaku.Single_danmaku
+  langs:
+  - csharp
+  - vb
+  name: speed
+  nameWithType: Single_danmaku.speed
+  fullName: Assets.Scripts.Danmaku.Single_danmaku.speed
+  type: Field
+  source:
+    id: speed
+    path: ''
+    startLine: 154613
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Danmaku
+  syntax:
+    content: public float speed
+    return:
+      type: System.Single
+    content.vb: Public speed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Danmaku
+  commentId: N:Assets.Scripts.Danmaku
+  name: Assets.Scripts.Danmaku
+  nameWithType: Assets.Scripts.Danmaku
+  fullName: Assets.Scripts.Danmaku
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

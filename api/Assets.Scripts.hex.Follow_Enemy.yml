@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.Follow_Enemy
+  commentId: T:Assets.Scripts.hex.Follow_Enemy
+  id: Follow_Enemy
+  parent: Assets.Scripts.hex
+  children:
+  - Assets.Scripts.hex.Follow_Enemy.#ctor(System.String,Vector3)
+  - Assets.Scripts.hex.Follow_Enemy.get_pos
+  - Assets.Scripts.hex.Follow_Enemy.moving_setting
+  - Assets.Scripts.hex.Follow_Enemy.reset_initialize_move
+  - Assets.Scripts.hex.Follow_Enemy.set_move_script(Tilemap,System.Single,Vector3Int)
+  langs:
+  - csharp
+  - vb
+  name: Follow_Enemy
+  nameWithType: Follow_Enemy
+  fullName: Assets.Scripts.hex.Follow_Enemy
+  type: Class
+  source:
+    id: Follow_Enemy
+    path: ''
+    startLine: 157857
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public class Follow_Enemy
+    content.vb: Public Class Follow_Enemy
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.hex.Follow_Enemy.moving_setting
+  commentId: F:Assets.Scripts.hex.Follow_Enemy.moving_setting
+  id: moving_setting
+  parent: Assets.Scripts.hex.Follow_Enemy
+  langs:
+  - csharp
+  - vb
+  name: moving_setting
+  nameWithType: Follow_Enemy.moving_setting
+  fullName: Assets.Scripts.hex.Follow_Enemy.moving_setting
+  type: Field
+  source:
+    id: moving_setting
+    path: ''
+    startLine: 157863
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Move_script moving_setting
+    return:
+      type: Assets.Scripts.hex.Move_script
+    content.vb: Public moving_setting As Move_script
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Follow_Enemy.#ctor(System.String,Vector3)
+  commentId: M:Assets.Scripts.hex.Follow_Enemy.#ctor(System.String,Vector3)
+  id: '#ctor(System.String,Vector3)'
+  parent: Assets.Scripts.hex.Follow_Enemy
+  langs:
+  - csharp
+  - vb
+  name: Follow_Enemy(String, Vector3)
+  nameWithType: Follow_Enemy.Follow_Enemy(String, Vector3)
+  fullName: Assets.Scripts.hex.Follow_Enemy.Follow_Enemy(System.String, Vector3)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 157866
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Follow_Enemy(string resource_name, Vector3 resource_position)
+    parameters:
+    - id: resource_name
+      type: System.String
+    - id: resource_position
+      type: Global.Vector3
+    content.vb: Public Sub New(resource_name As String, resource_position As Vector3)
+  overload: Assets.Scripts.hex.Follow_Enemy.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Follow_Enemy.get_pos
+  commentId: M:Assets.Scripts.hex.Follow_Enemy.get_pos
+  id: get_pos
+  parent: Assets.Scripts.hex.Follow_Enemy
+  langs:
+  - csharp
+  - vb
+  name: get_pos()
+  nameWithType: Follow_Enemy.get_pos()
+  fullName: Assets.Scripts.hex.Follow_Enemy.get_pos()
+  type: Method
+  source:
+    id: get_pos
+    path: ''
+    startLine: 157882
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public Vector3 get_pos()
+    return:
+      type: Global.Vector3
+    content.vb: Public Function get_pos As Vector3
+  overload: Assets.Scripts.hex.Follow_Enemy.get_pos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Follow_Enemy.set_move_script(Tilemap,System.Single,Vector3Int)
+  commentId: M:Assets.Scripts.hex.Follow_Enemy.set_move_script(Tilemap,System.Single,Vector3Int)
+  id: set_move_script(Tilemap,System.Single,Vector3Int)
+  parent: Assets.Scripts.hex.Follow_Enemy
+  langs:
+  - csharp
+  - vb
+  name: set_move_script(Tilemap, Single, Vector3Int)
+  nameWithType: Follow_Enemy.set_move_script(Tilemap, Single, Vector3Int)
+  fullName: Assets.Scripts.hex.Follow_Enemy.set_move_script(Tilemap, System.Single, Vector3Int)
+  type: Method
+  source:
+    id: set_move_script
+    path: ''
+    startLine: 157890
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public void set_move_script(Tilemap tilemap, float MoveSpeed, Vector3Int current_hex_location)
+    parameters:
+    - id: tilemap
+      type: Global.Tilemap
+    - id: MoveSpeed
+      type: System.Single
+    - id: current_hex_location
+      type: Global.Vector3Int
+    content.vb: Public Sub set_move_script(tilemap As Tilemap, MoveSpeed As Single, current_hex_location As Vector3Int)
+  overload: Assets.Scripts.hex.Follow_Enemy.set_move_script*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.hex.Follow_Enemy.reset_initialize_move
+  commentId: M:Assets.Scripts.hex.Follow_Enemy.reset_initialize_move
+  id: reset_initialize_move
+  parent: Assets.Scripts.hex.Follow_Enemy
+  langs:
+  - csharp
+  - vb
+  name: reset_initialize_move()
+  nameWithType: Follow_Enemy.reset_initialize_move()
+  fullName: Assets.Scripts.hex.Follow_Enemy.reset_initialize_move()
+  type: Method
+  source:
+    id: reset_initialize_move
+    path: ''
+    startLine: 157913
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: public void reset_initialize_move()
+    content.vb: Public Sub reset_initialize_move
+  overload: Assets.Scripts.hex.Follow_Enemy.reset_initialize_move*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.hex.Move_script
+  commentId: T:Assets.Scripts.hex.Move_script
+  parent: Assets.Scripts.hex
+  name: Move_script
+  nameWithType: Move_script
+  fullName: Assets.Scripts.hex.Move_script
+- uid: Assets.Scripts.hex.Follow_Enemy.#ctor*
+  commentId: Overload:Assets.Scripts.hex.Follow_Enemy.#ctor
+  name: Follow_Enemy
+  nameWithType: Follow_Enemy.Follow_Enemy
+  fullName: Assets.Scripts.hex.Follow_Enemy.Follow_Enemy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Assets.Scripts.hex.Follow_Enemy.get_pos*
+  commentId: Overload:Assets.Scripts.hex.Follow_Enemy.get_pos
+  name: get_pos
+  nameWithType: Follow_Enemy.get_pos
+  fullName: Assets.Scripts.hex.Follow_Enemy.get_pos
+- uid: Assets.Scripts.hex.Follow_Enemy.set_move_script*
+  commentId: Overload:Assets.Scripts.hex.Follow_Enemy.set_move_script
+  name: set_move_script
+  nameWithType: Follow_Enemy.set_move_script
+  fullName: Assets.Scripts.hex.Follow_Enemy.set_move_script
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Vector3Int
+  commentId: '!:Global.Vector3Int'
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Assets.Scripts.hex.Follow_Enemy.reset_initialize_move*
+  commentId: Overload:Assets.Scripts.hex.Follow_Enemy.reset_initialize_move
+  name: reset_initialize_move
+  nameWithType: Follow_Enemy.reset_initialize_move
+  fullName: Assets.Scripts.hex.Follow_Enemy.reset_initialize_move

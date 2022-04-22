@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Dialog.dialog_json
+  commentId: T:Assets.Scripts.Dialog.dialog_json
+  id: dialog_json
+  parent: Assets.Scripts.Dialog
+  children:
+  - Assets.Scripts.Dialog.dialog_json.drama
+  langs:
+  - csharp
+  - vb
+  name: dialog_json
+  nameWithType: dialog_json
+  fullName: Assets.Scripts.Dialog.dialog_json
+  type: Class
+  source:
+    id: dialog_json
+    path: ''
+    startLine: 155171
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class dialog_json
+    content.vb: >-
+      <Serializable>
+
+      Public Class dialog_json
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Dialog.dialog_json.drama
+  commentId: F:Assets.Scripts.Dialog.dialog_json.drama
+  id: drama
+  parent: Assets.Scripts.Dialog.dialog_json
+  langs:
+  - csharp
+  - vb
+  name: drama
+  nameWithType: dialog_json.drama
+  fullName: Assets.Scripts.Dialog.dialog_json.drama
+  type: Field
+  source:
+    id: drama
+    path: ''
+    startLine: 155174
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Dialog
+  syntax:
+    content: public basic_dialog[] drama
+    return:
+      type: Assets.Scripts.Dialog.basic_dialog[]
+    content.vb: Public drama As basic_dialog()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Dialog.basic_dialog[]
+  isExternal: true
+  name: basic_dialog[]
+  nameWithType: basic_dialog[]
+  fullName: Assets.Scripts.Dialog.basic_dialog[]
+  nameWithType.vb: basic_dialog()
+  fullName.vb: Assets.Scripts.Dialog.basic_dialog()
+  name.vb: basic_dialog()
+  spec.csharp:
+  - uid: Assets.Scripts.Dialog.basic_dialog
+    name: basic_dialog
+    nameWithType: basic_dialog
+    fullName: Assets.Scripts.Dialog.basic_dialog
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Assets.Scripts.Dialog.basic_dialog
+    name: basic_dialog
+    nameWithType: basic_dialog
+    fullName: Assets.Scripts.Dialog.basic_dialog
+  - name: ()
+    nameWithType: ()
+    fullName: ()

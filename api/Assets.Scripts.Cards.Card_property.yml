@@ -1,0 +1,815 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Cards.Card_property
+  commentId: T:Assets.Scripts.Cards.Card_property
+  id: Card_property
+  parent: Assets.Scripts.Cards
+  children:
+  - Assets.Scripts.Cards.Card_property.Card_belong
+  - Assets.Scripts.Cards.Card_property.card_Effects
+  - Assets.Scripts.Cards.Card_property.card_favor_text
+  - Assets.Scripts.Cards.Card_property.card_name
+  - Assets.Scripts.Cards.Card_property.card_rarity
+  - Assets.Scripts.Cards.Card_property.card_Type
+  - Assets.Scripts.Cards.Card_property.change_rarity_stars(GameObject,System.String)
+  - Assets.Scripts.Cards.Card_property.current_card_counts
+  - Assets.Scripts.Cards.Card_property.dynamic_card_builder(GameObject,System.Int32,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Int32,System.Boolean)
+  - Assets.Scripts.Cards.Card_property.get_card_cost
+  - Assets.Scripts.Cards.Card_property.index_card_name
+  - Assets.Scripts.Cards.Card_property.is_magic_card
+  - Assets.Scripts.Cards.Card_property.is_no_target_card
+  - Assets.Scripts.Cards.Card_property.is_usable
+  - Assets.Scripts.Cards.Card_property.need_charge_level
+  - Assets.Scripts.Cards.Card_property.set_card_property(System.Int32,Card_rarity,System.String,card_type,System.Collections.Generic.List{Effect_tuple},System.String,System.String,System.String,System.Boolean,System.Int32,System.Boolean,System.Boolean)
+  - Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Card_property
+  nameWithType: Card_property
+  fullName: Assets.Scripts.Cards.Card_property
+  type: Class
+  source:
+    id: Card_property
+    path: ''
+    startLine: 151800
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  summary: "\n卡牌属性\n"
+  example: []
+  syntax:
+    content: 'public class Card_property : MonoBehaviour'
+    content.vb: >-
+      Public Class Card_property
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Cards.Card_property.card_rarity
+  commentId: F:Assets.Scripts.Cards.Card_property.card_rarity
+  id: card_rarity
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: card_rarity
+  nameWithType: Card_property.card_rarity
+  fullName: Assets.Scripts.Cards.Card_property.card_rarity
+  type: Field
+  source:
+    id: card_rarity
+    path: ''
+    startLine: 151803
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public Card_rarity card_rarity
+    return:
+      type: Global.Card_rarity
+    content.vb: Public card_rarity As Card_rarity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.card_name
+  commentId: F:Assets.Scripts.Cards.Card_property.card_name
+  id: card_name
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: card_name
+  nameWithType: Card_property.card_name
+  fullName: Assets.Scripts.Cards.Card_property.card_name
+  type: Field
+  source:
+    id: card_name
+    path: ''
+    startLine: 151804
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public string card_name
+    return:
+      type: System.String
+    content.vb: Public card_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.card_Type
+  commentId: F:Assets.Scripts.Cards.Card_property.card_Type
+  id: card_Type
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: card_Type
+  nameWithType: Card_property.card_Type
+  fullName: Assets.Scripts.Cards.Card_property.card_Type
+  type: Field
+  source:
+    id: card_Type
+    path: ''
+    startLine: 151805
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public card_type card_Type
+    return:
+      type: Global.card_type
+    content.vb: Public card_Type As card_type
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.card_Effects
+  commentId: F:Assets.Scripts.Cards.Card_property.card_Effects
+  id: card_Effects
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: card_Effects
+  nameWithType: Card_property.card_Effects
+  fullName: Assets.Scripts.Cards.Card_property.card_Effects
+  type: Field
+  source:
+    id: card_Effects
+    path: ''
+    startLine: 151806
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public List<Effect_tuple> card_Effects
+    return:
+      type: System.Collections.Generic.List{Effect_tuple}
+    content.vb: Public card_Effects As List(Of Effect_tuple)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.card_favor_text
+  commentId: F:Assets.Scripts.Cards.Card_property.card_favor_text
+  id: card_favor_text
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: card_favor_text
+  nameWithType: Card_property.card_favor_text
+  fullName: Assets.Scripts.Cards.Card_property.card_favor_text
+  type: Field
+  source:
+    id: card_favor_text
+    path: ''
+    startLine: 151807
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public string card_favor_text
+    return:
+      type: System.String
+    content.vb: Public card_favor_text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.index_card_name
+  commentId: F:Assets.Scripts.Cards.Card_property.index_card_name
+  id: index_card_name
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: index_card_name
+  nameWithType: Card_property.index_card_name
+  fullName: Assets.Scripts.Cards.Card_property.index_card_name
+  type: Field
+  source:
+    id: index_card_name
+    path: ''
+    startLine: 151808
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public string index_card_name
+    return:
+      type: System.String
+    content.vb: Public index_card_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.Card_belong
+  commentId: F:Assets.Scripts.Cards.Card_property.Card_belong
+  id: Card_belong
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: Card_belong
+  nameWithType: Card_property.Card_belong
+  fullName: Assets.Scripts.Cards.Card_property.Card_belong
+  type: Field
+  source:
+    id: Card_belong
+    path: ''
+    startLine: 151809
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public string Card_belong
+    return:
+      type: System.String
+    content.vb: Public Card_belong As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.is_usable
+  commentId: F:Assets.Scripts.Cards.Card_property.is_usable
+  id: is_usable
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: is_usable
+  nameWithType: Card_property.is_usable
+  fullName: Assets.Scripts.Cards.Card_property.is_usable
+  type: Field
+  source:
+    id: is_usable
+    path: ''
+    startLine: 151810
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public bool is_usable
+    return:
+      type: System.Boolean
+    content.vb: Public is_usable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.need_charge_level
+  commentId: F:Assets.Scripts.Cards.Card_property.need_charge_level
+  id: need_charge_level
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: need_charge_level
+  nameWithType: Card_property.need_charge_level
+  fullName: Assets.Scripts.Cards.Card_property.need_charge_level
+  type: Field
+  source:
+    id: need_charge_level
+    path: ''
+    startLine: 151811
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public int need_charge_level
+    return:
+      type: System.Int32
+    content.vb: Public need_charge_level As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.current_card_counts
+  commentId: F:Assets.Scripts.Cards.Card_property.current_card_counts
+  id: current_card_counts
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: current_card_counts
+  nameWithType: Card_property.current_card_counts
+  fullName: Assets.Scripts.Cards.Card_property.current_card_counts
+  type: Field
+  source:
+    id: current_card_counts
+    path: ''
+    startLine: 151812
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public int current_card_counts
+    return:
+      type: System.Int32
+    content.vb: Public current_card_counts As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.is_no_target_card
+  commentId: F:Assets.Scripts.Cards.Card_property.is_no_target_card
+  id: is_no_target_card
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: is_no_target_card
+  nameWithType: Card_property.is_no_target_card
+  fullName: Assets.Scripts.Cards.Card_property.is_no_target_card
+  type: Field
+  source:
+    id: is_no_target_card
+    path: ''
+    startLine: 151816
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public bool is_no_target_card
+    return:
+      type: System.Boolean
+    content.vb: Public is_no_target_card As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.is_magic_card
+  commentId: F:Assets.Scripts.Cards.Card_property.is_magic_card
+  id: is_magic_card
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: is_magic_card
+  nameWithType: Card_property.is_magic_card
+  fullName: Assets.Scripts.Cards.Card_property.is_magic_card
+  type: Field
+  source:
+    id: is_magic_card
+    path: ''
+    startLine: 151817
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public bool is_magic_card
+    return:
+      type: System.Boolean
+    content.vb: Public is_magic_card As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.get_card_cost
+  commentId: M:Assets.Scripts.Cards.Card_property.get_card_cost
+  id: get_card_cost
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: get_card_cost()
+  nameWithType: Card_property.get_card_cost()
+  fullName: Assets.Scripts.Cards.Card_property.get_card_cost()
+  type: Method
+  source:
+    id: get_card_cost
+    path: ''
+    startLine: 151829
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public int get_card_cost()
+    return:
+      type: System.Int32
+    content.vb: Public Function get_card_cost As Integer
+  overload: Assets.Scripts.Cards.Card_property.get_card_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.set_card_property(System.Int32,Card_rarity,System.String,card_type,System.Collections.Generic.List{Effect_tuple},System.String,System.String,System.String,System.Boolean,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:Assets.Scripts.Cards.Card_property.set_card_property(System.Int32,Card_rarity,System.String,card_type,System.Collections.Generic.List{Effect_tuple},System.String,System.String,System.String,System.Boolean,System.Int32,System.Boolean,System.Boolean)
+  id: set_card_property(System.Int32,Card_rarity,System.String,card_type,System.Collections.Generic.List{Effect_tuple},System.String,System.String,System.String,System.Boolean,System.Int32,System.Boolean,System.Boolean)
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: set_card_property(Int32, Card_rarity, String, card_type, List<Effect_tuple>, String, String, String, Boolean, Int32, Boolean, Boolean)
+  nameWithType: Card_property.set_card_property(Int32, Card_rarity, String, card_type, List<Effect_tuple>, String, String, String, Boolean, Int32, Boolean, Boolean)
+  fullName: Assets.Scripts.Cards.Card_property.set_card_property(System.Int32, Card_rarity, System.String, card_type, System.Collections.Generic.List<Effect_tuple>, System.String, System.String, System.String, System.Boolean, System.Int32, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: set_card_property
+    path: ''
+    startLine: 151853
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  summary: "\n设置卡牌属性\n"
+  example: []
+  syntax:
+    content: public void set_card_property(int card_cost, Card_rarity card_rarity, string card_name, card_type card_Type, List<Effect_tuple> card_Effects, string card_favor_text, string index_card_name, string Card_belong, bool is_usable, int current_card_counts, bool is_magic_card, bool is_no_target_card = false)
+    parameters:
+    - id: card_cost
+      type: System.Int32
+      description: ''
+    - id: card_rarity
+      type: Global.Card_rarity
+      description: ''
+    - id: card_name
+      type: System.String
+      description: ''
+    - id: card_Type
+      type: Global.card_type
+      description: ''
+    - id: card_Effects
+      type: System.Collections.Generic.List{Effect_tuple}
+      description: ''
+    - id: card_favor_text
+      type: System.String
+      description: ''
+    - id: index_card_name
+      type: System.String
+      description: ''
+    - id: Card_belong
+      type: System.String
+      description: ''
+    - id: is_usable
+      type: System.Boolean
+      description: ''
+    - id: current_card_counts
+      type: System.Int32
+      description: ''
+    - id: is_magic_card
+      type: System.Boolean
+    - id: is_no_target_card
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub set_card_property(card_cost As Integer, card_rarity As Card_rarity, card_name As String, card_Type As card_type, card_Effects As List(Of Effect_tuple), card_favor_text As String, index_card_name As String, Card_belong As String, is_usable As Boolean, current_card_counts As Integer, is_magic_card As Boolean, is_no_target_card As Boolean = False)
+  overload: Assets.Scripts.Cards.Card_property.set_card_property*
+  nameWithType.vb: Card_property.set_card_property(Int32, Card_rarity, String, card_type, List(Of Effect_tuple), String, String, String, Boolean, Int32, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Cards.Card_property.set_card_property(System.Int32, Card_rarity, System.String, card_type, System.Collections.Generic.List(Of Effect_tuple), System.String, System.String, System.String, System.Boolean, System.Int32, System.Boolean, System.Boolean)
+  name.vb: set_card_property(Int32, Card_rarity, String, card_type, List(Of Effect_tuple), String, String, String, Boolean, Int32, Boolean, Boolean)
+- uid: Assets.Scripts.Cards.Card_property.change_rarity_stars(GameObject,System.String)
+  commentId: M:Assets.Scripts.Cards.Card_property.change_rarity_stars(GameObject,System.String)
+  id: change_rarity_stars(GameObject,System.String)
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: change_rarity_stars(GameObject, String)
+  nameWithType: Card_property.change_rarity_stars(GameObject, String)
+  fullName: Assets.Scripts.Cards.Card_property.change_rarity_stars(GameObject, System.String)
+  type: Method
+  source:
+    id: change_rarity_stars
+    path: ''
+    startLine: 151878
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: public void change_rarity_stars(GameObject card, string input_card_rarity)
+    parameters:
+    - id: card
+      type: Global.GameObject
+    - id: input_card_rarity
+      type: System.String
+    content.vb: Public Sub change_rarity_stars(card As GameObject, input_card_rarity As String)
+  overload: Assets.Scripts.Cards.Card_property.change_rarity_stars*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Cards.Card_property.dynamic_card_builder(GameObject,System.Int32,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Int32,System.Boolean)
+  commentId: M:Assets.Scripts.Cards.Card_property.dynamic_card_builder(GameObject,System.Int32,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Int32,System.Boolean)
+  id: dynamic_card_builder(GameObject,System.Int32,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Int32,System.Boolean)
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: dynamic_card_builder(GameObject, Int32, String, String, String, List<String>, String, String, Int32, Boolean)
+  nameWithType: Card_property.dynamic_card_builder(GameObject, Int32, String, String, String, List<String>, String, String, Int32, Boolean)
+  fullName: Assets.Scripts.Cards.Card_property.dynamic_card_builder(GameObject, System.Int32, System.String, System.String, System.String, System.Collections.Generic.List<System.String>, System.String, System.String, System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: dynamic_card_builder
+    path: ''
+    startLine: 151932
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  summary: "\n加载卡牌文字\n"
+  example: []
+  syntax:
+    content: public void dynamic_card_builder(GameObject card, int input_card_cost, string input_card_rarity, string input_card_name, string input_card_Type, List<string> input_card_Effects, string input_card_favor_text, string input_Card_belong, int Card_count, bool Use_card_count)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: input_card_cost
+      type: System.Int32
+      description: ''
+    - id: input_card_rarity
+      type: System.String
+      description: ''
+    - id: input_card_name
+      type: System.String
+      description: ''
+    - id: input_card_Type
+      type: System.String
+      description: ''
+    - id: input_card_Effects
+      type: System.Collections.Generic.List{System.String}
+      description: ''
+    - id: input_card_favor_text
+      type: System.String
+      description: ''
+    - id: input_Card_belong
+      type: System.String
+      description: ''
+    - id: Card_count
+      type: System.Int32
+      description: ''
+    - id: Use_card_count
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub dynamic_card_builder(card As GameObject, input_card_cost As Integer, input_card_rarity As String, input_card_name As String, input_card_Type As String, input_card_Effects As List(Of String), input_card_favor_text As String, input_Card_belong As String, Card_count As Integer, Use_card_count As Boolean)
+  overload: Assets.Scripts.Cards.Card_property.dynamic_card_builder*
+  nameWithType.vb: Card_property.dynamic_card_builder(GameObject, Int32, String, String, String, List(Of String), String, String, Int32, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Cards.Card_property.dynamic_card_builder(GameObject, System.Int32, System.String, System.String, System.String, System.Collections.Generic.List(Of System.String), System.String, System.String, System.Int32, System.Boolean)
+  name.vb: dynamic_card_builder(GameObject, Int32, String, String, String, List(Of String), String, String, Int32, Boolean)
+- uid: Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  commentId: M:Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  id: set_sorting_orders_of_sub_properties(GameObject,System.Int32)
+  parent: Assets.Scripts.Cards.Card_property
+  langs:
+  - csharp
+  - vb
+  name: set_sorting_orders_of_sub_properties(GameObject, Int32)
+  nameWithType: Card_property.set_sorting_orders_of_sub_properties(GameObject, Int32)
+  fullName: Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties(GameObject, System.Int32)
+  type: Method
+  source:
+    id: set_sorting_orders_of_sub_properties
+    path: ''
+    startLine: 152012
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  summary: "\n处理卡牌文字显示问题, should update this everytime you update the card UI\n"
+  example: []
+  syntax:
+    content: public static void set_sorting_orders_of_sub_properties(GameObject card, int sorting_order)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: sorting_order
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub set_sorting_orders_of_sub_properties(card As GameObject, sorting_order As Integer)
+  overload: Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Cards
+  commentId: N:Assets.Scripts.Cards
+  name: Assets.Scripts.Cards
+  nameWithType: Assets.Scripts.Cards
+  fullName: Assets.Scripts.Cards
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Card_rarity
+  isExternal: true
+  name: Card_rarity
+  nameWithType: Card_rarity
+  fullName: Card_rarity
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.card_type
+  isExternal: true
+  name: card_type
+  nameWithType: card_type
+  fullName: card_type
+- uid: System.Collections.Generic.List{Effect_tuple}
+  commentId: T:System.Collections.Generic.List{Effect_tuple}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Effect_tuple>
+  nameWithType: List<Effect_tuple>
+  fullName: System.Collections.Generic.List<Effect_tuple>
+  nameWithType.vb: List(Of Effect_tuple)
+  fullName.vb: System.Collections.Generic.List(Of Effect_tuple)
+  name.vb: List(Of Effect_tuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Effect_tuple
+    name: Effect_tuple
+    nameWithType: Effect_tuple
+    fullName: Effect_tuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Cards.Card_property.get_card_cost*
+  commentId: Overload:Assets.Scripts.Cards.Card_property.get_card_cost
+  name: get_card_cost
+  nameWithType: Card_property.get_card_cost
+  fullName: Assets.Scripts.Cards.Card_property.get_card_cost
+- uid: Assets.Scripts.Cards.Card_property.set_card_property*
+  commentId: Overload:Assets.Scripts.Cards.Card_property.set_card_property
+  name: set_card_property
+  nameWithType: Card_property.set_card_property
+  fullName: Assets.Scripts.Cards.Card_property.set_card_property
+- uid: Assets.Scripts.Cards.Card_property.change_rarity_stars*
+  commentId: Overload:Assets.Scripts.Cards.Card_property.change_rarity_stars
+  name: change_rarity_stars
+  nameWithType: Card_property.change_rarity_stars
+  fullName: Assets.Scripts.Cards.Card_property.change_rarity_stars
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.Cards.Card_property.dynamic_card_builder*
+  commentId: Overload:Assets.Scripts.Cards.Card_property.dynamic_card_builder
+  name: dynamic_card_builder
+  nameWithType: Card_property.dynamic_card_builder
+  fullName: Assets.Scripts.Cards.Card_property.dynamic_card_builder
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties*
+  commentId: Overload:Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties
+  name: set_sorting_orders_of_sub_properties
+  nameWithType: Card_property.set_sorting_orders_of_sub_properties
+  fullName: Assets.Scripts.Cards.Card_property.set_sorting_orders_of_sub_properties

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Static_Effect
+  commentId: N:Assets.Scripts.Static_Effect
+  id: Assets.Scripts.Static_Effect
+  children:
+  - Assets.Scripts.Static_Effect.effect_saver
+  - Assets.Scripts.Static_Effect.Effects_calculator
+  - Assets.Scripts.Static_Effect.Static_effect
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Static_Effect
+  nameWithType: Assets.Scripts.Static_Effect
+  fullName: Assets.Scripts.Static_Effect
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Static_Effect.Effects_calculator
+  commentId: T:Assets.Scripts.Static_Effect.Effects_calculator
+  name: Effects_calculator
+  nameWithType: Effects_calculator
+  fullName: Assets.Scripts.Static_Effect.Effects_calculator
+- uid: Assets.Scripts.Static_Effect.Static_effect
+  commentId: T:Assets.Scripts.Static_Effect.Static_effect
+  name: Static_effect
+  nameWithType: Static_effect
+  fullName: Assets.Scripts.Static_Effect.Static_effect
+- uid: Assets.Scripts.Static_Effect.effect_saver
+  commentId: T:Assets.Scripts.Static_Effect.effect_saver
+  name: effect_saver
+  nameWithType: effect_saver
+  fullName: Assets.Scripts.Static_Effect.effect_saver

@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map.MOUSE
+  commentId: T:Assets.Scripts.global_map.MOUSE
+  id: MOUSE
+  parent: Assets.Scripts.global_map
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MOUSE
+  nameWithType: MOUSE
+  fullName: Assets.Scripts.global_map.MOUSE
+  type: Class
+  source:
+    id: MOUSE
+    path: ''
+    startLine: 157322
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n应用于大地图的动画按钮\n"
+  example: []
+  syntax:
+    content: 'public class MOUSE : MonoBehaviour'
+    content.vb: >-
+      Public Class MOUSE
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

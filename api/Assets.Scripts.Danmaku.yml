@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Danmaku
+  commentId: N:Assets.Scripts.Danmaku
+  id: Assets.Scripts.Danmaku
+  children:
+  - Assets.Scripts.Danmaku.danmaku
+  - Assets.Scripts.Danmaku.danmaku_list
+  - Assets.Scripts.Danmaku.Single_danmaku
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Danmaku
+  nameWithType: Assets.Scripts.Danmaku
+  fullName: Assets.Scripts.Danmaku
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Danmaku.danmaku
+  commentId: T:Assets.Scripts.Danmaku.danmaku
+  parent: Assets.Scripts.Danmaku
+  name: danmaku
+  nameWithType: danmaku
+  fullName: Assets.Scripts.Danmaku.danmaku
+- uid: Assets.Scripts.Danmaku.danmaku_list
+  commentId: T:Assets.Scripts.Danmaku.danmaku_list
+  name: danmaku_list
+  nameWithType: danmaku_list
+  fullName: Assets.Scripts.Danmaku.danmaku_list
+- uid: Assets.Scripts.Danmaku.Single_danmaku
+  commentId: T:Assets.Scripts.Danmaku.Single_danmaku
+  name: Single_danmaku
+  nameWithType: Single_danmaku
+  fullName: Assets.Scripts.Danmaku.Single_danmaku
+- uid: Assets.Scripts.Danmaku
+  commentId: N:Assets.Scripts.Danmaku
+  name: Assets.Scripts.Danmaku
+  nameWithType: Assets.Scripts.Danmaku
+  fullName: Assets.Scripts.Danmaku

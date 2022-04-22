@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Select_state
+  commentId: T:Assets.Scripts.Utility.Select_state
+  id: Select_state
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Select_state.card_select
+  - Assets.Scripts.Utility.Select_state.No_card_select
+  langs:
+  - csharp
+  - vb
+  name: Select_state
+  nameWithType: Select_state
+  fullName: Assets.Scripts.Utility.Select_state
+  type: Enum
+  source:
+    id: Select_state
+    path: ''
+    startLine: 163074
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n卡牌选择状态机\n"
+  example: []
+  syntax:
+    content: public enum Select_state
+    content.vb: Public Enum Select_state
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.Select_state.No_card_select
+  commentId: F:Assets.Scripts.Utility.Select_state.No_card_select
+  id: No_card_select
+  parent: Assets.Scripts.Utility.Select_state
+  langs:
+  - csharp
+  - vb
+  name: No_card_select
+  nameWithType: Select_state.No_card_select
+  fullName: Assets.Scripts.Utility.Select_state.No_card_select
+  type: Field
+  source:
+    id: No_card_select
+    path: ''
+    startLine: 163076
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: No_card_select = 0
+    return:
+      type: Assets.Scripts.Utility.Select_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.Select_state.card_select
+  commentId: F:Assets.Scripts.Utility.Select_state.card_select
+  id: card_select
+  parent: Assets.Scripts.Utility.Select_state
+  langs:
+  - csharp
+  - vb
+  name: card_select
+  nameWithType: Select_state.card_select
+  fullName: Assets.Scripts.Utility.Select_state.card_select
+  type: Field
+  source:
+    id: card_select
+    path: ''
+    startLine: 163077
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: card_select = 1
+    return:
+      type: Assets.Scripts.Utility.Select_state
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.Select_state
+  commentId: T:Assets.Scripts.Utility.Select_state
+  parent: Assets.Scripts.Utility
+  name: Select_state
+  nameWithType: Select_state
+  fullName: Assets.Scripts.Utility.Select_state

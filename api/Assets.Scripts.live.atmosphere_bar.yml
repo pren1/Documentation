@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.atmosphere_bar
+  commentId: T:Assets.Scripts.live.atmosphere_bar
+  id: atmosphere_bar
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.atmosphere_bar.static_TextMeshProUGUI
+  - Assets.Scripts.live.atmosphere_bar.TextMeshProUGUI
+  - Assets.Scripts.live.atmosphere_bar.update_score(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: atmosphere_bar
+  nameWithType: atmosphere_bar
+  fullName: Assets.Scripts.live.atmosphere_bar
+  type: Class
+  source:
+    id: atmosphere_bar
+    path: ''
+    startLine: 158655
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: 'public class atmosphere_bar : MonoBehaviour'
+    content.vb: >-
+      Public Class atmosphere_bar
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.atmosphere_bar.TextMeshProUGUI
+  commentId: F:Assets.Scripts.live.atmosphere_bar.TextMeshProUGUI
+  id: TextMeshProUGUI
+  parent: Assets.Scripts.live.atmosphere_bar
+  langs:
+  - csharp
+  - vb
+  name: TextMeshProUGUI
+  nameWithType: atmosphere_bar.TextMeshProUGUI
+  fullName: Assets.Scripts.live.atmosphere_bar.TextMeshProUGUI
+  type: Field
+  source:
+    id: TextMeshProUGUI
+    path: ''
+    startLine: 158663
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public TextMeshProUGUI TextMeshProUGUI
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public TextMeshProUGUI As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.atmosphere_bar.static_TextMeshProUGUI
+  commentId: F:Assets.Scripts.live.atmosphere_bar.static_TextMeshProUGUI
+  id: static_TextMeshProUGUI
+  parent: Assets.Scripts.live.atmosphere_bar
+  langs:
+  - csharp
+  - vb
+  name: static_TextMeshProUGUI
+  nameWithType: atmosphere_bar.static_TextMeshProUGUI
+  fullName: Assets.Scripts.live.atmosphere_bar.static_TextMeshProUGUI
+  type: Field
+  source:
+    id: static_TextMeshProUGUI
+    path: ''
+    startLine: 158664
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public static TextMeshProUGUI static_TextMeshProUGUI
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public Shared static_TextMeshProUGUI As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.live.atmosphere_bar.update_score(System.Int32)
+  commentId: M:Assets.Scripts.live.atmosphere_bar.update_score(System.Int32)
+  id: update_score(System.Int32)
+  parent: Assets.Scripts.live.atmosphere_bar
+  langs:
+  - csharp
+  - vb
+  name: update_score(Int32)
+  nameWithType: atmosphere_bar.update_score(Int32)
+  fullName: Assets.Scripts.live.atmosphere_bar.update_score(System.Int32)
+  type: Method
+  source:
+    id: update_score
+    path: ''
+    startLine: 158675
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public static void update_score(int new_score)
+    parameters:
+    - id: new_score
+      type: System.Int32
+    content.vb: Public Shared Sub update_score(new_score As Integer)
+  overload: Assets.Scripts.live.atmosphere_bar.update_score*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Assets.Scripts.live.atmosphere_bar.update_score*
+  commentId: Overload:Assets.Scripts.live.atmosphere_bar.update_score
+  name: update_score
+  nameWithType: atmosphere_bar.update_score
+  fullName: Assets.Scripts.live.atmosphere_bar.update_score
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

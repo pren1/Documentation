@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.stage_clear.claim_prize
+  commentId: T:Assets.Scripts.stage_clear.claim_prize
+  id: claim_prize
+  parent: Assets.Scripts.stage_clear
+  children:
+  - Assets.Scripts.stage_clear.claim_prize.claim_my_prize
+  langs:
+  - csharp
+  - vb
+  name: claim_prize
+  nameWithType: claim_prize
+  fullName: Assets.Scripts.stage_clear.claim_prize
+  type: Class
+  source:
+    id: claim_prize
+    path: ''
+    startLine: 160370
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.stage_clear
+  syntax:
+    content: 'public class claim_prize : MonoBehaviour'
+    content.vb: >-
+      Public Class claim_prize
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.stage_clear.claim_prize.claim_my_prize
+  commentId: M:Assets.Scripts.stage_clear.claim_prize.claim_my_prize
+  id: claim_my_prize
+  parent: Assets.Scripts.stage_clear.claim_prize
+  langs:
+  - csharp
+  - vb
+  name: claim_my_prize()
+  nameWithType: claim_prize.claim_my_prize()
+  fullName: Assets.Scripts.stage_clear.claim_prize.claim_my_prize()
+  type: Method
+  source:
+    id: claim_my_prize
+    path: ''
+    startLine: 160372
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.stage_clear
+  syntax:
+    content: public void claim_my_prize()
+    content.vb: Public Sub claim_my_prize
+  overload: Assets.Scripts.stage_clear.claim_prize.claim_my_prize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.stage_clear
+  commentId: N:Assets.Scripts.stage_clear
+  name: Assets.Scripts.stage_clear
+  nameWithType: Assets.Scripts.stage_clear
+  fullName: Assets.Scripts.stage_clear
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.stage_clear.claim_prize.claim_my_prize*
+  commentId: Overload:Assets.Scripts.stage_clear.claim_prize.claim_my_prize
+  name: claim_my_prize
+  nameWithType: claim_prize.claim_my_prize
+  fullName: Assets.Scripts.stage_clear.claim_prize.claim_my_prize

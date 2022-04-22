@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Set_initial_cursor
+  commentId: T:Assets.Scripts.Utility.Set_initial_cursor
+  id: Set_initial_cursor
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Set_initial_cursor.cursorMode
+  - Assets.Scripts.Utility.Set_initial_cursor.cursorTexture
+  - Assets.Scripts.Utility.Set_initial_cursor.hotSpot
+  langs:
+  - csharp
+  - vb
+  name: Set_initial_cursor
+  nameWithType: Set_initial_cursor
+  fullName: Assets.Scripts.Utility.Set_initial_cursor
+  type: Class
+  source:
+    id: Set_initial_cursor
+    path: ''
+    startLine: 163512
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n鼠标图案设置\n"
+  example: []
+  syntax:
+    content: 'public class Set_initial_cursor : MonoBehaviour'
+    content.vb: >-
+      Public Class Set_initial_cursor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Utility.Set_initial_cursor.cursorTexture
+  commentId: F:Assets.Scripts.Utility.Set_initial_cursor.cursorTexture
+  id: cursorTexture
+  parent: Assets.Scripts.Utility.Set_initial_cursor
+  langs:
+  - csharp
+  - vb
+  name: cursorTexture
+  nameWithType: Set_initial_cursor.cursorTexture
+  fullName: Assets.Scripts.Utility.Set_initial_cursor.cursorTexture
+  type: Field
+  source:
+    id: cursorTexture
+    path: ''
+    startLine: 163514
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public Texture2D cursorTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public cursorTexture As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Set_initial_cursor.cursorMode
+  commentId: F:Assets.Scripts.Utility.Set_initial_cursor.cursorMode
+  id: cursorMode
+  parent: Assets.Scripts.Utility.Set_initial_cursor
+  langs:
+  - csharp
+  - vb
+  name: cursorMode
+  nameWithType: Set_initial_cursor.cursorMode
+  fullName: Assets.Scripts.Utility.Set_initial_cursor.cursorMode
+  type: Field
+  source:
+    id: cursorMode
+    path: ''
+    startLine: 163515
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public CursorMode cursorMode
+    return:
+      type: Global.CursorMode
+    content.vb: Public cursorMode As CursorMode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Set_initial_cursor.hotSpot
+  commentId: F:Assets.Scripts.Utility.Set_initial_cursor.hotSpot
+  id: hotSpot
+  parent: Assets.Scripts.Utility.Set_initial_cursor
+  langs:
+  - csharp
+  - vb
+  name: hotSpot
+  nameWithType: Set_initial_cursor.hotSpot
+  fullName: Assets.Scripts.Utility.Set_initial_cursor.hotSpot
+  type: Field
+  source:
+    id: hotSpot
+    path: ''
+    startLine: 163516
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public Vector2 hotSpot
+    return:
+      type: Global.Vector2
+    content.vb: Public hotSpot As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  commentId: '!:Global.Texture2D'
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.CursorMode
+  commentId: '!:Global.CursorMode'
+  isExternal: true
+  name: CursorMode
+  nameWithType: CursorMode
+  fullName: CursorMode
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

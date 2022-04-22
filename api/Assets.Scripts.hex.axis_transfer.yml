@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.hex.axis_transfer
+  commentId: T:Assets.Scripts.hex.axis_transfer
+  id: axis_transfer
+  parent: Assets.Scripts.hex
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: axis_transfer
+  nameWithType: axis_transfer
+  fullName: Assets.Scripts.hex.axis_transfer
+  type: Class
+  source:
+    id: axis_transfer
+    path: ''
+    startLine: 157685
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.hex
+  syntax:
+    content: 'public class axis_transfer : MonoBehaviour'
+    content.vb: >-
+      Public Class axis_transfer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.hex
+  commentId: N:Assets.Scripts.hex
+  name: Assets.Scripts.hex
+  nameWithType: Assets.Scripts.hex
+  fullName: Assets.Scripts.hex
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

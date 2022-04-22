@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.experiments
+  commentId: N:Assets.Scripts.experiments
+  id: Assets.Scripts.experiments
+  children:
+  - Assets.Scripts.experiments.AnyDelegate
+  - Assets.Scripts.experiments.experiments
+  - Assets.Scripts.experiments.pipline_exe
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.experiments
+  nameWithType: Assets.Scripts.experiments
+  fullName: Assets.Scripts.experiments
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.experiments.experiments
+  commentId: T:Assets.Scripts.experiments.experiments
+  name: experiments
+  nameWithType: experiments
+  fullName: Assets.Scripts.experiments.experiments
+- uid: Assets.Scripts.experiments.AnyDelegate
+  commentId: T:Assets.Scripts.experiments.AnyDelegate
+  name: AnyDelegate
+  nameWithType: AnyDelegate
+  fullName: Assets.Scripts.experiments.AnyDelegate
+- uid: Assets.Scripts.experiments.pipline_exe
+  commentId: T:Assets.Scripts.experiments.pipline_exe
+  name: pipline_exe
+  nameWithType: pipline_exe
+  fullName: Assets.Scripts.experiments.pipline_exe

@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.member
+  commentId: T:Assets.Scripts.Json_processor.member
+  id: member
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.member.Character_card_Name
+  - Assets.Scripts.Json_processor.member.Defense
+  - Assets.Scripts.Json_processor.member.effect_text
+  - Assets.Scripts.Json_processor.member.element_type
+  - Assets.Scripts.Json_processor.member.Health
+  - Assets.Scripts.Json_processor.member.Magic
+  - Assets.Scripts.Json_processor.member.Magic_Defense
+  - Assets.Scripts.Json_processor.member.Name
+  - Assets.Scripts.Json_processor.member.Strength
+  langs:
+  - csharp
+  - vb
+  name: member
+  nameWithType: member
+  fullName: Assets.Scripts.Json_processor.member
+  type: Class
+  source:
+    id: member
+    path: ''
+    startLine: 158537
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class member
+    content.vb: >-
+      <Serializable>
+
+      Public Class member
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Json_processor.member.Name
+  commentId: F:Assets.Scripts.Json_processor.member.Name
+  id: Name
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: member.Name
+  fullName: Assets.Scripts.Json_processor.member.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 158543
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.Character_card_Name
+  commentId: F:Assets.Scripts.Json_processor.member.Character_card_Name
+  id: Character_card_Name
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Character_card_Name
+  nameWithType: member.Character_card_Name
+  fullName: Assets.Scripts.Json_processor.member.Character_card_Name
+  type: Field
+  source:
+    id: Character_card_Name
+    path: ''
+    startLine: 158544
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string Character_card_Name
+    return:
+      type: System.String
+    content.vb: Public Character_card_Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.Health
+  commentId: F:Assets.Scripts.Json_processor.member.Health
+  id: Health
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: member.Health
+  fullName: Assets.Scripts.Json_processor.member.Health
+  type: Field
+  source:
+    id: Health
+    path: ''
+    startLine: 158545
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Health
+    return:
+      type: System.Int32
+    content.vb: Public Health As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.Strength
+  commentId: F:Assets.Scripts.Json_processor.member.Strength
+  id: Strength
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Strength
+  nameWithType: member.Strength
+  fullName: Assets.Scripts.Json_processor.member.Strength
+  type: Field
+  source:
+    id: Strength
+    path: ''
+    startLine: 158546
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Strength
+    return:
+      type: System.Int32
+    content.vb: Public Strength As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.Defense
+  commentId: F:Assets.Scripts.Json_processor.member.Defense
+  id: Defense
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Defense
+  nameWithType: member.Defense
+  fullName: Assets.Scripts.Json_processor.member.Defense
+  type: Field
+  source:
+    id: Defense
+    path: ''
+    startLine: 158547
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Defense
+    return:
+      type: System.Int32
+    content.vb: Public Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.Magic
+  commentId: F:Assets.Scripts.Json_processor.member.Magic
+  id: Magic
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Magic
+  nameWithType: member.Magic
+  fullName: Assets.Scripts.Json_processor.member.Magic
+  type: Field
+  source:
+    id: Magic
+    path: ''
+    startLine: 158548
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Magic
+    return:
+      type: System.Int32
+    content.vb: Public Magic As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.Magic_Defense
+  commentId: F:Assets.Scripts.Json_processor.member.Magic_Defense
+  id: Magic_Defense
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: Magic_Defense
+  nameWithType: member.Magic_Defense
+  fullName: Assets.Scripts.Json_processor.member.Magic_Defense
+  type: Field
+  source:
+    id: Magic_Defense
+    path: ''
+    startLine: 158549
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Magic_Defense
+    return:
+      type: System.Int32
+    content.vb: Public Magic_Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.effect_text
+  commentId: F:Assets.Scripts.Json_processor.member.effect_text
+  id: effect_text
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: effect_text
+  nameWithType: member.effect_text
+  fullName: Assets.Scripts.Json_processor.member.effect_text
+  type: Field
+  source:
+    id: effect_text
+    path: ''
+    startLine: 158550
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string effect_text
+    return:
+      type: System.String
+    content.vb: Public effect_text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.member.element_type
+  commentId: F:Assets.Scripts.Json_processor.member.element_type
+  id: element_type
+  parent: Assets.Scripts.Json_processor.member
+  langs:
+  - csharp
+  - vb
+  name: element_type
+  nameWithType: member.element_type
+  fullName: Assets.Scripts.Json_processor.member.element_type
+  type: Field
+  source:
+    id: element_type
+    path: ''
+    startLine: 158551
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string element_type
+    return:
+      type: System.String
+    content.vb: Public element_type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

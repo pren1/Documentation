@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Effect.Show_effect
+  commentId: T:Assets.Scripts.Effect.Show_effect
+  id: Show_effect
+  parent: Assets.Scripts.Effect
+  children:
+  - Assets.Scripts.Effect.Show_effect.SpawnEffect(Vector2,card_effect)
+  langs:
+  - csharp
+  - vb
+  name: Show_effect
+  nameWithType: Show_effect
+  fullName: Assets.Scripts.Effect.Show_effect
+  type: Class
+  source:
+    id: Show_effect
+    path: ''
+    startLine: 155401
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  summary: "\n战斗场景动画效果\n"
+  example: []
+  syntax:
+    content: 'public class Show_effect : MonoBehaviour'
+    content.vb: >-
+      Public Class Show_effect
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Effect.Show_effect.SpawnEffect(Vector2,card_effect)
+  commentId: M:Assets.Scripts.Effect.Show_effect.SpawnEffect(Vector2,card_effect)
+  id: SpawnEffect(Vector2,card_effect)
+  parent: Assets.Scripts.Effect.Show_effect
+  langs:
+  - csharp
+  - vb
+  name: SpawnEffect(Vector2, card_effect)
+  nameWithType: Show_effect.SpawnEffect(Vector2, card_effect)
+  fullName: Assets.Scripts.Effect.Show_effect.SpawnEffect(Vector2, card_effect)
+  type: Method
+  source:
+    id: SpawnEffect
+    path: ''
+    startLine: 155476
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect
+  summary: "\n展示动画效果\n"
+  example: []
+  syntax:
+    content: public void SpawnEffect(Vector2 localPosition, card_effect card_Effect)
+    parameters:
+    - id: localPosition
+      type: Global.Vector2
+      description: 展示位置
+    - id: card_Effect
+      type: Global.card_effect
+      description: 卡牌效果，用于决定展示动画类型
+    content.vb: Public Sub SpawnEffect(localPosition As Vector2, card_Effect As card_effect)
+  overload: Assets.Scripts.Effect.Show_effect.SpawnEffect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Effect
+  commentId: N:Assets.Scripts.Effect
+  name: Assets.Scripts.Effect
+  nameWithType: Assets.Scripts.Effect
+  fullName: Assets.Scripts.Effect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Effect.Show_effect.SpawnEffect*
+  commentId: Overload:Assets.Scripts.Effect.Show_effect.SpawnEffect
+  name: SpawnEffect
+  nameWithType: Show_effect.SpawnEffect
+  fullName: Assets.Scripts.Effect.Show_effect.SpawnEffect
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.card_effect
+  isExternal: true
+  name: card_effect
+  nameWithType: card_effect
+  fullName: card_effect

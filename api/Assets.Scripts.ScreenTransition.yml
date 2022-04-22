@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.ScreenTransition
+  commentId: N:Assets.Scripts.ScreenTransition
+  id: Assets.Scripts.ScreenTransition
+  children:
+  - Assets.Scripts.ScreenTransition.LevelLoaderScript
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.ScreenTransition
+  nameWithType: Assets.Scripts.ScreenTransition
+  fullName: Assets.Scripts.ScreenTransition
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.ScreenTransition.LevelLoaderScript
+  commentId: T:Assets.Scripts.ScreenTransition.LevelLoaderScript
+  name: LevelLoaderScript
+  nameWithType: LevelLoaderScript
+  fullName: Assets.Scripts.ScreenTransition.LevelLoaderScript

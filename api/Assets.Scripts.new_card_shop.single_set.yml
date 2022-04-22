@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.new_card_shop.single_set
+  commentId: T:Assets.Scripts.new_card_shop.single_set
+  id: single_set
+  parent: Assets.Scripts.new_card_shop
+  children:
+  - Assets.Scripts.new_card_shop.single_set.background_image
+  - Assets.Scripts.new_card_shop.single_set.Icon
+  - Assets.Scripts.new_card_shop.single_set.is_limited
+  - Assets.Scripts.new_card_shop.single_set.Label_Tag_Event
+  - Assets.Scripts.new_card_shop.single_set.price
+  - Assets.Scripts.new_card_shop.single_set.set_info(System.String,System.String,System.Int32,System.String,System.Boolean)
+  - Assets.Scripts.new_card_shop.single_set.Text_ListTitle
+  langs:
+  - csharp
+  - vb
+  name: single_set
+  nameWithType: single_set
+  fullName: Assets.Scripts.new_card_shop.single_set
+  type: Class
+  source:
+    id: single_set
+    path: ''
+    startLine: 160284
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  summary: "\n单个商品\n"
+  example: []
+  syntax:
+    content: 'public class single_set : MonoBehaviour'
+    content.vb: >-
+      Public Class single_set
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.new_card_shop.single_set.Text_ListTitle
+  commentId: F:Assets.Scripts.new_card_shop.single_set.Text_ListTitle
+  id: Text_ListTitle
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: Text_ListTitle
+  nameWithType: single_set.Text_ListTitle
+  fullName: Assets.Scripts.new_card_shop.single_set.Text_ListTitle
+  type: Field
+  source:
+    id: Text_ListTitle
+    path: ''
+    startLine: 160286
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public TextMeshProUGUI Text_ListTitle
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public Text_ListTitle As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.single_set.Icon
+  commentId: F:Assets.Scripts.new_card_shop.single_set.Icon
+  id: Icon
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: single_set.Icon
+  fullName: Assets.Scripts.new_card_shop.single_set.Icon
+  type: Field
+  source:
+    id: Icon
+    path: ''
+    startLine: 160287
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public Image Icon
+    return:
+      type: Global.Image
+    content.vb: Public Icon As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.single_set.price
+  commentId: F:Assets.Scripts.new_card_shop.single_set.price
+  id: price
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: price
+  nameWithType: single_set.price
+  fullName: Assets.Scripts.new_card_shop.single_set.price
+  type: Field
+  source:
+    id: price
+    path: ''
+    startLine: 160288
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public TextMeshProUGUI price
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public price As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.single_set.is_limited
+  commentId: F:Assets.Scripts.new_card_shop.single_set.is_limited
+  id: is_limited
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: is_limited
+  nameWithType: single_set.is_limited
+  fullName: Assets.Scripts.new_card_shop.single_set.is_limited
+  type: Field
+  source:
+    id: is_limited
+    path: ''
+    startLine: 160289
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public bool is_limited
+    return:
+      type: System.Boolean
+    content.vb: Public is_limited As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.single_set.Label_Tag_Event
+  commentId: F:Assets.Scripts.new_card_shop.single_set.Label_Tag_Event
+  id: Label_Tag_Event
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: Label_Tag_Event
+  nameWithType: single_set.Label_Tag_Event
+  fullName: Assets.Scripts.new_card_shop.single_set.Label_Tag_Event
+  type: Field
+  source:
+    id: Label_Tag_Event
+    path: ''
+    startLine: 160290
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public GameObject Label_Tag_Event
+    return:
+      type: Global.GameObject
+    content.vb: Public Label_Tag_Event As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.single_set.background_image
+  commentId: F:Assets.Scripts.new_card_shop.single_set.background_image
+  id: background_image
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: background_image
+  nameWithType: single_set.background_image
+  fullName: Assets.Scripts.new_card_shop.single_set.background_image
+  type: Field
+  source:
+    id: background_image
+    path: ''
+    startLine: 160291
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public Image background_image
+    return:
+      type: Global.Image
+    content.vb: Public background_image As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.new_card_shop.single_set.set_info(System.String,System.String,System.Int32,System.String,System.Boolean)
+  commentId: M:Assets.Scripts.new_card_shop.single_set.set_info(System.String,System.String,System.Int32,System.String,System.Boolean)
+  id: set_info(System.String,System.String,System.Int32,System.String,System.Boolean)
+  parent: Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: set_info(String, String, Int32, String, Boolean)
+  nameWithType: single_set.set_info(String, String, Int32, String, Boolean)
+  fullName: Assets.Scripts.new_card_shop.single_set.set_info(System.String, System.String, System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    id: set_info
+    path: ''
+    startLine: 160292
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.new_card_shop
+  syntax:
+    content: public void set_info(string card_set_name, string image_name, int card_price, string background_image_name, bool is_limited)
+    parameters:
+    - id: card_set_name
+      type: System.String
+    - id: image_name
+      type: System.String
+    - id: card_price
+      type: System.Int32
+    - id: background_image_name
+      type: System.String
+    - id: is_limited
+      type: System.Boolean
+    content.vb: Public Sub set_info(card_set_name As String, image_name As String, card_price As Integer, background_image_name As String, is_limited As Boolean)
+  overload: Assets.Scripts.new_card_shop.single_set.set_info*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.new_card_shop
+  commentId: N:Assets.Scripts.new_card_shop
+  name: Assets.Scripts.new_card_shop
+  nameWithType: Assets.Scripts.new_card_shop
+  fullName: Assets.Scripts.new_card_shop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.new_card_shop.single_set.set_info*
+  commentId: Overload:Assets.Scripts.new_card_shop.single_set.set_info
+  name: set_info
+  nameWithType: single_set.set_info
+  fullName: Assets.Scripts.new_card_shop.single_set.set_info
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

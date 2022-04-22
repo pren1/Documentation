@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.Render_manager
+  commentId: T:Assets.Scripts.Game_manager.Render_manager
+  id: Render_manager
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.Render_manager.background
+  - Assets.Scripts.Game_manager.Render_manager.Music_player
+  - Assets.Scripts.Game_manager.Render_manager.sequence_render
+  langs:
+  - csharp
+  - vb
+  name: Render_manager
+  nameWithType: Render_manager
+  fullName: Assets.Scripts.Game_manager.Render_manager
+  type: Class
+  source:
+    id: Render_manager
+    path: ''
+    startLine: 156500
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n在屏幕上渲染各种物体\n"
+  example: []
+  syntax:
+    content: 'public class Render_manager : MonoBehaviour'
+    content.vb: >-
+      Public Class Render_manager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.Render_manager.sequence_render
+  commentId: F:Assets.Scripts.Game_manager.Render_manager.sequence_render
+  id: sequence_render
+  parent: Assets.Scripts.Game_manager.Render_manager
+  langs:
+  - csharp
+  - vb
+  name: sequence_render
+  nameWithType: Render_manager.sequence_render
+  fullName: Assets.Scripts.Game_manager.Render_manager.sequence_render
+  type: Field
+  source:
+    id: sequence_render
+    path: ''
+    startLine: 156502
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public Sequence_Render sequence_render
+    return:
+      type: Assets.Scripts.Game_manager.Sequence_Render
+    content.vb: Public sequence_render As Sequence_Render
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.Render_manager.background
+  commentId: F:Assets.Scripts.Game_manager.Render_manager.background
+  id: background
+  parent: Assets.Scripts.Game_manager.Render_manager
+  langs:
+  - csharp
+  - vb
+  name: background
+  nameWithType: Render_manager.background
+  fullName: Assets.Scripts.Game_manager.Render_manager.background
+  type: Field
+  source:
+    id: background
+    path: ''
+    startLine: 156503
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public GameObject background
+    return:
+      type: Global.GameObject
+    content.vb: Public background As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.Render_manager.Music_player
+  commentId: F:Assets.Scripts.Game_manager.Render_manager.Music_player
+  id: Music_player
+  parent: Assets.Scripts.Game_manager.Render_manager
+  langs:
+  - csharp
+  - vb
+  name: Music_player
+  nameWithType: Render_manager.Music_player
+  fullName: Assets.Scripts.Game_manager.Render_manager.Music_player
+  type: Field
+  source:
+    id: Music_player
+    path: ''
+    startLine: 156504
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public GameObject Music_player
+    return:
+      type: Global.GameObject
+    content.vb: Public Music_player As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Game_manager.Sequence_Render
+  commentId: T:Assets.Scripts.Game_manager.Sequence_Render
+  parent: Assets.Scripts.Game_manager
+  name: Sequence_Render
+  nameWithType: Sequence_Render
+  fullName: Assets.Scripts.Game_manager.Sequence_Render
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.Skill_tuple
+  commentId: T:Assets.Scripts.Utility.Skill_tuple
+  id: Skill_tuple
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.Skill_tuple.#ctor(System.Collections.Generic.List{System.String},System.Boolean,System.Int32)
+  - Assets.Scripts.Utility.Skill_tuple.cooldown_round
+  - Assets.Scripts.Utility.Skill_tuple.effect_text_list
+  - Assets.Scripts.Utility.Skill_tuple.is_passive
+  - Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string
+  langs:
+  - csharp
+  - vb
+  name: Skill_tuple
+  nameWithType: Skill_tuple
+  fullName: Assets.Scripts.Utility.Skill_tuple
+  type: Struct
+  source:
+    id: Skill_tuple
+    path: ''
+    startLine: 163603
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n角色技能struct\n"
+  example: []
+  syntax:
+    content: public struct Skill_tuple
+    content.vb: Public Structure Skill_tuple
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Assets.Scripts.Utility.Skill_tuple.effect_text_list
+  commentId: F:Assets.Scripts.Utility.Skill_tuple.effect_text_list
+  id: effect_text_list
+  parent: Assets.Scripts.Utility.Skill_tuple
+  langs:
+  - csharp
+  - vb
+  name: effect_text_list
+  nameWithType: Skill_tuple.effect_text_list
+  fullName: Assets.Scripts.Utility.Skill_tuple.effect_text_list
+  type: Field
+  source:
+    id: effect_text_list
+    path: ''
+    startLine: 163605
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public List<string> effect_text_list
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public effect_text_list As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Skill_tuple.is_passive
+  commentId: F:Assets.Scripts.Utility.Skill_tuple.is_passive
+  id: is_passive
+  parent: Assets.Scripts.Utility.Skill_tuple
+  langs:
+  - csharp
+  - vb
+  name: is_passive
+  nameWithType: Skill_tuple.is_passive
+  fullName: Assets.Scripts.Utility.Skill_tuple.is_passive
+  type: Field
+  source:
+    id: is_passive
+    path: ''
+    startLine: 163606
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public bool is_passive
+    return:
+      type: System.Boolean
+    content.vb: Public is_passive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Skill_tuple.cooldown_round
+  commentId: F:Assets.Scripts.Utility.Skill_tuple.cooldown_round
+  id: cooldown_round
+  parent: Assets.Scripts.Utility.Skill_tuple
+  langs:
+  - csharp
+  - vb
+  name: cooldown_round
+  nameWithType: Skill_tuple.cooldown_round
+  fullName: Assets.Scripts.Utility.Skill_tuple.cooldown_round
+  type: Field
+  source:
+    id: cooldown_round
+    path: ''
+    startLine: 163607
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public int cooldown_round
+    return:
+      type: System.Int32
+    content.vb: Public cooldown_round As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Utility.Skill_tuple.#ctor(System.Collections.Generic.List{System.String},System.Boolean,System.Int32)
+  commentId: M:Assets.Scripts.Utility.Skill_tuple.#ctor(System.Collections.Generic.List{System.String},System.Boolean,System.Int32)
+  id: '#ctor(System.Collections.Generic.List{System.String},System.Boolean,System.Int32)'
+  parent: Assets.Scripts.Utility.Skill_tuple
+  langs:
+  - csharp
+  - vb
+  name: Skill_tuple(List<String>, Boolean, Int32)
+  nameWithType: Skill_tuple.Skill_tuple(List<String>, Boolean, Int32)
+  fullName: Assets.Scripts.Utility.Skill_tuple.Skill_tuple(System.Collections.Generic.List<System.String>, System.Boolean, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 163609
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public Skill_tuple(List<string> effect_text_list, bool is_passive, int cooldown_round)
+    parameters:
+    - id: effect_text_list
+      type: System.Collections.Generic.List{System.String}
+    - id: is_passive
+      type: System.Boolean
+    - id: cooldown_round
+      type: System.Int32
+    content.vb: Public Sub New(effect_text_list As List(Of String), is_passive As Boolean, cooldown_round As Integer)
+  overload: Assets.Scripts.Utility.Skill_tuple.#ctor*
+  nameWithType.vb: Skill_tuple.Skill_tuple(List(Of String), Boolean, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assets.Scripts.Utility.Skill_tuple.Skill_tuple(System.Collections.Generic.List(Of System.String), System.Boolean, System.Int32)
+  name.vb: Skill_tuple(List(Of String), Boolean, Int32)
+- uid: Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string
+  commentId: M:Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string
+  id: Skill_explaination_string
+  parent: Assets.Scripts.Utility.Skill_tuple
+  langs:
+  - csharp
+  - vb
+  name: Skill_explaination_string()
+  nameWithType: Skill_tuple.Skill_explaination_string()
+  fullName: Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string()
+  type: Method
+  source:
+    id: Skill_explaination_string
+    path: ''
+    startLine: 163616
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: public string Skill_explaination_string()
+    return:
+      type: System.String
+    content.vb: Public Function Skill_explaination_string As String
+  overload: Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Utility.Skill_tuple.#ctor*
+  commentId: Overload:Assets.Scripts.Utility.Skill_tuple.#ctor
+  name: Skill_tuple
+  nameWithType: Skill_tuple.Skill_tuple
+  fullName: Assets.Scripts.Utility.Skill_tuple.Skill_tuple
+- uid: Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string*
+  commentId: Overload:Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string
+  name: Skill_explaination_string
+  nameWithType: Skill_tuple.Skill_explaination_string
+  fullName: Assets.Scripts.Utility.Skill_tuple.Skill_explaination_string
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.battle_variables
+  commentId: T:Assets.Scripts.Game_manager.battle_variables
+  id: battle_variables
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.battle_variables.Background_name
+  - Assets.Scripts.Game_manager.battle_variables.battle_monster_name_list
+  - Assets.Scripts.Game_manager.battle_variables.BGM_name
+  - Assets.Scripts.Game_manager.battle_variables.current_state_index
+  - Assets.Scripts.Game_manager.battle_variables.set_battle_variables(Assets.Scripts.Game_manager.Non_static_battle_variables)
+  langs:
+  - csharp
+  - vb
+  name: battle_variables
+  nameWithType: battle_variables
+  fullName: Assets.Scripts.Game_manager.battle_variables
+  type: Class
+  source:
+    id: battle_variables
+    path: ''
+    startLine: 156020
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n静态战场变量类，可以被不同场景访问\n"
+  example: []
+  syntax:
+    content: public static class battle_variables
+    content.vb: Public Module battle_variables
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.Game_manager.battle_variables.current_state_index
+  commentId: F:Assets.Scripts.Game_manager.battle_variables.current_state_index
+  id: current_state_index
+  parent: Assets.Scripts.Game_manager.battle_variables
+  langs:
+  - csharp
+  - vb
+  name: current_state_index
+  nameWithType: battle_variables.current_state_index
+  fullName: Assets.Scripts.Game_manager.battle_variables.current_state_index
+  type: Field
+  source:
+    id: current_state_index
+    path: ''
+    startLine: 156023
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static int current_state_index
+    return:
+      type: System.Int32
+    content.vb: Public Shared current_state_index As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.battle_variables.battle_monster_name_list
+  commentId: F:Assets.Scripts.Game_manager.battle_variables.battle_monster_name_list
+  id: battle_monster_name_list
+  parent: Assets.Scripts.Game_manager.battle_variables
+  langs:
+  - csharp
+  - vb
+  name: battle_monster_name_list
+  nameWithType: battle_variables.battle_monster_name_list
+  fullName: Assets.Scripts.Game_manager.battle_variables.battle_monster_name_list
+  type: Field
+  source:
+    id: battle_monster_name_list
+    path: ''
+    startLine: 156024
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static List<List<string>> battle_monster_name_list
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.List{System.String}}
+    content.vb: Public Shared battle_monster_name_list As List(Of List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.battle_variables.BGM_name
+  commentId: F:Assets.Scripts.Game_manager.battle_variables.BGM_name
+  id: BGM_name
+  parent: Assets.Scripts.Game_manager.battle_variables
+  langs:
+  - csharp
+  - vb
+  name: BGM_name
+  nameWithType: battle_variables.BGM_name
+  fullName: Assets.Scripts.Game_manager.battle_variables.BGM_name
+  type: Field
+  source:
+    id: BGM_name
+    path: ''
+    startLine: 156026
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string BGM_name
+    return:
+      type: System.String
+    content.vb: Public Shared BGM_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.battle_variables.Background_name
+  commentId: F:Assets.Scripts.Game_manager.battle_variables.Background_name
+  id: Background_name
+  parent: Assets.Scripts.Game_manager.battle_variables
+  langs:
+  - csharp
+  - vb
+  name: Background_name
+  nameWithType: battle_variables.Background_name
+  fullName: Assets.Scripts.Game_manager.battle_variables.Background_name
+  type: Field
+  source:
+    id: Background_name
+    path: ''
+    startLine: 156027
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static string Background_name
+    return:
+      type: System.String
+    content.vb: Public Shared Background_name As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.battle_variables.set_battle_variables(Assets.Scripts.Game_manager.Non_static_battle_variables)
+  commentId: M:Assets.Scripts.Game_manager.battle_variables.set_battle_variables(Assets.Scripts.Game_manager.Non_static_battle_variables)
+  id: set_battle_variables(Assets.Scripts.Game_manager.Non_static_battle_variables)
+  parent: Assets.Scripts.Game_manager.battle_variables
+  langs:
+  - csharp
+  - vb
+  name: set_battle_variables(Non_static_battle_variables)
+  nameWithType: battle_variables.set_battle_variables(Non_static_battle_variables)
+  fullName: Assets.Scripts.Game_manager.battle_variables.set_battle_variables(Assets.Scripts.Game_manager.Non_static_battle_variables)
+  type: Method
+  source:
+    id: set_battle_variables
+    path: ''
+    startLine: 156029
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static void set_battle_variables(Non_static_battle_variables non_Static)
+    parameters:
+    - id: non_Static
+      type: Assets.Scripts.Game_manager.Non_static_battle_variables
+    content.vb: Public Shared Sub set_battle_variables(non_Static As Non_static_battle_variables)
+  overload: Assets.Scripts.Game_manager.battle_variables.set_battle_variables*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{System.Collections.Generic.List{System.String}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.List{System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<List<String>>
+  nameWithType: List<List<String>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.List<System.String>>
+  nameWithType.vb: List(Of List(Of String))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.List(Of System.String))
+  name.vb: List(Of List(Of String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.Game_manager.battle_variables.set_battle_variables*
+  commentId: Overload:Assets.Scripts.Game_manager.battle_variables.set_battle_variables
+  name: set_battle_variables
+  nameWithType: battle_variables.set_battle_variables
+  fullName: Assets.Scripts.Game_manager.battle_variables.set_battle_variables
+- uid: Assets.Scripts.Game_manager.Non_static_battle_variables
+  commentId: T:Assets.Scripts.Game_manager.Non_static_battle_variables
+  parent: Assets.Scripts.Game_manager
+  name: Non_static_battle_variables
+  nameWithType: Non_static_battle_variables
+  fullName: Assets.Scripts.Game_manager.Non_static_battle_variables

@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Debug.anime_tuple
+  commentId: T:Assets.Scripts.Debug.anime_tuple
+  id: anime_tuple
+  parent: Assets.Scripts.Debug
+  children:
+  - Assets.Scripts.Debug.anime_tuple.#ctor(System.String,System.Collections.IEnumerator,GameObject)
+  - Assets.Scripts.Debug.anime_tuple.animation_name
+  - Assets.Scripts.Debug.anime_tuple.enumerator
+  - Assets.Scripts.Debug.anime_tuple.gameObj
+  langs:
+  - csharp
+  - vb
+  name: anime_tuple
+  nameWithType: anime_tuple
+  fullName: Assets.Scripts.Debug.anime_tuple
+  type: Class
+  source:
+    id: anime_tuple
+    path: ''
+    startLine: 155114
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public class anime_tuple
+    content.vb: Public Class anime_tuple
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Debug.anime_tuple.animation_name
+  commentId: F:Assets.Scripts.Debug.anime_tuple.animation_name
+  id: animation_name
+  parent: Assets.Scripts.Debug.anime_tuple
+  langs:
+  - csharp
+  - vb
+  name: animation_name
+  nameWithType: anime_tuple.animation_name
+  fullName: Assets.Scripts.Debug.anime_tuple.animation_name
+  type: Field
+  source:
+    id: animation_name
+    path: ''
+    startLine: 155115
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public string animation_name
+    return:
+      type: System.String
+    content.vb: Public animation_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Debug.anime_tuple.enumerator
+  commentId: F:Assets.Scripts.Debug.anime_tuple.enumerator
+  id: enumerator
+  parent: Assets.Scripts.Debug.anime_tuple
+  langs:
+  - csharp
+  - vb
+  name: enumerator
+  nameWithType: anime_tuple.enumerator
+  fullName: Assets.Scripts.Debug.anime_tuple.enumerator
+  type: Field
+  source:
+    id: enumerator
+    path: ''
+    startLine: 155116
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public IEnumerator enumerator
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public enumerator As IEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Debug.anime_tuple.gameObj
+  commentId: F:Assets.Scripts.Debug.anime_tuple.gameObj
+  id: gameObj
+  parent: Assets.Scripts.Debug.anime_tuple
+  langs:
+  - csharp
+  - vb
+  name: gameObj
+  nameWithType: anime_tuple.gameObj
+  fullName: Assets.Scripts.Debug.anime_tuple.gameObj
+  type: Field
+  source:
+    id: gameObj
+    path: ''
+    startLine: 155117
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public GameObject gameObj
+    return:
+      type: Global.GameObject
+    content.vb: Public gameObj As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Debug.anime_tuple.#ctor(System.String,System.Collections.IEnumerator,GameObject)
+  commentId: M:Assets.Scripts.Debug.anime_tuple.#ctor(System.String,System.Collections.IEnumerator,GameObject)
+  id: '#ctor(System.String,System.Collections.IEnumerator,GameObject)'
+  parent: Assets.Scripts.Debug.anime_tuple
+  langs:
+  - csharp
+  - vb
+  name: anime_tuple(String, IEnumerator, GameObject)
+  nameWithType: anime_tuple.anime_tuple(String, IEnumerator, GameObject)
+  fullName: Assets.Scripts.Debug.anime_tuple.anime_tuple(System.String, System.Collections.IEnumerator, GameObject)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 155119
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public anime_tuple(string animation_name, IEnumerator enumerator, GameObject gameObj)
+    parameters:
+    - id: animation_name
+      type: System.String
+    - id: enumerator
+      type: System.Collections.IEnumerator
+    - id: gameObj
+      type: Global.GameObject
+    content.vb: Public Sub New(animation_name As String, enumerator As IEnumerator, gameObj As GameObject)
+  overload: Assets.Scripts.Debug.anime_tuple.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Debug
+  commentId: N:Assets.Scripts.Debug
+  name: Assets.Scripts.Debug
+  nameWithType: Assets.Scripts.Debug
+  fullName: Assets.Scripts.Debug
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Assets.Scripts.Debug.anime_tuple.#ctor*
+  commentId: Overload:Assets.Scripts.Debug.anime_tuple.#ctor
+  name: anime_tuple
+  nameWithType: anime_tuple.anime_tuple
+  fullName: Assets.Scripts.Debug.anime_tuple.anime_tuple

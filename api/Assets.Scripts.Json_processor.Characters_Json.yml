@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.Characters_Json
+  commentId: T:Assets.Scripts.Json_processor.Characters_Json
+  id: Characters_Json
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.Characters_Json.members
+  - Assets.Scripts.Json_processor.Characters_Json.monsters
+  langs:
+  - csharp
+  - vb
+  name: Characters_Json
+  nameWithType: Characters_Json
+  fullName: Assets.Scripts.Json_processor.Characters_Json
+  type: Class
+  source:
+    id: Characters_Json
+    path: ''
+    startLine: 158526
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Characters_Json
+    content.vb: >-
+      <Serializable>
+
+      Public Class Characters_Json
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Json_processor.Characters_Json.monsters
+  commentId: F:Assets.Scripts.Json_processor.Characters_Json.monsters
+  id: monsters
+  parent: Assets.Scripts.Json_processor.Characters_Json
+  langs:
+  - csharp
+  - vb
+  name: monsters
+  nameWithType: Characters_Json.monsters
+  fullName: Assets.Scripts.Json_processor.Characters_Json.monsters
+  type: Field
+  source:
+    id: monsters
+    path: ''
+    startLine: 158532
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public monster[] monsters
+    return:
+      type: Assets.Scripts.Json_processor.monster[]
+    content.vb: Public monsters As monster()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.Characters_Json.members
+  commentId: F:Assets.Scripts.Json_processor.Characters_Json.members
+  id: members
+  parent: Assets.Scripts.Json_processor.Characters_Json
+  langs:
+  - csharp
+  - vb
+  name: members
+  nameWithType: Characters_Json.members
+  fullName: Assets.Scripts.Json_processor.Characters_Json.members
+  type: Field
+  source:
+    id: members
+    path: ''
+    startLine: 158533
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public member[] members
+    return:
+      type: Assets.Scripts.Json_processor.member[]
+    content.vb: Public members As member()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Json_processor.monster[]
+  isExternal: true
+  name: monster[]
+  nameWithType: monster[]
+  fullName: Assets.Scripts.Json_processor.monster[]
+  nameWithType.vb: monster()
+  fullName.vb: Assets.Scripts.Json_processor.monster()
+  name.vb: monster()
+  spec.csharp:
+  - uid: Assets.Scripts.Json_processor.monster
+    name: monster
+    nameWithType: monster
+    fullName: Assets.Scripts.Json_processor.monster
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Assets.Scripts.Json_processor.monster
+    name: monster
+    nameWithType: monster
+    fullName: Assets.Scripts.Json_processor.monster
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Assets.Scripts.Json_processor.member[]
+  isExternal: true
+  name: member[]
+  nameWithType: member[]
+  fullName: Assets.Scripts.Json_processor.member[]
+  nameWithType.vb: member()
+  fullName.vb: Assets.Scripts.Json_processor.member()
+  name.vb: member()
+  spec.csharp:
+  - uid: Assets.Scripts.Json_processor.member
+    name: member
+    nameWithType: member
+    fullName: Assets.Scripts.Json_processor.member
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Assets.Scripts.Json_processor.member
+    name: member
+    nameWithType: member
+    fullName: Assets.Scripts.Json_processor.member
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.monster
+  commentId: T:Assets.Scripts.Json_processor.monster
+  id: monster
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.monster.anime_effect_text
+  - Assets.Scripts.Json_processor.monster.Defense
+  - Assets.Scripts.Json_processor.monster.element_type
+  - Assets.Scripts.Json_processor.monster.Health
+  - Assets.Scripts.Json_processor.monster.Magic
+  - Assets.Scripts.Json_processor.monster.Magic_Defense
+  - Assets.Scripts.Json_processor.monster.Money
+  - Assets.Scripts.Json_processor.monster.monster_level
+  - Assets.Scripts.Json_processor.monster.Name
+  - Assets.Scripts.Json_processor.monster.Strength
+  langs:
+  - csharp
+  - vb
+  name: monster
+  nameWithType: monster
+  fullName: Assets.Scripts.Json_processor.monster
+  type: Class
+  source:
+    id: monster
+    path: ''
+    startLine: 158555
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class monster
+    content.vb: >-
+      <Serializable>
+
+      Public Class monster
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Json_processor.monster.Name
+  commentId: F:Assets.Scripts.Json_processor.monster.Name
+  id: Name
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: monster.Name
+  fullName: Assets.Scripts.Json_processor.monster.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 158561
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.Health
+  commentId: F:Assets.Scripts.Json_processor.monster.Health
+  id: Health
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: monster.Health
+  fullName: Assets.Scripts.Json_processor.monster.Health
+  type: Field
+  source:
+    id: Health
+    path: ''
+    startLine: 158562
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Health
+    return:
+      type: System.Int32
+    content.vb: Public Health As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.Strength
+  commentId: F:Assets.Scripts.Json_processor.monster.Strength
+  id: Strength
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Strength
+  nameWithType: monster.Strength
+  fullName: Assets.Scripts.Json_processor.monster.Strength
+  type: Field
+  source:
+    id: Strength
+    path: ''
+    startLine: 158563
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Strength
+    return:
+      type: System.Int32
+    content.vb: Public Strength As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.Defense
+  commentId: F:Assets.Scripts.Json_processor.monster.Defense
+  id: Defense
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Defense
+  nameWithType: monster.Defense
+  fullName: Assets.Scripts.Json_processor.monster.Defense
+  type: Field
+  source:
+    id: Defense
+    path: ''
+    startLine: 158564
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Defense
+    return:
+      type: System.Int32
+    content.vb: Public Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.Money
+  commentId: F:Assets.Scripts.Json_processor.monster.Money
+  id: Money
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Money
+  nameWithType: monster.Money
+  fullName: Assets.Scripts.Json_processor.monster.Money
+  type: Field
+  source:
+    id: Money
+    path: ''
+    startLine: 158565
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Money
+    return:
+      type: System.Int32
+    content.vb: Public Money As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.Magic
+  commentId: F:Assets.Scripts.Json_processor.monster.Magic
+  id: Magic
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Magic
+  nameWithType: monster.Magic
+  fullName: Assets.Scripts.Json_processor.monster.Magic
+  type: Field
+  source:
+    id: Magic
+    path: ''
+    startLine: 158566
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Magic
+    return:
+      type: System.Int32
+    content.vb: Public Magic As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.Magic_Defense
+  commentId: F:Assets.Scripts.Json_processor.monster.Magic_Defense
+  id: Magic_Defense
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: Magic_Defense
+  nameWithType: monster.Magic_Defense
+  fullName: Assets.Scripts.Json_processor.monster.Magic_Defense
+  type: Field
+  source:
+    id: Magic_Defense
+    path: ''
+    startLine: 158567
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public int Magic_Defense
+    return:
+      type: System.Int32
+    content.vb: Public Magic_Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.anime_effect_text
+  commentId: F:Assets.Scripts.Json_processor.monster.anime_effect_text
+  id: anime_effect_text
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: anime_effect_text
+  nameWithType: monster.anime_effect_text
+  fullName: Assets.Scripts.Json_processor.monster.anime_effect_text
+  type: Field
+  source:
+    id: anime_effect_text
+    path: ''
+    startLine: 158568
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public List<anime_effect_text> anime_effect_text
+    return:
+      type: System.Collections.Generic.List{Assets.Scripts.Json_processor.anime_effect_text}
+    content.vb: Public anime_effect_text As List(Of anime_effect_text)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.element_type
+  commentId: F:Assets.Scripts.Json_processor.monster.element_type
+  id: element_type
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: element_type
+  nameWithType: monster.element_type
+  fullName: Assets.Scripts.Json_processor.monster.element_type
+  type: Field
+  source:
+    id: element_type
+    path: ''
+    startLine: 158569
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string element_type
+    return:
+      type: System.String
+    content.vb: Public element_type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.monster.monster_level
+  commentId: F:Assets.Scripts.Json_processor.monster.monster_level
+  id: monster_level
+  parent: Assets.Scripts.Json_processor.monster
+  langs:
+  - csharp
+  - vb
+  name: monster_level
+  nameWithType: monster.monster_level
+  fullName: Assets.Scripts.Json_processor.monster.monster_level
+  type: Field
+  source:
+    id: monster_level
+    path: ''
+    startLine: 158570
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string monster_level
+    return:
+      type: System.String
+    content.vb: Public monster_level As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{Assets.Scripts.Json_processor.anime_effect_text}
+  commentId: T:System.Collections.Generic.List{Assets.Scripts.Json_processor.anime_effect_text}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<anime_effect_text>
+  nameWithType: List<anime_effect_text>
+  fullName: System.Collections.Generic.List<Assets.Scripts.Json_processor.anime_effect_text>
+  nameWithType.vb: List(Of anime_effect_text)
+  fullName.vb: System.Collections.Generic.List(Of Assets.Scripts.Json_processor.anime_effect_text)
+  name.vb: List(Of anime_effect_text)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assets.Scripts.Json_processor.anime_effect_text
+    name: anime_effect_text
+    nameWithType: anime_effect_text
+    fullName: Assets.Scripts.Json_processor.anime_effect_text
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assets.Scripts.Json_processor.anime_effect_text
+    name: anime_effect_text
+    nameWithType: anime_effect_text
+    fullName: Assets.Scripts.Json_processor.anime_effect_text
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

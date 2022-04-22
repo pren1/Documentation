@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor.anime_effect_text
+  commentId: T:Assets.Scripts.Json_processor.anime_effect_text
+  id: anime_effect_text
+  parent: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.anime_effect_text.anime_name
+  - Assets.Scripts.Json_processor.anime_effect_text.effect_text
+  langs:
+  - csharp
+  - vb
+  name: anime_effect_text
+  nameWithType: anime_effect_text
+  fullName: Assets.Scripts.Json_processor.anime_effect_text
+  type: Class
+  source:
+    id: anime_effect_text
+    path: ''
+    startLine: 158575
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  summary: "\n怪物：动画名称和技能效果类\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class anime_effect_text
+    content.vb: >-
+      <Serializable>
+
+      Public Class anime_effect_text
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Json_processor.anime_effect_text.anime_name
+  commentId: F:Assets.Scripts.Json_processor.anime_effect_text.anime_name
+  id: anime_name
+  parent: Assets.Scripts.Json_processor.anime_effect_text
+  langs:
+  - csharp
+  - vb
+  name: anime_name
+  nameWithType: anime_effect_text.anime_name
+  fullName: Assets.Scripts.Json_processor.anime_effect_text.anime_name
+  type: Field
+  source:
+    id: anime_name
+    path: ''
+    startLine: 158578
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string anime_name
+    return:
+      type: System.String
+    content.vb: Public anime_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Json_processor.anime_effect_text.effect_text
+  commentId: F:Assets.Scripts.Json_processor.anime_effect_text.effect_text
+  id: effect_text
+  parent: Assets.Scripts.Json_processor.anime_effect_text
+  langs:
+  - csharp
+  - vb
+  name: effect_text
+  nameWithType: anime_effect_text.effect_text
+  fullName: Assets.Scripts.Json_processor.anime_effect_text.effect_text
+  type: Field
+  source:
+    id: effect_text
+    path: ''
+    startLine: 158579
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Json_processor
+  syntax:
+    content: public string effect_text
+    return:
+      type: System.String
+    content.vb: Public effect_text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

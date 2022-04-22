@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  id: Assets.Scripts.Dialog
+  children:
+  - Assets.Scripts.Dialog.basic_dialog
+  - Assets.Scripts.Dialog.dialog_json
+  - Assets.Scripts.Dialog.Dialog_loader
+  - Assets.Scripts.Dialog.Dialog_manager
+  - Assets.Scripts.Dialog.single_dialog
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Dialog.Dialog_loader
+  commentId: T:Assets.Scripts.Dialog.Dialog_loader
+  name: Dialog_loader
+  nameWithType: Dialog_loader
+  fullName: Assets.Scripts.Dialog.Dialog_loader
+- uid: Assets.Scripts.Dialog.single_dialog
+  commentId: T:Assets.Scripts.Dialog.single_dialog
+  parent: Assets.Scripts.Dialog
+  name: single_dialog
+  nameWithType: single_dialog
+  fullName: Assets.Scripts.Dialog.single_dialog
+- uid: Assets.Scripts.Dialog.basic_dialog
+  commentId: T:Assets.Scripts.Dialog.basic_dialog
+  parent: Assets.Scripts.Dialog
+  name: basic_dialog
+  nameWithType: basic_dialog
+  fullName: Assets.Scripts.Dialog.basic_dialog
+- uid: Assets.Scripts.Dialog.dialog_json
+  commentId: T:Assets.Scripts.Dialog.dialog_json
+  parent: Assets.Scripts.Dialog
+  name: dialog_json
+  nameWithType: dialog_json
+  fullName: Assets.Scripts.Dialog.dialog_json
+- uid: Assets.Scripts.Dialog.Dialog_manager
+  commentId: T:Assets.Scripts.Dialog.Dialog_manager
+  name: Dialog_manager
+  nameWithType: Dialog_manager
+  fullName: Assets.Scripts.Dialog.Dialog_manager
+- uid: Assets.Scripts.Dialog
+  commentId: N:Assets.Scripts.Dialog
+  name: Assets.Scripts.Dialog
+  nameWithType: Assets.Scripts.Dialog
+  fullName: Assets.Scripts.Dialog

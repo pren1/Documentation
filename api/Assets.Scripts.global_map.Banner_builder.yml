@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map.Banner_builder
+  commentId: T:Assets.Scripts.global_map.Banner_builder
+  id: Banner_builder
+  parent: Assets.Scripts.global_map
+  children:
+  - Assets.Scripts.global_map.Banner_builder.create_banner
+  langs:
+  - csharp
+  - vb
+  name: Banner_builder
+  nameWithType: Banner_builder
+  fullName: Assets.Scripts.global_map.Banner_builder
+  type: Class
+  source:
+    id: Banner_builder
+    path: ''
+    startLine: 157083
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n怪物选择界面背后的旗帜,随机\n"
+  example: []
+  syntax:
+    content: public static class Banner_builder
+    content.vb: Public Module Banner_builder
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Assets.Scripts.global_map.Banner_builder.create_banner
+  commentId: M:Assets.Scripts.global_map.Banner_builder.create_banner
+  id: create_banner
+  parent: Assets.Scripts.global_map.Banner_builder
+  langs:
+  - csharp
+  - vb
+  name: create_banner()
+  nameWithType: Banner_builder.create_banner()
+  fullName: Assets.Scripts.global_map.Banner_builder.create_banner()
+  type: Method
+  source:
+    id: create_banner
+    path: ''
+    startLine: 157123
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public static GameObject create_banner()
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared Function create_banner As GameObject
+  overload: Assets.Scripts.global_map.Banner_builder.create_banner*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.global_map.Banner_builder.create_banner*
+  commentId: Overload:Assets.Scripts.global_map.Banner_builder.create_banner
+  name: create_banner
+  nameWithType: Banner_builder.create_banner
+  fullName: Assets.Scripts.global_map.Banner_builder.create_banner
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

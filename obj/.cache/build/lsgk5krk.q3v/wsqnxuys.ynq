@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Static_effect
+   | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Static_effect
+   | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Static_Effect.Static_effect">
+  
+  
+  <h1 id="Assets_Scripts_Static_Effect_Static_effect" data-uid="Assets.Scripts.Static_Effect.Static_effect" class="text-break">Class Static_effect
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">静态效果类，用于实现各类卡牌效果</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Static_effect</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Static_Effect.html">Assets.Scripts.Static_Effect</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Assets_Scripts_Static_Effect_Static_effect_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Static_effect</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_effect_end_Dictionary" data-uid="Assets.Scripts.Static_Effect.Static_effect.effect_end_Dictionary">effect_end_Dictionary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, List&lt;effect_saver&gt;&gt; effect_end_Dictionary</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Assets.Scripts.Static_Effect.effect_saver.html">effect_saver</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_effect_start_Dictionary" data-uid="Assets.Scripts.Static_Effect.Static_effect.effect_start_Dictionary">effect_start_Dictionary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, List&lt;effect_saver&gt;&gt; effect_start_Dictionary</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Assets.Scripts.Static_Effect.effect_saver.html">effect_saver</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Enemy_dict" data-uid="Assets.Scripts.Static_Effect.Static_effect.Enemy_dict">Enemy_dict</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Enemy&gt; Enemy_dict</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Enemy</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_levelLoaderScript" data-uid="Assets.Scripts.Static_Effect.Static_effect.levelLoaderScript">levelLoaderScript</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LevelLoaderScript levelLoaderScript</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LevelLoaderScript</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Member_dict" data-uid="Assets.Scripts.Static_Effect.Static_effect.Member_dict">Member_dict</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Member&gt; Member_dict</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Member</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_money_Manager" data-uid="Assets.Scripts.Static_Effect.Static_effect.money_Manager">money_Manager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Money_manager money_Manager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Money_manager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_attack_level_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_attack_level*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_attack_level_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_System_Int32_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_attack_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)">Change_attack_level(Character, Character, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_attack_level(Character source, Character target, int amount, bool is_magic)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_magic</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_charge_level_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_charge_level*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_charge_level_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_System_Int32_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_charge_level(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)">Change_charge_level(Character, Character, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_charge_level(Character source, Character target, int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_counter_attack_status_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_counter_attack_status_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_System_Int32_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_counter_attack_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,System.Boolean)">Change_counter_attack_status(Character, Character, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_counter_attack_status(Character source, Character target, int amount, bool is_aoe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_aoe</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_Dizzy_status_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_Dizzy_status_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_Dizzy_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)">Change_Dizzy_status(Character, Character)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_Dizzy_status(Character source, Character target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_health_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_health*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_health_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_System_Int32_card_type_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_health(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32,card_type,System.Boolean)">Change_health(Character, Character, Int32, card_type, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">处理攻击，治疗后生命值变化情况</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_health(Character source, Character target, int amount, card_type source_card_type, bool repeat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">变化量</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">card_type</span></td>
+        <td><span class="parametername">source_card_type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">repeat</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">是否重复攻击，治疗一次</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_taunt_status_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_taunt_status_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_taunt_status(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character)">Change_taunt_status(Character, Character)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_taunt_status(Character source, Character target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_tmp_defense_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_tmp_defense_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_System_Int32_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_tmp_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)">Change_tmp_defense(Character, Character, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_tmp_defense(Character source, Character target, int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Change_tmp_Magic_defense_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Change_tmp_Magic_defense_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_System_Int32_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Change_tmp_Magic_defense(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,System.Int32)">Change_tmp_Magic_defense(Character, Character, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Change_tmp_Magic_defense(Character source, Character target, int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_clean_stats_" data-uid="Assets.Scripts.Static_Effect.Static_effect.clean_stats*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_clean_stats_Assets_Scripts_Character_Character_" data-uid="Assets.Scripts.Static_Effect.Static_effect.clean_stats(Assets.Scripts.Character.Character)">clean_stats(Character)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">消除各种效果
+ToDo: double check this. 可能有漏掉的</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void clean_stats(Character target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Deal_with_need_charge_level_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Deal_with_need_charge_level_System_Collections_Generic_List_Effect_tuple__" data-uid="Assets.Scripts.Static_Effect.Static_effect.Deal_with_need_charge_level(System.Collections.Generic.List{Effect_tuple})">Deal_with_need_charge_level(List&lt;Effect_tuple&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">设置卡牌属性：需要蓄力等级</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Deal_with_need_charge_level(List&lt;Effect_tuple&gt; card_Effects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Effect_tuple</span>&gt;</td>
+        <td><span class="parametername">card_Effects</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_draw_card_" data-uid="Assets.Scripts.Static_Effect.Static_effect.draw_card*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_draw_card_System_Int32_" data-uid="Assets.Scripts.Static_Effect.Static_effect.draw_card(System.Int32)">draw_card(Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">静态效果：抽牌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void draw_card(int card_number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">card_number</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_execute_after_N_turn_" data-uid="Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_execute_after_N_turn_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_card_type_card_effect_System_Int32_System_Int32_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.execute_after_N_turn(Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,card_effect,System.Int32,System.Int32,System.Boolean)">execute_after_N_turn(Character, Character, card_type, card_effect, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">在N回合后触发一次效果。例如，对于攻击上升三回合这一效果，我们需要在三回合后使得攻击下降。
+注意这和持续三回合下降是不同的</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void execute_after_N_turn(Character source, Character target, card_type source_card_type, card_effect card_Effect, int effect_level, int N_turn, bool is_end_triggered)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">card_type</span></td>
+        <td><span class="parametername">source_card_type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">card_effect</span></td>
+        <td><span class="parametername">card_Effect</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">effect_level</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">N_turn</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_end_triggered</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Handle_card_effects_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Handle_card_effects_System_Collections_Generic_List_Effect_tuple__Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_card_type_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Handle_card_effects(System.Collections.Generic.List{Effect_tuple},Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type)">Handle_card_effects(List&lt;Effect_tuple&gt;, Character, Character, card_type)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">处理effect_tuple列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Handle_card_effects(List&lt;Effect_tuple&gt; card_Effects, Character source, Character target, card_type source_card_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Effect_tuple</span>&gt;</td>
+        <td><span class="parametername">card_Effects</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">effect_tuple列表</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">card_type</span></td>
+        <td><span class="parametername">source_card_type</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">卡牌元素类别</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Handle_single_effect_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Handle_single_effect_Effect_tuple_Assets_Scripts_Character_Character_Assets_Scripts_Character_Character_card_type_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Handle_single_effect(Effect_tuple,Assets.Scripts.Character.Character,Assets.Scripts.Character.Character,card_type,System.Boolean)">Handle_single_effect(Effect_tuple, Character, Character, card_type, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">处理单个卡牌效果</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Handle_single_effect(Effect_tuple effect, Character source, Character target, card_type source_card_type, bool cascade = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Effect_tuple</span></td>
+        <td><span class="parametername">effect</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">单个卡牌效果</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">卡牌效果来源</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">卡牌效果对象</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">card_type</span></td>
+        <td><span class="parametername">source_card_type</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">卡牌元素类别</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">cascade</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">此效果是否由其他效果触发</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Highlight_quest_object_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Highlight_quest_object_GameObject_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Highlight_quest_object(GameObject,System.Boolean)">Highlight_quest_object(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Might be deprecated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Highlight_quest_object(GameObject gameObject, bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Highlight_target_character_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Highlight_target_character_GameObject_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Highlight_target_character(GameObject,System.Boolean)">Highlight_target_character(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">高亮目标角色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Highlight_target_character(GameObject gameObject, bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_Highlight_target_object_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_Highlight_target_object_GameObject_Color_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.Highlight_target_object(GameObject,Color,System.Boolean)">Highlight_target_object(GameObject, Color, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Highlight_target_object(GameObject gameObject, Color color, bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_increase_cost_limit_" data-uid="Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_increase_cost_limit_System_Int32_" data-uid="Assets.Scripts.Static_Effect.Static_effect.increase_cost_limit(System.Int32)">increase_cost_limit(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void increase_cost_limit(int change_amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">change_amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_prob_resurrection_" data-uid="Assets.Scripts.Static_Effect.Static_effect.prob_resurrection*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_prob_resurrection_Assets_Scripts_Character_Character_" data-uid="Assets.Scripts.Static_Effect.Static_effect.prob_resurrection(Assets.Scripts.Character.Character)">prob_resurrection(Character)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">概率复活</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void prob_resurrection(Character target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_random_attack_" data-uid="Assets.Scripts.Static_Effect.Static_effect.random_attack*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_random_attack_Card_property_" data-uid="Assets.Scripts.Static_Effect.Static_effect.random_attack(Card_property)">random_attack(Card_property)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">随机攻击一个敌人</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void random_attack(Card_property card_Property)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Card_property</span></td>
+        <td><span class="parametername">card_Property</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_resurrection_" data-uid="Assets.Scripts.Static_Effect.Static_effect.resurrection*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_resurrection_Assets_Scripts_Character_Character_" data-uid="Assets.Scripts.Static_Effect.Static_effect.resurrection(Assets.Scripts.Character.Character)">resurrection(Character)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void resurrection(Character target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_sacrifice_self_" data-uid="Assets.Scripts.Static_Effect.Static_effect.sacrifice_self*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_sacrifice_self_Card_property_" data-uid="Assets.Scripts.Static_Effect.Static_effect.sacrifice_self(Card_property)">sacrifice_self(Card_property)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sacrifice_self(Card_property card_Property)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Card_property</span></td>
+        <td><span class="parametername">card_Property</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_set_forward_position_" data-uid="Assets.Scripts.Static_Effect.Static_effect.set_forward_position*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_set_forward_position_System_String_System_Boolean_System_Boolean_Action_" data-uid="Assets.Scripts.Static_Effect.Static_effect.set_forward_position(System.String,System.Boolean,System.Boolean,Action)">set_forward_position(String, Boolean, Boolean, Action)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Static_Effect.Static_effect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">动画：水平移动敌人或队友</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void set_forward_position(string character_name, bool is_forward, bool is_enemy, Action enemy_move_complete = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">character_name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_forward</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_enemy</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">enemy_move_complete</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_target_change_damage_" data-uid="Assets.Scripts.Static_Effect.Static_effect.target_change_damage*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_target_change_damage_Assets_Scripts_Character_Character_System_Single_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.target_change_damage(Assets.Scripts.Character.Character,System.Single,System.Boolean)">target_change_damage(Character, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void target_change_damage(Character target, float scale, bool is_magic = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_magic</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Static_Effect_Static_effect_target_change_defense_" data-uid="Assets.Scripts.Static_Effect.Static_effect.target_change_defense*"></a>
+  <h4 id="Assets_Scripts_Static_Effect_Static_effect_target_change_defense_Assets_Scripts_Character_Character_System_Single_System_Boolean_" data-uid="Assets.Scripts.Static_Effect.Static_effect.target_change_defense(Assets.Scripts.Character.Character,System.Single,System.Boolean)">target_change_defense(Character, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void target_change_defense(Character target, float scale, bool is_magic = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Character.Character.html">Character</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_magic</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

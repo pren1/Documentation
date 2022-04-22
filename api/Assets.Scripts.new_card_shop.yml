@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.new_card_shop
+  commentId: N:Assets.Scripts.new_card_shop
+  id: Assets.Scripts.new_card_shop
+  children:
+  - Assets.Scripts.new_card_shop.left_tab_group
+  - Assets.Scripts.new_card_shop.left_tab_highlight
+  - Assets.Scripts.new_card_shop.Render_one_page_shop
+  - Assets.Scripts.new_card_shop.single_set
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.new_card_shop
+  nameWithType: Assets.Scripts.new_card_shop
+  fullName: Assets.Scripts.new_card_shop
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.new_card_shop.left_tab_group
+  commentId: T:Assets.Scripts.new_card_shop.left_tab_group
+  parent: Assets.Scripts.new_card_shop
+  name: left_tab_group
+  nameWithType: left_tab_group
+  fullName: Assets.Scripts.new_card_shop.left_tab_group
+- uid: Assets.Scripts.new_card_shop.left_tab_highlight
+  commentId: T:Assets.Scripts.new_card_shop.left_tab_highlight
+  name: left_tab_highlight
+  nameWithType: left_tab_highlight
+  fullName: Assets.Scripts.new_card_shop.left_tab_highlight
+- uid: Assets.Scripts.new_card_shop.Render_one_page_shop
+  commentId: T:Assets.Scripts.new_card_shop.Render_one_page_shop
+  parent: Assets.Scripts.new_card_shop
+  name: Render_one_page_shop
+  nameWithType: Render_one_page_shop
+  fullName: Assets.Scripts.new_card_shop.Render_one_page_shop
+- uid: Assets.Scripts.new_card_shop.single_set
+  commentId: T:Assets.Scripts.new_card_shop.single_set
+  name: single_set
+  nameWithType: single_set
+  fullName: Assets.Scripts.new_card_shop.single_set
+- uid: Assets.Scripts.new_card_shop
+  commentId: N:Assets.Scripts.new_card_shop
+  name: Assets.Scripts.new_card_shop
+  nameWithType: Assets.Scripts.new_card_shop
+  fullName: Assets.Scripts.new_card_shop

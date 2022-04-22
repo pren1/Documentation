@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.card_draw_effect_tuple
+  commentId: T:Assets.Scripts.card_draw_effect_tuple
+  id: card_draw_effect_tuple
+  parent: Assets.Scripts
+  children:
+  - Assets.Scripts.card_draw_effect_tuple.#ctor(System.Collections.IEnumerator,System.Single)
+  - Assets.Scripts.card_draw_effect_tuple.enumerator
+  - Assets.Scripts.card_draw_effect_tuple.moveDuration
+  langs:
+  - csharp
+  - vb
+  name: card_draw_effect_tuple
+  nameWithType: card_draw_effect_tuple
+  fullName: Assets.Scripts.card_draw_effect_tuple
+  type: Struct
+  source:
+    id: card_draw_effect_tuple
+    path: ''
+    startLine: 150939
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts
+  summary: "\n卡牌动画的struct，内含动画间隔与具体卡牌行动IEnumerator\n"
+  example: []
+  syntax:
+    content: public struct card_draw_effect_tuple
+    content.vb: Public Structure card_draw_effect_tuple
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Assets.Scripts.card_draw_effect_tuple.enumerator
+  commentId: F:Assets.Scripts.card_draw_effect_tuple.enumerator
+  id: enumerator
+  parent: Assets.Scripts.card_draw_effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: enumerator
+  nameWithType: card_draw_effect_tuple.enumerator
+  fullName: Assets.Scripts.card_draw_effect_tuple.enumerator
+  type: Field
+  source:
+    id: enumerator
+    path: ''
+    startLine: 150941
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts
+  syntax:
+    content: public IEnumerator enumerator
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public enumerator As IEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_draw_effect_tuple.moveDuration
+  commentId: F:Assets.Scripts.card_draw_effect_tuple.moveDuration
+  id: moveDuration
+  parent: Assets.Scripts.card_draw_effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: moveDuration
+  nameWithType: card_draw_effect_tuple.moveDuration
+  fullName: Assets.Scripts.card_draw_effect_tuple.moveDuration
+  type: Field
+  source:
+    id: moveDuration
+    path: ''
+    startLine: 150942
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts
+  syntax:
+    content: public float moveDuration
+    return:
+      type: System.Single
+    content.vb: Public moveDuration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.card_draw_effect_tuple.#ctor(System.Collections.IEnumerator,System.Single)
+  commentId: M:Assets.Scripts.card_draw_effect_tuple.#ctor(System.Collections.IEnumerator,System.Single)
+  id: '#ctor(System.Collections.IEnumerator,System.Single)'
+  parent: Assets.Scripts.card_draw_effect_tuple
+  langs:
+  - csharp
+  - vb
+  name: card_draw_effect_tuple(IEnumerator, Single)
+  nameWithType: card_draw_effect_tuple.card_draw_effect_tuple(IEnumerator, Single)
+  fullName: Assets.Scripts.card_draw_effect_tuple.card_draw_effect_tuple(System.Collections.IEnumerator, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 150944
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts
+  syntax:
+    content: public card_draw_effect_tuple(IEnumerator enumerator, float moveDuration)
+    parameters:
+    - id: enumerator
+      type: System.Collections.IEnumerator
+    - id: moveDuration
+      type: System.Single
+    content.vb: Public Sub New(enumerator As IEnumerator, moveDuration As Single)
+  overload: Assets.Scripts.card_draw_effect_tuple.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts
+  commentId: N:Assets.Scripts
+  name: Assets.Scripts
+  nameWithType: Assets.Scripts
+  fullName: Assets.Scripts
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.card_draw_effect_tuple.#ctor*
+  commentId: Overload:Assets.Scripts.card_draw_effect_tuple.#ctor
+  name: card_draw_effect_tuple
+  nameWithType: card_draw_effect_tuple.card_draw_effect_tuple
+  fullName: Assets.Scripts.card_draw_effect_tuple.card_draw_effect_tuple

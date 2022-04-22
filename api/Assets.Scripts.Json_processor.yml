@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  id: Assets.Scripts.Json_processor
+  children:
+  - Assets.Scripts.Json_processor.anime_effect_text
+  - Assets.Scripts.Json_processor.basic_card
+  - Assets.Scripts.Json_processor.card_json
+  - Assets.Scripts.Json_processor.Card_json_reader
+  - Assets.Scripts.Json_processor.Characters_Json
+  - Assets.Scripts.Json_processor.JSONReader
+  - Assets.Scripts.Json_processor.member
+  - Assets.Scripts.Json_processor.monster
+  - Assets.Scripts.Json_processor.monster_data_save_load
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Json_processor.Card_json_reader
+  commentId: T:Assets.Scripts.Json_processor.Card_json_reader
+  name: Card_json_reader
+  nameWithType: Card_json_reader
+  fullName: Assets.Scripts.Json_processor.Card_json_reader
+- uid: Assets.Scripts.Json_processor.basic_card
+  commentId: T:Assets.Scripts.Json_processor.basic_card
+  parent: Assets.Scripts.Json_processor
+  name: basic_card
+  nameWithType: basic_card
+  fullName: Assets.Scripts.Json_processor.basic_card
+- uid: Assets.Scripts.Json_processor.card_json
+  commentId: T:Assets.Scripts.Json_processor.card_json
+  parent: Assets.Scripts.Json_processor
+  name: card_json
+  nameWithType: card_json
+  fullName: Assets.Scripts.Json_processor.card_json
+- uid: Assets.Scripts.Json_processor.JSONReader
+  commentId: T:Assets.Scripts.Json_processor.JSONReader
+  name: JSONReader
+  nameWithType: JSONReader
+  fullName: Assets.Scripts.Json_processor.JSONReader
+- uid: Assets.Scripts.Json_processor.Characters_Json
+  commentId: T:Assets.Scripts.Json_processor.Characters_Json
+  name: Characters_Json
+  nameWithType: Characters_Json
+  fullName: Assets.Scripts.Json_processor.Characters_Json
+- uid: Assets.Scripts.Json_processor.member
+  commentId: T:Assets.Scripts.Json_processor.member
+  name: member
+  nameWithType: member
+  fullName: Assets.Scripts.Json_processor.member
+- uid: Assets.Scripts.Json_processor.monster
+  commentId: T:Assets.Scripts.Json_processor.monster
+  name: monster
+  nameWithType: monster
+  fullName: Assets.Scripts.Json_processor.monster
+- uid: Assets.Scripts.Json_processor.anime_effect_text
+  commentId: T:Assets.Scripts.Json_processor.anime_effect_text
+  name: anime_effect_text
+  nameWithType: anime_effect_text
+  fullName: Assets.Scripts.Json_processor.anime_effect_text
+- uid: Assets.Scripts.Json_processor.monster_data_save_load
+  commentId: T:Assets.Scripts.Json_processor.monster_data_save_load
+  name: monster_data_save_load
+  nameWithType: monster_data_save_load
+  fullName: Assets.Scripts.Json_processor.monster_data_save_load
+- uid: Assets.Scripts.Json_processor
+  commentId: N:Assets.Scripts.Json_processor
+  name: Assets.Scripts.Json_processor
+  nameWithType: Assets.Scripts.Json_processor
+  fullName: Assets.Scripts.Json_processor

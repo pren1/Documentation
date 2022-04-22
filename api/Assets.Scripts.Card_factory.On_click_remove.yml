@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory.On_click_remove
+  commentId: T:Assets.Scripts.Card_factory.On_click_remove
+  id: On_click_remove
+  parent: Assets.Scripts.Card_factory
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: On_click_remove
+  nameWithType: On_click_remove
+  fullName: Assets.Scripts.Card_factory.On_click_remove
+  type: Class
+  source:
+    id: On_click_remove
+    path: ''
+    startLine: 152558
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Card_factory
+  summary: "\n选卡界面，从卡组移除卡牌到收藏\n"
+  example: []
+  syntax:
+    content: 'public class On_click_remove : MonoBehaviour'
+    content.vb: >-
+      Public Class On_click_remove
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

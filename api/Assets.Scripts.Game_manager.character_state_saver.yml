@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.character_state_saver
+  commentId: T:Assets.Scripts.Game_manager.character_state_saver
+  id: character_state_saver
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.character_state_saver.member_property_state_dict
+  - Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict
+  - Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict(System.Collections.Generic.Dictionary{System.String,Member})
+  langs:
+  - csharp
+  - vb
+  name: character_state_saver
+  nameWithType: character_state_saver
+  fullName: Assets.Scripts.Game_manager.character_state_saver
+  type: Class
+  source:
+    id: character_state_saver
+    path: ''
+    startLine: 156057
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public class character_state_saver
+    content.vb: Public Class character_state_saver
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.character_state_saver.member_property_state_dict
+  commentId: F:Assets.Scripts.Game_manager.character_state_saver.member_property_state_dict
+  id: member_property_state_dict
+  parent: Assets.Scripts.Game_manager.character_state_saver
+  langs:
+  - csharp
+  - vb
+  name: member_property_state_dict
+  nameWithType: character_state_saver.member_property_state_dict
+  fullName: Assets.Scripts.Game_manager.character_state_saver.member_property_state_dict
+  type: Field
+  source:
+    id: member_property_state_dict
+    path: ''
+    startLine: 156059
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static Dictionary<string, Character_property> member_property_state_dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Character_property}
+    content.vb: Public Shared member_property_state_dict As Dictionary(Of String, Character_property)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict(System.Collections.Generic.Dictionary{System.String,Member})
+  commentId: M:Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict(System.Collections.Generic.Dictionary{System.String,Member})
+  id: set_property_state_dict(System.Collections.Generic.Dictionary{System.String,Member})
+  parent: Assets.Scripts.Game_manager.character_state_saver
+  langs:
+  - csharp
+  - vb
+  name: set_property_state_dict(Dictionary<String, Member>)
+  nameWithType: character_state_saver.set_property_state_dict(Dictionary<String, Member>)
+  fullName: Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict(System.Collections.Generic.Dictionary<System.String, Member>)
+  type: Method
+  source:
+    id: set_property_state_dict
+    path: ''
+    startLine: 156061
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static void set_property_state_dict(Dictionary<string, Member> Member_dict)
+    parameters:
+    - id: Member_dict
+      type: System.Collections.Generic.Dictionary{System.String,Member}
+    content.vb: Public Shared Sub set_property_state_dict(Member_dict As Dictionary(Of String, Member))
+  overload: Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict*
+  nameWithType.vb: character_state_saver.set_property_state_dict(Dictionary(Of String, Member))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict(System.Collections.Generic.Dictionary(Of System.String, Member))
+  name.vb: set_property_state_dict(Dictionary(Of String, Member))
+- uid: Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict
+  commentId: M:Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict
+  id: reset_member_property_dict
+  parent: Assets.Scripts.Game_manager.character_state_saver
+  langs:
+  - csharp
+  - vb
+  name: reset_member_property_dict()
+  nameWithType: character_state_saver.reset_member_property_dict()
+  fullName: Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict()
+  type: Method
+  source:
+    id: reset_member_property_dict
+    path: ''
+    startLine: 156069
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public static void reset_member_property_dict()
+    content.vb: Public Shared Sub reset_member_property_dict
+  overload: Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,Character_property}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Character_property}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Character_property>
+  nameWithType: Dictionary<String, Character_property>
+  fullName: System.Collections.Generic.Dictionary<System.String, Character_property>
+  nameWithType.vb: Dictionary(Of String, Character_property)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Character_property)
+  name.vb: Dictionary(Of String, Character_property)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Character_property
+    name: Character_property
+    nameWithType: Character_property
+    fullName: Character_property
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Character_property
+    name: Character_property
+    nameWithType: Character_property
+    fullName: Character_property
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict*
+  commentId: Overload:Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict
+  name: set_property_state_dict
+  nameWithType: character_state_saver.set_property_state_dict
+  fullName: Assets.Scripts.Game_manager.character_state_saver.set_property_state_dict
+- uid: System.Collections.Generic.Dictionary{System.String,Member}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Member}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Member>
+  nameWithType: Dictionary<String, Member>
+  fullName: System.Collections.Generic.Dictionary<System.String, Member>
+  nameWithType.vb: Dictionary(Of String, Member)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Member)
+  name.vb: Dictionary(Of String, Member)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Member
+    name: Member
+    nameWithType: Member
+    fullName: Member
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict*
+  commentId: Overload:Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict
+  name: reset_member_property_dict
+  nameWithType: character_state_saver.reset_member_property_dict
+  fullName: Assets.Scripts.Game_manager.character_state_saver.reset_member_property_dict

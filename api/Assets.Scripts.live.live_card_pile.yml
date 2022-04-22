@@ -1,0 +1,1291 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.live_card_pile
+  commentId: T:Assets.Scripts.live.live_card_pile
+  id: live_card_pile
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.live_card_pile.Add(GameObject,System.Boolean)
+  - Assets.Scripts.live.live_card_pile.Add(GameObject,System.Int32,System.Boolean,System.Boolean)
+  - Assets.Scripts.live.live_card_pile.cardHolderPrefab
+  - Assets.Scripts.live.live_card_pile.Cards
+  - Assets.Scripts.live.live_card_pile.cardsHolders
+  - Assets.Scripts.live.live_card_pile.Disable_costy_cards(System.Int32,System.Int32)
+  - Assets.Scripts.live.live_card_pile.Disable_need_charge_cards(Assets.Scripts.Character.Character)
+  - Assets.Scripts.live.live_card_pile.Disable_target_cards(System.String)
+  - Assets.Scripts.live.live_card_pile.Enable_all_cards
+  - Assets.Scripts.live.live_card_pile.Get_current_cards_cost
+  - Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost
+  - Assets.Scripts.live.live_card_pile.Get_target_card_by_name(System.String)
+  - Assets.Scripts.live.live_card_pile.height
+  - Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable
+  - Assets.Scripts.live.live_card_pile.maxCardAngle
+  - Assets.Scripts.live.live_card_pile.Merge_pile
+  - Assets.Scripts.live.live_card_pile.OnCountChanged
+  - Assets.Scripts.live.live_card_pile.random_card(System.Int32)
+  - Assets.Scripts.live.live_card_pile.Remove(GameObject,System.Boolean,System.Boolean)
+  - Assets.Scripts.live.live_card_pile.RemoveAll
+  - Assets.Scripts.live.live_card_pile.RemoveAt(System.Int32)
+  - Assets.Scripts.live.live_card_pile.shuffle
+  - Assets.Scripts.live.live_card_pile.UpdatePositions(System.Single,System.Boolean,System.Boolean)
+  - Assets.Scripts.live.live_card_pile.width
+  - Assets.Scripts.live.live_card_pile.yPerCard
+  - Assets.Scripts.live.live_card_pile.z_offset
+  - Assets.Scripts.live.live_card_pile.zDistance
+  langs:
+  - csharp
+  - vb
+  name: live_card_pile
+  nameWithType: live_card_pile
+  fullName: Assets.Scripts.live.live_card_pile
+  type: Class
+  source:
+    id: live_card_pile
+    path: ''
+    startLine: 159528
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n卡片堆\n"
+  example: []
+  syntax:
+    content: 'public class live_card_pile : MonoBehaviour'
+    content.vb: >-
+      Public Class live_card_pile
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.live_card_pile.height
+  commentId: F:Assets.Scripts.live.live_card_pile.height
+  id: height
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: live_card_pile.height
+  fullName: Assets.Scripts.live.live_card_pile.height
+  type: Field
+  source:
+    id: height
+    path: ''
+    startLine: 159530
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public float height
+    return:
+      type: System.Single
+    content.vb: Public height As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.width
+  commentId: F:Assets.Scripts.live.live_card_pile.width
+  id: width
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: live_card_pile.width
+  fullName: Assets.Scripts.live.live_card_pile.width
+  type: Field
+  source:
+    id: width
+    path: ''
+    startLine: 159531
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public float width
+    return:
+      type: System.Single
+    content.vb: Public width As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.maxCardAngle
+  commentId: F:Assets.Scripts.live.live_card_pile.maxCardAngle
+  id: maxCardAngle
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: maxCardAngle
+  nameWithType: live_card_pile.maxCardAngle
+  fullName: Assets.Scripts.live.live_card_pile.maxCardAngle
+  type: Field
+  source:
+    id: maxCardAngle
+    path: ''
+    startLine: 159532
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public float maxCardAngle
+    return:
+      type: System.Single
+    content.vb: Public maxCardAngle As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.yPerCard
+  commentId: F:Assets.Scripts.live.live_card_pile.yPerCard
+  id: yPerCard
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: yPerCard
+  nameWithType: live_card_pile.yPerCard
+  fullName: Assets.Scripts.live.live_card_pile.yPerCard
+  type: Field
+  source:
+    id: yPerCard
+    path: ''
+    startLine: 159533
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public float yPerCard
+    return:
+      type: System.Single
+    content.vb: Public yPerCard As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.zDistance
+  commentId: F:Assets.Scripts.live.live_card_pile.zDistance
+  id: zDistance
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: zDistance
+  nameWithType: live_card_pile.zDistance
+  fullName: Assets.Scripts.live.live_card_pile.zDistance
+  type: Field
+  source:
+    id: zDistance
+    path: ''
+    startLine: 159534
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public float zDistance
+    return:
+      type: System.Single
+    content.vb: Public zDistance As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.z_offset
+  commentId: F:Assets.Scripts.live.live_card_pile.z_offset
+  id: z_offset
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: z_offset
+  nameWithType: live_card_pile.z_offset
+  fullName: Assets.Scripts.live.live_card_pile.z_offset
+  type: Field
+  source:
+    id: z_offset
+    path: ''
+    startLine: 159535
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public float z_offset
+    return:
+      type: System.Single
+    content.vb: Public z_offset As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.cardHolderPrefab
+  commentId: F:Assets.Scripts.live.live_card_pile.cardHolderPrefab
+  id: cardHolderPrefab
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: cardHolderPrefab
+  nameWithType: live_card_pile.cardHolderPrefab
+  fullName: Assets.Scripts.live.live_card_pile.cardHolderPrefab
+  type: Field
+  source:
+    id: cardHolderPrefab
+    path: ''
+    startLine: 159537
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public Transform cardHolderPrefab
+    return:
+      type: Global.Transform
+    content.vb: Public cardHolderPrefab As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Cards
+  commentId: P:Assets.Scripts.live.live_card_pile.Cards
+  id: Cards
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Cards
+  nameWithType: live_card_pile.Cards
+  fullName: Assets.Scripts.live.live_card_pile.Cards
+  type: Property
+  source:
+    id: Cards
+    path: ''
+    startLine: 159541
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public List<GameObject> Cards { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public ReadOnly Property Cards As List(Of GameObject)
+  overload: Assets.Scripts.live.live_card_pile.Cards*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Assets.Scripts.live.live_card_pile.OnCountChanged
+  commentId: E:Assets.Scripts.live.live_card_pile.OnCountChanged
+  id: OnCountChanged
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: OnCountChanged
+  nameWithType: live_card_pile.OnCountChanged
+  fullName: Assets.Scripts.live.live_card_pile.OnCountChanged
+  type: Event
+  source:
+    id: OnCountChanged
+    path: ''
+    startLine: 159543
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public event Action<int> OnCountChanged
+    return:
+      type: Global.Action{System.Int32}
+    content.vb: Public Event OnCountChanged As Action(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.cardsHolders
+  commentId: F:Assets.Scripts.live.live_card_pile.cardsHolders
+  id: cardsHolders
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: cardsHolders
+  nameWithType: live_card_pile.cardsHolders
+  fullName: Assets.Scripts.live.live_card_pile.cardsHolders
+  type: Field
+  source:
+    id: cardsHolders
+    path: ''
+    startLine: 159545
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public List<Transform> cardsHolders
+    return:
+      type: System.Collections.Generic.List{Transform}
+    content.vb: Public cardsHolders As List(Of Transform)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Add(GameObject,System.Boolean)
+  commentId: M:Assets.Scripts.live.live_card_pile.Add(GameObject,System.Boolean)
+  id: Add(GameObject,System.Boolean)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Add(GameObject, Boolean)
+  nameWithType: live_card_pile.Add(GameObject, Boolean)
+  fullName: Assets.Scripts.live.live_card_pile.Add(GameObject, System.Boolean)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 159551
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void Add(GameObject card, bool moveAnimation = true)
+    parameters:
+    - id: card
+      type: Global.GameObject
+    - id: moveAnimation
+      type: System.Boolean
+    content.vb: Public Sub Add(card As GameObject, moveAnimation As Boolean = True)
+  overload: Assets.Scripts.live.live_card_pile.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Add(GameObject,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:Assets.Scripts.live.live_card_pile.Add(GameObject,System.Int32,System.Boolean,System.Boolean)
+  id: Add(GameObject,System.Int32,System.Boolean,System.Boolean)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Add(GameObject, Int32, Boolean, Boolean)
+  nameWithType: live_card_pile.Add(GameObject, Int32, Boolean, Boolean)
+  fullName: Assets.Scripts.live.live_card_pile.Add(GameObject, System.Int32, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 159560
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n添加卡片到卡片堆\n"
+  example: []
+  syntax:
+    content: public void Add(GameObject card, int index, bool moveAnimation = true, bool update_pos = true)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: 卡牌game obj
+    - id: index
+      type: System.Int32
+      description: ''
+    - id: moveAnimation
+      type: System.Boolean
+      description: 是否展示动画
+    - id: update_pos
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub Add(card As GameObject, index As Integer, moveAnimation As Boolean = True, update_pos As Boolean = True)
+  overload: Assets.Scripts.live.live_card_pile.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Remove(GameObject,System.Boolean,System.Boolean)
+  commentId: M:Assets.Scripts.live.live_card_pile.Remove(GameObject,System.Boolean,System.Boolean)
+  id: Remove(GameObject,System.Boolean,System.Boolean)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Remove(GameObject, Boolean, Boolean)
+  nameWithType: live_card_pile.Remove(GameObject, Boolean, Boolean)
+  fullName: Assets.Scripts.live.live_card_pile.Remove(GameObject, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 159591
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n从卡片堆移除卡片\n"
+  example: []
+  syntax:
+    content: public void Remove(GameObject card, bool update_pos = true, bool delete_card = false)
+    parameters:
+    - id: card
+      type: Global.GameObject
+      description: ''
+    - id: update_pos
+      type: System.Boolean
+      description: ''
+    - id: delete_card
+      type: System.Boolean
+    content.vb: Public Sub Remove(card As GameObject, update_pos As Boolean = True, delete_card As Boolean = False)
+  overload: Assets.Scripts.live.live_card_pile.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.RemoveAt(System.Int32)
+  commentId: M:Assets.Scripts.live.live_card_pile.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(Int32)
+  nameWithType: live_card_pile.RemoveAt(Int32)
+  fullName: Assets.Scripts.live.live_card_pile.RemoveAt(System.Int32)
+  type: Method
+  source:
+    id: RemoveAt
+    path: ''
+    startLine: 159615
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void RemoveAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub RemoveAt(index As Integer)
+  overload: Assets.Scripts.live.live_card_pile.RemoveAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.RemoveAll
+  commentId: M:Assets.Scripts.live.live_card_pile.RemoveAll
+  id: RemoveAll
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll()
+  nameWithType: live_card_pile.RemoveAll()
+  fullName: Assets.Scripts.live.live_card_pile.RemoveAll()
+  type: Method
+  source:
+    id: RemoveAll
+    path: ''
+    startLine: 159620
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void RemoveAll()
+    content.vb: Public Sub RemoveAll
+  overload: Assets.Scripts.live.live_card_pile.RemoveAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.UpdatePositions(System.Single,System.Boolean,System.Boolean)
+  commentId: M:Assets.Scripts.live.live_card_pile.UpdatePositions(System.Single,System.Boolean,System.Boolean)
+  id: UpdatePositions(System.Single,System.Boolean,System.Boolean)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: UpdatePositions(Single, Boolean, Boolean)
+  nameWithType: live_card_pile.UpdatePositions(Single, Boolean, Boolean)
+  fullName: Assets.Scripts.live.live_card_pile.UpdatePositions(System.Single, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: UpdatePositions
+    path: ''
+    startLine: 159638
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n负责卡片移动动画\n"
+  example: []
+  syntax:
+    content: public void UpdatePositions(float moveDuration = 0.5F, bool instant_change = false, bool smooth_parent = true)
+    parameters:
+    - id: moveDuration
+      type: System.Single
+      description: 移动持续时间
+    - id: instant_change
+      type: System.Boolean
+      description: 是否跳过动画
+    - id: smooth_parent
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub UpdatePositions(moveDuration As Single = 0.5F, instant_change As Boolean = False, smooth_parent As Boolean = True)
+  overload: Assets.Scripts.live.live_card_pile.UpdatePositions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.shuffle
+  commentId: M:Assets.Scripts.live.live_card_pile.shuffle
+  id: shuffle
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: shuffle()
+  nameWithType: live_card_pile.shuffle()
+  fullName: Assets.Scripts.live.live_card_pile.shuffle()
+  type: Method
+  source:
+    id: shuffle
+    path: ''
+    startLine: 159711
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n洗牌堆\n"
+  example: []
+  syntax:
+    content: public void shuffle()
+    content.vb: Public Sub shuffle
+  overload: Assets.Scripts.live.live_card_pile.shuffle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Get_current_cards_cost
+  commentId: M:Assets.Scripts.live.live_card_pile.Get_current_cards_cost
+  id: Get_current_cards_cost
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Get_current_cards_cost()
+  nameWithType: live_card_pile.Get_current_cards_cost()
+  fullName: Assets.Scripts.live.live_card_pile.Get_current_cards_cost()
+  type: Method
+  source:
+    id: Get_current_cards_cost
+    path: ''
+    startLine: 159726
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n获取当前牌堆中每张卡的cost, 必须可用\n"
+  example: []
+  syntax:
+    content: public List<int> Get_current_cards_cost()
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+      description: ''
+    content.vb: Public Function Get_current_cards_cost As List(Of Integer)
+  overload: Assets.Scripts.live.live_card_pile.Get_current_cards_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost
+  commentId: M:Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost
+  id: Get_current_magic_cards_cost
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Get_current_magic_cards_cost()
+  nameWithType: live_card_pile.Get_current_magic_cards_cost()
+  fullName: Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost()
+  type: Method
+  source:
+    id: Get_current_magic_cards_cost
+    path: ''
+    startLine: 159742
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public List<int> Get_current_magic_cards_cost()
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Function Get_current_magic_cards_cost As List(Of Integer)
+  overload: Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Disable_costy_cards(System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.live.live_card_pile.Disable_costy_cards(System.Int32,System.Int32)
+  id: Disable_costy_cards(System.Int32,System.Int32)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Disable_costy_cards(Int32, Int32)
+  nameWithType: live_card_pile.Disable_costy_cards(Int32, Int32)
+  fullName: Assets.Scripts.live.live_card_pile.Disable_costy_cards(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Disable_costy_cards
+    path: ''
+    startLine: 159764
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n禁用费用过高乃至不能打出的卡牌\n"
+  example: []
+  syntax:
+    content: public void Disable_costy_cards(int remaining_cards, int remaining_magic_cards)
+    parameters:
+    - id: remaining_cards
+      type: System.Int32
+      description: ''
+    - id: remaining_magic_cards
+      type: System.Int32
+    content.vb: Public Sub Disable_costy_cards(remaining_cards As Integer, remaining_magic_cards As Integer)
+  overload: Assets.Scripts.live.live_card_pile.Disable_costy_cards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Disable_target_cards(System.String)
+  commentId: M:Assets.Scripts.live.live_card_pile.Disable_target_cards(System.String)
+  id: Disable_target_cards(System.String)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Disable_target_cards(String)
+  nameWithType: live_card_pile.Disable_target_cards(String)
+  fullName: Assets.Scripts.live.live_card_pile.Disable_target_cards(System.String)
+  type: Method
+  source:
+    id: Disable_target_cards
+    path: ''
+    startLine: 159791
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n禁止目标卡牌\n"
+  example: []
+  syntax:
+    content: public void Disable_target_cards(string target_name)
+    parameters:
+    - id: target_name
+      type: System.String
+      description: ''
+    content.vb: Public Sub Disable_target_cards(target_name As String)
+  overload: Assets.Scripts.live.live_card_pile.Disable_target_cards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Get_target_card_by_name(System.String)
+  commentId: M:Assets.Scripts.live.live_card_pile.Get_target_card_by_name(System.String)
+  id: Get_target_card_by_name(System.String)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Get_target_card_by_name(String)
+  nameWithType: live_card_pile.Get_target_card_by_name(String)
+  fullName: Assets.Scripts.live.live_card_pile.Get_target_card_by_name(System.String)
+  type: Method
+  source:
+    id: Get_target_card_by_name
+    path: ''
+    startLine: 159809
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public GameObject Get_target_card_by_name(string card_name)
+    parameters:
+    - id: card_name
+      type: System.String
+    return:
+      type: Global.GameObject
+    content.vb: Public Function Get_target_card_by_name(card_name As String) As GameObject
+  overload: Assets.Scripts.live.live_card_pile.Get_target_card_by_name*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Disable_need_charge_cards(Assets.Scripts.Character.Character)
+  commentId: M:Assets.Scripts.live.live_card_pile.Disable_need_charge_cards(Assets.Scripts.Character.Character)
+  id: Disable_need_charge_cards(Assets.Scripts.Character.Character)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Disable_need_charge_cards(Character)
+  nameWithType: live_card_pile.Disable_need_charge_cards(Character)
+  fullName: Assets.Scripts.live.live_card_pile.Disable_need_charge_cards(Assets.Scripts.Character.Character)
+  type: Method
+  source:
+    id: Disable_need_charge_cards
+    path: ''
+    startLine: 159829
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n使充能值不够的卡牌不可用\n"
+  example: []
+  syntax:
+    content: public void Disable_need_charge_cards(Character character)
+    parameters:
+    - id: character
+      type: Assets.Scripts.Character.Character
+      description: ''
+    content.vb: Public Sub Disable_need_charge_cards(character As Character)
+  overload: Assets.Scripts.live.live_card_pile.Disable_need_charge_cards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Enable_all_cards
+  commentId: M:Assets.Scripts.live.live_card_pile.Enable_all_cards
+  id: Enable_all_cards
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Enable_all_cards()
+  nameWithType: live_card_pile.Enable_all_cards()
+  fullName: Assets.Scripts.live.live_card_pile.Enable_all_cards()
+  type: Method
+  source:
+    id: Enable_all_cards
+    path: ''
+    startLine: 159860
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n使所有卡牌可用\n"
+  example: []
+  syntax:
+    content: public void Enable_all_cards()
+    content.vb: Public Sub Enable_all_cards
+  overload: Assets.Scripts.live.live_card_pile.Enable_all_cards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Merge_pile
+  commentId: M:Assets.Scripts.live.live_card_pile.Merge_pile
+  id: Merge_pile
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Merge_pile()
+  nameWithType: live_card_pile.Merge_pile()
+  fullName: Assets.Scripts.live.live_card_pile.Merge_pile()
+  type: Method
+  source:
+    id: Merge_pile
+    path: ''
+    startLine: 159877
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n合并两张卡牌\n"
+  example: []
+  syntax:
+    content: public bool Merge_pile()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function Merge_pile As Boolean
+  overload: Assets.Scripts.live.live_card_pile.Merge_pile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable
+  commentId: M:Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable
+  id: Is_all_cards_not_usable
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: Is_all_cards_not_usable()
+  nameWithType: live_card_pile.Is_all_cards_not_usable()
+  fullName: Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable()
+  type: Method
+  source:
+    id: Is_all_cards_not_usable
+    path: ''
+    startLine: 159909
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n查看是否还有可用卡牌\n"
+  example: []
+  syntax:
+    content: public bool Is_all_cards_not_usable()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function Is_all_cards_not_usable As Boolean
+  overload: Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.live_card_pile.random_card(System.Int32)
+  commentId: M:Assets.Scripts.live.live_card_pile.random_card(System.Int32)
+  id: random_card(System.Int32)
+  parent: Assets.Scripts.live.live_card_pile
+  langs:
+  - csharp
+  - vb
+  name: random_card(Int32)
+  nameWithType: live_card_pile.random_card(Int32)
+  fullName: Assets.Scripts.live.live_card_pile.random_card(System.Int32)
+  type: Method
+  source:
+    id: random_card
+    path: ''
+    startLine: 159928
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  summary: "\n返回随机卡牌\n"
+  example: []
+  syntax:
+    content: public GameObject random_card(int random_mode)
+    parameters:
+    - id: random_mode
+      type: System.Int32
+      description: '0: 完全随机, 1: 行动牌随机, 2: 魔法牌随机'
+    return:
+      type: Global.GameObject
+      description: ''
+    content.vb: Public Function random_card(random_mode As Integer) As GameObject
+  overload: Assets.Scripts.live.live_card_pile.random_card*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Assets.Scripts.live.live_card_pile.Cards*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Cards
+  name: Cards
+  nameWithType: live_card_pile.Cards
+  fullName: Assets.Scripts.live.live_card_pile.Cards
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Action{System.Int32}
+  commentId: '!:Global.Action{System.Int32}'
+  definition: Global.Action`1
+  name: Action<Int32>
+  nameWithType: Action<Int32>
+  fullName: Action<System.Int32>
+  nameWithType.vb: Action(Of Int32)
+  fullName.vb: Action(Of System.Int32)
+  name.vb: Action(Of Int32)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Transform}
+  commentId: T:System.Collections.Generic.List{Transform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Transform>
+  nameWithType: List<Transform>
+  fullName: System.Collections.Generic.List<Transform>
+  nameWithType.vb: List(Of Transform)
+  fullName.vb: System.Collections.Generic.List(Of Transform)
+  name.vb: List(Of Transform)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.live.live_card_pile.Add*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Add
+  name: Add
+  nameWithType: live_card_pile.Add
+  fullName: Assets.Scripts.live.live_card_pile.Add
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.live.live_card_pile.Remove*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Remove
+  name: Remove
+  nameWithType: live_card_pile.Remove
+  fullName: Assets.Scripts.live.live_card_pile.Remove
+- uid: Assets.Scripts.live.live_card_pile.RemoveAt*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.RemoveAt
+  name: RemoveAt
+  nameWithType: live_card_pile.RemoveAt
+  fullName: Assets.Scripts.live.live_card_pile.RemoveAt
+- uid: Assets.Scripts.live.live_card_pile.RemoveAll*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.RemoveAll
+  name: RemoveAll
+  nameWithType: live_card_pile.RemoveAll
+  fullName: Assets.Scripts.live.live_card_pile.RemoveAll
+- uid: Assets.Scripts.live.live_card_pile.UpdatePositions*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.UpdatePositions
+  name: UpdatePositions
+  nameWithType: live_card_pile.UpdatePositions
+  fullName: Assets.Scripts.live.live_card_pile.UpdatePositions
+- uid: Assets.Scripts.live.live_card_pile.shuffle*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.shuffle
+  name: shuffle
+  nameWithType: live_card_pile.shuffle
+  fullName: Assets.Scripts.live.live_card_pile.shuffle
+- uid: Assets.Scripts.live.live_card_pile.Get_current_cards_cost*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Get_current_cards_cost
+  name: Get_current_cards_cost
+  nameWithType: live_card_pile.Get_current_cards_cost
+  fullName: Assets.Scripts.live.live_card_pile.Get_current_cards_cost
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: System.Collections.Generic.List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: System.Collections.Generic.List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost
+  name: Get_current_magic_cards_cost
+  nameWithType: live_card_pile.Get_current_magic_cards_cost
+  fullName: Assets.Scripts.live.live_card_pile.Get_current_magic_cards_cost
+- uid: Assets.Scripts.live.live_card_pile.Disable_costy_cards*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Disable_costy_cards
+  name: Disable_costy_cards
+  nameWithType: live_card_pile.Disable_costy_cards
+  fullName: Assets.Scripts.live.live_card_pile.Disable_costy_cards
+- uid: Assets.Scripts.live.live_card_pile.Disable_target_cards*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Disable_target_cards
+  name: Disable_target_cards
+  nameWithType: live_card_pile.Disable_target_cards
+  fullName: Assets.Scripts.live.live_card_pile.Disable_target_cards
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assets.Scripts.live.live_card_pile.Get_target_card_by_name*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Get_target_card_by_name
+  name: Get_target_card_by_name
+  nameWithType: live_card_pile.Get_target_card_by_name
+  fullName: Assets.Scripts.live.live_card_pile.Get_target_card_by_name
+- uid: Assets.Scripts.live.live_card_pile.Disable_need_charge_cards*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Disable_need_charge_cards
+  name: Disable_need_charge_cards
+  nameWithType: live_card_pile.Disable_need_charge_cards
+  fullName: Assets.Scripts.live.live_card_pile.Disable_need_charge_cards
+- uid: Assets.Scripts.Character.Character
+  commentId: T:Assets.Scripts.Character.Character
+  parent: Assets.Scripts.Character
+  name: Character
+  nameWithType: Character
+  fullName: Assets.Scripts.Character.Character
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: Assets.Scripts.live.live_card_pile.Enable_all_cards*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Enable_all_cards
+  name: Enable_all_cards
+  nameWithType: live_card_pile.Enable_all_cards
+  fullName: Assets.Scripts.live.live_card_pile.Enable_all_cards
+- uid: Assets.Scripts.live.live_card_pile.Merge_pile*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Merge_pile
+  name: Merge_pile
+  nameWithType: live_card_pile.Merge_pile
+  fullName: Assets.Scripts.live.live_card_pile.Merge_pile
+- uid: Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable
+  name: Is_all_cards_not_usable
+  nameWithType: live_card_pile.Is_all_cards_not_usable
+  fullName: Assets.Scripts.live.live_card_pile.Is_all_cards_not_usable
+- uid: Assets.Scripts.live.live_card_pile.random_card*
+  commentId: Overload:Assets.Scripts.live.live_card_pile.random_card
+  name: random_card
+  nameWithType: live_card_pile.random_card
+  fullName: Assets.Scripts.live.live_card_pile.random_card

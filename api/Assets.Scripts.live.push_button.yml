@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.live.push_button
+  commentId: T:Assets.Scripts.live.push_button
+  id: push_button
+  parent: Assets.Scripts.live
+  children:
+  - Assets.Scripts.live.push_button.button_handler
+  - Assets.Scripts.live.push_button.card_Renderer
+  - Assets.Scripts.live.push_button.current_card_pile
+  - Assets.Scripts.live.push_button.to_grave
+  - Assets.Scripts.live.push_button.to_hand
+  langs:
+  - csharp
+  - vb
+  name: push_button
+  nameWithType: push_button
+  fullName: Assets.Scripts.live.push_button
+  type: Class
+  source:
+    id: push_button
+    path: ''
+    startLine: 160066
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: 'public class push_button : MonoBehaviour'
+    content.vb: >-
+      Public Class push_button
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.live.push_button.card_Renderer
+  commentId: F:Assets.Scripts.live.push_button.card_Renderer
+  id: card_Renderer
+  parent: Assets.Scripts.live.push_button
+  langs:
+  - csharp
+  - vb
+  name: card_Renderer
+  nameWithType: push_button.card_Renderer
+  fullName: Assets.Scripts.live.push_button.card_Renderer
+  type: Field
+  source:
+    id: card_Renderer
+    path: ''
+    startLine: 160068
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public card_renderer card_Renderer
+    return:
+      type: Assets.Scripts.live.card_renderer
+    content.vb: Public card_Renderer As card_renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.push_button.current_card_pile
+  commentId: F:Assets.Scripts.live.push_button.current_card_pile
+  id: current_card_pile
+  parent: Assets.Scripts.live.push_button
+  langs:
+  - csharp
+  - vb
+  name: current_card_pile
+  nameWithType: push_button.current_card_pile
+  fullName: Assets.Scripts.live.push_button.current_card_pile
+  type: Field
+  source:
+    id: current_card_pile
+    path: ''
+    startLine: 160069
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public live_card_pile current_card_pile
+    return:
+      type: Assets.Scripts.live.live_card_pile
+    content.vb: Public current_card_pile As live_card_pile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.push_button.button_handler
+  commentId: M:Assets.Scripts.live.push_button.button_handler
+  id: button_handler
+  parent: Assets.Scripts.live.push_button
+  langs:
+  - csharp
+  - vb
+  name: button_handler()
+  nameWithType: push_button.button_handler()
+  fullName: Assets.Scripts.live.push_button.button_handler()
+  type: Method
+  source:
+    id: button_handler
+    path: ''
+    startLine: 160070
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void button_handler()
+    content.vb: Public Sub button_handler
+  overload: Assets.Scripts.live.push_button.button_handler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.push_button.to_grave
+  commentId: M:Assets.Scripts.live.push_button.to_grave
+  id: to_grave
+  parent: Assets.Scripts.live.push_button
+  langs:
+  - csharp
+  - vb
+  name: to_grave()
+  nameWithType: push_button.to_grave()
+  fullName: Assets.Scripts.live.push_button.to_grave()
+  type: Method
+  source:
+    id: to_grave
+    path: ''
+    startLine: 160085
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void to_grave()
+    content.vb: Public Sub to_grave
+  overload: Assets.Scripts.live.push_button.to_grave*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.live.push_button.to_hand
+  commentId: M:Assets.Scripts.live.push_button.to_hand
+  id: to_hand
+  parent: Assets.Scripts.live.push_button
+  langs:
+  - csharp
+  - vb
+  name: to_hand()
+  nameWithType: push_button.to_hand()
+  fullName: Assets.Scripts.live.push_button.to_hand()
+  type: Method
+  source:
+    id: to_hand
+    path: ''
+    startLine: 160089
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.live
+  syntax:
+    content: public void to_hand()
+    content.vb: Public Sub to_hand
+  overload: Assets.Scripts.live.push_button.to_hand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.live
+  commentId: N:Assets.Scripts.live
+  name: Assets.Scripts.live
+  nameWithType: Assets.Scripts.live
+  fullName: Assets.Scripts.live
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.live.card_renderer
+  commentId: T:Assets.Scripts.live.card_renderer
+  parent: Assets.Scripts.live
+  name: card_renderer
+  nameWithType: card_renderer
+  fullName: Assets.Scripts.live.card_renderer
+- uid: Assets.Scripts.live.live_card_pile
+  commentId: T:Assets.Scripts.live.live_card_pile
+  parent: Assets.Scripts.live
+  name: live_card_pile
+  nameWithType: live_card_pile
+  fullName: Assets.Scripts.live.live_card_pile
+- uid: Assets.Scripts.live.push_button.button_handler*
+  commentId: Overload:Assets.Scripts.live.push_button.button_handler
+  name: button_handler
+  nameWithType: push_button.button_handler
+  fullName: Assets.Scripts.live.push_button.button_handler
+- uid: Assets.Scripts.live.push_button.to_grave*
+  commentId: Overload:Assets.Scripts.live.push_button.to_grave
+  name: to_grave
+  nameWithType: push_button.to_grave
+  fullName: Assets.Scripts.live.push_button.to_grave
+- uid: Assets.Scripts.live.push_button.to_hand*
+  commentId: Overload:Assets.Scripts.live.push_button.to_hand
+  name: to_hand
+  nameWithType: push_button.to_hand
+  fullName: Assets.Scripts.live.push_button.to_hand

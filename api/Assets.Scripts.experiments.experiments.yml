@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.experiments.experiments
+  commentId: T:Assets.Scripts.experiments.experiments
+  id: experiments
+  parent: Assets.Scripts.experiments
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: experiments
+  nameWithType: experiments
+  fullName: Assets.Scripts.experiments.experiments
+  type: Class
+  source:
+    id: experiments
+    path: ''
+    startLine: 155956
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.experiments
+  syntax:
+    content: 'public class experiments : MonoBehaviour'
+    content.vb: >-
+      Public Class experiments
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.experiments
+  commentId: N:Assets.Scripts.experiments
+  name: Assets.Scripts.experiments
+  nameWithType: Assets.Scripts.experiments
+  fullName: Assets.Scripts.experiments
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

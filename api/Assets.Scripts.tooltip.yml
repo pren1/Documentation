@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.tooltip
+  commentId: N:Assets.Scripts.tooltip
+  id: Assets.Scripts.tooltip
+  children:
+  - Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.tooltip
+  nameWithType: Assets.Scripts.tooltip
+  fullName: Assets.Scripts.tooltip
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  commentId: T:Assets.Scripts.tooltip.TooltipScreenSpaceUI
+  parent: Assets.Scripts.tooltip
+  name: TooltipScreenSpaceUI
+  nameWithType: TooltipScreenSpaceUI
+  fullName: Assets.Scripts.tooltip.TooltipScreenSpaceUI
+- uid: Assets.Scripts.tooltip
+  commentId: N:Assets.Scripts.tooltip
+  name: Assets.Scripts.tooltip
+  nameWithType: Assets.Scripts.tooltip
+  fullName: Assets.Scripts.tooltip

@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.UI.place_icon_handler
+  commentId: T:Assets.Scripts.UI.place_icon_handler
+  id: place_icon_handler
+  parent: Assets.Scripts.UI
+  children:
+  - Assets.Scripts.UI.place_icon_handler.base_img
+  - Assets.Scripts.UI.place_icon_handler.current_camera_transform
+  - Assets.Scripts.UI.place_icon_handler.Joystick_center
+  - Assets.Scripts.UI.place_icon_handler.TextMeshPro
+  langs:
+  - csharp
+  - vb
+  name: place_icon_handler
+  nameWithType: place_icon_handler
+  fullName: Assets.Scripts.UI.place_icon_handler
+  type: Class
+  source:
+    id: place_icon_handler
+    path: ''
+    startLine: 162776
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  summary: "\n大地图icon处理\n"
+  example: []
+  syntax:
+    content: 'public class place_icon_handler : MonoBehaviour'
+    content.vb: >-
+      Public Class place_icon_handler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.UI.place_icon_handler.current_camera_transform
+  commentId: F:Assets.Scripts.UI.place_icon_handler.current_camera_transform
+  id: current_camera_transform
+  parent: Assets.Scripts.UI.place_icon_handler
+  langs:
+  - csharp
+  - vb
+  name: current_camera_transform
+  nameWithType: place_icon_handler.current_camera_transform
+  fullName: Assets.Scripts.UI.place_icon_handler.current_camera_transform
+  type: Field
+  source:
+    id: current_camera_transform
+    path: ''
+    startLine: 162778
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  syntax:
+    content: public Transform current_camera_transform
+    return:
+      type: Global.Transform
+    content.vb: Public current_camera_transform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.UI.place_icon_handler.Joystick_center
+  commentId: F:Assets.Scripts.UI.place_icon_handler.Joystick_center
+  id: Joystick_center
+  parent: Assets.Scripts.UI.place_icon_handler
+  langs:
+  - csharp
+  - vb
+  name: Joystick_center
+  nameWithType: place_icon_handler.Joystick_center
+  fullName: Assets.Scripts.UI.place_icon_handler.Joystick_center
+  type: Field
+  source:
+    id: Joystick_center
+    path: ''
+    startLine: 162780
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  syntax:
+    content: public GameObject Joystick_center
+    return:
+      type: Global.GameObject
+    content.vb: Public Joystick_center As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.UI.place_icon_handler.base_img
+  commentId: F:Assets.Scripts.UI.place_icon_handler.base_img
+  id: base_img
+  parent: Assets.Scripts.UI.place_icon_handler
+  langs:
+  - csharp
+  - vb
+  name: base_img
+  nameWithType: place_icon_handler.base_img
+  fullName: Assets.Scripts.UI.place_icon_handler.base_img
+  type: Field
+  source:
+    id: base_img
+    path: ''
+    startLine: 162781
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  syntax:
+    content: public SpriteRenderer base_img
+    return:
+      type: Global.SpriteRenderer
+    content.vb: Public base_img As SpriteRenderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.UI.place_icon_handler.TextMeshPro
+  commentId: F:Assets.Scripts.UI.place_icon_handler.TextMeshPro
+  id: TextMeshPro
+  parent: Assets.Scripts.UI.place_icon_handler
+  langs:
+  - csharp
+  - vb
+  name: TextMeshPro
+  nameWithType: place_icon_handler.TextMeshPro
+  fullName: Assets.Scripts.UI.place_icon_handler.TextMeshPro
+  type: Field
+  source:
+    id: TextMeshPro
+    path: ''
+    startLine: 162783
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.UI
+  syntax:
+    content: public TextMeshPro TextMeshPro
+    return:
+      type: Global.TextMeshPro
+    content.vb: Public TextMeshPro As TextMeshPro
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.UI
+  commentId: N:Assets.Scripts.UI
+  name: Assets.Scripts.UI
+  nameWithType: Assets.Scripts.UI
+  fullName: Assets.Scripts.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.SpriteRenderer
+  commentId: '!:Global.SpriteRenderer'
+  isExternal: true
+  name: SpriteRenderer
+  nameWithType: SpriteRenderer
+  fullName: SpriteRenderer
+- uid: Global.TextMeshPro
+  commentId: '!:Global.TextMeshPro'
+  isExternal: true
+  name: TextMeshPro
+  nameWithType: TextMeshPro
+  fullName: TextMeshPro

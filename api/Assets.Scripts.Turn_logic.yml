@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Turn_logic
+  commentId: N:Assets.Scripts.Turn_logic
+  id: Assets.Scripts.Turn_logic
+  children:
+  - Assets.Scripts.Turn_logic.cost_visualization
+  - Assets.Scripts.Turn_logic.Magic_cost_visualization
+  - Assets.Scripts.Turn_logic.random_icons
+  - Assets.Scripts.Turn_logic.turn_anime_transfer
+  - Assets.Scripts.Turn_logic.Turn_logic
+  - Assets.Scripts.Turn_logic.visualization_parent
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Turn_logic
+  nameWithType: Assets.Scripts.Turn_logic
+  fullName: Assets.Scripts.Turn_logic
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Turn_logic.cost_visualization
+  commentId: T:Assets.Scripts.Turn_logic.cost_visualization
+  parent: Assets.Scripts.Turn_logic
+  name: cost_visualization
+  nameWithType: cost_visualization
+  fullName: Assets.Scripts.Turn_logic.cost_visualization
+- uid: Assets.Scripts.Turn_logic.Magic_cost_visualization
+  commentId: T:Assets.Scripts.Turn_logic.Magic_cost_visualization
+  parent: Assets.Scripts.Turn_logic
+  name: Magic_cost_visualization
+  nameWithType: Magic_cost_visualization
+  fullName: Assets.Scripts.Turn_logic.Magic_cost_visualization
+- uid: Assets.Scripts.Turn_logic.random_icons
+  commentId: T:Assets.Scripts.Turn_logic.random_icons
+  name: random_icons
+  nameWithType: random_icons
+  fullName: Assets.Scripts.Turn_logic.random_icons
+- uid: Assets.Scripts.Turn_logic.turn_anime_transfer
+  commentId: T:Assets.Scripts.Turn_logic.turn_anime_transfer
+  name: turn_anime_transfer
+  nameWithType: turn_anime_transfer
+  fullName: Assets.Scripts.Turn_logic.turn_anime_transfer
+- uid: Assets.Scripts.Turn_logic.Turn_logic
+  commentId: T:Assets.Scripts.Turn_logic.Turn_logic
+  name: Turn_logic
+  nameWithType: Turn_logic
+  fullName: Assets.Scripts.Turn_logic.Turn_logic
+- uid: Assets.Scripts.Turn_logic.visualization_parent
+  commentId: T:Assets.Scripts.Turn_logic.visualization_parent
+  parent: Assets.Scripts.Turn_logic
+  name: visualization_parent
+  nameWithType: visualization_parent
+  fullName: Assets.Scripts.Turn_logic.visualization_parent
+- uid: Assets.Scripts.Turn_logic
+  commentId: N:Assets.Scripts.Turn_logic
+  name: Assets.Scripts.Turn_logic
+  nameWithType: Assets.Scripts.Turn_logic
+  fullName: Assets.Scripts.Turn_logic

@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Debug.progress_bar
+  commentId: T:Assets.Scripts.Debug.progress_bar
+  id: progress_bar
+  parent: Assets.Scripts.Debug
+  children:
+  - Assets.Scripts.Debug.progress_bar.forward_progress_bar
+  langs:
+  - csharp
+  - vb
+  name: progress_bar
+  nameWithType: progress_bar
+  fullName: Assets.Scripts.Debug.progress_bar
+  type: Class
+  source:
+    id: progress_bar
+    path: ''
+    startLine: 154801
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: 'public class progress_bar : MonoBehaviour'
+    content.vb: >-
+      Public Class progress_bar
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Debug.progress_bar.forward_progress_bar
+  commentId: M:Assets.Scripts.Debug.progress_bar.forward_progress_bar
+  id: forward_progress_bar
+  parent: Assets.Scripts.Debug.progress_bar
+  langs:
+  - csharp
+  - vb
+  name: forward_progress_bar()
+  nameWithType: progress_bar.forward_progress_bar()
+  fullName: Assets.Scripts.Debug.progress_bar.forward_progress_bar()
+  type: Method
+  source:
+    id: forward_progress_bar
+    path: ''
+    startLine: 154827
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Debug
+  syntax:
+    content: public void forward_progress_bar()
+    content.vb: Public Sub forward_progress_bar
+  overload: Assets.Scripts.Debug.progress_bar.forward_progress_bar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Debug
+  commentId: N:Assets.Scripts.Debug
+  name: Assets.Scripts.Debug
+  nameWithType: Assets.Scripts.Debug
+  fullName: Assets.Scripts.Debug
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Debug.progress_bar.forward_progress_bar*
+  commentId: Overload:Assets.Scripts.Debug.progress_bar.forward_progress_bar
+  name: forward_progress_bar
+  nameWithType: progress_bar.forward_progress_bar
+  fullName: Assets.Scripts.Debug.progress_bar.forward_progress_bar

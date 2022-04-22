@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.status_icon
+  commentId: T:Assets.Scripts.Character.status_icon
+  id: status_icon
+  parent: Assets.Scripts.Character
+  children:
+  - Assets.Scripts.Character.status_icon.#ctor(GameObject,Canvas,RectTransform,System.String,System.String,System.String,Color,System.Single,System.Single)
+  - Assets.Scripts.Character.status_icon.SetImage(System.String,Color)
+  - Assets.Scripts.Character.status_icon.SetImage_active
+  - Assets.Scripts.Character.status_icon.SetImage_inactive
+  - Assets.Scripts.Character.status_icon.SetText(System.String)
+  langs:
+  - csharp
+  - vb
+  name: status_icon
+  nameWithType: status_icon
+  fullName: Assets.Scripts.Character.status_icon
+  type: Class
+  source:
+    id: status_icon
+    path: ''
+    startLine: 154087
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n战斗场景状态图标\n"
+  example: []
+  syntax:
+    content: public class status_icon
+    content.vb: Public Class status_icon
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Character.status_icon.#ctor(GameObject,Canvas,RectTransform,System.String,System.String,System.String,Color,System.Single,System.Single)
+  commentId: M:Assets.Scripts.Character.status_icon.#ctor(GameObject,Canvas,RectTransform,System.String,System.String,System.String,Color,System.Single,System.Single)
+  id: '#ctor(GameObject,Canvas,RectTransform,System.String,System.String,System.String,Color,System.Single,System.Single)'
+  parent: Assets.Scripts.Character.status_icon
+  langs:
+  - csharp
+  - vb
+  name: status_icon(GameObject, Canvas, RectTransform, String, String, String, Color, Single, Single)
+  nameWithType: status_icon.status_icon(GameObject, Canvas, RectTransform, String, String, String, Color, Single, Single)
+  fullName: Assets.Scripts.Character.status_icon.status_icon(GameObject, Canvas, RectTransform, System.String, System.String, System.String, Color, System.Single, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 154096
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public status_icon(GameObject parent_gameobject, Canvas my_canvas, RectTransform CanvasRect, string icon_name, string initial_value, string image_name, Color color, float offset_x, float offset_y)
+    parameters:
+    - id: parent_gameobject
+      type: Global.GameObject
+    - id: my_canvas
+      type: Global.Canvas
+    - id: CanvasRect
+      type: Global.RectTransform
+    - id: icon_name
+      type: System.String
+    - id: initial_value
+      type: System.String
+    - id: image_name
+      type: System.String
+    - id: color
+      type: Global.Color
+    - id: offset_x
+      type: System.Single
+    - id: offset_y
+      type: System.Single
+    content.vb: Public Sub New(parent_gameobject As GameObject, my_canvas As Canvas, CanvasRect As RectTransform, icon_name As String, initial_value As String, image_name As String, color As Color, offset_x As Single, offset_y As Single)
+  overload: Assets.Scripts.Character.status_icon.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.status_icon.SetText(System.String)
+  commentId: M:Assets.Scripts.Character.status_icon.SetText(System.String)
+  id: SetText(System.String)
+  parent: Assets.Scripts.Character.status_icon
+  langs:
+  - csharp
+  - vb
+  name: SetText(String)
+  nameWithType: status_icon.SetText(String)
+  fullName: Assets.Scripts.Character.status_icon.SetText(System.String)
+  type: Method
+  source:
+    id: SetText
+    path: ''
+    startLine: 154133
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n改变图标上的文字\n"
+  example: []
+  syntax:
+    content: public void SetText(string text_str)
+    parameters:
+    - id: text_str
+      type: System.String
+      description: ''
+    content.vb: Public Sub SetText(text_str As String)
+  overload: Assets.Scripts.Character.status_icon.SetText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.status_icon.SetImage(System.String,Color)
+  commentId: M:Assets.Scripts.Character.status_icon.SetImage(System.String,Color)
+  id: SetImage(System.String,Color)
+  parent: Assets.Scripts.Character.status_icon
+  langs:
+  - csharp
+  - vb
+  name: SetImage(String, Color)
+  nameWithType: status_icon.SetImage(String, Color)
+  fullName: Assets.Scripts.Character.status_icon.SetImage(System.String, Color)
+  type: Method
+  source:
+    id: SetImage
+    path: ''
+    startLine: 154138
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void SetImage(string image_name, Color color)
+    parameters:
+    - id: image_name
+      type: System.String
+    - id: color
+      type: Global.Color
+    content.vb: Public Sub SetImage(image_name As String, color As Color)
+  overload: Assets.Scripts.Character.status_icon.SetImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.status_icon.SetImage_inactive
+  commentId: M:Assets.Scripts.Character.status_icon.SetImage_inactive
+  id: SetImage_inactive
+  parent: Assets.Scripts.Character.status_icon
+  langs:
+  - csharp
+  - vb
+  name: SetImage_inactive()
+  nameWithType: status_icon.SetImage_inactive()
+  fullName: Assets.Scripts.Character.status_icon.SetImage_inactive()
+  type: Method
+  source:
+    id: SetImage_inactive
+    path: ''
+    startLine: 154143
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void SetImage_inactive()
+    content.vb: Public Sub SetImage_inactive
+  overload: Assets.Scripts.Character.status_icon.SetImage_inactive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.status_icon.SetImage_active
+  commentId: M:Assets.Scripts.Character.status_icon.SetImage_active
+  id: SetImage_active
+  parent: Assets.Scripts.Character.status_icon
+  langs:
+  - csharp
+  - vb
+  name: SetImage_active()
+  nameWithType: status_icon.SetImage_active()
+  fullName: Assets.Scripts.Character.status_icon.SetImage_active()
+  type: Method
+  source:
+    id: SetImage_active
+    path: ''
+    startLine: 154150
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public void SetImage_active()
+    content.vb: Public Sub SetImage_active
+  overload: Assets.Scripts.Character.status_icon.SetImage_active*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Character.status_icon.#ctor*
+  commentId: Overload:Assets.Scripts.Character.status_icon.#ctor
+  name: status_icon
+  nameWithType: status_icon.status_icon
+  fullName: Assets.Scripts.Character.status_icon.status_icon
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Canvas
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Character.status_icon.SetText*
+  commentId: Overload:Assets.Scripts.Character.status_icon.SetText
+  name: SetText
+  nameWithType: status_icon.SetText
+  fullName: Assets.Scripts.Character.status_icon.SetText
+- uid: Assets.Scripts.Character.status_icon.SetImage*
+  commentId: Overload:Assets.Scripts.Character.status_icon.SetImage
+  name: SetImage
+  nameWithType: status_icon.SetImage
+  fullName: Assets.Scripts.Character.status_icon.SetImage
+- uid: Assets.Scripts.Character.status_icon.SetImage_inactive*
+  commentId: Overload:Assets.Scripts.Character.status_icon.SetImage_inactive
+  name: SetImage_inactive
+  nameWithType: status_icon.SetImage_inactive
+  fullName: Assets.Scripts.Character.status_icon.SetImage_inactive
+- uid: Assets.Scripts.Character.status_icon.SetImage_active*
+  commentId: Overload:Assets.Scripts.Character.status_icon.SetImage_active
+  name: SetImage_active
+  nameWithType: status_icon.SetImage_active
+  fullName: Assets.Scripts.Character.status_icon.SetImage_active

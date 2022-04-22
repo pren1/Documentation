@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  commentId: T:Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  id: Non_static_Dialog_variables
+  parent: Assets.Scripts.Game_manager
+  children:
+  - Assets.Scripts.Game_manager.Non_static_Dialog_variables.#ctor(System.Int32,System.String,System.String)
+  - Assets.Scripts.Game_manager.Non_static_Dialog_variables.drama_index
+  langs:
+  - csharp
+  - vb
+  name: Non_static_Dialog_variables
+  nameWithType: Non_static_Dialog_variables
+  fullName: Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  type: Class
+  source:
+    id: Non_static_Dialog_variables
+    path: ''
+    startLine: 156121
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  summary: "\n非静态对话场景变量类，便于Gamepipline进行储存\n"
+  example: []
+  syntax:
+    content: 'public class Non_static_Dialog_variables : Non_static_variables'
+    content.vb: >-
+      Public Class Non_static_Dialog_variables
+          Inherits Non_static_variables
+  inheritance:
+  - System.Object
+  - Assets.Scripts.Game_manager.Non_static_variables
+  inheritedMembers:
+  - Assets.Scripts.Game_manager.Non_static_variables.BGM_name
+  - Assets.Scripts.Game_manager.Non_static_variables.Background_name
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Game_manager.Non_static_Dialog_variables.drama_index
+  commentId: F:Assets.Scripts.Game_manager.Non_static_Dialog_variables.drama_index
+  id: drama_index
+  parent: Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  langs:
+  - csharp
+  - vb
+  name: drama_index
+  nameWithType: Non_static_Dialog_variables.drama_index
+  fullName: Assets.Scripts.Game_manager.Non_static_Dialog_variables.drama_index
+  type: Field
+  source:
+    id: drama_index
+    path: ''
+    startLine: 156123
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public int drama_index
+    return:
+      type: System.Int32
+    content.vb: Public drama_index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Game_manager.Non_static_Dialog_variables.#ctor(System.Int32,System.String,System.String)
+  commentId: M:Assets.Scripts.Game_manager.Non_static_Dialog_variables.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: Assets.Scripts.Game_manager.Non_static_Dialog_variables
+  langs:
+  - csharp
+  - vb
+  name: Non_static_Dialog_variables(Int32, String, String)
+  nameWithType: Non_static_Dialog_variables.Non_static_Dialog_variables(Int32, String, String)
+  fullName: Assets.Scripts.Game_manager.Non_static_Dialog_variables.Non_static_Dialog_variables(System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 156124
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Game_manager
+  syntax:
+    content: public Non_static_Dialog_variables(int drama_index, string BGM_name, string Background_name)
+    parameters:
+    - id: drama_index
+      type: System.Int32
+    - id: BGM_name
+      type: System.String
+    - id: Background_name
+      type: System.String
+    content.vb: Public Sub New(drama_index As Integer, BGM_name As String, Background_name As String)
+  overload: Assets.Scripts.Game_manager.Non_static_Dialog_variables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Game_manager
+  commentId: N:Assets.Scripts.Game_manager
+  name: Assets.Scripts.Game_manager
+  nameWithType: Assets.Scripts.Game_manager
+  fullName: Assets.Scripts.Game_manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Assets.Scripts.Game_manager.Non_static_variables
+  commentId: T:Assets.Scripts.Game_manager.Non_static_variables
+  parent: Assets.Scripts.Game_manager
+  name: Non_static_variables
+  nameWithType: Non_static_variables
+  fullName: Assets.Scripts.Game_manager.Non_static_variables
+- uid: Assets.Scripts.Game_manager.Non_static_variables.BGM_name
+  commentId: F:Assets.Scripts.Game_manager.Non_static_variables.BGM_name
+  parent: Assets.Scripts.Game_manager.Non_static_variables
+  name: BGM_name
+  nameWithType: Non_static_variables.BGM_name
+  fullName: Assets.Scripts.Game_manager.Non_static_variables.BGM_name
+- uid: Assets.Scripts.Game_manager.Non_static_variables.Background_name
+  commentId: F:Assets.Scripts.Game_manager.Non_static_variables.Background_name
+  parent: Assets.Scripts.Game_manager.Non_static_variables
+  name: Background_name
+  nameWithType: Non_static_variables.Background_name
+  fullName: Assets.Scripts.Game_manager.Non_static_variables.Background_name
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Game_manager.Non_static_Dialog_variables.#ctor*
+  commentId: Overload:Assets.Scripts.Game_manager.Non_static_Dialog_variables.#ctor
+  name: Non_static_Dialog_variables
+  nameWithType: Non_static_Dialog_variables.Non_static_Dialog_variables
+  fullName: Assets.Scripts.Game_manager.Non_static_Dialog_variables.Non_static_Dialog_variables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  id: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.card_effect
+  - Assets.Scripts.Utility.Card_rarity
+  - Assets.Scripts.Utility.Card_selection_state
+  - Assets.Scripts.Utility.card_type
+  - Assets.Scripts.Utility.Effect_tuple
+  - Assets.Scripts.Utility.FixedSizedQueue`1
+  - Assets.Scripts.Utility.Health_bar_status
+  - Assets.Scripts.Utility.Monster_level
+  - Assets.Scripts.Utility.New_card_effect_decoder
+  - Assets.Scripts.Utility.Select_state
+  - Assets.Scripts.Utility.Set_initial_cursor
+  - Assets.Scripts.Utility.Singleton`1
+  - Assets.Scripts.Utility.Skill_tuple
+  - Assets.Scripts.Utility.Turn_logic_state
+  - Assets.Scripts.Utility.UnityMainThreadDispatcher
+  - Assets.Scripts.Utility.Util
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Utility.Effect_tuple
+  commentId: T:Assets.Scripts.Utility.Effect_tuple
+  parent: Assets.Scripts.Utility
+  name: Effect_tuple
+  nameWithType: Effect_tuple
+  fullName: Assets.Scripts.Utility.Effect_tuple
+- uid: Assets.Scripts.Utility.Card_rarity
+  commentId: T:Assets.Scripts.Utility.Card_rarity
+  parent: Assets.Scripts.Utility
+  name: Card_rarity
+  nameWithType: Card_rarity
+  fullName: Assets.Scripts.Utility.Card_rarity
+- uid: Assets.Scripts.Utility.card_effect
+  commentId: T:Assets.Scripts.Utility.card_effect
+  parent: Assets.Scripts.Utility
+  name: card_effect
+  nameWithType: card_effect
+  fullName: Assets.Scripts.Utility.card_effect
+- uid: Assets.Scripts.Utility.card_type
+  commentId: T:Assets.Scripts.Utility.card_type
+  parent: Assets.Scripts.Utility
+  name: card_type
+  nameWithType: card_type
+  fullName: Assets.Scripts.Utility.card_type
+- uid: Assets.Scripts.Utility.Select_state
+  commentId: T:Assets.Scripts.Utility.Select_state
+  parent: Assets.Scripts.Utility
+  name: Select_state
+  nameWithType: Select_state
+  fullName: Assets.Scripts.Utility.Select_state
+- uid: Assets.Scripts.Utility.Monster_level
+  commentId: T:Assets.Scripts.Utility.Monster_level
+  parent: Assets.Scripts.Utility
+  name: Monster_level
+  nameWithType: Monster_level
+  fullName: Assets.Scripts.Utility.Monster_level
+- uid: Assets.Scripts.Utility.Turn_logic_state
+  commentId: T:Assets.Scripts.Utility.Turn_logic_state
+  parent: Assets.Scripts.Utility
+  name: Turn_logic_state
+  nameWithType: Turn_logic_state
+  fullName: Assets.Scripts.Utility.Turn_logic_state
+- uid: Assets.Scripts.Utility.Card_selection_state
+  commentId: T:Assets.Scripts.Utility.Card_selection_state
+  parent: Assets.Scripts.Utility
+  name: Card_selection_state
+  nameWithType: Card_selection_state
+  fullName: Assets.Scripts.Utility.Card_selection_state
+- uid: Assets.Scripts.Utility.Health_bar_status
+  commentId: T:Assets.Scripts.Utility.Health_bar_status
+  parent: Assets.Scripts.Utility
+  name: Health_bar_status
+  nameWithType: Health_bar_status
+  fullName: Assets.Scripts.Utility.Health_bar_status
+- uid: Assets.Scripts.Utility.FixedSizedQueue`1
+  commentId: T:Assets.Scripts.Utility.FixedSizedQueue`1
+  name: FixedSizedQueue<T>
+  nameWithType: FixedSizedQueue<T>
+  fullName: Assets.Scripts.Utility.FixedSizedQueue<T>
+  nameWithType.vb: FixedSizedQueue(Of T)
+  fullName.vb: Assets.Scripts.Utility.FixedSizedQueue(Of T)
+  name.vb: FixedSizedQueue(Of T)
+  spec.csharp:
+  - uid: Assets.Scripts.Utility.FixedSizedQueue`1
+    name: FixedSizedQueue
+    nameWithType: FixedSizedQueue
+    fullName: Assets.Scripts.Utility.FixedSizedQueue
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Assets.Scripts.Utility.FixedSizedQueue`1
+    name: FixedSizedQueue
+    nameWithType: FixedSizedQueue
+    fullName: Assets.Scripts.Utility.FixedSizedQueue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.New_card_effect_decoder
+  commentId: T:Assets.Scripts.Utility.New_card_effect_decoder
+  name: New_card_effect_decoder
+  nameWithType: New_card_effect_decoder
+  fullName: Assets.Scripts.Utility.New_card_effect_decoder
+- uid: Assets.Scripts.Utility.Set_initial_cursor
+  commentId: T:Assets.Scripts.Utility.Set_initial_cursor
+  name: Set_initial_cursor
+  nameWithType: Set_initial_cursor
+  fullName: Assets.Scripts.Utility.Set_initial_cursor
+- uid: Assets.Scripts.Utility.Singleton`1
+  commentId: T:Assets.Scripts.Utility.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Assets.Scripts.Utility.Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Assets.Scripts.Utility.Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Assets.Scripts.Utility.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Assets.Scripts.Utility.Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Assets.Scripts.Utility.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Assets.Scripts.Utility.Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assets.Scripts.Utility.Skill_tuple
+  commentId: T:Assets.Scripts.Utility.Skill_tuple
+  name: Skill_tuple
+  nameWithType: Skill_tuple
+  fullName: Assets.Scripts.Utility.Skill_tuple
+- uid: Assets.Scripts.Utility.UnityMainThreadDispatcher
+  commentId: T:Assets.Scripts.Utility.UnityMainThreadDispatcher
+  name: UnityMainThreadDispatcher
+  nameWithType: UnityMainThreadDispatcher
+  fullName: Assets.Scripts.Utility.UnityMainThreadDispatcher
+- uid: Assets.Scripts.Utility.Util
+  commentId: T:Assets.Scripts.Utility.Util
+  name: Util
+  nameWithType: Util
+  fullName: Assets.Scripts.Utility.Util
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility

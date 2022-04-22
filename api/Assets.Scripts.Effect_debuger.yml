@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Effect_debuger
+  commentId: N:Assets.Scripts.Effect_debuger
+  id: Assets.Scripts.Effect_debuger
+  children:
+  - Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Effect_debuger
+  nameWithType: Assets.Scripts.Effect_debuger
+  fullName: Assets.Scripts.Effect_debuger
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger
+  commentId: T:Assets.Scripts.Effect_debuger.Effect_debuger
+  name: Effect_debuger
+  nameWithType: Effect_debuger
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger

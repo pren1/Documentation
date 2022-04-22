@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Cards.block_card_click
+  commentId: T:Assets.Scripts.Cards.block_card_click
+  id: block_card_click
+  parent: Assets.Scripts.Cards
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: block_card_click
+  nameWithType: block_card_click
+  fullName: Assets.Scripts.Cards.block_card_click
+  type: Class
+  source:
+    id: block_card_click
+    path: ''
+    startLine: 151012
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Cards
+  syntax:
+    content: 'public class block_card_click : MonoBehaviour'
+    content.vb: >-
+      Public Class block_card_click
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Assets.Scripts.Cards
+  commentId: N:Assets.Scripts.Cards
+  name: Assets.Scripts.Cards
+  nameWithType: Assets.Scripts.Cards
+  fullName: Assets.Scripts.Cards
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,1701 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger
+  commentId: T:Assets.Scripts.Effect_debuger.Effect_debuger
+  id: Effect_debuger
+  parent: Assets.Scripts.Effect_debuger
+  children:
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Add_money
+  - Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index
+  - Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack
+  - Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy
+  - Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit
+  - Assets.Scripts.Effect_debuger.Effect_debuger.dizzy
+  - Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe
+  - Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle
+  - Assets.Scripts.Effect_debuger.Effect_debuger.furious
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage
+  - Assets.Scripts.Effect_debuger.Effect_debuger.heal
+  - Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit
+  - Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.money_protect
+  - Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged(System.Single)
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease
+  - Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase
+  - Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack
+  - Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense
+  - Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal
+  - Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card
+  - Assets.Scripts.Effect_debuger.Effect_debuger.resurrection
+  - Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards
+  - Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense
+  - Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense
+  - Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense
+  - Assets.Scripts.Effect_debuger.Effect_debuger.Taunt
+  langs:
+  - csharp
+  - vb
+  name: Effect_debuger
+  nameWithType: Effect_debuger
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger
+  type: Class
+  source:
+    id: Effect_debuger
+    path: ''
+    startLine: 155585
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  summary: "\n用于debug各种效果，还需要继续增加...\n"
+  example: []
+  syntax:
+    content: 'public class Effect_debuger : MonoBehaviour'
+    content.vb: >-
+      Public Class Effect_debuger
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index
+  id: change_Enemy_index
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: change_Enemy_index()
+  nameWithType: Effect_debuger.change_Enemy_index()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index()
+  type: Method
+  source:
+    id: change_Enemy_index
+    path: ''
+    startLine: 155635
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  summary: "\n更改卡牌目标，这里有点小bug。当前敌人数只有1，但是这里假设是2.\n"
+  example: []
+  syntax:
+    content: public void change_Enemy_index()
+    content.vb: Public Sub change_Enemy_index
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index
+  id: change_Member_index
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: change_Member_index()
+  nameWithType: Effect_debuger.change_Member_index()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index()
+  type: Method
+  source:
+    id: change_Member_index
+    path: ''
+    startLine: 155662
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  summary: "\n改变卡牌源\n"
+  example: []
+  syntax:
+    content: public void change_Member_index()
+    content.vb: Public Sub change_Member_index
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe
+  id: enable_aoe
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: enable_aoe()
+  nameWithType: Effect_debuger.enable_aoe()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe()
+  type: Method
+  source:
+    id: enable_aoe
+    path: ''
+    startLine: 155676
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void enable_aoe()
+    content.vb: Public Sub enable_aoe
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack
+  id: physical_attack
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_attack()
+  nameWithType: Effect_debuger.physical_attack()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack()
+  type: Method
+  source:
+    id: physical_attack
+    path: ''
+    startLine: 155688
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_attack()
+    content.vb: Public Sub physical_attack
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense
+  id: physical_defense
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_defense()
+  nameWithType: Effect_debuger.physical_defense()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense()
+  type: Method
+  source:
+    id: physical_defense
+    path: ''
+    startLine: 155692
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_defense()
+    content.vb: Public Sub physical_defense
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack
+  id: magical_attack
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_attack()
+  nameWithType: Effect_debuger.magical_attack()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack()
+  type: Method
+  source:
+    id: magical_attack
+    path: ''
+    startLine: 155696
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_attack()
+    content.vb: Public Sub magical_attack
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense
+  id: magical_defense
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_defense()
+  nameWithType: Effect_debuger.magical_defense()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense()
+  type: Method
+  source:
+    id: magical_defense
+    path: ''
+    startLine: 155701
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_defense()
+    content.vb: Public Sub magical_defense
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.heal
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.heal
+  id: heal
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: heal()
+  nameWithType: Effect_debuger.heal()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.heal()
+  type: Method
+  source:
+    id: heal
+    path: ''
+    startLine: 155706
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void heal()
+    content.vb: Public Sub heal
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.heal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice
+  id: sacrifice
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: sacrifice()
+  nameWithType: Effect_debuger.sacrifice()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice()
+  type: Method
+  source:
+    id: sacrifice
+    path: ''
+    startLine: 155710
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void sacrifice()
+    content.vb: Public Sub sacrifice
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.dizzy
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.dizzy
+  id: dizzy
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: dizzy()
+  nameWithType: Effect_debuger.dizzy()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.dizzy()
+  type: Method
+  source:
+    id: dizzy
+    path: ''
+    startLine: 155715
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void dizzy()
+    content.vb: Public Sub dizzy
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.dizzy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards
+  id: Spawn_NCards
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Spawn_NCards()
+  nameWithType: Effect_debuger.Spawn_NCards()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards()
+  type: Method
+  source:
+    id: Spawn_NCards
+    path: ''
+    startLine: 155720
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Spawn_NCards()
+    content.vb: Public Sub Spawn_NCards
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card
+  id: Remove_Nrandom_card
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Remove_Nrandom_card()
+  nameWithType: Effect_debuger.Remove_Nrandom_card()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card()
+  type: Method
+  source:
+    id: Remove_Nrandom_card
+    path: ''
+    startLine: 155724
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Remove_Nrandom_card()
+    content.vb: Public Sub Remove_Nrandom_card
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged(System.Single)
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged(System.Single)
+  id: OnSliderValueChanged(System.Single)
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: OnSliderValueChanged(Single)
+  nameWithType: Effect_debuger.OnSliderValueChanged(Single)
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged(System.Single)
+  type: Method
+  source:
+    id: OnSliderValueChanged
+    path: ''
+    startLine: 155729
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void OnSliderValueChanged(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub OnSliderValueChanged(value As Single)
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Add_money
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Add_money
+  id: Add_money
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Add_money()
+  nameWithType: Effect_debuger.Add_money()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Add_money()
+  type: Method
+  source:
+    id: Add_money
+    path: ''
+    startLine: 155735
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Add_money()
+    content.vb: Public Sub Add_money
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Add_money*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money
+  id: Remove_money
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Remove_money()
+  nameWithType: Effect_debuger.Remove_money()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money()
+  type: Method
+  source:
+    id: Remove_money
+    path: ''
+    startLine: 155740
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Remove_money()
+    content.vb: Public Sub Remove_money
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money
+  id: Get_double_money
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Get_double_money()
+  nameWithType: Effect_debuger.Get_double_money()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money()
+  type: Method
+  source:
+    id: Get_double_money
+    path: ''
+    startLine: 155745
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Get_double_money()
+    content.vb: Public Sub Get_double_money
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money
+  id: Get_half_money
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Get_half_money()
+  nameWithType: Effect_debuger.Get_half_money()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money()
+  type: Method
+  source:
+    id: Get_half_money
+    path: ''
+    startLine: 155750
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Get_half_money()
+    content.vb: Public Sub Get_half_money
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase
+  id: physical_attack_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_increase()
+  nameWithType: Effect_debuger.physical_attack_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase()
+  type: Method
+  source:
+    id: physical_attack_increase
+    path: ''
+    startLine: 155755
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_attack_increase()
+    content.vb: Public Sub physical_attack_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease
+  id: physical_attack_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_decrease()
+  nameWithType: Effect_debuger.physical_attack_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease()
+  type: Method
+  source:
+    id: physical_attack_decrease
+    path: ''
+    startLine: 155760
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_attack_decrease()
+    content.vb: Public Sub physical_attack_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase
+  id: magical_attack_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_increase()
+  nameWithType: Effect_debuger.magical_attack_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase()
+  type: Method
+  source:
+    id: magical_attack_increase
+    path: ''
+    startLine: 155765
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_attack_increase()
+    content.vb: Public Sub magical_attack_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease
+  id: magical_attack_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_decrease()
+  nameWithType: Effect_debuger.magical_attack_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease()
+  type: Method
+  source:
+    id: magical_attack_decrease
+    path: ''
+    startLine: 155770
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_attack_decrease()
+    content.vb: Public Sub magical_attack_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage
+  id: Get_no_damage
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Get_no_damage()
+  nameWithType: Effect_debuger.Get_no_damage()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage()
+  type: Method
+  source:
+    id: Get_no_damage
+    path: ''
+    startLine: 155775
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Get_no_damage()
+    content.vb: Public Sub Get_no_damage
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage
+  id: Get_half_damage
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Get_half_damage()
+  nameWithType: Effect_debuger.Get_half_damage()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage()
+  type: Method
+  source:
+    id: Get_half_damage
+    path: ''
+    startLine: 155780
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Get_half_damage()
+    content.vb: Public Sub Get_half_damage
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage
+  id: Get_double_damage
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Get_double_damage()
+  nameWithType: Effect_debuger.Get_double_damage()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage()
+  type: Method
+  source:
+    id: Get_double_damage
+    path: ''
+    startLine: 155785
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Get_double_damage()
+    content.vb: Public Sub Get_double_damage
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense
+  id: target_no_defense
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: target_no_defense()
+  nameWithType: Effect_debuger.target_no_defense()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense()
+  type: Method
+  source:
+    id: target_no_defense
+    path: ''
+    startLine: 155790
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void target_no_defense()
+    content.vb: Public Sub target_no_defense
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense
+  id: target_half_defense
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: target_half_defense()
+  nameWithType: Effect_debuger.target_half_defense()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense()
+  type: Method
+  source:
+    id: target_half_defense
+    path: ''
+    startLine: 155795
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void target_half_defense()
+    content.vb: Public Sub target_half_defense
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense
+  id: target_double_defense
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: target_double_defense()
+  nameWithType: Effect_debuger.target_double_defense()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense()
+  type: Method
+  source:
+    id: target_double_defense
+    path: ''
+    startLine: 155800
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void target_double_defense()
+    content.vb: Public Sub target_double_defense
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy
+  id: crash_Enemy
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: crash_Enemy()
+  nameWithType: Effect_debuger.crash_Enemy()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy()
+  type: Method
+  source:
+    id: crash_Enemy
+    path: ''
+    startLine: 155805
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void crash_Enemy()
+    content.vb: Public Sub crash_Enemy
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.furious
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.furious
+  id: furious
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: furious()
+  nameWithType: Effect_debuger.furious()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.furious()
+  type: Method
+  source:
+    id: furious
+    path: ''
+    startLine: 155810
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void furious()
+    content.vb: Public Sub furious
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.furious*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack
+  id: prob_attack
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: prob_attack()
+  nameWithType: Effect_debuger.prob_attack()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack()
+  type: Method
+  source:
+    id: prob_attack
+    path: ''
+    startLine: 155825
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void prob_attack()
+    content.vb: Public Sub prob_attack
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense
+  id: prob_defense
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: prob_defense()
+  nameWithType: Effect_debuger.prob_defense()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense()
+  type: Method
+  source:
+    id: prob_defense
+    path: ''
+    startLine: 155830
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void prob_defense()
+    content.vb: Public Sub prob_defense
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal
+  id: prob_heal
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: prob_heal()
+  nameWithType: Effect_debuger.prob_heal()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal()
+  type: Method
+  source:
+    id: prob_heal
+    path: ''
+    startLine: 155835
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void prob_heal()
+    content.vb: Public Sub prob_heal
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase
+  id: physical_attack_level_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_level_increase()
+  nameWithType: Effect_debuger.physical_attack_level_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase()
+  type: Method
+  source:
+    id: physical_attack_level_increase
+    path: ''
+    startLine: 155855
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_attack_level_increase()
+    content.vb: Public Sub physical_attack_level_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease
+  id: physical_attack_level_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_level_decrease()
+  nameWithType: Effect_debuger.physical_attack_level_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease()
+  type: Method
+  source:
+    id: physical_attack_level_decrease
+    path: ''
+    startLine: 155860
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_attack_level_decrease()
+    content.vb: Public Sub physical_attack_level_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase
+  id: physical_defense_level_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_defense_level_increase()
+  nameWithType: Effect_debuger.physical_defense_level_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase()
+  type: Method
+  source:
+    id: physical_defense_level_increase
+    path: ''
+    startLine: 155865
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_defense_level_increase()
+    content.vb: Public Sub physical_defense_level_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease
+  id: physical_defense_level_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: physical_defense_level_decrease()
+  nameWithType: Effect_debuger.physical_defense_level_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease()
+  type: Method
+  source:
+    id: physical_defense_level_decrease
+    path: ''
+    startLine: 155870
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void physical_defense_level_decrease()
+    content.vb: Public Sub physical_defense_level_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase
+  id: magical_attack_level_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_level_increase()
+  nameWithType: Effect_debuger.magical_attack_level_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase()
+  type: Method
+  source:
+    id: magical_attack_level_increase
+    path: ''
+    startLine: 155875
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_attack_level_increase()
+    content.vb: Public Sub magical_attack_level_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease
+  id: magical_attack_level_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_level_decrease()
+  nameWithType: Effect_debuger.magical_attack_level_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease()
+  type: Method
+  source:
+    id: magical_attack_level_decrease
+    path: ''
+    startLine: 155880
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_attack_level_decrease()
+    content.vb: Public Sub magical_attack_level_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase
+  id: magical_defense_level_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_defense_level_increase()
+  nameWithType: Effect_debuger.magical_defense_level_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase()
+  type: Method
+  source:
+    id: magical_defense_level_increase
+    path: ''
+    startLine: 155885
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_defense_level_increase()
+    content.vb: Public Sub magical_defense_level_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease
+  id: magical_defense_level_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: magical_defense_level_decrease()
+  nameWithType: Effect_debuger.magical_defense_level_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease()
+  type: Method
+  source:
+    id: magical_defense_level_decrease
+    path: ''
+    startLine: 155890
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void magical_defense_level_decrease()
+    content.vb: Public Sub magical_defense_level_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase
+  id: heal_level_increase
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: heal_level_increase()
+  nameWithType: Effect_debuger.heal_level_increase()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase()
+  type: Method
+  source:
+    id: heal_level_increase
+    path: ''
+    startLine: 155895
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void heal_level_increase()
+    content.vb: Public Sub heal_level_increase
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease
+  id: heal_level_decrease
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: heal_level_decrease()
+  nameWithType: Effect_debuger.heal_level_decrease()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease()
+  type: Method
+  source:
+    id: heal_level_decrease
+    path: ''
+    startLine: 155900
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void heal_level_decrease()
+    content.vb: Public Sub heal_level_decrease
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit
+  id: increase_cost_limit
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: increase_cost_limit()
+  nameWithType: Effect_debuger.increase_cost_limit()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit()
+  type: Method
+  source:
+    id: increase_cost_limit
+    path: ''
+    startLine: 155905
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void increase_cost_limit()
+    content.vb: Public Sub increase_cost_limit
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit
+  id: decrease_cost_limit
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: decrease_cost_limit()
+  nameWithType: Effect_debuger.decrease_cost_limit()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit()
+  type: Method
+  source:
+    id: decrease_cost_limit
+    path: ''
+    startLine: 155910
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void decrease_cost_limit()
+    content.vb: Public Sub decrease_cost_limit
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.resurrection
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.resurrection
+  id: resurrection
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: resurrection()
+  nameWithType: Effect_debuger.resurrection()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.resurrection()
+  type: Method
+  source:
+    id: resurrection
+    path: ''
+    startLine: 155915
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void resurrection()
+    content.vb: Public Sub resurrection
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.resurrection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection
+  id: prob_resurrection
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: prob_resurrection()
+  nameWithType: Effect_debuger.prob_resurrection()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection()
+  type: Method
+  source:
+    id: prob_resurrection
+    path: ''
+    startLine: 155920
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void prob_resurrection()
+    content.vb: Public Sub prob_resurrection
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Taunt
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Taunt
+  id: Taunt
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Taunt()
+  nameWithType: Effect_debuger.Taunt()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Taunt()
+  type: Method
+  source:
+    id: Taunt
+    path: ''
+    startLine: 155925
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Taunt()
+    content.vb: Public Sub Taunt
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Taunt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack
+  id: Counter_attack
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: Counter_attack()
+  nameWithType: Effect_debuger.Counter_attack()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack()
+  type: Method
+  source:
+    id: Counter_attack
+    path: ''
+    startLine: 155930
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void Counter_attack()
+    content.vb: Public Sub Counter_attack
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle
+  id: End_Battle
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: End_Battle()
+  nameWithType: Effect_debuger.End_Battle()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle()
+  type: Method
+  source:
+    id: End_Battle
+    path: ''
+    startLine: 155934
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void End_Battle()
+    content.vb: Public Sub
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money
+  id: infinite_money
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: infinite_money()
+  nameWithType: Effect_debuger.infinite_money()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money()
+  type: Method
+  source:
+    id: infinite_money
+    path: ''
+    startLine: 155940
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void infinite_money()
+    content.vb: Public Sub infinite_money
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.money_protect
+  commentId: M:Assets.Scripts.Effect_debuger.Effect_debuger.money_protect
+  id: money_protect
+  parent: Assets.Scripts.Effect_debuger.Effect_debuger
+  langs:
+  - csharp
+  - vb
+  name: money_protect()
+  nameWithType: Effect_debuger.money_protect()
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.money_protect()
+  type: Method
+  source:
+    id: money_protect
+    path: ''
+    startLine: 155945
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Effect_debuger
+  syntax:
+    content: public void money_protect()
+    content.vb: Public Sub money_protect
+  overload: Assets.Scripts.Effect_debuger.Effect_debuger.money_protect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Effect_debuger
+  commentId: N:Assets.Scripts.Effect_debuger
+  name: Assets.Scripts.Effect_debuger
+  nameWithType: Assets.Scripts.Effect_debuger
+  fullName: Assets.Scripts.Effect_debuger
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index
+  name: change_Enemy_index
+  nameWithType: Effect_debuger.change_Enemy_index
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index
+  name: change_Member_index
+  nameWithType: Effect_debuger.change_Member_index
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe
+  name: enable_aoe
+  nameWithType: Effect_debuger.enable_aoe
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack
+  name: physical_attack
+  nameWithType: Effect_debuger.physical_attack
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense
+  name: physical_defense
+  nameWithType: Effect_debuger.physical_defense
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack
+  name: magical_attack
+  nameWithType: Effect_debuger.magical_attack
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense
+  name: magical_defense
+  nameWithType: Effect_debuger.magical_defense
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.heal*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.heal
+  name: heal
+  nameWithType: Effect_debuger.heal
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.heal
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice
+  name: sacrifice
+  nameWithType: Effect_debuger.sacrifice
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.dizzy*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.dizzy
+  name: dizzy
+  nameWithType: Effect_debuger.dizzy
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.dizzy
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards
+  name: Spawn_NCards
+  nameWithType: Effect_debuger.Spawn_NCards
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card
+  name: Remove_Nrandom_card
+  nameWithType: Effect_debuger.Remove_Nrandom_card
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged
+  name: OnSliderValueChanged
+  nameWithType: Effect_debuger.OnSliderValueChanged
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Add_money*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Add_money
+  name: Add_money
+  nameWithType: Effect_debuger.Add_money
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Add_money
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money
+  name: Remove_money
+  nameWithType: Effect_debuger.Remove_money
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money
+  name: Get_double_money
+  nameWithType: Effect_debuger.Get_double_money
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money
+  name: Get_half_money
+  nameWithType: Effect_debuger.Get_half_money
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase
+  name: physical_attack_increase
+  nameWithType: Effect_debuger.physical_attack_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease
+  name: physical_attack_decrease
+  nameWithType: Effect_debuger.physical_attack_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase
+  name: magical_attack_increase
+  nameWithType: Effect_debuger.magical_attack_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease
+  name: magical_attack_decrease
+  nameWithType: Effect_debuger.magical_attack_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage
+  name: Get_no_damage
+  nameWithType: Effect_debuger.Get_no_damage
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage
+  name: Get_half_damage
+  nameWithType: Effect_debuger.Get_half_damage
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage
+  name: Get_double_damage
+  nameWithType: Effect_debuger.Get_double_damage
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense
+  name: target_no_defense
+  nameWithType: Effect_debuger.target_no_defense
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense
+  name: target_half_defense
+  nameWithType: Effect_debuger.target_half_defense
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense
+  name: target_double_defense
+  nameWithType: Effect_debuger.target_double_defense
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy
+  name: crash_Enemy
+  nameWithType: Effect_debuger.crash_Enemy
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.furious*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.furious
+  name: furious
+  nameWithType: Effect_debuger.furious
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.furious
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack
+  name: prob_attack
+  nameWithType: Effect_debuger.prob_attack
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense
+  name: prob_defense
+  nameWithType: Effect_debuger.prob_defense
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal
+  name: prob_heal
+  nameWithType: Effect_debuger.prob_heal
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase
+  name: physical_attack_level_increase
+  nameWithType: Effect_debuger.physical_attack_level_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease
+  name: physical_attack_level_decrease
+  nameWithType: Effect_debuger.physical_attack_level_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase
+  name: physical_defense_level_increase
+  nameWithType: Effect_debuger.physical_defense_level_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease
+  name: physical_defense_level_decrease
+  nameWithType: Effect_debuger.physical_defense_level_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase
+  name: magical_attack_level_increase
+  nameWithType: Effect_debuger.magical_attack_level_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease
+  name: magical_attack_level_decrease
+  nameWithType: Effect_debuger.magical_attack_level_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase
+  name: magical_defense_level_increase
+  nameWithType: Effect_debuger.magical_defense_level_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease
+  name: magical_defense_level_decrease
+  nameWithType: Effect_debuger.magical_defense_level_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase
+  name: heal_level_increase
+  nameWithType: Effect_debuger.heal_level_increase
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease
+  name: heal_level_decrease
+  nameWithType: Effect_debuger.heal_level_decrease
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit
+  name: increase_cost_limit
+  nameWithType: Effect_debuger.increase_cost_limit
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit
+  name: decrease_cost_limit
+  nameWithType: Effect_debuger.decrease_cost_limit
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.resurrection*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.resurrection
+  name: resurrection
+  nameWithType: Effect_debuger.resurrection
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.resurrection
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection
+  name: prob_resurrection
+  nameWithType: Effect_debuger.prob_resurrection
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Taunt*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Taunt
+  name: Taunt
+  nameWithType: Effect_debuger.Taunt
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Taunt
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack
+  name: Counter_attack
+  nameWithType: Effect_debuger.Counter_attack
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle
+  name: End_Battle
+  nameWithType: Effect_debuger.End_Battle
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money
+  name: infinite_money
+  nameWithType: Effect_debuger.infinite_money
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money
+- uid: Assets.Scripts.Effect_debuger.Effect_debuger.money_protect*
+  commentId: Overload:Assets.Scripts.Effect_debuger.Effect_debuger.money_protect
+  name: money_protect
+  nameWithType: Effect_debuger.money_protect
+  fullName: Assets.Scripts.Effect_debuger.Effect_debuger.money_protect

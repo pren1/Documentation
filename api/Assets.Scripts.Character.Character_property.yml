@@ -1,0 +1,1265 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Character.Character_property
+  commentId: T:Assets.Scripts.Character.Character_property
+  id: Character_property
+  parent: Assets.Scripts.Character
+  children:
+  - Assets.Scripts.Character.Character_property.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  - Assets.Scripts.Character.Character_property.#ctor(System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Assets.Scripts.Character.Character_property.Charge_level
+  - Assets.Scripts.Character.Character_property.Counter_attack_level
+  - Assets.Scripts.Character.Character_property.damage_scale
+  - Assets.Scripts.Character.Character_property.Defense
+  - Assets.Scripts.Character.Character_property.defense_scale
+  - Assets.Scripts.Character.Character_property.escape_prob_trigger
+  - Assets.Scripts.Character.Character_property.extra_damage_double_scale
+  - Assets.Scripts.Character.Character_property.heal_level_increase
+  - Assets.Scripts.Character.Character_property.Health
+  - Assets.Scripts.Character.Character_property.Health_status
+  - Assets.Scripts.Character.Character_property.ID
+  - Assets.Scripts.Character.Character_property.is_Counter_attack
+  - Assets.Scripts.Character.Character_property.is_Counter_attack_aoe
+  - Assets.Scripts.Character.Character_property.is_Dizzy
+  - Assets.Scripts.Character.Character_property.is_Enemy
+  - Assets.Scripts.Character.Character_property.is_killed
+  - Assets.Scripts.Character.Character_property.is_Taunt
+  - Assets.Scripts.Character.Character_property.Magic
+  - Assets.Scripts.Character.Character_property.magic_damage_scale
+  - Assets.Scripts.Character.Character_property.Magic_Defense
+  - Assets.Scripts.Character.Character_property.magic_defense_scale
+  - Assets.Scripts.Character.Character_property.magical_attack_level_increase
+  - Assets.Scripts.Character.Character_property.magical_defense_level_increase
+  - Assets.Scripts.Character.Character_property.Max_Health
+  - Assets.Scripts.Character.Character_property.mercy
+  - Assets.Scripts.Character.Character_property.Money
+  - Assets.Scripts.Character.Character_property.Name
+  - Assets.Scripts.Character.Character_property.OnVariableChange
+  - Assets.Scripts.Character.Character_property.physical_attack_level_increase
+  - Assets.Scripts.Character.Character_property.physical_defense_level_increase
+  - Assets.Scripts.Character.Character_property.shield
+  - Assets.Scripts.Character.Character_property.Shield_OnVariableChange
+  - Assets.Scripts.Character.Character_property.Strength
+  - Assets.Scripts.Character.Character_property.tmp_Defense
+  - Assets.Scripts.Character.Character_property.tmp_Magic
+  - Assets.Scripts.Character.Character_property.tmp_Magic_Defense
+  - Assets.Scripts.Character.Character_property.tmp_Strength
+  langs:
+  - csharp
+  - vb
+  name: Character_property
+  nameWithType: Character_property
+  fullName: Assets.Scripts.Character.Character_property
+  type: Class
+  source:
+    id: Character_property
+    path: ''
+    startLine: 153473
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\nproperty类，负责存储属性\n"
+  example: []
+  syntax:
+    content: public class Character_property
+    content.vb: Public Class Character_property
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Character.Character_property.OnVariableChange
+  commentId: E:Assets.Scripts.Character.Character_property.OnVariableChange
+  id: OnVariableChange
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: OnVariableChange
+  nameWithType: Character_property.OnVariableChange
+  fullName: Assets.Scripts.Character.Character_property.OnVariableChange
+  type: Event
+  source:
+    id: OnVariableChange
+    path: ''
+    startLine: 153476
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public event Character_property.OnVariableChangeDelegate OnVariableChange
+    return:
+      type: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+    content.vb: Public Event OnVariableChange As Character_property.OnVariableChangeDelegate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Health
+  commentId: P:Assets.Scripts.Character.Character_property.Health
+  id: Health
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: Character_property.Health
+  fullName: Assets.Scripts.Character.Character_property.Health
+  type: Property
+  source:
+    id: Health
+    path: ''
+    startLine: 153480
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Health { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Health As Integer
+  overload: Assets.Scripts.Character.Character_property.Health*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Shield_OnVariableChange
+  commentId: E:Assets.Scripts.Character.Character_property.Shield_OnVariableChange
+  id: Shield_OnVariableChange
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Shield_OnVariableChange
+  nameWithType: Character_property.Shield_OnVariableChange
+  fullName: Assets.Scripts.Character.Character_property.Shield_OnVariableChange
+  type: Event
+  source:
+    id: Shield_OnVariableChange
+    path: ''
+    startLine: 153527
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public event Character_property.Shield_OnVariableChangeDelegate Shield_OnVariableChange
+    return:
+      type: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+    content.vb: Public Event Shield_OnVariableChange As Character_property.Shield_OnVariableChangeDelegate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.shield
+  commentId: P:Assets.Scripts.Character.Character_property.shield
+  id: shield
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: shield
+  nameWithType: Character_property.shield
+  fullName: Assets.Scripts.Character.Character_property.shield
+  type: Property
+  source:
+    id: shield
+    path: ''
+    startLine: 153531
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int shield { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property shield As Integer
+  overload: Assets.Scripts.Character.Character_property.shield*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Max_Health
+  commentId: F:Assets.Scripts.Character.Character_property.Max_Health
+  id: Max_Health
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Max_Health
+  nameWithType: Character_property.Max_Health
+  fullName: Assets.Scripts.Character.Character_property.Max_Health
+  type: Field
+  source:
+    id: Max_Health
+    path: ''
+    startLine: 153548
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Max_Health
+    return:
+      type: System.Int32
+    content.vb: Public Max_Health As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Health_status
+  commentId: F:Assets.Scripts.Character.Character_property.Health_status
+  id: Health_status
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Health_status
+  nameWithType: Character_property.Health_status
+  fullName: Assets.Scripts.Character.Character_property.Health_status
+  type: Field
+  source:
+    id: Health_status
+    path: ''
+    startLine: 153550
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public Health_bar_status Health_status
+    return:
+      type: Global.Health_bar_status
+    content.vb: Public Health_status As Health_bar_status
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Strength
+  commentId: F:Assets.Scripts.Character.Character_property.Strength
+  id: Strength
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Strength
+  nameWithType: Character_property.Strength
+  fullName: Assets.Scripts.Character.Character_property.Strength
+  type: Field
+  source:
+    id: Strength
+    path: ''
+    startLine: 153552
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Strength
+    return:
+      type: System.Int32
+    content.vb: Public Strength As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Name
+  commentId: F:Assets.Scripts.Character.Character_property.Name
+  id: Name
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Character_property.Name
+  fullName: Assets.Scripts.Character.Character_property.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 153553
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Defense
+  commentId: F:Assets.Scripts.Character.Character_property.Defense
+  id: Defense
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Defense
+  nameWithType: Character_property.Defense
+  fullName: Assets.Scripts.Character.Character_property.Defense
+  type: Field
+  source:
+    id: Defense
+    path: ''
+    startLine: 153554
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Defense
+    return:
+      type: System.Int32
+    content.vb: Public Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.ID
+  commentId: F:Assets.Scripts.Character.Character_property.ID
+  id: ID
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: Character_property.ID
+  fullName: Assets.Scripts.Character.Character_property.ID
+  type: Field
+  source:
+    id: ID
+    path: ''
+    startLine: 153555
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public string ID
+    return:
+      type: System.String
+    content.vb: Public ID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Magic
+  commentId: F:Assets.Scripts.Character.Character_property.Magic
+  id: Magic
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Magic
+  nameWithType: Character_property.Magic
+  fullName: Assets.Scripts.Character.Character_property.Magic
+  type: Field
+  source:
+    id: Magic
+    path: ''
+    startLine: 153557
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Magic
+    return:
+      type: System.Int32
+    content.vb: Public Magic As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Magic_Defense
+  commentId: F:Assets.Scripts.Character.Character_property.Magic_Defense
+  id: Magic_Defense
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Magic_Defense
+  nameWithType: Character_property.Magic_Defense
+  fullName: Assets.Scripts.Character.Character_property.Magic_Defense
+  type: Field
+  source:
+    id: Magic_Defense
+    path: ''
+    startLine: 153558
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Magic_Defense
+    return:
+      type: System.Int32
+    content.vb: Public Magic_Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.tmp_Defense
+  commentId: F:Assets.Scripts.Character.Character_property.tmp_Defense
+  id: tmp_Defense
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: tmp_Defense
+  nameWithType: Character_property.tmp_Defense
+  fullName: Assets.Scripts.Character.Character_property.tmp_Defense
+  type: Field
+  source:
+    id: tmp_Defense
+    path: ''
+    startLine: 153562
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int tmp_Defense
+    return:
+      type: System.Int32
+    content.vb: Public tmp_Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.tmp_Magic_Defense
+  commentId: F:Assets.Scripts.Character.Character_property.tmp_Magic_Defense
+  id: tmp_Magic_Defense
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: tmp_Magic_Defense
+  nameWithType: Character_property.tmp_Magic_Defense
+  fullName: Assets.Scripts.Character.Character_property.tmp_Magic_Defense
+  type: Field
+  source:
+    id: tmp_Magic_Defense
+    path: ''
+    startLine: 153563
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int tmp_Magic_Defense
+    return:
+      type: System.Int32
+    content.vb: Public tmp_Magic_Defense As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.is_Dizzy
+  commentId: F:Assets.Scripts.Character.Character_property.is_Dizzy
+  id: is_Dizzy
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: is_Dizzy
+  nameWithType: Character_property.is_Dizzy
+  fullName: Assets.Scripts.Character.Character_property.is_Dizzy
+  type: Field
+  source:
+    id: is_Dizzy
+    path: ''
+    startLine: 153564
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool is_Dizzy
+    return:
+      type: System.Boolean
+    content.vb: Public is_Dizzy As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.is_Taunt
+  commentId: F:Assets.Scripts.Character.Character_property.is_Taunt
+  id: is_Taunt
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: is_Taunt
+  nameWithType: Character_property.is_Taunt
+  fullName: Assets.Scripts.Character.Character_property.is_Taunt
+  type: Field
+  source:
+    id: is_Taunt
+    path: ''
+    startLine: 153565
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool is_Taunt
+    return:
+      type: System.Boolean
+    content.vb: Public is_Taunt As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.is_Counter_attack
+  commentId: F:Assets.Scripts.Character.Character_property.is_Counter_attack
+  id: is_Counter_attack
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: is_Counter_attack
+  nameWithType: Character_property.is_Counter_attack
+  fullName: Assets.Scripts.Character.Character_property.is_Counter_attack
+  type: Field
+  source:
+    id: is_Counter_attack
+    path: ''
+    startLine: 153566
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool is_Counter_attack
+    return:
+      type: System.Boolean
+    content.vb: Public is_Counter_attack As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.is_Counter_attack_aoe
+  commentId: F:Assets.Scripts.Character.Character_property.is_Counter_attack_aoe
+  id: is_Counter_attack_aoe
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: is_Counter_attack_aoe
+  nameWithType: Character_property.is_Counter_attack_aoe
+  fullName: Assets.Scripts.Character.Character_property.is_Counter_attack_aoe
+  type: Field
+  source:
+    id: is_Counter_attack_aoe
+    path: ''
+    startLine: 153567
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool is_Counter_attack_aoe
+    return:
+      type: System.Boolean
+    content.vb: Public is_Counter_attack_aoe As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Counter_attack_level
+  commentId: F:Assets.Scripts.Character.Character_property.Counter_attack_level
+  id: Counter_attack_level
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Counter_attack_level
+  nameWithType: Character_property.Counter_attack_level
+  fullName: Assets.Scripts.Character.Character_property.Counter_attack_level
+  type: Field
+  source:
+    id: Counter_attack_level
+    path: ''
+    startLine: 153568
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Counter_attack_level
+    return:
+      type: System.Int32
+    content.vb: Public Counter_attack_level As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Charge_level
+  commentId: F:Assets.Scripts.Character.Character_property.Charge_level
+  id: Charge_level
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Charge_level
+  nameWithType: Character_property.Charge_level
+  fullName: Assets.Scripts.Character.Character_property.Charge_level
+  type: Field
+  source:
+    id: Charge_level
+    path: ''
+    startLine: 153569
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Charge_level
+    return:
+      type: System.Int32
+    content.vb: Public Charge_level As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.tmp_Strength
+  commentId: F:Assets.Scripts.Character.Character_property.tmp_Strength
+  id: tmp_Strength
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: tmp_Strength
+  nameWithType: Character_property.tmp_Strength
+  fullName: Assets.Scripts.Character.Character_property.tmp_Strength
+  type: Field
+  source:
+    id: tmp_Strength
+    path: ''
+    startLine: 153571
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int tmp_Strength
+    return:
+      type: System.Int32
+    content.vb: Public tmp_Strength As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.tmp_Magic
+  commentId: F:Assets.Scripts.Character.Character_property.tmp_Magic
+  id: tmp_Magic
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: tmp_Magic
+  nameWithType: Character_property.tmp_Magic
+  fullName: Assets.Scripts.Character.Character_property.tmp_Magic
+  type: Field
+  source:
+    id: tmp_Magic
+    path: ''
+    startLine: 153572
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int tmp_Magic
+    return:
+      type: System.Int32
+    content.vb: Public tmp_Magic As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.damage_scale
+  commentId: F:Assets.Scripts.Character.Character_property.damage_scale
+  id: damage_scale
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: damage_scale
+  nameWithType: Character_property.damage_scale
+  fullName: Assets.Scripts.Character.Character_property.damage_scale
+  type: Field
+  source:
+    id: damage_scale
+    path: ''
+    startLine: 153574
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public float damage_scale
+    return:
+      type: System.Single
+    content.vb: Public damage_scale As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.magic_damage_scale
+  commentId: F:Assets.Scripts.Character.Character_property.magic_damage_scale
+  id: magic_damage_scale
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: magic_damage_scale
+  nameWithType: Character_property.magic_damage_scale
+  fullName: Assets.Scripts.Character.Character_property.magic_damage_scale
+  type: Field
+  source:
+    id: magic_damage_scale
+    path: ''
+    startLine: 153575
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public float magic_damage_scale
+    return:
+      type: System.Single
+    content.vb: Public magic_damage_scale As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.defense_scale
+  commentId: F:Assets.Scripts.Character.Character_property.defense_scale
+  id: defense_scale
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: defense_scale
+  nameWithType: Character_property.defense_scale
+  fullName: Assets.Scripts.Character.Character_property.defense_scale
+  type: Field
+  source:
+    id: defense_scale
+    path: ''
+    startLine: 153576
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public float defense_scale
+    return:
+      type: System.Single
+    content.vb: Public defense_scale As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.magic_defense_scale
+  commentId: F:Assets.Scripts.Character.Character_property.magic_defense_scale
+  id: magic_defense_scale
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: magic_defense_scale
+  nameWithType: Character_property.magic_defense_scale
+  fullName: Assets.Scripts.Character.Character_property.magic_defense_scale
+  type: Field
+  source:
+    id: magic_defense_scale
+    path: ''
+    startLine: 153577
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public float magic_defense_scale
+    return:
+      type: System.Single
+    content.vb: Public magic_defense_scale As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.is_killed
+  commentId: F:Assets.Scripts.Character.Character_property.is_killed
+  id: is_killed
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: is_killed
+  nameWithType: Character_property.is_killed
+  fullName: Assets.Scripts.Character.Character_property.is_killed
+  type: Field
+  source:
+    id: is_killed
+    path: ''
+    startLine: 153578
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool is_killed
+    return:
+      type: System.Boolean
+    content.vb: Public is_killed As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.physical_attack_level_increase
+  commentId: F:Assets.Scripts.Character.Character_property.physical_attack_level_increase
+  id: physical_attack_level_increase
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_level_increase
+  nameWithType: Character_property.physical_attack_level_increase
+  fullName: Assets.Scripts.Character.Character_property.physical_attack_level_increase
+  type: Field
+  source:
+    id: physical_attack_level_increase
+    path: ''
+    startLine: 153580
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int physical_attack_level_increase
+    return:
+      type: System.Int32
+    content.vb: Public physical_attack_level_increase As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.physical_defense_level_increase
+  commentId: F:Assets.Scripts.Character.Character_property.physical_defense_level_increase
+  id: physical_defense_level_increase
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: physical_defense_level_increase
+  nameWithType: Character_property.physical_defense_level_increase
+  fullName: Assets.Scripts.Character.Character_property.physical_defense_level_increase
+  type: Field
+  source:
+    id: physical_defense_level_increase
+    path: ''
+    startLine: 153581
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int physical_defense_level_increase
+    return:
+      type: System.Int32
+    content.vb: Public physical_defense_level_increase As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.magical_attack_level_increase
+  commentId: F:Assets.Scripts.Character.Character_property.magical_attack_level_increase
+  id: magical_attack_level_increase
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_level_increase
+  nameWithType: Character_property.magical_attack_level_increase
+  fullName: Assets.Scripts.Character.Character_property.magical_attack_level_increase
+  type: Field
+  source:
+    id: magical_attack_level_increase
+    path: ''
+    startLine: 153582
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int magical_attack_level_increase
+    return:
+      type: System.Int32
+    content.vb: Public magical_attack_level_increase As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.magical_defense_level_increase
+  commentId: F:Assets.Scripts.Character.Character_property.magical_defense_level_increase
+  id: magical_defense_level_increase
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: magical_defense_level_increase
+  nameWithType: Character_property.magical_defense_level_increase
+  fullName: Assets.Scripts.Character.Character_property.magical_defense_level_increase
+  type: Field
+  source:
+    id: magical_defense_level_increase
+    path: ''
+    startLine: 153583
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int magical_defense_level_increase
+    return:
+      type: System.Int32
+    content.vb: Public magical_defense_level_increase As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.heal_level_increase
+  commentId: F:Assets.Scripts.Character.Character_property.heal_level_increase
+  id: heal_level_increase
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: heal_level_increase
+  nameWithType: Character_property.heal_level_increase
+  fullName: Assets.Scripts.Character.Character_property.heal_level_increase
+  type: Field
+  source:
+    id: heal_level_increase
+    path: ''
+    startLine: 153585
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int heal_level_increase
+    return:
+      type: System.Int32
+    content.vb: Public heal_level_increase As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.is_Enemy
+  commentId: F:Assets.Scripts.Character.Character_property.is_Enemy
+  id: is_Enemy
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: is_Enemy
+  nameWithType: Character_property.is_Enemy
+  fullName: Assets.Scripts.Character.Character_property.is_Enemy
+  type: Field
+  source:
+    id: is_Enemy
+    path: ''
+    startLine: 153587
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool is_Enemy
+    return:
+      type: System.Boolean
+    content.vb: Public is_Enemy As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.extra_damage_double_scale
+  commentId: F:Assets.Scripts.Character.Character_property.extra_damage_double_scale
+  id: extra_damage_double_scale
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: extra_damage_double_scale
+  nameWithType: Character_property.extra_damage_double_scale
+  fullName: Assets.Scripts.Character.Character_property.extra_damage_double_scale
+  type: Field
+  source:
+    id: extra_damage_double_scale
+    path: ''
+    startLine: 153589
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool extra_damage_double_scale
+    return:
+      type: System.Boolean
+    content.vb: Public extra_damage_double_scale As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.escape_prob_trigger
+  commentId: F:Assets.Scripts.Character.Character_property.escape_prob_trigger
+  id: escape_prob_trigger
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: escape_prob_trigger
+  nameWithType: Character_property.escape_prob_trigger
+  fullName: Assets.Scripts.Character.Character_property.escape_prob_trigger
+  type: Field
+  source:
+    id: escape_prob_trigger
+    path: ''
+    startLine: 153590
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public bool escape_prob_trigger
+    return:
+      type: System.Boolean
+    content.vb: Public escape_prob_trigger As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.Money
+  commentId: F:Assets.Scripts.Character.Character_property.Money
+  id: Money
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Money
+  nameWithType: Character_property.Money
+  fullName: Assets.Scripts.Character.Character_property.Money
+  type: Field
+  source:
+    id: Money
+    path: ''
+    startLine: 153593
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int Money
+    return:
+      type: System.Int32
+    content.vb: Public Money As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.mercy
+  commentId: F:Assets.Scripts.Character.Character_property.mercy
+  id: mercy
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: mercy
+  nameWithType: Character_property.mercy
+  fullName: Assets.Scripts.Character.Character_property.mercy
+  type: Field
+  source:
+    id: mercy
+    path: ''
+    startLine: 153594
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  syntax:
+    content: public int mercy
+    return:
+      type: System.Int32
+    content.vb: Public mercy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.Character.Character_property.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)'
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Character_property(Int32, Int32, Int32, String, String, Int32, Int32, Int32)
+  nameWithType: Character_property.Character_property(Int32, Int32, Int32, String, String, Int32, Int32, Int32)
+  fullName: Assets.Scripts.Character.Character_property.Character_property(System.Int32, System.Int32, System.Int32, System.String, System.String, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 153608
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n敌人属性初始化\n"
+  example: []
+  syntax:
+    content: public Character_property(int Health, int Strength, int Money, string ID, string Name, int Defense, int Magic, int Magic_Defense)
+    parameters:
+    - id: Health
+      type: System.Int32
+      description: ''
+    - id: Strength
+      type: System.Int32
+      description: ''
+    - id: Money
+      type: System.Int32
+      description: ''
+    - id: ID
+      type: System.String
+      description: ''
+    - id: Name
+      type: System.String
+      description: ''
+    - id: Defense
+      type: System.Int32
+      description: ''
+    - id: Magic
+      type: System.Int32
+      description: ''
+    - id: Magic_Defense
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(Health As Integer, Strength As Integer, Money As Integer, ID As String, Name As String, Defense As Integer, Magic As Integer, Magic_Defense As Integer)
+  overload: Assets.Scripts.Character.Character_property.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Character.Character_property.#ctor(System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Assets.Scripts.Character.Character_property.#ctor(System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: Assets.Scripts.Character.Character_property
+  langs:
+  - csharp
+  - vb
+  name: Character_property(Int32, Int32, String, String, Int32, Int32, Int32, Int32)
+  nameWithType: Character_property.Character_property(Int32, Int32, String, String, Int32, Int32, Int32, Int32)
+  fullName: Assets.Scripts.Character.Character_property.Character_property(System.Int32, System.Int32, System.String, System.String, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 153638
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Character
+  summary: "\n我方属性初始化\n"
+  example: []
+  syntax:
+    content: public Character_property(int Health, int Strength, string ID, string Name, int Defense, int Magic, int Magic_Defense, int Max_Health)
+    parameters:
+    - id: Health
+      type: System.Int32
+      description: ''
+    - id: Strength
+      type: System.Int32
+      description: ''
+    - id: ID
+      type: System.String
+      description: ''
+    - id: Name
+      type: System.String
+      description: ''
+    - id: Defense
+      type: System.Int32
+      description: ''
+    - id: Magic
+      type: System.Int32
+      description: ''
+    - id: Magic_Defense
+      type: System.Int32
+      description: ''
+    - id: Max_Health
+      type: System.Int32
+    content.vb: Public Sub New(Health As Integer, Strength As Integer, ID As String, Name As String, Defense As Integer, Magic As Integer, Magic_Defense As Integer, Max_Health As Integer)
+  overload: Assets.Scripts.Character.Character_property.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Character
+  commentId: N:Assets.Scripts.Character
+  name: Assets.Scripts.Character
+  nameWithType: Assets.Scripts.Character
+  fullName: Assets.Scripts.Character
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  commentId: T:Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+  parent: Assets.Scripts.Character
+  name: Character_property.OnVariableChangeDelegate
+  nameWithType: Character_property.OnVariableChangeDelegate
+  fullName: Assets.Scripts.Character.Character_property.OnVariableChangeDelegate
+- uid: Assets.Scripts.Character.Character_property.Health*
+  commentId: Overload:Assets.Scripts.Character.Character_property.Health
+  name: Health
+  nameWithType: Character_property.Health
+  fullName: Assets.Scripts.Character.Character_property.Health
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+  commentId: T:Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+  parent: Assets.Scripts.Character
+  name: Character_property.Shield_OnVariableChangeDelegate
+  nameWithType: Character_property.Shield_OnVariableChangeDelegate
+  fullName: Assets.Scripts.Character.Character_property.Shield_OnVariableChangeDelegate
+- uid: Assets.Scripts.Character.Character_property.shield*
+  commentId: Overload:Assets.Scripts.Character.Character_property.shield
+  name: shield
+  nameWithType: Character_property.shield
+  fullName: Assets.Scripts.Character.Character_property.shield
+- uid: Global.Health_bar_status
+  commentId: '!:Global.Health_bar_status'
+  isExternal: true
+  name: Health_bar_status
+  nameWithType: Health_bar_status
+  fullName: Health_bar_status
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Character.Character_property.#ctor*
+  commentId: Overload:Assets.Scripts.Character.Character_property.#ctor
+  name: Character_property
+  nameWithType: Character_property.Character_property
+  fullName: Assets.Scripts.Character.Character_property.Character_property

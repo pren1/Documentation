@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.stage_clear
+  commentId: N:Assets.Scripts.stage_clear
+  id: Assets.Scripts.stage_clear
+  children:
+  - Assets.Scripts.stage_clear.claim_prize
+  - Assets.Scripts.stage_clear.render_icons
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.stage_clear
+  nameWithType: Assets.Scripts.stage_clear
+  fullName: Assets.Scripts.stage_clear
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.stage_clear.claim_prize
+  commentId: T:Assets.Scripts.stage_clear.claim_prize
+  name: claim_prize
+  nameWithType: claim_prize
+  fullName: Assets.Scripts.stage_clear.claim_prize
+- uid: Assets.Scripts.stage_clear.render_icons
+  commentId: T:Assets.Scripts.stage_clear.render_icons
+  name: render_icons
+  nameWithType: render_icons
+  fullName: Assets.Scripts.stage_clear.render_icons

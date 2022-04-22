@@ -1,0 +1,3234 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Utility.card_effect
+  commentId: T:Assets.Scripts.Utility.card_effect
+  id: card_effect
+  parent: Assets.Scripts.Utility
+  children:
+  - Assets.Scripts.Utility.card_effect.add_card_to_deck
+  - Assets.Scripts.Utility.card_effect.add_card_to_hand
+  - Assets.Scripts.Utility.card_effect.Add_money
+  - Assets.Scripts.Utility.card_effect.add_shield
+  - Assets.Scripts.Utility.card_effect.all_attack_aoe
+  - Assets.Scripts.Utility.card_effect.always_trigger_prob
+  - Assets.Scripts.Utility.card_effect.attack
+  - Assets.Scripts.Utility.card_effect.cancel_all_attack_aoe
+  - Assets.Scripts.Utility.card_effect.cancel_always_trigger_prob
+  - Assets.Scripts.Utility.card_effect.cancel_diana_extra_card
+  - Assets.Scripts.Utility.card_effect.cancel_double_effect_level
+  - Assets.Scripts.Utility.card_effect.cancel_has_chance_of_double_magic_attack
+  - Assets.Scripts.Utility.card_effect.cancel_ignore_element
+  - Assets.Scripts.Utility.card_effect.cancel_keep_alive_once
+  - Assets.Scripts.Utility.card_effect.cancel_magic_card_cost_offset
+  - Assets.Scripts.Utility.card_effect.cancel_money_protect
+  - Assets.Scripts.Utility.card_effect.cancel_random_discard_card_hit
+  - Assets.Scripts.Utility.card_effect.cast_on_draw
+  - Assets.Scripts.Utility.card_effect.charge
+  - Assets.Scripts.Utility.card_effect.clean_stats
+  - Assets.Scripts.Utility.card_effect.counter_attack
+  - Assets.Scripts.Utility.card_effect.crash_Enemy
+  - Assets.Scripts.Utility.card_effect.decrease_cost_limit
+  - Assets.Scripts.Utility.card_effect.decrease_ten_percent_maximum_health
+  - Assets.Scripts.Utility.card_effect.defend
+  - Assets.Scripts.Utility.card_effect.diana_extra_card
+  - Assets.Scripts.Utility.card_effect.discard_card_and_draw_window
+  - Assets.Scripts.Utility.card_effect.dizzy
+  - Assets.Scripts.Utility.card_effect.double_effect_level
+  - Assets.Scripts.Utility.card_effect.double_maximum_health
+  - Assets.Scripts.Utility.card_effect.double_trigger_prob
+  - Assets.Scripts.Utility.card_effect.draw_less_cards
+  - Assets.Scripts.Utility.card_effect.draw_more_cards
+  - Assets.Scripts.Utility.card_effect.enemy_half_health_double_damage
+  - Assets.Scripts.Utility.card_effect.Error_effect
+  - Assets.Scripts.Utility.card_effect.escape_attack_with_prob
+  - Assets.Scripts.Utility.card_effect.exile_next_card
+  - Assets.Scripts.Utility.card_effect.furious
+  - Assets.Scripts.Utility.card_effect.Get_double_damage
+  - Assets.Scripts.Utility.card_effect.Get_double_magic_damage
+  - Assets.Scripts.Utility.card_effect.Get_double_money
+  - Assets.Scripts.Utility.card_effect.Get_half_damage
+  - Assets.Scripts.Utility.card_effect.Get_half_magic_damage
+  - Assets.Scripts.Utility.card_effect.Get_half_money
+  - Assets.Scripts.Utility.card_effect.Get_no_damage
+  - Assets.Scripts.Utility.card_effect.Get_no_magic_damage
+  - Assets.Scripts.Utility.card_effect.Get_normal_damage
+  - Assets.Scripts.Utility.card_effect.Get_normal_magic_damage
+  - Assets.Scripts.Utility.card_effect.Get_normal_money
+  - Assets.Scripts.Utility.card_effect.go_shopping
+  - Assets.Scripts.Utility.card_effect.half_maximum_health
+  - Assets.Scripts.Utility.card_effect.half_trigger_prob
+  - Assets.Scripts.Utility.card_effect.has_chance_of_double_magic_attack
+  - Assets.Scripts.Utility.card_effect.heal
+  - Assets.Scripts.Utility.card_effect.heal_half_maximum_health
+  - Assets.Scripts.Utility.card_effect.heal_level_decrease
+  - Assets.Scripts.Utility.card_effect.heal_level_increase
+  - Assets.Scripts.Utility.card_effect.health_revert
+  - Assets.Scripts.Utility.card_effect.health_to_armor
+  - Assets.Scripts.Utility.card_effect.ignore_element
+  - Assets.Scripts.Utility.card_effect.increase_cost_limit
+  - Assets.Scripts.Utility.card_effect.increase_target_mercy
+  - Assets.Scripts.Utility.card_effect.infinite_money
+  - Assets.Scripts.Utility.card_effect.keep_alive_once
+  - Assets.Scripts.Utility.card_effect.kill_target
+  - Assets.Scripts.Utility.card_effect.loss_game
+  - Assets.Scripts.Utility.card_effect.magic_attack
+  - Assets.Scripts.Utility.card_effect.magic_card_cost_offset
+  - Assets.Scripts.Utility.card_effect.magic_defend
+  - Assets.Scripts.Utility.card_effect.magical_attack_decrease
+  - Assets.Scripts.Utility.card_effect.magical_attack_increase
+  - Assets.Scripts.Utility.card_effect.magical_attack_level_decrease
+  - Assets.Scripts.Utility.card_effect.magical_attack_level_increase
+  - Assets.Scripts.Utility.card_effect.magical_defense_level_decrease
+  - Assets.Scripts.Utility.card_effect.magical_defense_level_increase
+  - Assets.Scripts.Utility.card_effect.money_protect
+  - Assets.Scripts.Utility.card_effect.need_charge
+  - Assets.Scripts.Utility.card_effect.next_card_double_damage
+  - Assets.Scripts.Utility.card_effect.no_trigger_prob
+  - Assets.Scripts.Utility.card_effect.normal_trigger_prob
+  - Assets.Scripts.Utility.card_effect.null_effect
+  - Assets.Scripts.Utility.card_effect.physical_attack_decrease
+  - Assets.Scripts.Utility.card_effect.physical_attack_increase
+  - Assets.Scripts.Utility.card_effect.physical_attack_level_decrease
+  - Assets.Scripts.Utility.card_effect.physical_attack_level_increase
+  - Assets.Scripts.Utility.card_effect.physical_defense_level_decrease
+  - Assets.Scripts.Utility.card_effect.physical_defense_level_increase
+  - Assets.Scripts.Utility.card_effect.prob_attack
+  - Assets.Scripts.Utility.card_effect.prob_defense
+  - Assets.Scripts.Utility.card_effect.prob_heal
+  - Assets.Scripts.Utility.card_effect.prob_resurrection
+  - Assets.Scripts.Utility.card_effect.random_discard_card_hit
+  - Assets.Scripts.Utility.card_effect.Remove_money
+  - Assets.Scripts.Utility.card_effect.Remove_Nrandom_card
+  - Assets.Scripts.Utility.card_effect.Remove_Nrandom_magic_card
+  - Assets.Scripts.Utility.card_effect.Remove_Nrandom_non_magic_card
+  - Assets.Scripts.Utility.card_effect.resurrection
+  - Assets.Scripts.Utility.card_effect.return_back_to_previous_money
+  - Assets.Scripts.Utility.card_effect.sacrifice
+  - Assets.Scripts.Utility.card_effect.set_health_to_maximum
+  - Assets.Scripts.Utility.card_effect.Spawn_NCards
+  - Assets.Scripts.Utility.card_effect.target_double_defense
+  - Assets.Scripts.Utility.card_effect.target_double_magic_defense
+  - Assets.Scripts.Utility.card_effect.target_half_defense
+  - Assets.Scripts.Utility.card_effect.target_half_magic_defense
+  - Assets.Scripts.Utility.card_effect.target_no_defense
+  - Assets.Scripts.Utility.card_effect.target_no_magic_defense
+  - Assets.Scripts.Utility.card_effect.target_normal_defense
+  - Assets.Scripts.Utility.card_effect.target_normal_magic_defense
+  - Assets.Scripts.Utility.card_effect.taunt
+  langs:
+  - csharp
+  - vb
+  name: card_effect
+  nameWithType: card_effect
+  fullName: Assets.Scripts.Utility.card_effect
+  type: Enum
+  source:
+    id: card_effect
+    path: ''
+    startLine: 162941
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  summary: "\n卡牌效果\n"
+  example: []
+  syntax:
+    content: public enum card_effect
+    content.vb: Public Enum card_effect
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Assets.Scripts.Utility.card_effect.attack
+  commentId: F:Assets.Scripts.Utility.card_effect.attack
+  id: attack
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: attack
+  nameWithType: card_effect.attack
+  fullName: Assets.Scripts.Utility.card_effect.attack
+  type: Field
+  source:
+    id: attack
+    path: ''
+    startLine: 162943
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: attack = 0
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.defend
+  commentId: F:Assets.Scripts.Utility.card_effect.defend
+  id: defend
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: defend
+  nameWithType: card_effect.defend
+  fullName: Assets.Scripts.Utility.card_effect.defend
+  type: Field
+  source:
+    id: defend
+    path: ''
+    startLine: 162944
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: defend = 1
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.dizzy
+  commentId: F:Assets.Scripts.Utility.card_effect.dizzy
+  id: dizzy
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: dizzy
+  nameWithType: card_effect.dizzy
+  fullName: Assets.Scripts.Utility.card_effect.dizzy
+  type: Field
+  source:
+    id: dizzy
+    path: ''
+    startLine: 162945
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: dizzy = 2
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.counter_attack
+  commentId: F:Assets.Scripts.Utility.card_effect.counter_attack
+  id: counter_attack
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: counter_attack
+  nameWithType: card_effect.counter_attack
+  fullName: Assets.Scripts.Utility.card_effect.counter_attack
+  type: Field
+  source:
+    id: counter_attack
+    path: ''
+    startLine: 162946
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: counter_attack = 3
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.taunt
+  commentId: F:Assets.Scripts.Utility.card_effect.taunt
+  id: taunt
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: taunt
+  nameWithType: card_effect.taunt
+  fullName: Assets.Scripts.Utility.card_effect.taunt
+  type: Field
+  source:
+    id: taunt
+    path: ''
+    startLine: 162947
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: taunt = 4
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.need_charge
+  commentId: F:Assets.Scripts.Utility.card_effect.need_charge
+  id: need_charge
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: need_charge
+  nameWithType: card_effect.need_charge
+  fullName: Assets.Scripts.Utility.card_effect.need_charge
+  type: Field
+  source:
+    id: need_charge
+    path: ''
+    startLine: 162948
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: need_charge = 5
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.charge
+  commentId: F:Assets.Scripts.Utility.card_effect.charge
+  id: charge
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: charge
+  nameWithType: card_effect.charge
+  fullName: Assets.Scripts.Utility.card_effect.charge
+  type: Field
+  source:
+    id: charge
+    path: ''
+    startLine: 162949
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: charge = 6
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Error_effect
+  commentId: F:Assets.Scripts.Utility.card_effect.Error_effect
+  id: Error_effect
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Error_effect
+  nameWithType: card_effect.Error_effect
+  fullName: Assets.Scripts.Utility.card_effect.Error_effect
+  type: Field
+  source:
+    id: Error_effect
+    path: ''
+    startLine: 162950
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Error_effect = 7
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.heal
+  commentId: F:Assets.Scripts.Utility.card_effect.heal
+  id: heal
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: heal
+  nameWithType: card_effect.heal
+  fullName: Assets.Scripts.Utility.card_effect.heal
+  type: Field
+  source:
+    id: heal
+    path: ''
+    startLine: 162951
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: heal = 8
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.sacrifice
+  commentId: F:Assets.Scripts.Utility.card_effect.sacrifice
+  id: sacrifice
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: sacrifice
+  nameWithType: card_effect.sacrifice
+  fullName: Assets.Scripts.Utility.card_effect.sacrifice
+  type: Field
+  source:
+    id: sacrifice
+    path: ''
+    startLine: 162952
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: sacrifice = 9
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magic_attack
+  commentId: F:Assets.Scripts.Utility.card_effect.magic_attack
+  id: magic_attack
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magic_attack
+  nameWithType: card_effect.magic_attack
+  fullName: Assets.Scripts.Utility.card_effect.magic_attack
+  type: Field
+  source:
+    id: magic_attack
+    path: ''
+    startLine: 162953
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magic_attack = 10
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magic_defend
+  commentId: F:Assets.Scripts.Utility.card_effect.magic_defend
+  id: magic_defend
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magic_defend
+  nameWithType: card_effect.magic_defend
+  fullName: Assets.Scripts.Utility.card_effect.magic_defend
+  type: Field
+  source:
+    id: magic_defend
+    path: ''
+    startLine: 162954
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magic_defend = 11
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.physical_attack_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.physical_attack_increase
+  id: physical_attack_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_increase
+  nameWithType: card_effect.physical_attack_increase
+  fullName: Assets.Scripts.Utility.card_effect.physical_attack_increase
+  type: Field
+  source:
+    id: physical_attack_increase
+    path: ''
+    startLine: 162955
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical_attack_increase = 12
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.physical_attack_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.physical_attack_decrease
+  id: physical_attack_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_decrease
+  nameWithType: card_effect.physical_attack_decrease
+  fullName: Assets.Scripts.Utility.card_effect.physical_attack_decrease
+  type: Field
+  source:
+    id: physical_attack_decrease
+    path: ''
+    startLine: 162956
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical_attack_decrease = 13
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magical_attack_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.magical_attack_increase
+  id: magical_attack_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_increase
+  nameWithType: card_effect.magical_attack_increase
+  fullName: Assets.Scripts.Utility.card_effect.magical_attack_increase
+  type: Field
+  source:
+    id: magical_attack_increase
+    path: ''
+    startLine: 162957
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magical_attack_increase = 14
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magical_attack_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.magical_attack_decrease
+  id: magical_attack_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_decrease
+  nameWithType: card_effect.magical_attack_decrease
+  fullName: Assets.Scripts.Utility.card_effect.magical_attack_decrease
+  type: Field
+  source:
+    id: magical_attack_decrease
+    path: ''
+    startLine: 162958
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magical_attack_decrease = 15
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Spawn_NCards
+  commentId: F:Assets.Scripts.Utility.card_effect.Spawn_NCards
+  id: Spawn_NCards
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Spawn_NCards
+  nameWithType: card_effect.Spawn_NCards
+  fullName: Assets.Scripts.Utility.card_effect.Spawn_NCards
+  type: Field
+  source:
+    id: Spawn_NCards
+    path: ''
+    startLine: 162959
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Spawn_NCards = 16
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Remove_Nrandom_card
+  commentId: F:Assets.Scripts.Utility.card_effect.Remove_Nrandom_card
+  id: Remove_Nrandom_card
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Remove_Nrandom_card
+  nameWithType: card_effect.Remove_Nrandom_card
+  fullName: Assets.Scripts.Utility.card_effect.Remove_Nrandom_card
+  type: Field
+  source:
+    id: Remove_Nrandom_card
+    path: ''
+    startLine: 162960
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Remove_Nrandom_card = 17
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Remove_Nrandom_magic_card
+  commentId: F:Assets.Scripts.Utility.card_effect.Remove_Nrandom_magic_card
+  id: Remove_Nrandom_magic_card
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Remove_Nrandom_magic_card
+  nameWithType: card_effect.Remove_Nrandom_magic_card
+  fullName: Assets.Scripts.Utility.card_effect.Remove_Nrandom_magic_card
+  type: Field
+  source:
+    id: Remove_Nrandom_magic_card
+    path: ''
+    startLine: 162961
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Remove_Nrandom_magic_card = 18
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Remove_Nrandom_non_magic_card
+  commentId: F:Assets.Scripts.Utility.card_effect.Remove_Nrandom_non_magic_card
+  id: Remove_Nrandom_non_magic_card
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Remove_Nrandom_non_magic_card
+  nameWithType: card_effect.Remove_Nrandom_non_magic_card
+  fullName: Assets.Scripts.Utility.card_effect.Remove_Nrandom_non_magic_card
+  type: Field
+  source:
+    id: Remove_Nrandom_non_magic_card
+    path: ''
+    startLine: 162962
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Remove_Nrandom_non_magic_card = 19
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Add_money
+  commentId: F:Assets.Scripts.Utility.card_effect.Add_money
+  id: Add_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Add_money
+  nameWithType: card_effect.Add_money
+  fullName: Assets.Scripts.Utility.card_effect.Add_money
+  type: Field
+  source:
+    id: Add_money
+    path: ''
+    startLine: 162963
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Add_money = 20
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Remove_money
+  commentId: F:Assets.Scripts.Utility.card_effect.Remove_money
+  id: Remove_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Remove_money
+  nameWithType: card_effect.Remove_money
+  fullName: Assets.Scripts.Utility.card_effect.Remove_money
+  type: Field
+  source:
+    id: Remove_money
+    path: ''
+    startLine: 162964
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Remove_money = 21
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_double_money
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_double_money
+  id: Get_double_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_double_money
+  nameWithType: card_effect.Get_double_money
+  fullName: Assets.Scripts.Utility.card_effect.Get_double_money
+  type: Field
+  source:
+    id: Get_double_money
+    path: ''
+    startLine: 162965
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_double_money = 22
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_half_money
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_half_money
+  id: Get_half_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_half_money
+  nameWithType: card_effect.Get_half_money
+  fullName: Assets.Scripts.Utility.card_effect.Get_half_money
+  type: Field
+  source:
+    id: Get_half_money
+    path: ''
+    startLine: 162966
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_half_money = 23
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_normal_money
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_normal_money
+  id: Get_normal_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_normal_money
+  nameWithType: card_effect.Get_normal_money
+  fullName: Assets.Scripts.Utility.card_effect.Get_normal_money
+  type: Field
+  source:
+    id: Get_normal_money
+    path: ''
+    startLine: 162967
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_normal_money = 24
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_no_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_no_damage
+  id: Get_no_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_no_damage
+  nameWithType: card_effect.Get_no_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_no_damage
+  type: Field
+  source:
+    id: Get_no_damage
+    path: ''
+    startLine: 162968
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_no_damage = 25
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_half_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_half_damage
+  id: Get_half_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_half_damage
+  nameWithType: card_effect.Get_half_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_half_damage
+  type: Field
+  source:
+    id: Get_half_damage
+    path: ''
+    startLine: 162969
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_half_damage = 26
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_double_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_double_damage
+  id: Get_double_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_double_damage
+  nameWithType: card_effect.Get_double_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_double_damage
+  type: Field
+  source:
+    id: Get_double_damage
+    path: ''
+    startLine: 162970
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_double_damage = 27
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_normal_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_normal_damage
+  id: Get_normal_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_normal_damage
+  nameWithType: card_effect.Get_normal_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_normal_damage
+  type: Field
+  source:
+    id: Get_normal_damage
+    path: ''
+    startLine: 162971
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_normal_damage = 28
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_no_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_no_defense
+  id: target_no_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_no_defense
+  nameWithType: card_effect.target_no_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_no_defense
+  type: Field
+  source:
+    id: target_no_defense
+    path: ''
+    startLine: 162972
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_no_defense = 29
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_half_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_half_defense
+  id: target_half_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_half_defense
+  nameWithType: card_effect.target_half_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_half_defense
+  type: Field
+  source:
+    id: target_half_defense
+    path: ''
+    startLine: 162973
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_half_defense = 30
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_double_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_double_defense
+  id: target_double_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_double_defense
+  nameWithType: card_effect.target_double_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_double_defense
+  type: Field
+  source:
+    id: target_double_defense
+    path: ''
+    startLine: 162974
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_double_defense = 31
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_normal_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_normal_defense
+  id: target_normal_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_normal_defense
+  nameWithType: card_effect.target_normal_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_normal_defense
+  type: Field
+  source:
+    id: target_normal_defense
+    path: ''
+    startLine: 162975
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_normal_defense = 32
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.crash_Enemy
+  commentId: F:Assets.Scripts.Utility.card_effect.crash_Enemy
+  id: crash_Enemy
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: crash_Enemy
+  nameWithType: card_effect.crash_Enemy
+  fullName: Assets.Scripts.Utility.card_effect.crash_Enemy
+  type: Field
+  source:
+    id: crash_Enemy
+    path: ''
+    startLine: 162976
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: crash_Enemy = 33
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.furious
+  commentId: F:Assets.Scripts.Utility.card_effect.furious
+  id: furious
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: furious
+  nameWithType: card_effect.furious
+  fullName: Assets.Scripts.Utility.card_effect.furious
+  type: Field
+  source:
+    id: furious
+    path: ''
+    startLine: 162977
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: furious = 34
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.prob_attack
+  commentId: F:Assets.Scripts.Utility.card_effect.prob_attack
+  id: prob_attack
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: prob_attack
+  nameWithType: card_effect.prob_attack
+  fullName: Assets.Scripts.Utility.card_effect.prob_attack
+  type: Field
+  source:
+    id: prob_attack
+    path: ''
+    startLine: 162978
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: prob_attack = 35
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.prob_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.prob_defense
+  id: prob_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: prob_defense
+  nameWithType: card_effect.prob_defense
+  fullName: Assets.Scripts.Utility.card_effect.prob_defense
+  type: Field
+  source:
+    id: prob_defense
+    path: ''
+    startLine: 162979
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: prob_defense = 36
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.prob_heal
+  commentId: F:Assets.Scripts.Utility.card_effect.prob_heal
+  id: prob_heal
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: prob_heal
+  nameWithType: card_effect.prob_heal
+  fullName: Assets.Scripts.Utility.card_effect.prob_heal
+  type: Field
+  source:
+    id: prob_heal
+    path: ''
+    startLine: 162980
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: prob_heal = 37
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.physical_attack_level_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.physical_attack_level_increase
+  id: physical_attack_level_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_level_increase
+  nameWithType: card_effect.physical_attack_level_increase
+  fullName: Assets.Scripts.Utility.card_effect.physical_attack_level_increase
+  type: Field
+  source:
+    id: physical_attack_level_increase
+    path: ''
+    startLine: 162981
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical_attack_level_increase = 38
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.physical_attack_level_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.physical_attack_level_decrease
+  id: physical_attack_level_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: physical_attack_level_decrease
+  nameWithType: card_effect.physical_attack_level_decrease
+  fullName: Assets.Scripts.Utility.card_effect.physical_attack_level_decrease
+  type: Field
+  source:
+    id: physical_attack_level_decrease
+    path: ''
+    startLine: 162982
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical_attack_level_decrease = 39
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.physical_defense_level_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.physical_defense_level_increase
+  id: physical_defense_level_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: physical_defense_level_increase
+  nameWithType: card_effect.physical_defense_level_increase
+  fullName: Assets.Scripts.Utility.card_effect.physical_defense_level_increase
+  type: Field
+  source:
+    id: physical_defense_level_increase
+    path: ''
+    startLine: 162983
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical_defense_level_increase = 40
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.physical_defense_level_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.physical_defense_level_decrease
+  id: physical_defense_level_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: physical_defense_level_decrease
+  nameWithType: card_effect.physical_defense_level_decrease
+  fullName: Assets.Scripts.Utility.card_effect.physical_defense_level_decrease
+  type: Field
+  source:
+    id: physical_defense_level_decrease
+    path: ''
+    startLine: 162984
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: physical_defense_level_decrease = 41
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magical_attack_level_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.magical_attack_level_increase
+  id: magical_attack_level_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_level_increase
+  nameWithType: card_effect.magical_attack_level_increase
+  fullName: Assets.Scripts.Utility.card_effect.magical_attack_level_increase
+  type: Field
+  source:
+    id: magical_attack_level_increase
+    path: ''
+    startLine: 162985
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magical_attack_level_increase = 42
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magical_attack_level_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.magical_attack_level_decrease
+  id: magical_attack_level_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magical_attack_level_decrease
+  nameWithType: card_effect.magical_attack_level_decrease
+  fullName: Assets.Scripts.Utility.card_effect.magical_attack_level_decrease
+  type: Field
+  source:
+    id: magical_attack_level_decrease
+    path: ''
+    startLine: 162986
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magical_attack_level_decrease = 43
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magical_defense_level_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.magical_defense_level_increase
+  id: magical_defense_level_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magical_defense_level_increase
+  nameWithType: card_effect.magical_defense_level_increase
+  fullName: Assets.Scripts.Utility.card_effect.magical_defense_level_increase
+  type: Field
+  source:
+    id: magical_defense_level_increase
+    path: ''
+    startLine: 162987
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magical_defense_level_increase = 44
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magical_defense_level_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.magical_defense_level_decrease
+  id: magical_defense_level_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magical_defense_level_decrease
+  nameWithType: card_effect.magical_defense_level_decrease
+  fullName: Assets.Scripts.Utility.card_effect.magical_defense_level_decrease
+  type: Field
+  source:
+    id: magical_defense_level_decrease
+    path: ''
+    startLine: 162988
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magical_defense_level_decrease = 45
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.heal_level_increase
+  commentId: F:Assets.Scripts.Utility.card_effect.heal_level_increase
+  id: heal_level_increase
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: heal_level_increase
+  nameWithType: card_effect.heal_level_increase
+  fullName: Assets.Scripts.Utility.card_effect.heal_level_increase
+  type: Field
+  source:
+    id: heal_level_increase
+    path: ''
+    startLine: 162989
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: heal_level_increase = 46
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.heal_level_decrease
+  commentId: F:Assets.Scripts.Utility.card_effect.heal_level_decrease
+  id: heal_level_decrease
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: heal_level_decrease
+  nameWithType: card_effect.heal_level_decrease
+  fullName: Assets.Scripts.Utility.card_effect.heal_level_decrease
+  type: Field
+  source:
+    id: heal_level_decrease
+    path: ''
+    startLine: 162990
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: heal_level_decrease = 47
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.increase_cost_limit
+  commentId: F:Assets.Scripts.Utility.card_effect.increase_cost_limit
+  id: increase_cost_limit
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: increase_cost_limit
+  nameWithType: card_effect.increase_cost_limit
+  fullName: Assets.Scripts.Utility.card_effect.increase_cost_limit
+  type: Field
+  source:
+    id: increase_cost_limit
+    path: ''
+    startLine: 162991
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: increase_cost_limit = 48
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.decrease_cost_limit
+  commentId: F:Assets.Scripts.Utility.card_effect.decrease_cost_limit
+  id: decrease_cost_limit
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: decrease_cost_limit
+  nameWithType: card_effect.decrease_cost_limit
+  fullName: Assets.Scripts.Utility.card_effect.decrease_cost_limit
+  type: Field
+  source:
+    id: decrease_cost_limit
+    path: ''
+    startLine: 162992
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: decrease_cost_limit = 49
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.resurrection
+  commentId: F:Assets.Scripts.Utility.card_effect.resurrection
+  id: resurrection
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: resurrection
+  nameWithType: card_effect.resurrection
+  fullName: Assets.Scripts.Utility.card_effect.resurrection
+  type: Field
+  source:
+    id: resurrection
+    path: ''
+    startLine: 162993
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: resurrection = 50
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.prob_resurrection
+  commentId: F:Assets.Scripts.Utility.card_effect.prob_resurrection
+  id: prob_resurrection
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: prob_resurrection
+  nameWithType: card_effect.prob_resurrection
+  fullName: Assets.Scripts.Utility.card_effect.prob_resurrection
+  type: Field
+  source:
+    id: prob_resurrection
+    path: ''
+    startLine: 162994
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: prob_resurrection = 51
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.clean_stats
+  commentId: F:Assets.Scripts.Utility.card_effect.clean_stats
+  id: clean_stats
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: clean_stats
+  nameWithType: card_effect.clean_stats
+  fullName: Assets.Scripts.Utility.card_effect.clean_stats
+  type: Field
+  source:
+    id: clean_stats
+    path: ''
+    startLine: 162997
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: clean_stats = 52
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.infinite_money
+  commentId: F:Assets.Scripts.Utility.card_effect.infinite_money
+  id: infinite_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: infinite_money
+  nameWithType: card_effect.infinite_money
+  fullName: Assets.Scripts.Utility.card_effect.infinite_money
+  type: Field
+  source:
+    id: infinite_money
+    path: ''
+    startLine: 162998
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: infinite_money = 53
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.return_back_to_previous_money
+  commentId: F:Assets.Scripts.Utility.card_effect.return_back_to_previous_money
+  id: return_back_to_previous_money
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: return_back_to_previous_money
+  nameWithType: card_effect.return_back_to_previous_money
+  fullName: Assets.Scripts.Utility.card_effect.return_back_to_previous_money
+  type: Field
+  source:
+    id: return_back_to_previous_money
+    path: ''
+    startLine: 162999
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: return_back_to_previous_money = 54
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.exile_next_card
+  commentId: F:Assets.Scripts.Utility.card_effect.exile_next_card
+  id: exile_next_card
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: exile_next_card
+  nameWithType: card_effect.exile_next_card
+  fullName: Assets.Scripts.Utility.card_effect.exile_next_card
+  type: Field
+  source:
+    id: exile_next_card
+    path: ''
+    startLine: 163000
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: exile_next_card = 55
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.money_protect
+  commentId: F:Assets.Scripts.Utility.card_effect.money_protect
+  id: money_protect
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: money_protect
+  nameWithType: card_effect.money_protect
+  fullName: Assets.Scripts.Utility.card_effect.money_protect
+  type: Field
+  source:
+    id: money_protect
+    path: ''
+    startLine: 163001
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: money_protect = 56
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_money_protect
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_money_protect
+  id: cancel_money_protect
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_money_protect
+  nameWithType: card_effect.cancel_money_protect
+  fullName: Assets.Scripts.Utility.card_effect.cancel_money_protect
+  type: Field
+  source:
+    id: cancel_money_protect
+    path: ''
+    startLine: 163002
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_money_protect = 57
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.double_effect_level
+  commentId: F:Assets.Scripts.Utility.card_effect.double_effect_level
+  id: double_effect_level
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: double_effect_level
+  nameWithType: card_effect.double_effect_level
+  fullName: Assets.Scripts.Utility.card_effect.double_effect_level
+  type: Field
+  source:
+    id: double_effect_level
+    path: ''
+    startLine: 163003
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: double_effect_level = 58
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_double_effect_level
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_double_effect_level
+  id: cancel_double_effect_level
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_double_effect_level
+  nameWithType: card_effect.cancel_double_effect_level
+  fullName: Assets.Scripts.Utility.card_effect.cancel_double_effect_level
+  type: Field
+  source:
+    id: cancel_double_effect_level
+    path: ''
+    startLine: 163004
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_double_effect_level = 59
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.draw_more_cards
+  commentId: F:Assets.Scripts.Utility.card_effect.draw_more_cards
+  id: draw_more_cards
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: draw_more_cards
+  nameWithType: card_effect.draw_more_cards
+  fullName: Assets.Scripts.Utility.card_effect.draw_more_cards
+  type: Field
+  source:
+    id: draw_more_cards
+    path: ''
+    startLine: 163005
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: draw_more_cards = 60
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.draw_less_cards
+  commentId: F:Assets.Scripts.Utility.card_effect.draw_less_cards
+  id: draw_less_cards
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: draw_less_cards
+  nameWithType: card_effect.draw_less_cards
+  fullName: Assets.Scripts.Utility.card_effect.draw_less_cards
+  type: Field
+  source:
+    id: draw_less_cards
+    path: ''
+    startLine: 163006
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: draw_less_cards = 61
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.add_card_to_hand
+  commentId: F:Assets.Scripts.Utility.card_effect.add_card_to_hand
+  id: add_card_to_hand
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: add_card_to_hand
+  nameWithType: card_effect.add_card_to_hand
+  fullName: Assets.Scripts.Utility.card_effect.add_card_to_hand
+  type: Field
+  source:
+    id: add_card_to_hand
+    path: ''
+    startLine: 163007
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: add_card_to_hand = 62
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.add_card_to_deck
+  commentId: F:Assets.Scripts.Utility.card_effect.add_card_to_deck
+  id: add_card_to_deck
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: add_card_to_deck
+  nameWithType: card_effect.add_card_to_deck
+  fullName: Assets.Scripts.Utility.card_effect.add_card_to_deck
+  type: Field
+  source:
+    id: add_card_to_deck
+    path: ''
+    startLine: 163008
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: add_card_to_deck = 63
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.diana_extra_card
+  commentId: F:Assets.Scripts.Utility.card_effect.diana_extra_card
+  id: diana_extra_card
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: diana_extra_card
+  nameWithType: card_effect.diana_extra_card
+  fullName: Assets.Scripts.Utility.card_effect.diana_extra_card
+  type: Field
+  source:
+    id: diana_extra_card
+    path: ''
+    startLine: 163009
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: diana_extra_card = 64
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_diana_extra_card
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_diana_extra_card
+  id: cancel_diana_extra_card
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_diana_extra_card
+  nameWithType: card_effect.cancel_diana_extra_card
+  fullName: Assets.Scripts.Utility.card_effect.cancel_diana_extra_card
+  type: Field
+  source:
+    id: cancel_diana_extra_card
+    path: ''
+    startLine: 163010
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_diana_extra_card = 65
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cast_on_draw
+  commentId: F:Assets.Scripts.Utility.card_effect.cast_on_draw
+  id: cast_on_draw
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cast_on_draw
+  nameWithType: card_effect.cast_on_draw
+  fullName: Assets.Scripts.Utility.card_effect.cast_on_draw
+  type: Field
+  source:
+    id: cast_on_draw
+    path: ''
+    startLine: 163011
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cast_on_draw = 66
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.double_trigger_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.double_trigger_prob
+  id: double_trigger_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: double_trigger_prob
+  nameWithType: card_effect.double_trigger_prob
+  fullName: Assets.Scripts.Utility.card_effect.double_trigger_prob
+  type: Field
+  source:
+    id: double_trigger_prob
+    path: ''
+    startLine: 163012
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: double_trigger_prob = 67
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.half_trigger_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.half_trigger_prob
+  id: half_trigger_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: half_trigger_prob
+  nameWithType: card_effect.half_trigger_prob
+  fullName: Assets.Scripts.Utility.card_effect.half_trigger_prob
+  type: Field
+  source:
+    id: half_trigger_prob
+    path: ''
+    startLine: 163013
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: half_trigger_prob = 68
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.no_trigger_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.no_trigger_prob
+  id: no_trigger_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: no_trigger_prob
+  nameWithType: card_effect.no_trigger_prob
+  fullName: Assets.Scripts.Utility.card_effect.no_trigger_prob
+  type: Field
+  source:
+    id: no_trigger_prob
+    path: ''
+    startLine: 163014
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: no_trigger_prob = 69
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.normal_trigger_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.normal_trigger_prob
+  id: normal_trigger_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: normal_trigger_prob
+  nameWithType: card_effect.normal_trigger_prob
+  fullName: Assets.Scripts.Utility.card_effect.normal_trigger_prob
+  type: Field
+  source:
+    id: normal_trigger_prob
+    path: ''
+    startLine: 163015
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: normal_trigger_prob = 70
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.always_trigger_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.always_trigger_prob
+  id: always_trigger_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: always_trigger_prob
+  nameWithType: card_effect.always_trigger_prob
+  fullName: Assets.Scripts.Utility.card_effect.always_trigger_prob
+  type: Field
+  source:
+    id: always_trigger_prob
+    path: ''
+    startLine: 163016
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: always_trigger_prob = 71
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_always_trigger_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_always_trigger_prob
+  id: cancel_always_trigger_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_always_trigger_prob
+  nameWithType: card_effect.cancel_always_trigger_prob
+  fullName: Assets.Scripts.Utility.card_effect.cancel_always_trigger_prob
+  type: Field
+  source:
+    id: cancel_always_trigger_prob
+    path: ''
+    startLine: 163017
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_always_trigger_prob = 72
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.double_maximum_health
+  commentId: F:Assets.Scripts.Utility.card_effect.double_maximum_health
+  id: double_maximum_health
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: double_maximum_health
+  nameWithType: card_effect.double_maximum_health
+  fullName: Assets.Scripts.Utility.card_effect.double_maximum_health
+  type: Field
+  source:
+    id: double_maximum_health
+    path: ''
+    startLine: 163018
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: double_maximum_health = 73
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.half_maximum_health
+  commentId: F:Assets.Scripts.Utility.card_effect.half_maximum_health
+  id: half_maximum_health
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: half_maximum_health
+  nameWithType: card_effect.half_maximum_health
+  fullName: Assets.Scripts.Utility.card_effect.half_maximum_health
+  type: Field
+  source:
+    id: half_maximum_health
+    path: ''
+    startLine: 163019
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: half_maximum_health = 74
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.decrease_ten_percent_maximum_health
+  commentId: F:Assets.Scripts.Utility.card_effect.decrease_ten_percent_maximum_health
+  id: decrease_ten_percent_maximum_health
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: decrease_ten_percent_maximum_health
+  nameWithType: card_effect.decrease_ten_percent_maximum_health
+  fullName: Assets.Scripts.Utility.card_effect.decrease_ten_percent_maximum_health
+  type: Field
+  source:
+    id: decrease_ten_percent_maximum_health
+    path: ''
+    startLine: 163020
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: decrease_ten_percent_maximum_health = 75
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.set_health_to_maximum
+  commentId: F:Assets.Scripts.Utility.card_effect.set_health_to_maximum
+  id: set_health_to_maximum
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: set_health_to_maximum
+  nameWithType: card_effect.set_health_to_maximum
+  fullName: Assets.Scripts.Utility.card_effect.set_health_to_maximum
+  type: Field
+  source:
+    id: set_health_to_maximum
+    path: ''
+    startLine: 163021
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: set_health_to_maximum = 76
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.heal_half_maximum_health
+  commentId: F:Assets.Scripts.Utility.card_effect.heal_half_maximum_health
+  id: heal_half_maximum_health
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: heal_half_maximum_health
+  nameWithType: card_effect.heal_half_maximum_health
+  fullName: Assets.Scripts.Utility.card_effect.heal_half_maximum_health
+  type: Field
+  source:
+    id: heal_half_maximum_health
+    path: ''
+    startLine: 163022
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: heal_half_maximum_health = 77
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.loss_game
+  commentId: F:Assets.Scripts.Utility.card_effect.loss_game
+  id: loss_game
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: loss_game
+  nameWithType: card_effect.loss_game
+  fullName: Assets.Scripts.Utility.card_effect.loss_game
+  type: Field
+  source:
+    id: loss_game
+    path: ''
+    startLine: 163023
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: loss_game = 78
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.go_shopping
+  commentId: F:Assets.Scripts.Utility.card_effect.go_shopping
+  id: go_shopping
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: go_shopping
+  nameWithType: card_effect.go_shopping
+  fullName: Assets.Scripts.Utility.card_effect.go_shopping
+  type: Field
+  source:
+    id: go_shopping
+    path: ''
+    startLine: 163024
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: go_shopping = 79
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.discard_card_and_draw_window
+  commentId: F:Assets.Scripts.Utility.card_effect.discard_card_and_draw_window
+  id: discard_card_and_draw_window
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: discard_card_and_draw_window
+  nameWithType: card_effect.discard_card_and_draw_window
+  fullName: Assets.Scripts.Utility.card_effect.discard_card_and_draw_window
+  type: Field
+  source:
+    id: discard_card_and_draw_window
+    path: ''
+    startLine: 163025
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: discard_card_and_draw_window = 80
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.health_to_armor
+  commentId: F:Assets.Scripts.Utility.card_effect.health_to_armor
+  id: health_to_armor
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: health_to_armor
+  nameWithType: card_effect.health_to_armor
+  fullName: Assets.Scripts.Utility.card_effect.health_to_armor
+  type: Field
+  source:
+    id: health_to_armor
+    path: ''
+    startLine: 163026
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: health_to_armor = 81
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.ignore_element
+  commentId: F:Assets.Scripts.Utility.card_effect.ignore_element
+  id: ignore_element
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: ignore_element
+  nameWithType: card_effect.ignore_element
+  fullName: Assets.Scripts.Utility.card_effect.ignore_element
+  type: Field
+  source:
+    id: ignore_element
+    path: ''
+    startLine: 163027
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: ignore_element = 82
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_ignore_element
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_ignore_element
+  id: cancel_ignore_element
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_ignore_element
+  nameWithType: card_effect.cancel_ignore_element
+  fullName: Assets.Scripts.Utility.card_effect.cancel_ignore_element
+  type: Field
+  source:
+    id: cancel_ignore_element
+    path: ''
+    startLine: 163028
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_ignore_element = 83
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.kill_target
+  commentId: F:Assets.Scripts.Utility.card_effect.kill_target
+  id: kill_target
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: kill_target
+  nameWithType: card_effect.kill_target
+  fullName: Assets.Scripts.Utility.card_effect.kill_target
+  type: Field
+  source:
+    id: kill_target
+    path: ''
+    startLine: 163029
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: kill_target = 84
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.all_attack_aoe
+  commentId: F:Assets.Scripts.Utility.card_effect.all_attack_aoe
+  id: all_attack_aoe
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: all_attack_aoe
+  nameWithType: card_effect.all_attack_aoe
+  fullName: Assets.Scripts.Utility.card_effect.all_attack_aoe
+  type: Field
+  source:
+    id: all_attack_aoe
+    path: ''
+    startLine: 163030
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: all_attack_aoe = 85
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_all_attack_aoe
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_all_attack_aoe
+  id: cancel_all_attack_aoe
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_all_attack_aoe
+  nameWithType: card_effect.cancel_all_attack_aoe
+  fullName: Assets.Scripts.Utility.card_effect.cancel_all_attack_aoe
+  type: Field
+  source:
+    id: cancel_all_attack_aoe
+    path: ''
+    startLine: 163031
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_all_attack_aoe = 86
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.keep_alive_once
+  commentId: F:Assets.Scripts.Utility.card_effect.keep_alive_once
+  id: keep_alive_once
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: keep_alive_once
+  nameWithType: card_effect.keep_alive_once
+  fullName: Assets.Scripts.Utility.card_effect.keep_alive_once
+  type: Field
+  source:
+    id: keep_alive_once
+    path: ''
+    startLine: 163032
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: keep_alive_once = 87
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_keep_alive_once
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_keep_alive_once
+  id: cancel_keep_alive_once
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_keep_alive_once
+  nameWithType: card_effect.cancel_keep_alive_once
+  fullName: Assets.Scripts.Utility.card_effect.cancel_keep_alive_once
+  type: Field
+  source:
+    id: cancel_keep_alive_once
+    path: ''
+    startLine: 163033
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_keep_alive_once = 88
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.health_revert
+  commentId: F:Assets.Scripts.Utility.card_effect.health_revert
+  id: health_revert
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: health_revert
+  nameWithType: card_effect.health_revert
+  fullName: Assets.Scripts.Utility.card_effect.health_revert
+  type: Field
+  source:
+    id: health_revert
+    path: ''
+    startLine: 163034
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: health_revert = 89
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.enemy_half_health_double_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.enemy_half_health_double_damage
+  id: enemy_half_health_double_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: enemy_half_health_double_damage
+  nameWithType: card_effect.enemy_half_health_double_damage
+  fullName: Assets.Scripts.Utility.card_effect.enemy_half_health_double_damage
+  type: Field
+  source:
+    id: enemy_half_health_double_damage
+    path: ''
+    startLine: 163035
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: enemy_half_health_double_damage = 90
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.next_card_double_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.next_card_double_damage
+  id: next_card_double_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: next_card_double_damage
+  nameWithType: card_effect.next_card_double_damage
+  fullName: Assets.Scripts.Utility.card_effect.next_card_double_damage
+  type: Field
+  source:
+    id: next_card_double_damage
+    path: ''
+    startLine: 163036
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: next_card_double_damage = 91
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.escape_attack_with_prob
+  commentId: F:Assets.Scripts.Utility.card_effect.escape_attack_with_prob
+  id: escape_attack_with_prob
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: escape_attack_with_prob
+  nameWithType: card_effect.escape_attack_with_prob
+  fullName: Assets.Scripts.Utility.card_effect.escape_attack_with_prob
+  type: Field
+  source:
+    id: escape_attack_with_prob
+    path: ''
+    startLine: 163037
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: escape_attack_with_prob = 92
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.increase_target_mercy
+  commentId: F:Assets.Scripts.Utility.card_effect.increase_target_mercy
+  id: increase_target_mercy
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: increase_target_mercy
+  nameWithType: card_effect.increase_target_mercy
+  fullName: Assets.Scripts.Utility.card_effect.increase_target_mercy
+  type: Field
+  source:
+    id: increase_target_mercy
+    path: ''
+    startLine: 163038
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: increase_target_mercy = 93
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.null_effect
+  commentId: F:Assets.Scripts.Utility.card_effect.null_effect
+  id: null_effect
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: null_effect
+  nameWithType: card_effect.null_effect
+  fullName: Assets.Scripts.Utility.card_effect.null_effect
+  type: Field
+  source:
+    id: null_effect
+    path: ''
+    startLine: 163039
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: null_effect = 94
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_no_magic_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_no_magic_defense
+  id: target_no_magic_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_no_magic_defense
+  nameWithType: card_effect.target_no_magic_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_no_magic_defense
+  type: Field
+  source:
+    id: target_no_magic_defense
+    path: ''
+    startLine: 163040
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_no_magic_defense = 95
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_half_magic_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_half_magic_defense
+  id: target_half_magic_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_half_magic_defense
+  nameWithType: card_effect.target_half_magic_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_half_magic_defense
+  type: Field
+  source:
+    id: target_half_magic_defense
+    path: ''
+    startLine: 163041
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_half_magic_defense = 96
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_double_magic_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_double_magic_defense
+  id: target_double_magic_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_double_magic_defense
+  nameWithType: card_effect.target_double_magic_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_double_magic_defense
+  type: Field
+  source:
+    id: target_double_magic_defense
+    path: ''
+    startLine: 163042
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_double_magic_defense = 97
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.target_normal_magic_defense
+  commentId: F:Assets.Scripts.Utility.card_effect.target_normal_magic_defense
+  id: target_normal_magic_defense
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: target_normal_magic_defense
+  nameWithType: card_effect.target_normal_magic_defense
+  fullName: Assets.Scripts.Utility.card_effect.target_normal_magic_defense
+  type: Field
+  source:
+    id: target_normal_magic_defense
+    path: ''
+    startLine: 163043
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: target_normal_magic_defense = 98
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_no_magic_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_no_magic_damage
+  id: Get_no_magic_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_no_magic_damage
+  nameWithType: card_effect.Get_no_magic_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_no_magic_damage
+  type: Field
+  source:
+    id: Get_no_magic_damage
+    path: ''
+    startLine: 163044
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_no_magic_damage = 99
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_half_magic_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_half_magic_damage
+  id: Get_half_magic_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_half_magic_damage
+  nameWithType: card_effect.Get_half_magic_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_half_magic_damage
+  type: Field
+  source:
+    id: Get_half_magic_damage
+    path: ''
+    startLine: 163045
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_half_magic_damage = 100
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_double_magic_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_double_magic_damage
+  id: Get_double_magic_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_double_magic_damage
+  nameWithType: card_effect.Get_double_magic_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_double_magic_damage
+  type: Field
+  source:
+    id: Get_double_magic_damage
+    path: ''
+    startLine: 163046
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_double_magic_damage = 101
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.Get_normal_magic_damage
+  commentId: F:Assets.Scripts.Utility.card_effect.Get_normal_magic_damage
+  id: Get_normal_magic_damage
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: Get_normal_magic_damage
+  nameWithType: card_effect.Get_normal_magic_damage
+  fullName: Assets.Scripts.Utility.card_effect.Get_normal_magic_damage
+  type: Field
+  source:
+    id: Get_normal_magic_damage
+    path: ''
+    startLine: 163047
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: Get_normal_magic_damage = 102
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.random_discard_card_hit
+  commentId: F:Assets.Scripts.Utility.card_effect.random_discard_card_hit
+  id: random_discard_card_hit
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: random_discard_card_hit
+  nameWithType: card_effect.random_discard_card_hit
+  fullName: Assets.Scripts.Utility.card_effect.random_discard_card_hit
+  type: Field
+  source:
+    id: random_discard_card_hit
+    path: ''
+    startLine: 163048
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: random_discard_card_hit = 103
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_random_discard_card_hit
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_random_discard_card_hit
+  id: cancel_random_discard_card_hit
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_random_discard_card_hit
+  nameWithType: card_effect.cancel_random_discard_card_hit
+  fullName: Assets.Scripts.Utility.card_effect.cancel_random_discard_card_hit
+  type: Field
+  source:
+    id: cancel_random_discard_card_hit
+    path: ''
+    startLine: 163049
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_random_discard_card_hit = 104
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.has_chance_of_double_magic_attack
+  commentId: F:Assets.Scripts.Utility.card_effect.has_chance_of_double_magic_attack
+  id: has_chance_of_double_magic_attack
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: has_chance_of_double_magic_attack
+  nameWithType: card_effect.has_chance_of_double_magic_attack
+  fullName: Assets.Scripts.Utility.card_effect.has_chance_of_double_magic_attack
+  type: Field
+  source:
+    id: has_chance_of_double_magic_attack
+    path: ''
+    startLine: 163050
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: has_chance_of_double_magic_attack = 105
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_has_chance_of_double_magic_attack
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_has_chance_of_double_magic_attack
+  id: cancel_has_chance_of_double_magic_attack
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_has_chance_of_double_magic_attack
+  nameWithType: card_effect.cancel_has_chance_of_double_magic_attack
+  fullName: Assets.Scripts.Utility.card_effect.cancel_has_chance_of_double_magic_attack
+  type: Field
+  source:
+    id: cancel_has_chance_of_double_magic_attack
+    path: ''
+    startLine: 163051
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_has_chance_of_double_magic_attack = 106
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.magic_card_cost_offset
+  commentId: F:Assets.Scripts.Utility.card_effect.magic_card_cost_offset
+  id: magic_card_cost_offset
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: magic_card_cost_offset
+  nameWithType: card_effect.magic_card_cost_offset
+  fullName: Assets.Scripts.Utility.card_effect.magic_card_cost_offset
+  type: Field
+  source:
+    id: magic_card_cost_offset
+    path: ''
+    startLine: 163052
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: magic_card_cost_offset = 107
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.cancel_magic_card_cost_offset
+  commentId: F:Assets.Scripts.Utility.card_effect.cancel_magic_card_cost_offset
+  id: cancel_magic_card_cost_offset
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: cancel_magic_card_cost_offset
+  nameWithType: card_effect.cancel_magic_card_cost_offset
+  fullName: Assets.Scripts.Utility.card_effect.cancel_magic_card_cost_offset
+  type: Field
+  source:
+    id: cancel_magic_card_cost_offset
+    path: ''
+    startLine: 163053
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: cancel_magic_card_cost_offset = 108
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Assets.Scripts.Utility.card_effect.add_shield
+  commentId: F:Assets.Scripts.Utility.card_effect.add_shield
+  id: add_shield
+  parent: Assets.Scripts.Utility.card_effect
+  langs:
+  - csharp
+  - vb
+  name: add_shield
+  nameWithType: card_effect.add_shield
+  fullName: Assets.Scripts.Utility.card_effect.add_shield
+  type: Field
+  source:
+    id: add_shield
+    path: ''
+    startLine: 163054
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Utility
+  syntax:
+    content: add_shield = 109
+    return:
+      type: Assets.Scripts.Utility.card_effect
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Assets.Scripts.Utility
+  commentId: N:Assets.Scripts.Utility
+  name: Assets.Scripts.Utility
+  nameWithType: Assets.Scripts.Utility
+  fullName: Assets.Scripts.Utility
+- uid: Assets.Scripts.Utility.card_effect
+  commentId: T:Assets.Scripts.Utility.card_effect
+  parent: Assets.Scripts.Utility
+  name: card_effect
+  nameWithType: card_effect
+  fullName: Assets.Scripts.Utility.card_effect

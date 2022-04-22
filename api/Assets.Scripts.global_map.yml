@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  id: Assets.Scripts.global_map
+  children:
+  - Assets.Scripts.global_map.Banner_builder
+  - Assets.Scripts.global_map.button_creater
+  - Assets.Scripts.global_map.MOUSE
+  - Assets.Scripts.global_map.prefab_preprocessor
+  - Assets.Scripts.global_map.quest_sign_creater
+  - Assets.Scripts.global_map.static_highlight
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.global_map.Banner_builder
+  commentId: T:Assets.Scripts.global_map.Banner_builder
+  name: Banner_builder
+  nameWithType: Banner_builder
+  fullName: Assets.Scripts.global_map.Banner_builder
+- uid: Assets.Scripts.global_map.button_creater
+  commentId: T:Assets.Scripts.global_map.button_creater
+  name: button_creater
+  nameWithType: button_creater
+  fullName: Assets.Scripts.global_map.button_creater
+- uid: Assets.Scripts.global_map.MOUSE
+  commentId: T:Assets.Scripts.global_map.MOUSE
+  name: MOUSE
+  nameWithType: MOUSE
+  fullName: Assets.Scripts.global_map.MOUSE
+- uid: Assets.Scripts.global_map.prefab_preprocessor
+  commentId: T:Assets.Scripts.global_map.prefab_preprocessor
+  name: prefab_preprocessor
+  nameWithType: prefab_preprocessor
+  fullName: Assets.Scripts.global_map.prefab_preprocessor
+- uid: Assets.Scripts.global_map.quest_sign_creater
+  commentId: T:Assets.Scripts.global_map.quest_sign_creater
+  name: quest_sign_creater
+  nameWithType: quest_sign_creater
+  fullName: Assets.Scripts.global_map.quest_sign_creater
+- uid: Assets.Scripts.global_map.static_highlight
+  commentId: T:Assets.Scripts.global_map.static_highlight
+  name: static_highlight
+  nameWithType: static_highlight
+  fullName: Assets.Scripts.global_map.static_highlight

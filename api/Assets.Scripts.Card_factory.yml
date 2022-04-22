@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  id: Assets.Scripts.Card_factory
+  children:
+  - Assets.Scripts.Card_factory.ButtonExtension
+  - Assets.Scripts.Card_factory.character_button_creator
+  - Assets.Scripts.Card_factory.character_card_list
+  - Assets.Scripts.Card_factory.Enlarge_card
+  - Assets.Scripts.Card_factory.On_click_remove
+  - Assets.Scripts.Card_factory.small_card_panel
+  - Assets.Scripts.Card_factory.target_card_list
+  - Assets.Scripts.Card_factory.Tooltip_enlarge
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Card_factory.character_button_creator
+  commentId: T:Assets.Scripts.Card_factory.character_button_creator
+  name: character_button_creator
+  nameWithType: character_button_creator
+  fullName: Assets.Scripts.Card_factory.character_button_creator
+- uid: Assets.Scripts.Card_factory.ButtonExtension
+  commentId: T:Assets.Scripts.Card_factory.ButtonExtension
+  name: ButtonExtension
+  nameWithType: ButtonExtension
+  fullName: Assets.Scripts.Card_factory.ButtonExtension
+- uid: Assets.Scripts.Card_factory.character_card_list
+  commentId: T:Assets.Scripts.Card_factory.character_card_list
+  name: character_card_list
+  nameWithType: character_card_list
+  fullName: Assets.Scripts.Card_factory.character_card_list
+- uid: Assets.Scripts.Card_factory.Enlarge_card
+  commentId: T:Assets.Scripts.Card_factory.Enlarge_card
+  name: Enlarge_card
+  nameWithType: Enlarge_card
+  fullName: Assets.Scripts.Card_factory.Enlarge_card
+- uid: Assets.Scripts.Card_factory.On_click_remove
+  commentId: T:Assets.Scripts.Card_factory.On_click_remove
+  name: On_click_remove
+  nameWithType: On_click_remove
+  fullName: Assets.Scripts.Card_factory.On_click_remove
+- uid: Assets.Scripts.Card_factory.small_card_panel
+  commentId: T:Assets.Scripts.Card_factory.small_card_panel
+  parent: Assets.Scripts.Card_factory
+  name: small_card_panel
+  nameWithType: small_card_panel
+  fullName: Assets.Scripts.Card_factory.small_card_panel
+- uid: Assets.Scripts.Card_factory.target_card_list
+  commentId: T:Assets.Scripts.Card_factory.target_card_list
+  name: target_card_list
+  nameWithType: target_card_list
+  fullName: Assets.Scripts.Card_factory.target_card_list
+- uid: Assets.Scripts.Card_factory.Tooltip_enlarge
+  commentId: T:Assets.Scripts.Card_factory.Tooltip_enlarge
+  parent: Assets.Scripts.Card_factory
+  name: Tooltip_enlarge
+  nameWithType: Tooltip_enlarge
+  fullName: Assets.Scripts.Card_factory.Tooltip_enlarge
+- uid: Assets.Scripts.Card_factory
+  commentId: N:Assets.Scripts.Card_factory
+  name: Assets.Scripts.Card_factory
+  nameWithType: Assets.Scripts.Card_factory
+  fullName: Assets.Scripts.Card_factory

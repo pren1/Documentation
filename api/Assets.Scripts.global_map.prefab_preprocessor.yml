@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.global_map.prefab_preprocessor
+  commentId: T:Assets.Scripts.global_map.prefab_preprocessor
+  id: prefab_preprocessor
+  parent: Assets.Scripts.global_map
+  children:
+  - Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list
+  - Assets.Scripts.global_map.prefab_preprocessor.text
+  langs:
+  - csharp
+  - vb
+  name: prefab_preprocessor
+  nameWithType: prefab_preprocessor
+  fullName: Assets.Scripts.global_map.prefab_preprocessor
+  type: Class
+  source:
+    id: prefab_preprocessor
+    path: ''
+    startLine: 157434
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  summary: "\n加载怪物骨骼动画，仅用于测试\n"
+  example: []
+  syntax:
+    content: 'public class prefab_preprocessor : MonoBehaviour'
+    content.vb: >-
+      Public Class prefab_preprocessor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.global_map.prefab_preprocessor.text
+  commentId: F:Assets.Scripts.global_map.prefab_preprocessor.text
+  id: text
+  parent: Assets.Scripts.global_map.prefab_preprocessor
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: prefab_preprocessor.text
+  fullName: Assets.Scripts.global_map.prefab_preprocessor.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 157436
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public TextMeshProUGUI text
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public text As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list
+  commentId: M:Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list
+  id: build_anime_prefab_list
+  parent: Assets.Scripts.global_map.prefab_preprocessor
+  langs:
+  - csharp
+  - vb
+  name: build_anime_prefab_list()
+  nameWithType: prefab_preprocessor.build_anime_prefab_list()
+  fullName: Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list()
+  type: Method
+  source:
+    id: build_anime_prefab_list
+    path: ''
+    startLine: 157443
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.global_map
+  syntax:
+    content: public void build_anime_prefab_list()
+    content.vb: Public Sub build_anime_prefab_list
+  overload: Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.global_map
+  commentId: N:Assets.Scripts.global_map
+  name: Assets.Scripts.global_map
+  nameWithType: Assets.Scripts.global_map
+  fullName: Assets.Scripts.global_map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list*
+  commentId: Overload:Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list
+  name: build_anime_prefab_list
+  nameWithType: prefab_preprocessor.build_anime_prefab_list
+  fullName: Assets.Scripts.global_map.prefab_preprocessor.build_anime_prefab_list

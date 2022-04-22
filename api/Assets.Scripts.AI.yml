@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.AI
+  commentId: N:Assets.Scripts.AI
+  id: Assets.Scripts.AI
+  children:
+  - Assets.Scripts.AI.Static_AI
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.AI
+  nameWithType: Assets.Scripts.AI
+  fullName: Assets.Scripts.AI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.AI.Static_AI
+  commentId: T:Assets.Scripts.AI.Static_AI
+  name: Static_AI
+  nameWithType: Static_AI
+  fullName: Assets.Scripts.AI.Static_AI
