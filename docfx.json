@@ -70,6 +70,9 @@
                 }
             }
         },
+        "xref": [
+            "https://pren1.github.io/Documentation/xrefmap.yml"
+        ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
         ],

@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://pren1.github.io/DocFxForUnity/",
+        "baseUrl": "https://pren1.github.io/Documentation/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://pren1.github.io/DocFxForUnity/",
+    "baseUrl": "https://pren1.github.io/Documentation/",
     "changefreq": "weekly"
   },
   "homepages": [],
@@ -2104,7 +2104,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "0EFoAwRroaJh+TG+2Oj4FczTLwyvQGPIH5mh/2l8J6Q="
+          "hash": "vkGD6oPTsD5Z9IUu+52gOoMad4lhL3Wa88NhSCH73f8="
         }
       },
       "is_incremental": false,
@@ -2116,7 +2116,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "Ay2ntwxFmNTrNe/d+CmD4IHwF7xz0K7nqj02Ki+spr4="
+          "hash": "e5z2O28beuCA/WkOSDGynsj4lA5g9r5OJB/u9IO+S8w="
         }
       },
       "is_incremental": false,
@@ -2172,23 +2172,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 2
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 172,
-          "skipped_file_count": 172
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
