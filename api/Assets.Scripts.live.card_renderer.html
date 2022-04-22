@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class card_renderer
+   | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class card_renderer
+   | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.live.card_renderer">
+  
+  
+  <h1 id="Assets_Scripts_live_card_renderer" data-uid="Assets.Scripts.live.card_renderer" class="text-break">Class card_renderer
+  </h1>
+  <div class="markdown level0 summary"><p>实例化牌堆并处理</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">card_renderer</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.live.html">Assets.Scripts.live</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Assets_Scripts_live_card_renderer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class card_renderer : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_card_queue" data-uid="Assets.Scripts.live.card_renderer.card_queue">card_queue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Queue&lt;card_draw_effect_tuple&gt; card_queue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.queue-1">Queue</a>&lt;<a class="xref" href="Assets.Scripts.card_draw_effect_tuple.html">card_draw_effect_tuple</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_deck" data-uid="Assets.Scripts.live.card_renderer.deck">deck</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public live_card_pile deck</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.live.live_card_pile.html">live_card_pile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_deckSize" data-uid="Assets.Scripts.live.card_renderer.deckSize">deckSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int deckSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_Extra" data-uid="Assets.Scripts.live.card_renderer.Extra">Extra</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public live_card_pile Extra</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.live.live_card_pile.html">live_card_pile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_grave" data-uid="Assets.Scripts.live.card_renderer.grave">grave</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public live_card_pile grave</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.live.live_card_pile.html">live_card_pile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_hand" data-uid="Assets.Scripts.live.card_renderer.hand">hand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public live_card_pile hand</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.live.live_card_pile.html">live_card_pile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Assets_Scripts_live_card_renderer_handSize" data-uid="Assets.Scripts.live.card_renderer.handSize">handSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int handSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_Add_card_from_hand_to_target_deck_" data-uid="Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_Add_card_from_hand_to_target_deck_GameObject_Assets_Scripts_live_live_card_pile_" data-uid="Assets.Scripts.live.card_renderer.Add_card_from_hand_to_target_deck(GameObject,Assets.Scripts.live.live_card_pile)">Add_card_from_hand_to_target_deck(GameObject, live_card_pile)</h4>
+  <div class="markdown level1 summary"><p>move card from hand to target pile</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add_card_from_hand_to_target_deck(GameObject card, live_card_pile target_pile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.live.live_card_pile.html">live_card_pile</a></td>
+        <td><span class="parametername">target_pile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_cancel_discard_window_" data-uid="Assets.Scripts.live.card_renderer.cancel_discard_window*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_cancel_discard_window" data-uid="Assets.Scripts.live.card_renderer.cancel_discard_window">cancel_discard_window()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void cancel_discard_window()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_Clean_pile_to_pile_" data-uid="Assets.Scripts.live.card_renderer.Clean_pile_to_pile*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_Clean_pile_to_pile_Assets_Scripts_live_live_card_pile_System_Boolean_" data-uid="Assets.Scripts.live.card_renderer.Clean_pile_to_pile(Assets.Scripts.live.live_card_pile,System.Boolean)">Clean_pile_to_pile(live_card_pile, Boolean)</h4>
+  <div class="markdown level1 summary"><p>move all cards in this pile to grave</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clean_pile_to_pile(live_card_pile A, bool to_grave)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.live.live_card_pile.html">live_card_pile</a></td>
+        <td><span class="parametername">A</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">to_grave</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_Custom_FillCard_" data-uid="Assets.Scripts.live.card_renderer.Custom_FillCard*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_Custom_FillCard" data-uid="Assets.Scripts.live.card_renderer.Custom_FillCard">Custom_FillCard()</h4>
+  <div class="markdown level1 summary"><p>从墓地放入牌组</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Custom_FillCard()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_discard_current_card_draw_next_" data-uid="Assets.Scripts.live.card_renderer.discard_current_card_draw_next*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_discard_current_card_draw_next" data-uid="Assets.Scripts.live.card_renderer.discard_current_card_draw_next">discard_current_card_draw_next()</h4>
+  <div class="markdown level1 summary"><p>弃当前牌，牺牲，并抽下一张</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void discard_current_card_draw_next()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_Remove_card_" data-uid="Assets.Scripts.live.card_renderer.Remove_card*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_Remove_card" data-uid="Assets.Scripts.live.card_renderer.Remove_card">Remove_card()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove_card()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_Remove_Nrandom_card_" data-uid="Assets.Scripts.live.card_renderer.Remove_Nrandom_card*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_Remove_Nrandom_card_System_Int32_System_Int32_" data-uid="Assets.Scripts.live.card_renderer.Remove_Nrandom_card(System.Int32,System.Int32)">Remove_Nrandom_card(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>随机弃牌
+<param name="N">card number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove_Nrandom_card(int N, int random_mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">N</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">random_mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_RemoveTargetCard_" data-uid="Assets.Scripts.live.card_renderer.RemoveTargetCard*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_RemoveTargetCard_GameObject_System_Boolean_" data-uid="Assets.Scripts.live.card_renderer.RemoveTargetCard(GameObject,System.Boolean)">RemoveTargetCard(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p>移除指定牌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveTargetCard(GameObject card, bool is_effect_triggered = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_effect_triggered</span></td>
+        <td><p>是否在移除时触发该卡牌效果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_show_discard_window_" data-uid="Assets.Scripts.live.card_renderer.show_discard_window*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_show_discard_window" data-uid="Assets.Scripts.live.card_renderer.show_discard_window">show_discard_window()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void show_discard_window()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_shuffle_deck_" data-uid="Assets.Scripts.live.card_renderer.shuffle_deck*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_shuffle_deck" data-uid="Assets.Scripts.live.card_renderer.shuffle_deck">shuffle_deck()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void shuffle_deck()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_shuffle_hand_" data-uid="Assets.Scripts.live.card_renderer.shuffle_hand*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_shuffle_hand" data-uid="Assets.Scripts.live.card_renderer.shuffle_hand">shuffle_hand()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void shuffle_hand()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_Spawn_NCards_" data-uid="Assets.Scripts.live.card_renderer.Spawn_NCards*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_Spawn_NCards_System_Int32_" data-uid="Assets.Scripts.live.card_renderer.Spawn_NCards(System.Int32)">Spawn_NCards(Int32)</h4>
+  <div class="markdown level1 summary"><p>抽N张牌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spawn_NCards(int N)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">N</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_SpawnCard_" data-uid="Assets.Scripts.live.card_renderer.SpawnCard*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_SpawnCard" data-uid="Assets.Scripts.live.card_renderer.SpawnCard">SpawnCard()</h4>
+  <div class="markdown level1 summary"><p>从牌堆抽牌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnCard()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_SpawnTargetCardToDeck_" data-uid="Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_SpawnTargetCardToDeck_System_String_System_Int32_" data-uid="Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck(System.String,System.Int32)">SpawnTargetCardToDeck(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnTargetCardToDeck(string card_name, int N)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">card_name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">N</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_SpawnTargetCardToDeck_sig_" data-uid="Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_SpawnTargetCardToDeck_sig_System_String_" data-uid="Assets.Scripts.live.card_renderer.SpawnTargetCardToDeck_sig(System.String)">SpawnTargetCardToDeck_sig(String)</h4>
+  <div class="markdown level1 summary"><p>将指定牌从Extra放入牌库</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnTargetCardToDeck_sig(string card_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">card_name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_live_card_renderer_SpawnTargetCardToHand_" data-uid="Assets.Scripts.live.card_renderer.SpawnTargetCardToHand*"></a>
+  <h4 id="Assets_Scripts_live_card_renderer_SpawnTargetCardToHand_System_String_System_Int32_" data-uid="Assets.Scripts.live.card_renderer.SpawnTargetCardToHand(System.String,System.Int32)">SpawnTargetCardToHand(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnTargetCardToHand(string card_name, int remaining_count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">card_name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">remaining_count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
