@@ -2104,7 +2104,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "3+hNbJr0BfZYc74hgJJytnoH08K2Gp0btWzpw/XH8do="
+          "hash": "pEZo3H4uNR4HOI5JWE/r/erz4lDiWqEzceJ/rjAPOUY="
         }
       },
       "is_incremental": false,
@@ -2129,6 +2129,18 @@
         ".html": {
           "relative_path": "manual/卡牌设计文档.html",
           "hash": "LWRqoVclh9Osy6tYMrAOoZ3jqh/O44blxxX/iUIeR9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/如何更新项目文档.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/如何更新项目文档.html",
+          "hash": "3T+Ysmv9ZyeAaYttokBcqaQ92cWnkoTtqXXN36TdEaY="
         }
       },
       "is_incremental": false,
@@ -2196,25 +2208,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 0
+          "total_file_count": 5,
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 172,
-          "skipped_file_count": 0
+          "skipped_file_count": 172
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
