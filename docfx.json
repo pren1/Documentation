@@ -21,8 +21,7 @@
         "globalMetadata": {
             "_appTitle": "黎明歌者",
             "_appFooter": "黎明歌者",
-            "_enableSearch": true,
-            "_gitUrlPattern": "https://github.com/pren1/Scripts"
+            "_enableSearch": true
         },
         "content": [
             {
@@ -63,7 +62,7 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://pren1.github.io/DocFxForUnity",
+            "baseUrl": "https://pren1.github.io/Documentation",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
@@ -71,9 +70,6 @@
                 }
             }
         },
-        "xref": [
-            "https://pren1.github.io/UnityXrefMaps/xrefmap.yml"
-        ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
         ],
