@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#12298;&#40654;&#26126;&#27468;&#32773;&#12299;A-SOUL&#28216;&#25103;&#20108;&#21019;&#25307;&#20154;&#20013;&#65281; | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#12298;&#40654;&#26126;&#27468;&#32773;&#12299;A-SOUL&#28216;&#25103;&#20108;&#21019;&#25307;&#20154;&#20013;&#65281; | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="黎明歌者a-soul游戏二创招人中" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="3" sourceendlinenumber="3">《黎明歌者》A-SOUL游戏二创招人中！</h1>
+
+<h2 id="-一句话游戏简介" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="5" sourceendlinenumber="5">🌟 一句话游戏简介：</h2>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="7" sourceendlinenumber="7">以A-SOUL五位成员为主角的RPG异世界冒险卡牌电子游戏。</p>
+<h2 id="-稍微详细的游戏介绍" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="9" sourceendlinenumber="9">📖 稍微详细的游戏介绍：</h2>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="11" sourceendlinenumber="11">嘉然穿越到了危机四伏的异世界，并在这里邂逅了其他四位A-SOUL成员——以及敲可爱的阿草！异世界的荒野中充满了狂暴恐怖的怪物.但是，嘉然等人发现自己的歌声可以让它们变得平和无害，而这种能力也让她们受到了异界住民们的欢迎。然而，在抚慰净化怪物的过程中，罪魁祸首逐渐浮出水面......嘉然能和A-SOUL的伙伴们一起拯救这一切吗？</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="13" sourceendlinenumber="13">在此游戏中，玩家将操控A-SOUL五人（以及阿草）的任意组合上场，用卡牌击败怪物，获取金币，购买卡包，对五人（和阿草）的各具特色的角色牌以及卡牌进行收集，强化自己的牌库，挑战构筑能力，并开发多种玩法。</p>
+<h2 id="-引擎unity" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="15" sourceendlinenumber="15">⚡️ 引擎：Unity</h2>
+<h2 id="-相关进度" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="17" sourceendlinenumber="17">☁️ 相关进度</h2>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="19" sourceendlinenumber="19">美术开发：目前已经约有五人（还有阿草）的表情差分立绘。骨骼小人也已经约稿。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="21" sourceendlinenumber="21">卡牌设计：目前已经有近百张基础卡牌被设计出来。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="23" sourceendlinenumber="23">程序开发：战斗系统以及对话系统基本完成（尚需debug）</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="25" sourceendlinenumber="25">剧本开发：已有一个四万字的剧本草稿。在重新修改草稿后，现有一个简要大纲。接下来需要对大纲进行扩写以及确定每个时间点具体出现的立绘，背景和音乐。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="27" sourceendlinenumber="27">音乐/音效开发：尚无专人负责，但是我们购买了一个第三方的音乐包，其中包含各种风格的背景音乐/音效。</p>
+<h2 id="-工作角色及职责" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="29" sourceendlinenumber="29">🌲 工作角色及职责</h2>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="31" sourceendlinenumber="31">UI美术：需要设计UI。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="33" sourceendlinenumber="33">卡牌美术：设计卡牌UI。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="35" sourceendlinenumber="35">地图美术：需要对各个场景的地图进行绘制（有易于使用的在线地图工具，肯定不是从头画）</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="37" sourceendlinenumber="37">骨骼动画：需要利用dragonbones来为骨骼小人配置动画。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="39" sourceendlinenumber="39">卡牌设计：需要设计关键词以及拓展包。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="41" sourceendlinenumber="41">程序：负责参与设计，讨论以及实现怪物AI。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="43" sourceendlinenumber="43">游戏设计（策划）：需要对游戏机制提出改进意见，设计怪物技能和游戏流程。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="45" sourceendlinenumber="45">文案：负责完善剧本以及书写卡牌的风味文字。</p>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="47" sourceendlinenumber="47">音乐/音效：需要为游戏编/选配曲目以及音效。</p>
+<h2 id="盈利" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="49" sourceendlinenumber="49">💰盈利</h2>
+<p sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="51" sourceendlinenumber="51">此游戏为免费游戏，不会产生盈利。</p>
+<h2 id="-入组要求" sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="53" sourceendlinenumber="53">😋 入组要求</h2>
+<ol sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="55" sourceendlinenumber="57">
+<li sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="55" sourceendlinenumber="55">尊重AU共识。</li>
+<li sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="56" sourceendlinenumber="56">愿意在此项目中投入足够的时间，因为我们真的很缺人手。</li>
+<li sourcefile="manual/《黎明歌者》A-SOUL游戏二创招人中！.md" sourcestartlinenumber="57" sourceendlinenumber="57">您真的需要对A-SOUL和做游戏有足够的热情，二者缺一不可。因为二创作业会无情地消耗热情。燃尽了就不好啦～</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

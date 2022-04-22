@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#40654;&#26126;&#27468;&#32773;&#65306;&#21345;&#29260;&#28216;&#25103;&#35774;&#35745; | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#40654;&#26126;&#27468;&#32773;&#65306;&#21345;&#29260;&#28216;&#25103;&#35774;&#35745; | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="黎明歌者卡牌游戏设计" sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="1" sourceendlinenumber="1"><strong>黎明歌者：卡牌游戏设计</strong></h1>
+
+<h1 id="注意以下均为不成熟的建议随时可以更改" sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="3" sourceendlinenumber="3"><strong>注意：以下均为不成熟的建议，随时可以更改。</strong></h1>
+<h1 id="体验与主题" sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="5" sourceendlinenumber="5"><strong>体验与主题</strong></h1>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="7" sourceendlinenumber="7">一个游戏最先要确定的是它的主题，也就是这个游戏的要给玩家什么样的体验。剧本的细节还没定下来，但是我们可以从标题来看。有如下关键词：</p>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="9" sourceendlinenumber="14">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="9" sourceendlinenumber="9">黎明：代表着拯救，但是黎明前往往是最黑暗的时候</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="10" sourceendlinenumber="10">歌者：唱歌的人，是手段。</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="11" sourceendlinenumber="11">AS：虚拟偶像</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="12" sourceendlinenumber="12">背景：异世界</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="13" sourceendlinenumber="13">卡牌：游戏的战斗主要通过卡牌来完成。</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="14" sourceendlinenumber="14">类型：此游戏<strong>属</strong>RPG类别，<strong>不是</strong>rouge。</li>
+</ol>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="16" sourceendlinenumber="16">那么游戏的设定就很清楚了：<strong>虚拟偶像用歌声拯救异世界</strong>。</p>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="18" sourceendlinenumber="18">接下来，我们的机制要按照这个主题展开。</p>
+<h1 id="机制" sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="20" sourceendlinenumber="20"><strong>机制</strong></h1>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="22" sourceendlinenumber="22">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="22" sourceendlinenumber="22">时间限制</li>
+</ol>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="24" sourceendlinenumber="24">世界<strong>将要</strong>毁灭，所以此游戏应该有时间这个概念。通常来说，某些行动会花费时间。比如玩家在大地图上行走或者打怪就会花费时间。我们还可以有一个卡牌流派：以加速时间为代价换取一时的强大效果。时间会带来什么限制呢？我们可以让怪物随时间变得越来越强（如雨中探险）。世界毁灭也可能是概念上的，比如数字概念的消失。但是这可能不是个好主意。我们或许可以永久关闭地图上的一些地点，来表示：那个地方已经被毁灭。或许我们还可以永久禁用某些卡牌。</p>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="26" sourceendlinenumber="26">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="26" sourceendlinenumber="26">歌者</li>
+</ol>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="28" sourceendlinenumber="28">这个其实限制了战斗的手段。也就是，歌者不是通过正常的械斗击败怪物。AS是通过唱歌来“感化”怪物。这里有两种选择：</p>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="30" sourceendlinenumber="31">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="30" sourceendlinenumber="31"><ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="30" sourceendlinenumber="31">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="30" sourceendlinenumber="30">玩家只能通过歌唱击败怪物</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="31" sourceendlinenumber="31">玩家可以通过多种方式击败怪物（可以借鉴undertale，这个说不定也不是不行。但是我们的骨骼小人只有演唱动作啊/<strong>需要讨论</strong>）</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="33" sourceendlinenumber="33">这样，我们只是把目前的魔法牌改成音乐牌，然后物理牌还是物理牌。</p>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="35" sourceendlinenumber="39">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="35" sourceendlinenumber="35"><p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="35" sourceendlinenumber="35">拯救</p>
+</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="37" sourceendlinenumber="39"><ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="37" sourceendlinenumber="39">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="37" sourceendlinenumber="37">角色可以为玩家所拯救。比如玩家会使用嘉然击败迷失的贝拉，让她加入队伍（<strong>不确定剧本要不要改</strong>）</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="38" sourceendlinenumber="38">怪物可以为玩家所拯救。被拯救的怪物可以增加【魂】值。【魂】值有多种用途，比如特定卡牌的获取（达到一定阈值解锁）以及决定弹幕的密度，以及解锁特定的增益地点，改变剧情台词，甚至改变结局等。【魂】值达到一定数值后会进入下一级。</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="39" sourceendlinenumber="39">地区可以为玩家所拯救。拯救的地点可以用特别的符号在地图上标记。并提供功能性增益。比如商店可以售卖被拯救地区的卡牌？额外的商店？额外的卡牌强化地点等等。卡牌流派其二：解锁的地点越多，该卡牌的效果越强</li>
+</ol>
+</li>
+</ol>
+<h1 id="设计游戏流程" sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="41" sourceendlinenumber="41"><strong>设计游戏流程</strong></h1>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="43" sourceendlinenumber="51">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="43" sourceendlinenumber="43">角色是嘉然和向晚，进入战斗后使用的是现成的卡组。在击败怪物后会获得金币以及材料。</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="44" sourceendlinenumber="44">引导玩家使用材料制作食物卡牌：蘑菇（作用是恢复hp）</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="45" sourceendlinenumber="45">第二场战斗，玩家此时hp不足。需要使用蘑菇卡牌才能过关。</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="46" sourceendlinenumber="46">战后获得金币和材料之后额外获得【魂】值（只差一点升级）</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="47" sourceendlinenumber="47">见到乃琳-&gt;玩家可以去购买进阶卡牌，但是只给出两个方向的进阶选择。此时暂时不开放卡包购买（钱不够）</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="48" sourceendlinenumber="48">然后玩家可以外出进行战斗，战斗一次就会获得足够的金币来开第一个卡包。并且会有更广阔的区域和任务解锁。【魂】值第一次升级</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="49" sourceendlinenumber="49">第二次回来时玩家会遇到行商阿草，并可以购买特价卡。但是此时的钱还不够买稀有度更高的卡包。</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="50" sourceendlinenumber="50">再次进行战斗：精英战斗01。掉落更多的金币和食材。解锁新的食物卡牌。【魂】值差一点第二次升级</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="51" sourceendlinenumber="51">再次进行战斗：精英战斗02。【魂】值第二次升级</li>
+</ol>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="53" sourceendlinenumber="53">解锁地点：魂之圣所</p>
+<h3 id="地图分支" sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="55" sourceendlinenumber="55"><strong>地图分支：</strong></h3>
+<ol sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="57" sourceendlinenumber="60">
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="57" sourceendlinenumber="57">前往魂之圣所以解锁卡牌 -&gt;获得魂系卡牌</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="58" sourceendlinenumber="58"><p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="58" sourceendlinenumber="58">继续精英战斗03-&gt;更多金币-&gt;遇到被困的阿草-&gt;可以打折购买卡包</p>
+</li>
+<li sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="60" sourceendlinenumber="60"><p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="60" sourceendlinenumber="60">【魂】值第三次升级</p>
+</li>
+</ol>
+<p sourcefile="manual/黎明歌者：卡牌游戏设计.md" sourcestartlinenumber="62" sourceendlinenumber="62">获得魂系卡牌，其威力由魂值决定</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
