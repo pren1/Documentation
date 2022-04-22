@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Effect_debuger
+   | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Effect_debuger
+   | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger">
+  
+  
+  <h1 id="Assets_Scripts_Effect_debuger_Effect_debuger" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger" class="text-break">Class Effect_debuger
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Assets.Scripts.Effect_debuger.Effect_debuger.yml" sourcestartlinenumber="2" sourceendlinenumber="2">用于debug各种效果，还需要继续增加...</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Effect_debuger</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Effect_debuger.html">Assets.Scripts.Effect_debuger</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Assets_Scripts_Effect_debuger_Effect_debuger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Effect_debuger : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Add_money_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Add_money*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Add_money" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Add_money">Add_money()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add_money()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_change_Enemy_index_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_change_Enemy_index" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.change_Enemy_index">change_Enemy_index()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Effect_debuger.Effect_debuger.yml" sourcestartlinenumber="2" sourceendlinenumber="2">更改卡牌目标，这里有点小bug。当前敌人数只有1，但是这里假设是2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void change_Enemy_index()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_change_Member_index_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_change_Member_index" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.change_Member_index">change_Member_index()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Effect_debuger.Effect_debuger.yml" sourcestartlinenumber="2" sourceendlinenumber="2">改变卡牌源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void change_Member_index()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Counter_attack_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Counter_attack" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Counter_attack">Counter_attack()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Counter_attack()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_crash_Enemy_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_crash_Enemy" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.crash_Enemy">crash_Enemy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void crash_Enemy()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_decrease_cost_limit_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_decrease_cost_limit" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.decrease_cost_limit">decrease_cost_limit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void decrease_cost_limit()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_dizzy_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.dizzy*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_dizzy" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.dizzy">dizzy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void dizzy()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_enable_aoe_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_enable_aoe" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.enable_aoe">enable_aoe()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void enable_aoe()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_End_Battle_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_End_Battle" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.End_Battle">End_Battle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void End_Battle()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_furious_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.furious*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_furious" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.furious">furious()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void furious()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_double_damage_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_double_damage" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_damage">Get_double_damage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Get_double_damage()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_double_money_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_double_money" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_double_money">Get_double_money()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Get_double_money()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_half_damage_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_half_damage" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_damage">Get_half_damage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Get_half_damage()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_half_money_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_half_money" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_half_money">Get_half_money()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Get_half_money()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_no_damage_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Get_no_damage" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Get_no_damage">Get_no_damage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Get_no_damage()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_heal_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.heal*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_heal" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.heal">heal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void heal()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_heal_level_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_heal_level_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_decrease">heal_level_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void heal_level_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_heal_level_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_heal_level_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.heal_level_increase">heal_level_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void heal_level_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_increase_cost_limit_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_increase_cost_limit" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.increase_cost_limit">increase_cost_limit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void increase_cost_limit()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_infinite_money_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_infinite_money" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.infinite_money">infinite_money()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void infinite_money()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack">magical_attack()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_attack()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_decrease">magical_attack_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_attack_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_increase">magical_attack_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_attack_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_level_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_level_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_decrease">magical_attack_level_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_attack_level_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_level_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_attack_level_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_attack_level_increase">magical_attack_level_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_attack_level_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_defense_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_defense" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense">magical_defense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_defense()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_defense_level_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_defense_level_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_decrease">magical_defense_level_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_defense_level_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_defense_level_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_magical_defense_level_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.magical_defense_level_increase">magical_defense_level_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void magical_defense_level_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_money_protect_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.money_protect*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_money_protect" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.money_protect">money_protect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void money_protect()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_OnSliderValueChanged_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_OnSliderValueChanged_System_Single_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.OnSliderValueChanged(System.Single)">OnSliderValueChanged(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSliderValueChanged(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack">physical_attack()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_attack()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_decrease">physical_attack_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_attack_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_increase">physical_attack_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_attack_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_level_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_level_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_decrease">physical_attack_level_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_attack_level_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_level_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_attack_level_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_attack_level_increase">physical_attack_level_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_attack_level_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_defense_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_defense" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense">physical_defense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_defense()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_defense_level_decrease_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_defense_level_decrease" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_decrease">physical_defense_level_decrease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_defense_level_decrease()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_defense_level_increase_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_physical_defense_level_increase" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.physical_defense_level_increase">physical_defense_level_increase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void physical_defense_level_increase()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_attack_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_attack" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_attack">prob_attack()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void prob_attack()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_defense_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_defense" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_defense">prob_defense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void prob_defense()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_heal_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_heal" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_heal">prob_heal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void prob_heal()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_resurrection_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_prob_resurrection" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.prob_resurrection">prob_resurrection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void prob_resurrection()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Remove_money_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Remove_money" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Remove_money">Remove_money()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove_money()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Remove_Nrandom_card_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Remove_Nrandom_card" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Remove_Nrandom_card">Remove_Nrandom_card()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove_Nrandom_card()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_resurrection_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.resurrection*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_resurrection" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.resurrection">resurrection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void resurrection()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_sacrifice_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_sacrifice" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.sacrifice">sacrifice()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sacrifice()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Spawn_NCards_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Spawn_NCards" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Spawn_NCards">Spawn_NCards()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spawn_NCards()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_target_double_defense_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_target_double_defense" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.target_double_defense">target_double_defense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void target_double_defense()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_target_half_defense_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_target_half_defense" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.target_half_defense">target_half_defense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void target_half_defense()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_target_no_defense_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_target_no_defense" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.target_no_defense">target_no_defense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void target_no_defense()</code></pre>
+  </div>
+  <a id="Assets_Scripts_Effect_debuger_Effect_debuger_Taunt_" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Taunt*"></a>
+  <h4 id="Assets_Scripts_Effect_debuger_Effect_debuger_Taunt" data-uid="Assets.Scripts.Effect_debuger.Effect_debuger.Taunt">Taunt()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Taunt()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

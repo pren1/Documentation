@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Util
+   | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Util
+   | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Utility.Util">
+  
+  
+  <h1 id="Assets_Scripts_Utility_Util" data-uid="Assets.Scripts.Utility.Util" class="text-break">Class Util
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">应用类</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Util</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Utility.html">Assets.Scripts.Utility</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Assets_Scripts_Utility_Util_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Util</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Assets_Scripts_Utility_Util_animation_effect_bundle_" data-uid="Assets.Scripts.Utility.Util.animation_effect_bundle*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_animation_effect_bundle_Member_System_Collections_Generic_List_System_String__show_animation_Show_effect_" data-uid="Assets.Scripts.Utility.Util.animation_effect_bundle(Member,System.Collections.Generic.List{System.String},show_animation,Show_effect)">animation_effect_bundle(Member, List&lt;String&gt;, show_animation, Show_effect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void animation_effect_bundle(Member input_member, List&lt;string&gt; effect_text_list, show_animation Show_Animation, Show_effect show_Effect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Member</span></td>
+        <td><span class="parametername">input_member</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">effect_text_list</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">show_animation</span></td>
+        <td><span class="parametername">Show_Animation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Show_effect</span></td>
+        <td><span class="parametername">show_Effect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_card_belong_parser_" data-uid="Assets.Scripts.Utility.Util.card_belong_parser*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_card_belong_parser_System_String_" data-uid="Assets.Scripts.Utility.Util.card_belong_parser(System.String)">card_belong_parser(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">直接从中文名获取角色英文名，很方便</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string card_belong_parser(string character_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">character_name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Card_effect_decoder_list_" data-uid="Assets.Scripts.Utility.Util.Card_effect_decoder_list*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Card_effect_decoder_list_System_Collections_Generic_List_System_String__" data-uid="Assets.Scripts.Utility.Util.Card_effect_decoder_list(System.Collections.Generic.List{System.String})">Card_effect_decoder_list(List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">处理效果列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Effect_tuple&gt; Card_effect_decoder_list(List&lt;string&gt; input_card_effect_list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">input_card_effect_list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Assets.Scripts.Utility.Effect_tuple.html">Effect_tuple</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Card_type_decoder_" data-uid="Assets.Scripts.Utility.Util.Card_type_decoder*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Card_type_decoder_System_String_" data-uid="Assets.Scripts.Utility.Util.Card_type_decoder(System.String)">Card_type_decoder(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">解析卡片类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static card_type Card_type_decoder(string input_card_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input_card_type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Utility.card_type.html">card_type</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Card_type_list_decoder_" data-uid="Assets.Scripts.Utility.Util.Card_type_list_decoder*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Card_type_list_decoder_System_String_" data-uid="Assets.Scripts.Utility.Util.Card_type_list_decoder(System.String)">Card_type_list_decoder(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;card_type&gt; Card_type_list_decoder(string input_card_list_string)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input_card_list_string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Assets.Scripts.Utility.card_type.html">card_type</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_change_background_" data-uid="Assets.Scripts.Utility.Util.change_background*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_change_background_System_String_GameObject_" data-uid="Assets.Scripts.Utility.Util.change_background(System.String,GameObject)">change_background(String, GameObject)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="4">改变场景的背景
+<param name="background_img">name of background
+<param name="background">background game obj</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void change_background(string background_img, GameObject background)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">background_img</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">background</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_change_music_" data-uid="Assets.Scripts.Utility.Util.change_music*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_change_music_System_String_GameObject_" data-uid="Assets.Scripts.Utility.Util.change_music(System.String,GameObject)">change_music(String, GameObject)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="4">改变场景的声音
+<param name="BGM">name of BGM
+<param name="Music_player">Music_player game obj</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void change_music(string BGM, GameObject Music_player)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">BGM</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">Music_player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_copy_card_" data-uid="Assets.Scripts.Utility.Util.copy_card*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_copy_card_GameObject_" data-uid="Assets.Scripts.Utility.Util.copy_card(GameObject)">copy_card(GameObject)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">用于从Extra牌堆复制某张牌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject copy_card(GameObject target_card)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target_card</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_enable_target_card_" data-uid="Assets.Scripts.Utility.Util.enable_target_card*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_enable_target_card_GameObject_System_Boolean_" data-uid="Assets.Scripts.Utility.Util.enable_target_card(GameObject,System.Boolean)">enable_target_card(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void enable_target_card(GameObject card, bool is_enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Expand_array_for_print_" data-uid="Assets.Scripts.Utility.Util.Expand_array_for_print*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Expand_array_for_print__1_System_Collections_Generic_List___0__" data-uid="Assets.Scripts.Utility.Util.Expand_array_for_print``1(System.Collections.Generic.List{``0})">Expand_array_for_print&lt;T&gt;(List&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">方便打印数组</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Expand_array_for_print&lt;T&gt;(List&lt;T&gt; input_list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
+        <td><span class="parametername">input_list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_get_card_rarity_" data-uid="Assets.Scripts.Utility.Util.get_card_rarity*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_get_card_rarity_System_String_" data-uid="Assets.Scripts.Utility.Util.get_card_rarity(System.String)">get_card_rarity(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">从描述解析卡牌稀有度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Card_rarity get_card_rarity(string card_rarity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">card_rarity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Utility.Card_rarity.html">Card_rarity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_get_hand_pile_" data-uid="Assets.Scripts.Utility.Util.get_hand_pile*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_get_hand_pile" data-uid="Assets.Scripts.Utility.Util.get_hand_pile">get_hand_pile()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">获得当前手牌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CardsPile get_hand_pile()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CardsPile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_get_live_hand_pile_" data-uid="Assets.Scripts.Utility.Util.get_live_hand_pile*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_get_live_hand_pile" data-uid="Assets.Scripts.Utility.Util.get_live_hand_pile">get_live_hand_pile()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static live_card_pile get_live_hand_pile()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">live_card_pile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_handle_card_click_results_" data-uid="Assets.Scripts.Utility.Util.handle_card_click_results*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_handle_card_click_results_System_String_" data-uid="Assets.Scripts.Utility.Util.handle_card_click_results(System.String)">handle_card_click_results(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">点击卡牌后产生效果</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void handle_card_click_results(string object_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">object_name</span></td>
+        <td><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="1" sourceendlinenumber="1">卡牌效果目标</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_load_all_member_dict_" data-uid="Assets.Scripts.Utility.Util.load_all_member_dict*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_load_all_member_dict" data-uid="Assets.Scripts.Utility.Util.load_all_member_dict">load_all_member_dict()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, member&gt; load_all_member_dict()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">member</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_load_live_card_" data-uid="Assets.Scripts.Utility.Util.load_live_card*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_load_live_card_GameObject_basic_card_System_Boolean_" data-uid="Assets.Scripts.Utility.Util.load_live_card(GameObject,basic_card,System.Boolean)">load_live_card(GameObject, basic_card, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject load_live_card(GameObject small_card, basic_card current_card, bool is_no_target_card = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">small_card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">basic_card</span></td>
+        <td><span class="parametername">current_card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_no_target_card</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_load_member_list_" data-uid="Assets.Scripts.Utility.Util.load_member_list*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_load_member_list" data-uid="Assets.Scripts.Utility.Util.load_member_list">load_member_list()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;member&gt; load_member_list()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">member</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_load_monster_list_" data-uid="Assets.Scripts.Utility.Util.load_monster_list*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_load_monster_list" data-uid="Assets.Scripts.Utility.Util.load_monster_list">load_monster_list()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;monster&gt; load_monster_list()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">monster</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_load_single_card_" data-uid="Assets.Scripts.Utility.Util.load_single_card*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_load_single_card_GameObject_basic_card_System_Boolean_System_Boolean_" data-uid="Assets.Scripts.Utility.Util.load_single_card(GameObject,basic_card,System.Boolean,System.Boolean)">load_single_card(GameObject, basic_card, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="5">加载单张卡牌
+<param name="small_card">a card game object
+<param name="current_card">contains information about current card
+<param name="Use_card_count">whether you wanna show card count</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject load_single_card(GameObject small_card, basic_card current_card, bool Use_card_count = false, bool is_no_target_card = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">small_card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">basic_card</span></td>
+        <td><span class="parametername">current_card</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">Use_card_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">is_no_target_card</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_magic_card_decoder_" data-uid="Assets.Scripts.Utility.Util.magic_card_decoder*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_magic_card_decoder_System_String_" data-uid="Assets.Scripts.Utility.Util.magic_card_decoder(System.String)">magic_card_decoder(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool magic_card_decoder(string input_val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input_val</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Monster_level_decoder_" data-uid="Assets.Scripts.Utility.Util.Monster_level_decoder*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Monster_level_decoder_System_String_" data-uid="Assets.Scripts.Utility.Util.Monster_level_decoder(System.String)">Monster_level_decoder(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">怪物等级解析</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Monster_level Monster_level_decoder(string monster_level_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">monster_level_type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Utility.Monster_level.html">Monster_level</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_PlayCardPutSound_" data-uid="Assets.Scripts.Utility.Util.PlayCardPutSound*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_PlayCardPutSound_GameObject_" data-uid="Assets.Scripts.Utility.Util.PlayCardPutSound(GameObject)">PlayCardPutSound(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PlayCardPutSound(GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_PlaySound_" data-uid="Assets.Scripts.Utility.Util.PlaySound*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_PlaySound_GameObject_System_String_System_Single_" data-uid="Assets.Scripts.Utility.Util.PlaySound(GameObject,System.String,System.Single)">PlaySound(GameObject, String, Single)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="5">播放声音
+<param name="gameObject">audiosouce will attach to this gameObject
+<param name="sound_name_path">path to target audio clip
+<param name="delay">if you want some delay...</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PlaySound(GameObject gameObject, string sound_name_path, float delay = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sound_name_path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_preload_sprites_" data-uid="Assets.Scripts.Utility.Util.preload_sprites*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_preload_sprites" data-uid="Assets.Scripts.Utility.Util.preload_sprites">preload_sprites()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">角色立绘预加载</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Sprite&gt; preload_sprites()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Sprite</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_random_color_" data-uid="Assets.Scripts.Utility.Util.random_color*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_random_color" data-uid="Assets.Scripts.Utility.Util.random_color">random_color()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">产生随机颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color random_color()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Random_string_" data-uid="Assets.Scripts.Utility.Util.Random_string*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Random_string" data-uid="Assets.Scripts.Utility.Util.Random_string">Random_string()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Random_string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Random_string()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_RandomGaussian_" data-uid="Assets.Scripts.Utility.Util.RandomGaussian*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_RandomGaussian_System_Single_System_Single_" data-uid="Assets.Scripts.Utility.Util.RandomGaussian(System.Single,System.Single)">RandomGaussian(Single, Single)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">高斯分布函数，用于展示弹幕</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float RandomGaussian(float minValue = 0F, float maxValue = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">minValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_save_saveObject_" data-uid="Assets.Scripts.Utility.Util.save_saveObject*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_save_saveObject_SaveObject_System_String_" data-uid="Assets.Scripts.Utility.Util.save_saveObject(SaveObject,System.String)">save_saveObject(SaveObject, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">save data to &quot;selected_characters&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void save_saveObject(SaveObject input_saveObject, string save_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SaveObject</span></td>
+        <td><span class="parametername">input_saveObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">save_name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_shuffle_" data-uid="Assets.Scripts.Utility.Util.shuffle*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_shuffle_System_Collections_Generic_List_basic_card__" data-uid="Assets.Scripts.Utility.Util.shuffle(System.Collections.Generic.List{basic_card})">shuffle(List&lt;basic_card&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="3">洗牌堆
+<param name="cards">list to be shuffled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;basic_card&gt; shuffle(List&lt;basic_card&gt; cards)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">basic_card</span>&gt;</td>
+        <td><span class="parametername">cards</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">basic_card</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_Skill_effect_decoder_list_" data-uid="Assets.Scripts.Utility.Util.Skill_effect_decoder_list*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_Skill_effect_decoder_list_System_String_" data-uid="Assets.Scripts.Utility.Util.Skill_effect_decoder_list(System.String)">Skill_effect_decoder_list(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Assets.Scripts.Utility.Util.yml" sourcestartlinenumber="2" sourceendlinenumber="2">TODO：解析技能,需要更新到新的关键词</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Skill_tuple&gt; Skill_effect_decoder_list(string input_skill_string)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input_skill_string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Assets.Scripts.Utility.Skill_tuple.html">Skill_tuple</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Assets_Scripts_Utility_Util_string_bool_transfer_" data-uid="Assets.Scripts.Utility.Util.string_bool_transfer*"></a>
+  <h4 id="Assets_Scripts_Utility_Util_string_bool_transfer_System_String_" data-uid="Assets.Scripts.Utility.Util.string_bool_transfer(System.String)">string_bool_transfer(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool string_bool_transfer(string input_val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">input_val</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

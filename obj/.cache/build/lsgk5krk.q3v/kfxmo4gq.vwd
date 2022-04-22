@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#21345;&#29260;&#35774;&#35745;&#25991;&#26723; | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#21345;&#29260;&#35774;&#35745;&#25991;&#26723; | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="卡牌设计文档" sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="1" sourceendlinenumber="1"><strong>卡牌设计文档</strong></h1>
+
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="3" sourceendlinenumber="3">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="3" sourceendlinenumber="3">## <strong>更新日志</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="5" sourceendlinenumber="5">01/03/2022 更新了卡牌关键词的解析程序，并添加了更多的关键词，改变部分已用红色高亮。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="7" sourceendlinenumber="7">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="7" sourceendlinenumber="7">## <strong>这是什么</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="9" sourceendlinenumber="9">此文档为负责卡牌设计的AU撰写，其中包含了进行本游戏卡牌设计所需要的一切信息。如果设计人员觉得有必要做任何修改，欢迎在群内进行讨论，也欢迎向本文档中添加任何内容。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="11" sourceendlinenumber="11">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="11" sourceendlinenumber="11">## <strong>前置要求</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="13" sourceendlinenumber="13">因为绝大部分现有卡牌都和剧本剧情有关，所以强烈建议设计师先对群文件里的剧本（<strong>嘉然_剧本_v2</strong>）进行一个快速的阅读（不需要读后感和修改，就是简单地了解下故事）。</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="15" sourceendlinenumber="15">推荐设计师有炉石传说，杀戮尖塔，游戏王甚至万智牌的游玩经验（当然没有也不是不行。尤其是万智牌有点复杂，没必要特意去学）</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="17" sourceendlinenumber="17">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="17" sourceendlinenumber="17">## <strong>设计方法：快速开始</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="19" sourceendlinenumber="19">卡牌的内容存在csv文件中（见文件：<a href="https://docs.qq.com/sheet/DV05oeUF3Y2F1ZWR2?tab=BB08J2" data-raw-source="[drama_cards.csv](https://docs.qq.com/sheet/DV05oeUF3Y2F1ZWR2?tab=BB08J2)" sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="19" sourceendlinenumber="19">drama_cards.csv</a>, 小卡:<a href="https://docs.qq.com/sheet/DV1BiUmdNTlFad29Q?tab=BB08J2" data-raw-source="[new_test.csv](https://docs.qq.com/sheet/DV1BiUmdNTlFad29Q?tab=BB08J2)" sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="19" sourceendlinenumber="19">new_test.csv</a>），在游戏开始后，程序会自动读入这些文件以生成卡牌。所以设计好的卡牌应当以固定格式被填入这些csv表格。（什么是csv：虽然不准确，但是可以理解为Excel表格）</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="21" sourceendlinenumber="21">这是一张卡牌的例子：</p>
+<table sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="25" sourceendlinenumber="33">
+<thead>
+<tr>
+<th><strong>card_name</strong></th>
+<th>命运烙印</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>card_rarity</strong></td>
+<td>稀有</td>
+</tr>
+<tr>
+<td><strong>card_type</strong></td>
+<td>木系</td>
+</tr>
+<tr>
+<td><strong>card_cost</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>card_effect_text</strong></td>
+<td>抽牌_1</td>
+</tr>
+<tr>
+<td><strong>card_favor_text</strong></td>
+<td>此皮毛为羊驼王的稀有财产，侵吞者将受到严厉惩罚。</td>
+</tr>
+<tr>
+<td><strong>card_series</strong></td>
+<td>羊驼之</td>
+</tr>
+<tr>
+<td><strong>is_no_target_card</strong></td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="37" sourceendlinenumber="37">一张卡牌由以下部分组成：</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="39" sourceendlinenumber="46">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="39" sourceendlinenumber="46"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="39" sourceendlinenumber="46">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="39" sourceendlinenumber="39"><p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="39" sourceendlinenumber="39">卡牌名称：注意需要是西幻异界风格的，可以对已经有的卡牌命名进行参考。</p>
+</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="41" sourceendlinenumber="41"><p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="41" sourceendlinenumber="41">卡牌稀有度：稀有度有以下几种：</p>
+</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="43" sourceendlinenumber="46"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="43" sourceendlinenumber="46">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="43" sourceendlinenumber="43">普通</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="44" sourceendlinenumber="44">稀有</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="45" sourceendlinenumber="45">史诗</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="46" sourceendlinenumber="46">传说</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="48" sourceendlinenumber="48">每种稀有度的具体模型见【卡牌模型】章节</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="50" sourceendlinenumber="57">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="50" sourceendlinenumber="57"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="50" sourceendlinenumber="57">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="50" sourceendlinenumber="50"><p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="50" sourceendlinenumber="50">卡牌属性</p>
+</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="52" sourceendlinenumber="57"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="52" sourceendlinenumber="57">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="52" sourceendlinenumber="52">火属性</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="53" sourceendlinenumber="53">水属性</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="54" sourceendlinenumber="54">木属性</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="55" sourceendlinenumber="55">光属性</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="56" sourceendlinenumber="56">暗属性</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="57" sourceendlinenumber="57">物理属性</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="59" sourceendlinenumber="59">每种属性设计规则详见【卡牌属性】章节</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="61" sourceendlinenumber="61">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="61" sourceendlinenumber="61"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="61" sourceendlinenumber="61">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="61" sourceendlinenumber="61">卡牌耗费</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="63" sourceendlinenumber="63">目前游戏系统每回合的费用上限是5（当然这个数值/机制之后可能会改）。所以一张卡牌的费用不宜超过这个限制（但是也可以有例外，因为可以设计增加费用上限的卡牌【对比炉石中的激活，成长。或者万智牌的产费异能】）。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="65" sourceendlinenumber="65">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="65" sourceendlinenumber="65"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="65" sourceendlinenumber="65">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="65" sourceendlinenumber="65">卡牌效果文字</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="67" sourceendlinenumber="67">因为之后要用程序处理这些卡牌，所以卡牌效果文字必须严格按照一定格式书写（当然写错了也没关系，改起来很容易）。建议设计人员先用文字描述卡牌效果，之后程序员会将卡牌效果转化为特定的格式。详见【卡牌效果】章节。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="69" sourceendlinenumber="69">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="69" sourceendlinenumber="69"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="69" sourceendlinenumber="69">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="69" sourceendlinenumber="69">风味文字</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="71" sourceendlinenumber="71">风味文字用来给卡牌增加意境，是让卡牌变得有趣的十分重要的一环。计划直接摘录剧本中文字（不过如果设计师有兴趣写的话也可以自行创作）</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="73" sourceendlinenumber="73">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="73" sourceendlinenumber="73"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="73" sourceendlinenumber="73">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="73" sourceendlinenumber="73">卡牌所属卡包</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="75" sourceendlinenumber="75">本游戏的所有卡牌都是被封入卡包中的，玩家需要从卡包中抽取。每个卡包都有一个名字，需要填在这里。详见【卡包系列】章节。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="77" sourceendlinenumber="77">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="77" sourceendlinenumber="77"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="77" sourceendlinenumber="77">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="77" sourceendlinenumber="77">此卡牌是否需要选择目标</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="79" sourceendlinenumber="79">可选值为true或false。大部分卡牌都需要指定对象，但也有个别效果的牌不需要对象，比如抽牌弃牌等。true代表不需要指定对象。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="81" sourceendlinenumber="83">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="81" sourceendlinenumber="81"><h2 id="角色牌" sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="81" sourceendlinenumber="81"><strong>角色牌</strong></h2>
+</li>
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="83" sourceendlinenumber="83"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="83" sourceendlinenumber="83">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="83" sourceendlinenumber="83">角色牌</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="85" sourceendlinenumber="85">参考炉石传说的英雄牌，万智牌中的旅法师牌。角色牌一般具有十分致命的效果，但是也可能会有与效果同样致命的缺陷。在进入战斗场景之前，玩家需要选择携带哪些asoul成员的角色牌，每个asoul成员只限一张角色牌。选择该名成员的角色牌之后，该成员会出现在战场上。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="87" sourceendlinenumber="87">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="87" sourceendlinenumber="87"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="87" sourceendlinenumber="87">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="87" sourceendlinenumber="87">角色牌搭配卡牌</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="89" sourceendlinenumber="89">正如我们在demo中看到的，一张角色牌搭配最多十张卡牌。所有角色牌对应的卡牌合在一起组成了玩家的卡组。理论上，角色牌是某种思路的核心，玩家可以围绕这个角色牌来组牌，最终获得丰厚的收益。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="91" sourceendlinenumber="91">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="91" sourceendlinenumber="91"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="91" sourceendlinenumber="91">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="91" sourceendlinenumber="91">角色牌属性限制</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="93" sourceendlinenumber="93">角色牌是有属性的，对每张角色牌而言，玩家只能选择对应属性的卡牌。</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="95" sourceendlinenumber="95">以如下场景为例：</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="97" sourceendlinenumber="97">玩家现在拥有如下角色牌：</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="99" sourceendlinenumber="99">天真少女嘉然｜在你抽出一张卡牌后，再抽一张一摸一样的牌｜传说｜光系</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="101" sourceendlinenumber="101">深渊行者嘉然｜你的生命上限每回合降低10%，你造成的伤害加倍｜传说｜暗系</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="103" sourceendlinenumber="103">林间贤者乃琳｜每当你抽牌时，抽牌数加一 ｜传说｜水系，木系</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="105" sourceendlinenumber="105">玩家可以在【天真少女嘉然】与【深渊行者嘉然】之间选一张。假设玩家选择了【天真少女嘉然】，那么他只能给嘉然光系的卡牌，因为这张【天真少女嘉然】是光属性的。</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="107" sourceendlinenumber="107">玩家之后又添加了【林间贤者乃琳】。他可以给乃琳配上水系和木系的卡牌，因为【林间贤者乃琳】是水，木双属性的。</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="109" sourceendlinenumber="109">战斗开始之后，战场上会有嘉然和乃琳角色存在。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="111" sourceendlinenumber="111">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="111" sourceendlinenumber="111">## <strong>卡牌模型</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="113" sourceendlinenumber="113">角色卡一定是传说属性（当然也可以有例外）</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="115" sourceendlinenumber="115">⚠️待设定⚠️</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="117" sourceendlinenumber="117">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="117" sourceendlinenumber="117">## <strong>卡牌属性</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="119" sourceendlinenumber="119">不同属性之间会有互相克制的关系，而不同属性也拥有不同的特点，希望设计者能按照这个特点来（也可根据自身喜好更改）。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="121" sourceendlinenumber="121">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="121" sourceendlinenumber="121"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="121" sourceendlinenumber="121">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="121" sourceendlinenumber="121">火属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="123" sourceendlinenumber="123">参照万智牌里的红色，拥有强大的攻击性和极弱的防御性，这个颜色给人一种鲁莽，顾前不顾后的感觉。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="125" sourceendlinenumber="125">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="125" sourceendlinenumber="125"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="125" sourceendlinenumber="125">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="125" sourceendlinenumber="125">水属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="127" sourceendlinenumber="127">参照万智牌里的蓝色，擅长抽牌，控制，防御。极其不擅长攻击。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="129" sourceendlinenumber="129">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="129" sourceendlinenumber="129"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="129" sourceendlinenumber="129">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="129" sourceendlinenumber="129">光属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="131" sourceendlinenumber="131">卡牌一般带有治疗的效果，攻击防御中等。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="133" sourceendlinenumber="133">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="133" sourceendlinenumber="133"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="133" sourceendlinenumber="133">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="133" sourceendlinenumber="133">暗属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="135" sourceendlinenumber="135">卡牌一般带有牺牲（即损失自己的生命值）的效果，因此攻击防御都可以超模。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="137" sourceendlinenumber="137">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="137" sourceendlinenumber="137"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="137" sourceendlinenumber="137">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="137" sourceendlinenumber="137">木属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="139" sourceendlinenumber="139">也拥有治疗的卡牌，但是效果不如光属性。此属性卡牌和费用有关。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="141" sourceendlinenumber="141">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="141" sourceendlinenumber="141"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="141" sourceendlinenumber="141">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="141" sourceendlinenumber="141">无属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="143" sourceendlinenumber="143">一切与金钱有关的卡牌都是无属性。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="145" sourceendlinenumber="145">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="145" sourceendlinenumber="145"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="145" sourceendlinenumber="145">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="145" sourceendlinenumber="145">物理属性</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="147" sourceendlinenumber="147">略</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="149" sourceendlinenumber="149">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="149" sourceendlinenumber="149">## <strong>卡牌效果</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="151" sourceendlinenumber="151">本章节设计人员觉得没法理解的部分可以跳过。目前卡牌效果由如下几部分构成：</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="153" sourceendlinenumber="153">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="153" sourceendlinenumber="153"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="153" sourceendlinenumber="153">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="153" sourceendlinenumber="153">关键词</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="155" sourceendlinenumber="155">例如：抽牌，物理攻击，魔法防御，治疗等。【详见关键词章节】</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="157" sourceendlinenumber="157">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="157" sourceendlinenumber="157"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="157" sourceendlinenumber="157">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="157" sourceendlinenumber="157">效果级别</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="159" sourceendlinenumber="159">级别越高，效果越好。比如抽牌_1代表抽一张牌，抽牌_2即是抽两张牌。物理攻击_2代表发动一次等级为2的物理攻击。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="161" sourceendlinenumber="161">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="161" sourceendlinenumber="161"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="161" sourceendlinenumber="161">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="161" sourceendlinenumber="161">是否作用于全体（aoe）</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="163" sourceendlinenumber="163">比如，要设计一个等级为2的全体魔法aoe，写法是：</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="165" sourceendlinenumber="165">魔法攻击_2_aoe</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="167" sourceendlinenumber="167">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="167" sourceendlinenumber="167"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="167" sourceendlinenumber="167">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="167" sourceendlinenumber="167">是否重复一次卡牌效果(repeat)</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="169" sourceendlinenumber="169">比如，要设计一个等级为2的重复物理攻击的效果，写法是：物理攻击_2_repeat。repeat，也就是重复攻击的意思。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="171" sourceendlinenumber="171">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="171" sourceendlinenumber="171"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="171" sourceendlinenumber="171">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="171" sourceendlinenumber="171">是否在回合末触发(end)</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="173" sourceendlinenumber="173">比如，要设计一个回合末触发等级为2的治疗，持续3回合，写法是：治疗_2_end3。end后的数字是持续的回合数，为3。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="175" sourceendlinenumber="175">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="175" sourceendlinenumber="175"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="175" sourceendlinenumber="175">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="175" sourceendlinenumber="175">多个效果</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="177" sourceendlinenumber="177">一张卡牌可以有多种效果，这种情况下，不同效果文字由空格分开。如：治疗等级上升_1 治疗_1</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="181" sourceendlinenumber="181">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="181" sourceendlinenumber="181"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="181" sourceendlinenumber="181">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="181" sourceendlinenumber="181">将指定的牌加入手牌/牌库</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="183" sourceendlinenumber="183">用tar+【卡牌名】指定。如：加入牌库_10_tar承诺，会将10张“承诺”卡牌加入牌库中。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="187" sourceendlinenumber="187">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="187" sourceendlinenumber="187"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="187" sourceendlinenumber="187">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="187" sourceendlinenumber="187">特殊角色使用才会触发的额外效果</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="189" sourceendlinenumber="189">用spe+【角色英文名】制定。如：眩晕_1_speAvA，当此卡由“AvA”使用时，会有眩晕_1的效果。其他人使用则无此效果。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="191" sourceendlinenumber="191">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="191" sourceendlinenumber="191">## <strong>关键词</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="193" sourceendlinenumber="193">本游戏中卡牌的效果是以关键字来表示的。目前已经实现的有如下关键词：</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="195" sourceendlinenumber="195">物理防御</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="197" sourceendlinenumber="197">物理攻击</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="199" sourceendlinenumber="199">眩晕：被眩晕者下一回合跳过</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="201" sourceendlinenumber="201">反击：在反击状态下，如果受到攻击，则对攻击来源进行反击</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="203" sourceendlinenumber="203">嘲讽</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="205" sourceendlinenumber="205">蓄力：通过蓄力可以释放更强大的卡牌</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="207" sourceendlinenumber="207">要蓄：需要蓄力。比如要蓄_3代表需要等级为3的蓄力</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="209" sourceendlinenumber="209">治疗</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="211" sourceendlinenumber="211">牺牲</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="213" sourceendlinenumber="213">魔法攻击</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="215" sourceendlinenumber="215">魔法防御</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="217" sourceendlinenumber="217">物理攻击提升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="219" sourceendlinenumber="219">物理攻击降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="221" sourceendlinenumber="221">魔法攻击提升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="223" sourceendlinenumber="223">魔法攻击降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="225" sourceendlinenumber="225">抽牌</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="227" sourceendlinenumber="227">弃牌：随机弃牌</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="229" sourceendlinenumber="229">金钱获得</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="231" sourceendlinenumber="231">金钱损失</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="233" sourceendlinenumber="233">金钱双倍获取</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="235" sourceendlinenumber="235">金钱减半获取</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="237" sourceendlinenumber="237">免伤</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="239" sourceendlinenumber="239">受到伤害减半</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="241" sourceendlinenumber="241">受到伤害加倍</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="243" sourceendlinenumber="243">无视防御</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="245" sourceendlinenumber="245">防御减半</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="247" sourceendlinenumber="247">防御加倍</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="249" sourceendlinenumber="249">压碎：直接消灭生命值低于一定百分比的敌人</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="251" sourceendlinenumber="251">狂怒：在己方生命值低于一定百分比时触发某种增益效果</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="253" sourceendlinenumber="253">概率魔法攻击：有一定概率释放出高一等级的魔法攻击。比如概率魔法攻击_3，有50%概率释放魔法攻击_3，50%概率释放魔法攻击_4</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="255" sourceendlinenumber="255">概率魔法防御</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="257" sourceendlinenumber="257">概率治疗</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="259" sourceendlinenumber="259">物理攻击等级提升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="261" sourceendlinenumber="261">物理攻击等级降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="263" sourceendlinenumber="263">物理防御等级提升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="265" sourceendlinenumber="265">物理防御等级降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="267" sourceendlinenumber="267">魔法攻击等级提升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="269" sourceendlinenumber="269">魔法攻击等级降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="271" sourceendlinenumber="271">魔法防御等级提升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="273" sourceendlinenumber="273">魔法防御等级降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="275" sourceendlinenumber="275">治疗等级上升</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="277" sourceendlinenumber="277">治疗等级降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="279" sourceendlinenumber="279">费用上限升高</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="281" sourceendlinenumber="281">费用上限降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="283" sourceendlinenumber="283">复活</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="285" sourceendlinenumber="285">概率复活</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="287" sourceendlinenumber="287">净化：消除目标角色所有状态</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="289" sourceendlinenumber="289">无限金钱: 仅在战斗中获取无限金钱</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="291" sourceendlinenumber="291">恢复金钱：金钱恢复到原来的数值</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="293" sourceendlinenumber="293">放逐：使用卡牌后从手牌直接消失，不进入墓地</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="295" sourceendlinenumber="295">金钱保护：受到伤害之后优先扣除金钱</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="297" sourceendlinenumber="297">双倍效果</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="299" sourceendlinenumber="299">抽更多卡：抽卡数+N</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="301" sourceendlinenumber="301">抽更少卡：抽卡数-N</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="303" sourceendlinenumber="303">加入手牌：将N张某名称的卡加入手牌</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="305" sourceendlinenumber="305">加入牌库：将N张某名称的卡加入牌库</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="307" sourceendlinenumber="307">戴安娜双倍：在抽到一张牌后，将一张复制加入手牌</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="309" sourceendlinenumber="309">自动施放：抽到时自动施放</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="311" sourceendlinenumber="311">双倍触发概率</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="313" sourceendlinenumber="313">减半触发概率</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="315" sourceendlinenumber="315">不可触发：概率卡牌不会触发</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="317" sourceendlinenumber="317">必定触发：概率卡牌必定触发</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="319" sourceendlinenumber="319">双倍生命上限</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="321" sourceendlinenumber="321">生命上限减半</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="323" sourceendlinenumber="323">生命上限降低</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="325" sourceendlinenumber="325">完全恢复生命</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="327" sourceendlinenumber="327">恢复一半生命</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="329" sourceendlinenumber="329">输掉游戏</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="331" sourceendlinenumber="331">购物时间到：跳出战斗，并转到商店界面</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="333" sourceendlinenumber="333">选择下一张牌：玩家可以选择弃掉最左边的手牌，受到牺牲_1伤害，并抽一张牌。如此做任意次。</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="335" sourceendlinenumber="335">生命转化：将一定比例的生命转化为护甲</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="337" sourceendlinenumber="337">无视元素：不受到元素影响</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="339" sourceendlinenumber="339">即死：即死一定等级的怪物</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="341" sourceendlinenumber="341">全部范围攻击：敌方和我方的所有攻击全部变为aoe</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="343" sourceendlinenumber="343">坚毅：在受到一次致命攻击后不会死亡</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="345" sourceendlinenumber="345">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="345" sourceendlinenumber="345">## <strong>卡包系列</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="347" sourceendlinenumber="347">卡包分为以下种类：</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="349" sourceendlinenumber="349">【普通怪物基础卡包】：击败普通怪物后会掉落的卡包</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="351" sourceendlinenumber="351">【Boss补充包】：击败boss后会掉落的卡包</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="353" sourceendlinenumber="353">【剧情补充包】：随着剧情进展会在商店出售的卡包</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="355" sourceendlinenumber="355">【特典卡包】：包含着现实asoul梗，与游戏剧情无关的卡包。比如角色卡：钢铁之躯乃琳</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="357" sourceendlinenumber="357">【促销卡包】：只包含着一两种特定元素牌的卡包。参照炉石传说巨龙年合集。</p>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="359" sourceendlinenumber="359">详见《<a href="https://docs.qq.com/doc/DV05oTERPcFBLSlh1" data-raw-source="[具体卡牌](https://docs.qq.com/doc/DV05oTERPcFBLSlh1)" sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="359" sourceendlinenumber="359">具体卡牌</a>》文件。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="361" sourceendlinenumber="361">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="361" sourceendlinenumber="361">## <strong>卡牌设计思路</strong></li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="363" sourceendlinenumber="363">我只是玩过一些卡牌游戏，所以在这方面也是完全的新手（话又说回来，没有学校教授卡牌设计专业吧），总之希望大家一起探讨学习捏。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="365" sourceendlinenumber="365">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="365" sourceendlinenumber="365"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="365" sourceendlinenumber="365">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="365" sourceendlinenumber="365">杀戮尖塔设计参考</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="367" sourceendlinenumber="367">这个<a href="https://www.bilibili.com/read/cv12186030?spm_id_from=333.999.0.0" data-raw-source="[专栏](https://www.bilibili.com/read/cv12186030?spm_id_from=333.999.0.0)" sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="367" sourceendlinenumber="367">专栏</a>看起来很深刻地解析了杀戮尖塔的卡牌设计理念。当然我们的任务本身就很重，不一定有时间去研究。不过如果设计人员有兴趣的话也可以作为参考。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="369" sourceendlinenumber="369">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="369" sourceendlinenumber="369"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="369" sourceendlinenumber="369">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="369" sourceendlinenumber="369">玻璃大炮</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="373" sourceendlinenumber="373">这个是经典的游戏设计，玩家以脆弱的生存能力换取强大的攻击力。</p>
+<ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="375" sourceendlinenumber="375">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="375" sourceendlinenumber="375"><ol sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="375" sourceendlinenumber="375">
+<li sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="375" sourceendlinenumber="375">打破规则</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/卡牌设计文档.md" sourcestartlinenumber="377" sourceendlinenumber="377">虽然我们设置了很多规则，但是规则就是用来打破的。</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pren1/Documentation/blob/main/manual/&#21345;&#29260;&#35774;&#35745;&#25991;&#26723;.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

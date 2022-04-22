@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#35282;&#33394;&#25968;&#20540;&#35774;&#35745;&#25991;&#26723; | &#40654;&#26126;&#27468;&#32773; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#35282;&#33394;&#25968;&#20540;&#35774;&#35745;&#25991;&#26723; | &#40654;&#26126;&#27468;&#32773; ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="角色数值设计文档" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="1" sourceendlinenumber="1"><strong>角色数值设计文档</strong></h1>
+
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="3" sourceendlinenumber="3">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="3" sourceendlinenumber="3">## <strong>更新日志</strong></li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="5" sourceendlinenumber="5">01/03/2022 更新了角色的主动技能写法。</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="7" sourceendlinenumber="7">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="7" sourceendlinenumber="7">## <strong>这是什么</strong></li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="9" sourceendlinenumber="9">此文档为负责角色卡与怪物设计的AU撰写，其中包含了进行本游戏角色数值设计所需要的一切信息。如果设计人员觉得有必要做任何修改，欢迎在群内进行讨论，也欢迎向本文档中添加任何内容。</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="11" sourceendlinenumber="11">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="11" sourceendlinenumber="11">## <strong>前置要求</strong></li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="13" sourceendlinenumber="13">您需要一台电脑，并事先下载这个视频：<a href="https://share.weiyun.com/aWPiIWm7" data-raw-source="[敌人动画](https://share.weiyun.com/aWPiIWm7)" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="13" sourceendlinenumber="13">敌人动画</a><strong>。</strong>人物卡设计的部分需要与卡牌设计人员沟通，或者您就是卡牌设计人员😘。</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="15" sourceendlinenumber="15">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="15" sourceendlinenumber="15">## <strong>设计模版</strong></li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="17" sourceendlinenumber="17">角色的信息存在csv文件中（见文件：<a href="https://docs.qq.com/sheet/DV1BKamJvQ1hGT0NN" data-raw-source="[member_data.csv](https://docs.qq.com/sheet/DV1BKamJvQ1hGT0NN)" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="17" sourceendlinenumber="17">member_data.csv</a>, <a href="https://docs.qq.com/sheet/DV3lHdmVxVnhicVpD" data-raw-source="[monster_data.csv](https://docs.qq.com/sheet/DV3lHdmVxVnhicVpD)" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="17" sourceendlinenumber="17">monster_data.csv</a>），在游戏开始后，程序会自动读入这些文件以设置角色的数值。所以设计好的角色应当以固定格式被填入这些csv表格。（什么是csv：虽然不准确，但是可以理解为Excel表格）</p>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="19" sourceendlinenumber="19">角色又可以细分为怪物与人物（asoul成员）。</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="21" sourceendlinenumber="21">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="21" sourceendlinenumber="21">#### <strong>怪物设计</strong></li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="23" sourceendlinenumber="23">一个怪物的设计例子如下 (数值是随便填的)：</p>
+<table sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="27" sourceendlinenumber="37">
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th>AncientAutomaton</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Health</strong></td>
+<td>300</td>
+</tr>
+<tr>
+<td><strong>Strength</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Money</strong></td>
+<td>20</td>
+</tr>
+<tr>
+<td><strong>Defense</strong></td>
+<td>15</td>
+</tr>
+<tr>
+<td><strong>Magic</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Magic_Defense</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>anime_effect_text</strong></td>
+<td>Attack: 物理攻击_2 | Skill:眩晕_1 | Skill2:物理防御_2 | Ultimate: 魔法攻击_2_aoe 物理攻击_2_aoe</td>
+</tr>
+<tr>
+<td><strong>element_type</strong></td>
+<td>木系 火系</td>
+</tr>
+<tr>
+<td><strong>monster_level</strong></td>
+<td>Boss</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="41" sourceendlinenumber="41">以下是各项的定义：</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="43" sourceendlinenumber="65">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="43" sourceendlinenumber="43"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="43" sourceendlinenumber="43"><strong>Name</strong>: 怪物独一无二的名称，需要和“敌人动画”里怪物的名称一致。</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="45" sourceendlinenumber="45"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="45" sourceendlinenumber="45"><strong>Health</strong>：血量</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="47" sourceendlinenumber="47"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="47" sourceendlinenumber="47"><strong>Strength</strong>：力量，决定物理攻击力</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="49" sourceendlinenumber="49"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="49" sourceendlinenumber="49"><strong>Money</strong>：击败此怪物后所获的的金钱</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="51" sourceendlinenumber="51"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="51" sourceendlinenumber="51"><strong>Defense</strong>：防御</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="53" sourceendlinenumber="53"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="53" sourceendlinenumber="53"><strong>Magic</strong>：魔法，决定魔法攻击力</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="55" sourceendlinenumber="55"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="55" sourceendlinenumber="55"><strong>Magic_Defense</strong>: 魔法防御</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="57" sourceendlinenumber="57"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="57" sourceendlinenumber="57"><strong>anime_effect_text：</strong>正如我们在“敌人动画”视频里所看到的，每只怪物有有限的动画。此项可以帮助我们把怪物的攻击/防御/技能动画与实际上设计的效果联系起来。具体规则详见【技能动画关联描述】章节。</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="59" sourceendlinenumber="59"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="59" sourceendlinenumber="59"><strong>element_type：</strong>怪物的元素属性。一只怪物可以有多种元素属性，注意不同属性间用空格隔开。</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="61" sourceendlinenumber="61"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="61" sourceendlinenumber="61"><strong>monster_level：</strong>怪物级别，可选项有：</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="63" sourceendlinenumber="65"><ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="63" sourceendlinenumber="65">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="63" sourceendlinenumber="63">杂鱼</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="64" sourceendlinenumber="64">精英</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="65" sourceendlinenumber="65">Boss</li>
+</ol>
+</li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="67" sourceendlinenumber="67">一般来说，动画里技能越多的怪物级别应该越高。</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="69" sourceendlinenumber="69">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="69" sourceendlinenumber="69">#### <strong>人物</strong><strong>设计</strong></li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="71" sourceendlinenumber="71">一个人物的设计例子如下 (数值，效果是随便填的)：</p>
+<table sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="75" sourceendlinenumber="84">
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th>AvA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Character_card_Name</strong></td>
+<td>天真少女嘉然</td>
+</tr>
+<tr>
+<td><strong>Health</strong></td>
+<td>300</td>
+</tr>
+<tr>
+<td><strong>Strength</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Defense</strong></td>
+<td>15</td>
+</tr>
+<tr>
+<td><strong>Magic</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Magic_Defense</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>effect_text</strong></td>
+<td>P:魔法攻击等级提升_2|A_2:治疗_2|A_1:抽牌_1</td>
+</tr>
+<tr>
+<td><strong>element_type</strong></td>
+<td>光系</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="88" sourceendlinenumber="88">以下是各项的定义：</p>
+<ol sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="90" sourceendlinenumber="108">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="90" sourceendlinenumber="90"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="90" sourceendlinenumber="90"><strong>Name</strong>: asoul角色的英文名，可选项如下：</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="92" sourceendlinenumber="92"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="92" sourceendlinenumber="92">AvA</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="93" sourceendlinenumber="93">Diana</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="94" sourceendlinenumber="94">Bella</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="95" sourceendlinenumber="95">Eileen</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="96" sourceendlinenumber="96">Carol</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="97" sourceendlinenumber="97"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="97" sourceendlinenumber="97">Acao</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="99" sourceendlinenumber="99"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="99" sourceendlinenumber="99"><strong>Character_card_Name：</strong>人物卡名称，需要独一无二。如：天真少女嘉然</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="100" sourceendlinenumber="100"><strong>Health</strong>：血量</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="101" sourceendlinenumber="101"><strong>Strength</strong>：力量，决定物理攻击力</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="102" sourceendlinenumber="102"><strong>Defense</strong>：防御</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="103" sourceendlinenumber="103"><strong>Magic</strong>：魔法，决定魔法攻击力</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="104" sourceendlinenumber="104"><strong>Magic_Defense</strong>: 魔法防御</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="105" sourceendlinenumber="105"><strong>effect_text：</strong>人物卡的效果描述。每个角色卡可以有不同的主动技能和被动技能。被动技能会在回合开始时生效，由“P”表示，主动技能由玩家主动触发，由“A”表示。主动技能的冷却回合在“A_”之后标出。比如“A_2”，代表此主动技能冷却回合为2回合。“A_1”表示此技能可以每回合都使用。在“:”之后，是技能的关键词效果。具体书写规则见<a href="https://docs.qq.com/doc/DV1hNaG94blZlUHpC?tdsourcetag=s_macqq_aiomsg&amp;jumpuin=2418347200" data-raw-source="[《卡牌设计文档》](https://docs.qq.com/doc/DV1hNaG94blZlUHpC?tdsourcetag=s_macqq_aiomsg&amp;jumpuin=2418347200)" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="105" sourceendlinenumber="105">《卡牌设计文档》</a>的卡牌效果章节。而每个人有三个技能。如果设计出更多的技能，请和程序员联系。不同技能之间用&quot;|&quot;隔开。</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="106" sourceendlinenumber="106"><p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="106" sourceendlinenumber="106"><strong>element_type：</strong>人物卡的元素属性。一张人物卡也可以有多种元素属性，注意不同属性间用空格隔开。</p>
+</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="108" sourceendlinenumber="108"><h2 id="技能动画关联描述" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="108" sourceendlinenumber="108"><strong>技能动画关联</strong><strong>描述</strong></h2>
+</li>
+</ol>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="110" sourceendlinenumber="110">anime_effect_text内容由两部分组成：动画名称，以及效果描述。</p>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="112" sourceendlinenumber="112">以如下描述文字为例：</p>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="114" sourceendlinenumber="114">Attack: 物理攻击_2 | Skill:眩晕_1 | Skill2:物理防御_2 | Ultimate: 魔法攻击_2_aoe 物理攻击_2_aoe</p>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="116" sourceendlinenumber="116">其中，动画名称有：</p>
+<ul sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="118" sourceendlinenumber="121">
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="118" sourceendlinenumber="118">Attack</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="119" sourceendlinenumber="119">Skill</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="120" sourceendlinenumber="120">Skill2</li>
+<li sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="121" sourceendlinenumber="121">Ultimate</li>
+</ul>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="123" sourceendlinenumber="123">这些动画名称均来自视频：敌人动画。</p>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="125" sourceendlinenumber="125">而效果描述和卡牌的效果描述用的是同一套系统，所以书写规则详见<a href="https://docs.qq.com/doc/DV1hNaG94blZlUHpC?tdsourcetag=s_macqq_aiomsg&amp;jumpuin=2418347200" data-raw-source="[《卡牌设计文档》](https://docs.qq.com/doc/DV1hNaG94blZlUHpC?tdsourcetag=s_macqq_aiomsg&amp;jumpuin=2418347200)" sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="125" sourceendlinenumber="125">《卡牌设计文档》</a>的卡牌效果章节。</p>
+<p sourcefile="manual/角色数值设计文档.md" sourcestartlinenumber="127" sourceendlinenumber="127">注意每一组技能动画之间用“|”隔开。</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pren1/Documentation/blob/main/manual/&#35282;&#33394;&#25968;&#20540;&#35774;&#35745;&#25991;&#26723;.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            黎明歌者
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

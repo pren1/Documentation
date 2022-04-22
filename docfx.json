@@ -21,7 +21,9 @@
         "globalMetadata": {
             "_appTitle": "黎明歌者",
             "_appFooter": "黎明歌者",
-            "_enableSearch": true
+            "_enableSearch": true,
+            "_disableContribution": true,
+            "_gitUrlPattern": "https://github.com/pren1/Scripts"
         },
         "content": [
             {
